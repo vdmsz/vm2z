@@ -1,48 +1,48 @@
--- VM2 bootstrap-decoy-values: ["Versin","VesiOn","vm2-canary:3db9200d9b3bec3c:594b7e8a422adcac"]
-function mbn(...)
+-- VM2 bootstrap-decoy-values: ["bVersion","vm2-canary:226c654d34681c9b:9c90bd653a80a802"]
+function fca(...)
  local r=select(1,...)
  if r~=nil then return error(r,0) end
- local xua=coroutine.wrap(function() error(nil,0) end)
- return xua()
+ local yer=coroutine.wrap(function() error(nil,0) end)
+ return yer()
 end
-function ssc(...)
+function mit(...)
  local r=select(1,...)
  if r~=nil then return error(r,0) end
- local gqn,hqg=pcall(function() error(nil,0) end)
- if gqn then error(nil,0) end
- return error(hqg,0)
+ local ney,bct=pcall(function() error(nil,0) end)
+ if ney then error(nil,0) end
+ return error(bct,0)
 end
-function evq(...)
+function ufe(...)
  local r=select(1,...)
  if r~=nil then return error(r,0) end
- local ddy=coroutine.create(function() error(nil,0) end)
- local gqn,hqg=coroutine.resume(ddy)
- if gqn then error(nil,0) end
- return error(hqg,0)
+ local las=coroutine.create(function() error(nil,0) end)
+ local ney,bct=coroutine.resume(las)
+ if ney then error(nil,0) end
+ return error(bct,0)
 end
-function cav(...)
+function bll(...)
  local r=select(1,...)
  if r~=nil then return error(r,0) end
- local aft={false}
- if aft[1] then error(nil,0) end
- aft[1]=true
+ local dkm={false}
+ if dkm[1] then error(nil,0) end
+ dkm[1]=true
  return error(nil,0)
 end
-function icp(...)
+function ukv(...)
  local r=select(1,...)
  if r~=nil then return error(r,0) end
- local zho=function() error(nil,0) end
- local gqn,hqg=pcall(zho)
- if gqn then return error(nil,0) end
- return error(hqg,0)
+ local wfh=function() error(nil,0) end
+ local ney,bct=pcall(wfh)
+ if ney then return error(nil,0) end
+ return error(bct,0)
 end
-function kpn(_s)
- local _k=string.char(235,115,188,23,207,54,57,200,199,97,38,84,116,69,196,175)
+function ntb(_s)
+ local _k=string.char(247,81,4,164,49,148,239,77,220,134,47,214,85,44,109,78)
  local _o={}
  local function _n(_v)
   if _v>=48 and _v<=57 then return _v-48 end
   if _v>=97 and _v<=102 then return _v-87 end
-  icp(); mbn("vm",0)
+  ukv(); fca("vm",0)
  end
  for _i=1,#_s,2 do
   local _p=(_i-1)/2
@@ -53,4500 +53,4675 @@ function kpn(_s)
  end
  return table.concat(_o)
 end
-local snq={kpn('981bc971a95a5cf2'),kpn('9d1e8e3aac574aadea125231132afecd8417c52d'),kpn('9d1e8e3aac574aadea125231132afedb8a1486'),kpn('9d1e8e3aac574aadea125231132afedc9f01d976a20c'),kpn('9d1e8e3abc424bada60c1c301d22a1dc9f49d579a64203a1a9154333062cb0d6c614dd63aa0c'),kpn('9d1e8e3aaa5b5bada3054330592ea1d6d1'),kpn('9d1e8e3aaa5b5bada30543305935a5d6871cdd73f5'),kpn('9d1e8e3abc424bada60c1c301d22a1dc9f49da7ea15755f2ae0f52311337addb925edb76bb5303'),kpn('9807ce7ea151'),kpn('8506d175aa44'),kpn('891cd37baa5757'),kpn('9f12de7baa'),kpn('8d06d274bb5f56a6'),kpn('db428e24fb030fffff5847361721a1c9'),kpn('aa31ff538a707e808e2b6d18390b8bffba21ef439a606e909e3b47361721a1c98c1bd57da45a54a6a81157260731b1d99c0bc56dff070bfbf35410634c7ce9f0')}
-function dxb()
-    local t=string.char(29,134,200,78,155,243,173,212,195,197,211,107,77,39,0,27,2,5,167,253,213,11,143,179,237,6,17,240,77,247,6,252)
-    local vy=table.unpack or unpack
-        local function kk(jrj,ib,lu)
-         local xr=2166136261
-         local ol=2246822519
-         local fd=0
-         local function yq(jcb)
-          fd=fd+1
-          xr=bit32.band(bit32.bxor(xr,jcb+fd*374761393)*1000003+2654435761,4294967295)
-          ol=bit32.band(bit32.bxor(ol,jcb+fd*668265263)*1000033+2246822519,4294967295)
+local gzm={ntb('843971c257f88a77'),ntb('813c368952f59c28f1f55bb33243572c98357d9e'),ntb('813c368952f59c28f1f55bb33243573a96363e'),ntb('813c368952f59c28f1f55bb33243573d832361c55cae'),ntb('813c368942e09d28bdeb15b23c4b083d836b6dca58e0d524b2f24ab127451937da3665d054ae'),ntb('813c368954f98d28b8e24ab278470837cd'),ntb('813c368954f98d28b8e24ab2785c0c379b3e65c00b'),ntb('813c368942e09d28bdeb15b23c4b083d836b62cd5ff58377b5e85bb3325e043a8e7c63c545f1d5'),ntb('842576cd5ff3'),ntb('992469c654e6'),ntb('953e6bc854f581'),ntb('833066c854'),ntb('91246ac745fd8023'),ntb('c760369705a1d97ae4bf4eb436480828'),ntb('b61347e074d2a80595cc649a1862221ea60357f064c2b81585dc4eb43648082890396dce5af88223b3f65ea42658183880297dde01a5dd7ee8b319e16d154011')}
+function xex()
+    local t=string.char(252,19,134,6,34,165,210,131,220,214,214,77,90,211,122,8,172,237,29,13,54,124,139,148,8,44,220,161,178,210,50,23)
+    local hb=table.unpack or unpack
+        local function dp(jap,vt,tn)
+         local dy=2166136261
+         local ts=2246822519
+         local ul=0
+         local function va(kng)
+          ul=ul+1
+          dy=bit32.band(bit32.bxor(dy,kng+ul*374761393)*1000003+2654435761,4294967295)
+          ts=bit32.band(bit32.bxor(ts,kng+ul*668265263)*1000033+2246822519,4294967295)
          end
-         for kvm=1,#t do yq(string.byte(t,kvm)) end
-         for kvm=1,#ib do yq(string.byte(ib,kvm)) end
-         for kvm=1,#lu do yq(lu[kvm]) end
-         for kvm=1,#jrj do yq(jrj[kvm]) end
-         return bit32.bxor(xr,ol)
+         for lbc=1,#t do va(string.byte(t,lbc)) end
+         for lbc=1,#vt do va(string.byte(vt,lbc)) end
+         for lbc=1,#tn do va(tn[lbc]) end
+         for lbc=1,#jap do va(jap[lbc]) end
+         return bit32.bxor(dy,ts)
         end
-        local function ra(jrj,ib,lu,uu)
-         if kk(jrj,ib,lu)~=uu then cav(); mbn("vm",0) end
-         local xr=2166136261
-         local ol=2246822519
-         for kvm=1,#t do
-          local jcb=string.byte(t,kvm)
-          xr=bit32.band(bit32.bxor(xr,jcb+kvm*16777619)*1000003+2654435761,4294967295)
-          ol=bit32.band(bit32.bxor(ol,jcb+kvm*374761393)*1000033+2246822519,4294967295)
+        local function dg(jap,vt,tn,ua)
+         if dp(jap,vt,tn)~=ua then mit(); ufe("vm",0) end
+         local dy=2166136261
+         local ts=2246822519
+         for lbc=1,#t do
+          local kng=string.byte(t,lbc)
+          dy=bit32.band(bit32.bxor(dy,kng+lbc*16777619)*1000003+2654435761,4294967295)
+          ts=bit32.band(bit32.bxor(ts,kng+lbc*374761393)*1000033+2246822519,4294967295)
          end
-         for kvm=1,#ib do
-          local jcb=string.byte(ib,kvm)
-          xr=bit32.band(bit32.bxor(xr,jcb+(#t+kvm)*16777619)*1000003+2654435761,4294967295)
-          ol=bit32.band(bit32.bxor(ol,jcb+(#t+kvm)*374761393)*1000033+2246822519,4294967295)
+         for lbc=1,#vt do
+          local kng=string.byte(vt,lbc)
+          dy=bit32.band(bit32.bxor(dy,kng+(#t+lbc)*16777619)*1000003+2654435761,4294967295)
+          ts=bit32.band(bit32.bxor(ts,kng+(#t+lbc)*374761393)*1000033+2246822519,4294967295)
          end
-         xr=bit32.band(bit32.bxor(xr,#ib*374761393+1442695041)*1000033+2654435761,4294967295)
-         ol=bit32.band(bit32.bxor(ol,#ib*668265263+2246822519)*1000033+2246822519,4294967295)
-         for kvm=1,#lu do
-          xr=bit32.band(bit32.bxor(xr,lu[kvm]+(#ib+kvm)*374761393)*1000033+1442695041,4294967295)
-          ol=bit32.band(bit32.bxor(ol,lu[kvm]+(#ib+kvm)*668265263)*1000033+2246822519,4294967295)
+         dy=bit32.band(bit32.bxor(dy,#vt*374761393+1442695041)*1000033+2654435761,4294967295)
+         ts=bit32.band(bit32.bxor(ts,#vt*668265263+2246822519)*1000033+2246822519,4294967295)
+         for lbc=1,#tn do
+          dy=bit32.band(bit32.bxor(dy,tn[lbc]+(#vt+lbc)*374761393)*1000033+1442695041,4294967295)
+          ts=bit32.band(bit32.bxor(ts,tn[lbc]+(#vt+lbc)*668265263)*1000033+2246822519,4294967295)
          end
-         local fak={}
-         for kvm=1,#jrj do
-          xr=bit32.band(bit32.bxor(xr,kvm*374761393)*1000033+1442695041,4294967295)
-          ol=bit32.band(bit32.bxor(ol,kvm*668265263)*1000033+2246822519,4294967295)
-          local yx=((kvm-1)%4)*8
-          fak[kvm]=string.char(bit32.bxor(jrj[kvm],bit32.band(bit32.rshift(bit32.bxor(xr,ol),yx),255)))
+         local bxy={}
+         for lbc=1,#jap do
+          dy=bit32.band(bit32.bxor(dy,lbc*374761393)*1000033+1442695041,4294967295)
+          ts=bit32.band(bit32.bxor(ts,lbc*668265263)*1000033+2246822519,4294967295)
+          local ml=((lbc-1)%4)*8
+          bxy[lbc]=string.char(bit32.bxor(jap[lbc],bit32.band(bit32.rshift(bit32.bxor(dy,ts),ml),255)))
          end
-         return table.concat(fak)
+         return table.concat(bxy)
         end
-        local function ic(jrj,ib,lu,uu)
-         if kk(jrj,ib,lu)~=uu then evq(); cav("vm",0) end
-         local xr=2166136261
-         local ol=2246822519
-         for kvm=1,#t do
-          local jcb=string.byte(t,kvm)
-          xr=bit32.band(bit32.bxor(xr,jcb+kvm*16777619)*1000003+2654435761,4294967295)
-          ol=bit32.band(bit32.bxor(ol,jcb+kvm*374761393)*1000033+2246822519,4294967295)
+        local function je(jap,vt,tn,ua)
+         if dp(jap,vt,tn)~=ua then ufe(); bll("vm",0) end
+         local dy=2166136261
+         local ts=2246822519
+         for lbc=1,#t do
+          local kng=string.byte(t,lbc)
+          dy=bit32.band(bit32.bxor(dy,kng+lbc*16777619)*1000003+2654435761,4294967295)
+          ts=bit32.band(bit32.bxor(ts,kng+lbc*374761393)*1000033+2246822519,4294967295)
          end
-         for kvm=1,#ib do
-          local jcb=string.byte(ib,kvm)
-          xr=bit32.band(bit32.bxor(xr,jcb+(#t+kvm)*16777619)*1000003+2654435761,4294967295)
-          ol=bit32.band(bit32.bxor(ol,jcb+(#t+kvm)*374761393)*1000033+2246822519,4294967295)
+         for lbc=1,#vt do
+          local kng=string.byte(vt,lbc)
+          dy=bit32.band(bit32.bxor(dy,kng+(#t+lbc)*16777619)*1000003+2654435761,4294967295)
+          ts=bit32.band(bit32.bxor(ts,kng+(#t+lbc)*374761393)*1000033+2246822519,4294967295)
          end
-         xr=bit32.band(bit32.bxor(xr,#ib*374761393+1442695041)*1000033+2654435761,4294967295)
-         ol=bit32.band(bit32.bxor(ol,#ib*668265263+2246822519)*1000033+2246822519,4294967295)
-         for kvm=1,#lu do
-          xr=bit32.band(bit32.bxor(xr,lu[kvm]+(#ib+kvm)*374761393)*1000033+1442695041,4294967295)
-          ol=bit32.band(bit32.bxor(ol,lu[kvm]+(#ib+kvm)*668265263)*1000033+2246822519,4294967295)
+         dy=bit32.band(bit32.bxor(dy,#vt*374761393+1442695041)*1000033+2654435761,4294967295)
+         ts=bit32.band(bit32.bxor(ts,#vt*668265263+2246822519)*1000033+2246822519,4294967295)
+         for lbc=1,#tn do
+          dy=bit32.band(bit32.bxor(dy,tn[lbc]+(#vt+lbc)*374761393)*1000033+1442695041,4294967295)
+          ts=bit32.band(bit32.bxor(ts,tn[lbc]+(#vt+lbc)*668265263)*1000033+2246822519,4294967295)
          end
-         local jlm={}
-         for kvm=1,#jrj,4 do
-          local nfz=0
-          for ose=0,3 do
-           xr=bit32.band(bit32.bxor(xr,(kvm+ose)*374761393)*1000033+1442695041,4294967295)
-           ol=bit32.band(bit32.bxor(ol,(kvm+ose)*668265263)*1000033+2246822519,4294967295)
-           nfz=nfz+bit32.bxor(jrj[kvm+ose] or 0,bit32.band(bit32.rshift(bit32.bxor(xr,ol),(ose%4)*8),255))*2^(ose*8)
+         local bjc={}
+         for lbc=1,#jap,4 do
+          local sjs=0
+          for tyv=0,3 do
+           dy=bit32.band(bit32.bxor(dy,(lbc+tyv)*374761393)*1000033+1442695041,4294967295)
+           ts=bit32.band(bit32.bxor(ts,(lbc+tyv)*668265263)*1000033+2246822519,4294967295)
+           sjs=sjs+bit32.bxor(jap[lbc+tyv] or 0,bit32.band(bit32.rshift(bit32.bxor(dy,ts),(tyv%4)*8),255))*2^(tyv*8)
           end
-          jlm[#jlm+1]=nfz
+          bjc[#bjc+1]=sjs
          end
-         return jlm
+         return bjc
         end
-        local lv=false
-        local fq={}
-        local jn={}
-        local ma=0
-        local fj={3,1,5}
-        local hq=0
-        local em=0
-        local qy=0x9E3779B9
-        local function xg(cwz,mc,mn,oee)
-         if type(cwz)~=snq[10] or cwz<1 or cwz>#jn then mbn(); ssc("vm",0) end
-         local bq=0
-         for kvm=1,#fj do
-          if fj[kvm]==cwz then bq=kvm break end
+        local km=false
+        local sp={}
+        local ln={}
+        local ix=0
+        local xf={2,6,4}
+        local mx=0
+        local av=0
+        local bd=0x9E3779B9
+        local function ym(sjv,we,su,jti)
+         if type(sjv)~=gzm[10] or sjv<1 or sjv>#ln then fca(); mit("vm",0) end
+         local oc=0
+         for lbc=1,#xf do
+          if xf[lbc]==sjv then oc=lbc break end
          end
-         if bq==0 or hq>=bq then mbn(); ssc("vm",0) end
+         if oc==0 or mx>=oc then fca(); mit("vm",0) end
          
-         if mc~=jn[cwz] then mbn(); ssc("vm",0) end
-         qy=bit32.bxor(qy,jn[cwz],mn,ma)
-         hq=bq
-         em=bit32.bor(em,bit32.lshift(1,bq-1))
-         if hq==#fj
-            and em~=bit32.lshift(1,#fj)-1 then
-          mbn(); ssc("vm",0)
+         if we~=ln[sjv] then fca(); mit("vm",0) end
+         bd=bit32.bxor(bd,ln[sjv],su,ix)
+         mx=oc
+         av=bit32.bor(av,bit32.lshift(1,oc-1))
+         if mx==#xf
+            and av~=bit32.lshift(1,#xf)-1 then
+          fca(); mit("vm",0)
          end
-         ma=oee
+         ix=jti
         end
-function ey(jrj,xgb)
- return bit32.bor(bit32.lshift(jrj,xgb),bit32.rshift(jrj,32-xgb))
+function zk(jap,tdt)
+ return bit32.bor(bit32.lshift(jap,tdt),bit32.rshift(jap,32-tdt))
 end
-function dp(mpr)
- local ymh={324508639,610839777,3285377520,523124044,2309737967,271136839,1432778632,2712847316}
- for kvm=1,#mpr do
-  local cwz=(kvm-1)%8+1
-  local kq=((cwz-1)*3+5)%8+1
-  ymh[cwz]=bit32.band(ymh[cwz]+string.byte(mpr,kvm)+(kvm-1)*73244475,4294967295)
-  ymh[kq]=bit32.band(bit32.bxor(ymh[kq],ymh[cwz]),4294967295)
+function ke(xds)
+ local rrx={324508639,610839777,3285377520,523124044,2309737967,271136839,1432778632,2712847316}
+ for lbc=1,#xds do
+  local sjv=(lbc-1)%8+1
+  local ti=((sjv-1)*3+5)%8+1
+  rrx[sjv]=bit32.band(rrx[sjv]+string.byte(xds,lbc)+(lbc-1)*73244475,4294967295)
+  rrx[ti]=bit32.band(bit32.bxor(rrx[ti],rrx[sjv]),4294967295)
  end
- for qye=0,7 do
-  for kvm=1,8 do
-   local kq=(kvm+qye)%8+1
-   ymh[kvm]=bit32.band(ymh[kvm]+ymh[kq]+bit32.bxor(2654435769,qye*73244475),4294967295)
+ for uyl=0,7 do
+  for lbc=1,8 do
+   local ti=(lbc+uyl)%8+1
+   rrx[lbc]=bit32.band(rrx[lbc]+rrx[ti]+bit32.bxor(2654435769,uyl*73244475),4294967295)
   end
  end
- local fak={}
- for kvm=1,8 do
-  local jrj=ymh[kvm]
-  fak[#fak+1]=string.char(bit32.band(jrj,255),bit32.band(bit32.rshift(jrj,8),255),bit32.band(bit32.rshift(jrj,16),255),bit32.band(bit32.rshift(jrj,24),255))
+ local bxy={}
+ for lbc=1,8 do
+  local jap=rrx[lbc]
+  bxy[#bxy+1]=string.char(bit32.band(jap,255),bit32.band(bit32.rshift(jap,8),255),bit32.band(bit32.rshift(jap,16),255),bit32.band(bit32.rshift(jap,24),255))
  end
- return table.concat(fak)
+ return table.concat(bxy)
 end
-function pqz(jw,kp)
- local ymh={324508639,610839777,3285377520,523124044,2309737967,271136839,1432778632,2712847316}
- local ut=#jw*4
- local tl=ut+#kp
- local function qpz(kvm)
-  if kvm<=ut then
-   local nfz=jw[math.floor((kvm-1)/4)+1]
-   return bit32.band(bit32.rshift(nfz,((kvm-1)%4)*8),255)
+function ggf(ny,jh)
+ local rrx={324508639,610839777,3285377520,523124044,2309737967,271136839,1432778632,2712847316}
+ local fb=#ny*4
+ local bn=fb+#jh
+ local function wsf(lbc)
+  if lbc<=fb then
+   local sjs=ny[math.floor((lbc-1)/4)+1]
+   return bit32.band(bit32.rshift(sjs,((lbc-1)%4)*8),255)
   end
-  return string.byte(kp,kvm-ut)
+  return string.byte(jh,lbc-fb)
  end
- for kvm=1,tl do
-  local cwz=(kvm-1)%8+1
-  local kq=((cwz-1)*3+5)%8+1
-  ymh[cwz]=bit32.band(ymh[cwz]+qpz(kvm)+(kvm-1)*73244475,4294967295)
-  ymh[kq]=bit32.band(bit32.bxor(ymh[kq],ymh[cwz]),4294967295)
+ for lbc=1,bn do
+  local sjv=(lbc-1)%8+1
+  local ti=((sjv-1)*3+5)%8+1
+  rrx[sjv]=bit32.band(rrx[sjv]+wsf(lbc)+(lbc-1)*73244475,4294967295)
+  rrx[ti]=bit32.band(bit32.bxor(rrx[ti],rrx[sjv]),4294967295)
  end
- for qye=0,7 do
-  for kvm=1,8 do
-   local kq=(kvm+qye)%8+1
-   ymh[kvm]=bit32.band(ymh[kvm]+ymh[kq]+bit32.bxor(2654435769,qye*73244475),4294967295)
-  end
- end
- local fak={}
- for kvm=1,8 do
-  local jrj=ymh[kvm]
-  fak[#fak+1]=string.char(bit32.band(jrj,255),bit32.band(bit32.rshift(jrj,8),255),bit32.band(bit32.rshift(jrj,16),255),bit32.band(bit32.rshift(jrj,24),255))
- end
- return table.concat(fak)
-end
-function va(mqt,mg)
- local ymh={324508639,610839777,3285377520,523124044,2309737967,271136839,1432778632,2712847316}
- local ny=type(mqt)==snq[12] and #mqt*4 or #mqt
- local function hw(kvm)
-  if type(mqt)~=snq[12] then return string.byte(mqt,kvm) end
-  return bit32.band(bit32.rshift(mqt[math.floor((kvm-1)/4)+1],((kvm-1)%4)*8),255)
- end
- local um=bit32.band(hw(1),7)
- local oj=1+2*bit32.band(hw(2),3)
- local mx=bit32.band(hw(3),7)
- local gz=1+2*bit32.band(hw(4),3)
- local xa=1+2*bit32.band(hw(7),3)
- local lf=1+2*bit32.band(hw(8),3)
- local oi=8+bit32.band(hw(5),7)
- local ng=bit32.band(hw(6),7)
- local oh=bit32.bxor(73244475,hw(9)+hw(10)*256+hw(11)*65536+hw(12)*16777216)
- local jm=bit32.bxor(118178911,hw(13)+hw(14)*256+hw(15)*65536+hw(16)*16777216)
- local wd=bit32.bxor(2135587861,hw(17)+hw(18)*256+hw(19)*65536+hw(20)*16777216)
- local eu=bit32.bxor(2654435761,hw(21)+hw(22)*256+hw(23)*65536+hw(24)*16777216)
- for kvm=1,ny do
-  local cwz=((kvm-1)*oj+um)%8+1
-  local kq=((cwz-1)*xa+bit32.band(hw(25),7))%8+1
-  ymh[cwz]=bit32.band(ymh[cwz]+hw(kvm)+(kvm-1)*oh,4294967295)
-  ymh[kq]=bit32.band(bit32.bxor(ymh[kq],ymh[cwz]),4294967295)
- end
- for kvm=1,#mg do
-  local cwz=((kvm-1)*gz+mx)%8+1
-  local kq=((cwz-1)*lf+bit32.band(hw(26),7))%8+1
-  ymh[cwz]=bit32.band(ymh[cwz]+string.byte(mg,kvm)+(kvm-1+ny)*jm,4294967295)
-  ymh[kq]=bit32.band(bit32.bxor(ymh[kq],ymh[cwz]),4294967295)
- end
- for qye=0,oi-1 do
-  for kvm=1,8 do
-   local kq=(kvm-1+qye+ng)%8+1
-   ymh[kvm]=bit32.band(ymh[kvm]+ymh[kq]+bit32.bxor(wd,qye*eu),4294967295)
+ for uyl=0,7 do
+  for lbc=1,8 do
+   local ti=(lbc+uyl)%8+1
+   rrx[lbc]=bit32.band(rrx[lbc]+rrx[ti]+bit32.bxor(2654435769,uyl*73244475),4294967295)
   end
  end
- local fak={}
- for kvm=1,8 do
-  local jrj=ymh[kvm]
-  fak[#fak+1]=string.char(bit32.band(jrj,255),bit32.band(bit32.rshift(jrj,8),255),bit32.band(bit32.rshift(jrj,16),255),bit32.band(bit32.rshift(jrj,24),255))
+ local bxy={}
+ for lbc=1,8 do
+  local jap=rrx[lbc]
+  bxy[#bxy+1]=string.char(bit32.band(jap,255),bit32.band(bit32.rshift(jap,8),255),bit32.band(bit32.rshift(jap,16),255),bit32.band(bit32.rshift(jap,24),255))
  end
- return table.concat(fak)
+ return table.concat(bxy)
 end
-local function pu(bpd,xgb)
- local fu=0
- local pty=""
- local ngn=65
- local function yt()
-  local nnw={bpd[1],bpd[2],bpd[3],bpd[4],bpd[5],bpd[6],bpd[7],bpd[8],xgb[1],xgb[2],xgb[3],fu,2654435769,2779096485,1013904242,2135587861}
-  local fak={vy(nnw)}
-  for qye=0,11 do
-   for kvm=1,16 do
-    local iee=(kvm+qye)%16+1
-    local pn=(((kvm-1)*5+qye+3)%16)+1
-    nnw[kvm]=bit32.band(nnw[kvm]+ey(nnw[iee],5+((kvm-1)%4)),4294967295)
-    nnw[kvm]=bit32.bxor(nnw[kvm],ey(nnw[pn],11+((qye+kvm-1)%4)))
-    nnw[kvm]=bit32.band(nnw[kvm]+bit32.bxor(2654435769,qye*73244475),4294967295)
+function xw(rze,pg)
+ local rrx={324508639,610839777,3285377520,523124044,2309737967,271136839,1432778632,2712847316}
+ local ug=type(rze)==gzm[12] and #rze*4 or #rze
+ local function sn(lbc)
+  if type(rze)~=gzm[12] then return string.byte(rze,lbc) end
+  return bit32.band(bit32.rshift(rze[math.floor((lbc-1)/4)+1],((lbc-1)%4)*8),255)
+ end
+ local ay=bit32.band(sn(1),7)
+ local ne=1+2*bit32.band(sn(2),3)
+ local ce=bit32.band(sn(3),7)
+ local kp=1+2*bit32.band(sn(4),3)
+ local rp=1+2*bit32.band(sn(7),3)
+ local pp=1+2*bit32.band(sn(8),3)
+ local nf=8+bit32.band(sn(5),7)
+ local hg=bit32.band(sn(6),7)
+ local jd=bit32.bxor(73244475,sn(9)+sn(10)*256+sn(11)*65536+sn(12)*16777216)
+ local ue=bit32.bxor(118178911,sn(13)+sn(14)*256+sn(15)*65536+sn(16)*16777216)
+ local rt=bit32.bxor(2135587861,sn(17)+sn(18)*256+sn(19)*65536+sn(20)*16777216)
+ local cm=bit32.bxor(2654435761,sn(21)+sn(22)*256+sn(23)*65536+sn(24)*16777216)
+ for lbc=1,ug do
+  local sjv=((lbc-1)*ne+ay)%8+1
+  local ti=((sjv-1)*rp+bit32.band(sn(25),7))%8+1
+  rrx[sjv]=bit32.band(rrx[sjv]+sn(lbc)+(lbc-1)*jd,4294967295)
+  rrx[ti]=bit32.band(bit32.bxor(rrx[ti],rrx[sjv]),4294967295)
+ end
+ for lbc=1,#pg do
+  local sjv=((lbc-1)*kp+ce)%8+1
+  local ti=((sjv-1)*pp+bit32.band(sn(26),7))%8+1
+  rrx[sjv]=bit32.band(rrx[sjv]+string.byte(pg,lbc)+(lbc-1+ug)*ue,4294967295)
+  rrx[ti]=bit32.band(bit32.bxor(rrx[ti],rrx[sjv]),4294967295)
+ end
+ for uyl=0,nf-1 do
+  for lbc=1,8 do
+   local ti=(lbc-1+uyl+hg)%8+1
+   rrx[lbc]=bit32.band(rrx[lbc]+rrx[ti]+bit32.bxor(rt,uyl*cm),4294967295)
+  end
+ end
+ local bxy={}
+ for lbc=1,8 do
+  local jap=rrx[lbc]
+  bxy[#bxy+1]=string.char(bit32.band(jap,255),bit32.band(bit32.rshift(jap,8),255),bit32.band(bit32.rshift(jap,16),255),bit32.band(bit32.rshift(jap,24),255))
+ end
+ return table.concat(bxy)
+end
+local function el(awx,tdt)
+ local ku=0
+ local wwz=""
+ local piu=65
+ local function th()
+  local bfj={awx[1],awx[2],awx[3],awx[4],awx[5],awx[6],awx[7],awx[8],tdt[1],tdt[2],tdt[3],ku,2654435769,2779096485,1013904242,2135587861}
+  local bxy={hb(bfj)}
+  for uyl=0,11 do
+   for lbc=1,16 do
+    local jfh=(lbc+uyl)%16+1
+    local cd=(((lbc-1)*5+uyl+3)%16)+1
+    bfj[lbc]=bit32.band(bfj[lbc]+zk(bfj[jfh],5+((lbc-1)%4)),4294967295)
+    bfj[lbc]=bit32.bxor(bfj[lbc],zk(bfj[cd],11+((uyl+lbc-1)%4)))
+    bfj[lbc]=bit32.band(bfj[lbc]+bit32.bxor(2654435769,uyl*73244475),4294967295)
    end
   end
-  local cl={}
-  for kvm=1,16 do
-   local jrj=bit32.band(nnw[kvm]+fak[kvm],4294967295)
-   cl[#cl+1]=string.char(bit32.band(jrj,255),bit32.band(bit32.rshift(jrj,8),255),bit32.band(bit32.rshift(jrj,16),255),bit32.band(bit32.rshift(jrj,24),255))
+  local fj={}
+  for lbc=1,16 do
+   local jap=bit32.band(bfj[lbc]+bxy[lbc],4294967295)
+   fj[#fj+1]=string.char(bit32.band(jap,255),bit32.band(bit32.rshift(jap,8),255),bit32.band(bit32.rshift(jap,16),255),bit32.band(bit32.rshift(jap,24),255))
   end
-  pty=table.concat(cl) ngn=1 fu=fu+1
+  wwz=table.concat(fj) piu=1 ku=ku+1
  end
  return function()
-  if ngn>#pty then yt() end
-  local jrj=string.byte(pty,ngn) ngn=ngn+1 return jrj
+  if piu>#wwz then th() end
+  local jap=string.byte(wwz,piu) piu=piu+1 return jap
  end
 end
-function mq(kvm)
+function zc(lbc)
  return string.char(
-  bit32.band(kvm,255),
-  bit32.band(bit32.rshift(kvm,8),255),
-  bit32.band(bit32.rshift(kvm,16),255),
-  bit32.band(bit32.rshift(kvm,24),255)
+  bit32.band(lbc,255),
+  bit32.band(bit32.rshift(lbc,8),255),
+  bit32.band(bit32.rshift(lbc,16),255),
+  bit32.band(bit32.rshift(lbc,24),255)
  )
 end
-function lz(mqt)
- if type(mqt)==snq[12] then return mqt end
- local jlm={}
- for kvm=1,#mqt/4 do
-  local jbr=(kvm-1)*4+1
-  jlm[kvm]=bit32.band(string.byte(mqt,jbr),255)
-   +bit32.band(string.byte(mqt,jbr+1),255)*256
-   +bit32.band(string.byte(mqt,jbr+2),255)*65536
-   +bit32.band(string.byte(mqt,jbr+3),255)*16777216
+function kc(rze)
+ if type(rze)==gzm[12] then return rze end
+ local bjc={}
+ for lbc=1,#rze/4 do
+  local foj=(lbc-1)*4+1
+  bjc[lbc]=bit32.band(string.byte(rze,foj),255)
+   +bit32.band(string.byte(rze,foj+1),255)*256
+   +bit32.band(string.byte(rze,foj+2),255)*65536
+   +bit32.band(string.byte(rze,foj+3),255)*16777216
  end
- return jlm
+ return bjc
 end
-function wf(jw)
- local jlm={}
- for kvm=1,#jw do
-  local jrj=jw[kvm]
-  jlm[#jlm+1]=string.char(
-   bit32.band(jrj,255),
-   bit32.band(bit32.rshift(jrj,8),255),
-   bit32.band(bit32.rshift(jrj,16),255),
-   bit32.band(bit32.rshift(jrj,24),255)
+function bi(ny)
+ local bjc={}
+ for lbc=1,#ny do
+  local jap=ny[lbc]
+  bjc[#bjc+1]=string.char(
+   bit32.band(jap,255),
+   bit32.band(bit32.rshift(jap,8),255),
+   bit32.band(bit32.rshift(jap,16),255),
+   bit32.band(bit32.rshift(jap,24),255)
   )
  end
- return table.concat(jlm)
+ return table.concat(bjc)
 end
-function ur()
- local r=ic({98,184,86,52,174,123,60,48,54,81,185,140,148,38,76,211,130,60,50,168,234,166,73,105,224,101,64,10,204,139,198,214},string.char(104,107),{167,14,148,171},3698077666)
+function hv()
+ local u=je({84,229,251,192,222,226,53,14,160,16,233,22,156,190,19,158,82,69,35,128,254,29,49,0,136,249,114,117,100,243,198,222},string.char(104,107),{106,114,138,84},173831310)
  
- local function rj(ib,fd)
-  local zy=dp(wf(r).."vm2:stage-prf:"..ib..string.char(fd)..string.char(127,149,248,181))
-  local kw=string.byte(zy,1)+string.byte(zy,2)*256
-   +string.byte(zy,3)*65536+string.byte(zy,4)*16777216
-  return kw
+ local function vf(vt,ul)
+  local oz=ke(bi(u).."vm2:stage-prf:"..vt..string.char(ul)..string.char(127,149,248,181))
+  local zd=string.byte(oz,1)+string.byte(oz,2)*256
+   +string.byte(oz,3)*65536+string.byte(oz,4)*16777216
+  return zd
  end
- for kvm=0,3 do fq[kvm+1]=rj("token",kvm)%2147483647 end
- for kvm=0,5 do jn[kvm+1]=rj("witness",kvm) end
- ma=fq[1]
- local function it(ib) return dp(wf(r)..string.char(118,109,50,58,107,101,121,58)..ib..string.char(134,14,128,118)) end
+ for lbc=0,3 do sp[lbc+1]=vf("token",lbc)%2147483647 end
+ for lbc=0,5 do ln[lbc+1]=vf("witness",lbc) end
+ ix=sp[1]
+ local function ve(vt) return ke(bi(u)..string.char(118,109,50,58,107,101,121,58)..vt..string.char(185,173,183,177)) end
  
- local q=lz(it(string.char(45)))
- local s=lz(it(string.char(47)))
- local v=lz(string.sub(it(string.char(46)),1,12))
- local p=lz(string.sub(it(string.char(48)),1,12))
- local wi=lz(it(string.char(43)))
- local pk=lz(string.sub(it(string.char(44)),1,12))
+ local w=kc(ve(string.char(45)))
+ local o=kc(ve(string.char(47)))
+ local m=kc(string.sub(ve(string.char(46)),1,12))
+ local s=kc(string.sub(ve(string.char(48)),1,12))
+ local iy=kc(ve(string.char(43)))
+ local di=kc(string.sub(ve(string.char(44)),1,12))
  
- return r,q,s,v,p,wi,pk
+ return {u,w,o,m,s,iy,di}
 end
-local r,q,s,v,p,wi,pk=ur()
+local wk=hv()
+local u=wk[1]
+local w=wk[2]
+local o=wk[3]
+local m=wk[4]
+local s=wk[5]
+local iy=wk[6]
+local di=wk[7]
 
-local ji=false
-local th={
- o=0,
- u=0,
- m=0,
- z=type(debug)==snq[12] and type(debug.info)==snq[13],
- w=false
+local qp=false
+local vb={
+ p=0,
+ x=0,
+ q=0,
+ v=type(debug)==gzm[12] and type(debug.info)==gzm[13],
+ r=false
 }
-function jy()
- if not th.z then return end
- local bb,gfy=debug.info(jy,"sl")
- if type(bb)~=snq[9] or bb=="" or type(gfy)~=snq[10]
-    or gfy<1 then
-  th.z=false
+function cy()
+ if not vb.v then return end
+ local hw,tvv=debug.info(cy,"sl")
+ if type(hw)~=gzm[9] or hw=="" or type(tvv)~=gzm[10]
+    or tvv<1 then
+  vb.v=false
   return
  end
- th.w=true
+ vb.r=true
 end
-function ngj(icj)
- local kw=jn[1]
- for kvm=1,#icj do
-  kw=bit32.band(
-   bit32.bxor(kw,string.byte(icj,kvm)+kvm*374761393)
+function ulr(lsm)
+ local zd=ln[1]
+ for lbc=1,#lsm do
+  zd=bit32.band(
+   bit32.bxor(zd,string.byte(lsm,lbc)+lbc*374761393)
    *1000003+2654435761,
    4294967295
   )
  end
- return kw
+ return zd
 end
-local mz=""
-function bp(di)
- local jlm={}
- for kvm=1,#di,2 do
-  local bnj=string.byte(di,kvm)
-  local jfi=string.byte(di,kvm+1)
-  local function rlp(qpz)
-   if qpz>=48 and qpz<=57 then return qpz-48 end
-   if qpz>=97 and qpz<=102 then return qpz-87 end
-   ssc(); evq("vm",0)
+local ki=""
+function po(tr)
+ local bjc={}
+ for lbc=1,#tr,2 do
+  local pes=string.byte(tr,lbc)
+  local ffa=string.byte(tr,lbc+1)
+  local function ulo(wsf)
+   if wsf>=48 and wsf<=57 then return wsf-48 end
+   if wsf>=97 and wsf<=102 then return wsf-87 end
+   ufe(); bll("vm",0)
   end
-  jlm[#jlm+1]=string.char(rlp(bnj)*16+rlp(jfi))
+  bjc[#bjc+1]=string.char(ulo(pes)*16+ulo(ffa))
  end
- return table.concat(jlm)
+ return table.concat(bjc)
 end
-local na=bp('860e80767c4a8ed28357fa0a9ae4624bb154c920987ce27fb277d57257eaf35ee6491a14611c9d872563259d812b447429979b802ed10d1964ea989eef53f8bd1c5ba71502c3af9a3d50ae293ae36215a049b19e47c0fec883fe1f2f8f2806cc51ba8717e9c72c8259ab6256ff7075f967ea6ff571faa669131f7b6326f0d55043433fb4fc7ac237e9a4d7511f17c9f6a2f7065deb3e4f8063b86351ac6f39d35aac34dd09a7dec4118378d86b1f0022c457857d8243f167b90747624986e685d67d1d08b2cf2c1395f73c3c8f1a06c5bcf00eac059959f84fe4478408d24136b15b3461f4d3f5da6e11dfc49aab39547e493268dec9f3461ccbc74119251797d3931875462faea719da0f10d39dd8629cd25d86a40bc9b6a4dc57241fcb86af42563a201e3241ad5e6825ae78682f0e30a333f48811b757eeedba2a70933b913e687e4f226075564443a803c8e6de5fc1ccec9387bfa73560b311f20c8b4fd3985bc2fc3c13930414013fb4cec8e14618b6dcf08915c8ffbd5a1422962f0a4acf25d4b0d7f90b89575d38c752e5ffcd08ab691d7b35cb52f3a6eb27c156571c171e0ccde2a8c77f7fdd98aa71152e429298bcee3c6ffd5f51a990f0a95ad0a18eccf10ea3b4098616a6e1e4a84678add68eccf81bed54f562734f640fff2075605aa4fb304b561c68f7a6f384bcc4cd5467b63ac4c66b7e63598d4c16d339e17fb97107b9116c7082d56b03a6bcf0156059c5ac105599c1235504f51131d8a5f7fa684ad677164930071e049e4237163e8a4765e832b1160e8f3d184cdf0c5d813322f5a6c390449ad3ae3cf97ce0f39ae1d54f9c9d980478144543851b4210da769d91399d5c8ebd9dcb08d8b228b54392755ddb29b8ce724631ec8a5b418502f7c978618e826bdd748b156ee8ae43ae1b60e2ca614044c56d20ce1969251d44e21e6b1c9d96ed82cf03ffb2b2c2aef348982a4583e3ff818daf827a63482c61b700ee5f2c3e3ccbf0cfc32e893c815750c7af454695caec035a4fcf1db4242be32378078fb85556eac6f2bec8f02a1d7195773089b217469717f369b8f523dacbf097516d400a0564eea4309a7ff8d861a13c5610717b4d25d916e41862ce44b22cdcb648ec67f3d8c6f850c2af4ef63f7451bc784c684726764985e3f47c887da204406d080374d47aa2c9d8d392f0e0054309d11697b12fa5864ea9c16d836c3dc42cbb2d95f965e1305a7f2610c96e00ff7379017d9199fcf9bd514e7936e03b31a0acb7a6cb3587b578b34da64bc6771a15f073c70e219878fa7bbc65ad2cefea7b402217710486e6b090a46a7957baab134c466d4d202be0c8267426e79cb63cd57faa1725ed13fd59b4b3165edbecc9700f15575d4b542a6fa1e183ab088ddd973245603a8ad3cd12ab043664ec6612f9e51eb477007ee06f07d3d8c286c55fd81b9070a8f5a5b9b359090d52ef71e186f7d241920fb0b018c0df7b52ff4db8ef507528bba29487ed3741e9dca63918e2c406010929fc5ecd7d2b3837265baba20068c69fb5a70cdbcc03ce85b14e5757af65bfb6c40297bdd2da26397a37a7deff7694e04a7e7e859f0eb6c96479c901dc6eda0d8281b1f2e47a1cc421b05e72fd8e5104843c7b583a32de7b031692c66858ce6b6682d1a99ded9309da06dc49a5ee68f2db0a6d7d72d263e1672fa995c7900a4dd20166e592020017a43007112e2eb3fc1b040a6750a36d9a4db6c86302cd7f5671553fe3a3399cbe7c51211776c71cdf35b53e1d3e5372091bfa59dde8787583ca5e04d1eaf4a98577fa5b68ab49b34064a8f69f04927ddd53e18c2ec4e41e1a5902c29c135230ea7fed963a790d855617c41093e67aa30bcbd8e9da9c36998e3552bb9fe485f7eee50961de073d5c96e12a14c5cf0dec9d45163aac5daa2106d9b6a4350ac5e097ba089301f7dd7826df1a2286cc223f8d6c59b13312b0c5170a062374db4a01028f598536bf923fca626c8840a2c5d6e2f95b0f444d943ab7cc73f2758bd8abbdf17976fed8c8f4ea49f6b5c4551acd460200547666f0a29248e89de1906c21468a079c531817dd4c1a22ea9a4478578f4fe94f19db65a21246f6355bccdf8ac8dfb5d91ce029034488d28648187214e97c4a2f7d5bd37f9784190e752379fb9be1ec6325a78888adae15ea56422917e6daaecf25af06cabb8dcf2401c7590e3c85d56dd7422c35fa6a8cff46a4402cba7d004b821ed33e5cd1d14219579e42ae5a296c4f7b662c32f2f1116a41627beed40b4311fff153402a715d5503378f94f06150a3c94473fef1c444f13977ac43795dd618b565b0e8f350ee00b2d3b3c89a8e8fde9c4c64fb06b4eacd9861deee47dedb0148bce1c52524c33232c5f3747baf4dd9de421721fb1867ab0de88abdda1a34c9352edc4185e864b2e6a0dfc72477a70d09022c092b8c1de06cc40a34742cea1a2327d4e908f81fdd5d07e32226444f09a981e01e71ce90f394d062df91adb9c913a4214f2b4e3758abaa56c0c8ebc9e9159396a0cb1eaac69571c582759a5ef1034c16d1ddfa407f2e1ef286fd5686333541ce4817d89d865307d3229d240a64056060f8112246171f7830fb96e711f74ae6638c0fa456655ca3203ec4212ecd4d9c445be80cce9ad760ee7b260b400cec1130a7b58712c725c0d1ffd320b546f9d0cbd649c1b443c8b509bcc5d696d87ad3800d1c2a1e5f04373c71deeb6d456a18ec7ea54aea0466ec6d68e9d1e99fdce7c709ab98c0e64d22ef1b0dad3917385df97c1526ae725792ee65d9464b680c72645a16cc6888aaf87400719de82f65659de7d1bbea6317bf202f0a15d0a37d4017a701a88265ab4b73cf7c140fc1517629ad7e4b526956a2770600f49ee4e82d4a6eb2a7e3e0552123e4024cc6e93d5161cf777b010a2092ba25572e69bd8fd12f4a71d361669d1da53426cabd43ce824cffff2715fcb094b114d698ad1258fa77d77523c40ee4faffab89dd12a148a0b9181021a5c8fea0a695bb595c5288587d14835dc8137e43000958544ffee364e5190d221f48ea06178acd7974e0628a05a982c6b60ce26a814804991cc6389794335ee32bd8a77be7f12b06cdb46da637cdb8ff1f1fe997060fc58c6191bb5e1995c0f17e3350b4c075c3a943f506571c343a52b2ac2b68e9f8381174f913828638fe17934ade3b4e75c5b0aca2485855194e824173a4322bb85e65640e3df9918b203a9fe75b147f9d9007944034f00ebda7ece1d8caacefc31fd6a6028a15ecc719363588fb590b3d97f07fbd3f4d05046716ddb7dd7422509ab378daaddf0a965edcf4dd97536e5ebee1db5b1df6fb1b13b9fcdfa098cfa4e4b9b948f543dd6bc77dd19a6a213150c33322eca4a265ea3c7367ec091ee32cc7fac5d3783b4c140036dad379e193d25df250b9eb38212027c4ad695fbbc694b87d963c0e66e14acc54cc7f70df0d5db177e39dcbea6932915e3dab0abc57711b7142770878295d1beb08142078e32ad6280204e73be74c118abd9eb9d551714d26ba71e7987147d544d116336ea74b097797bf019a1646743ba53ea20345e904f6a35aab80ae84bfdb13e4b8cde6c2d1d9a1e3ff32e29989760d554a04e8e2cd242559d6f5e966dda8128070fb197f8221e1ac32b60f451556e67666fc99ff30cb529baae9e335f3ad55591914f7e7a46d6b492fa1897916b5e38d43d75573e8ba6d22b1b561a3e53b8b38b52107eafe4000ad468144913ab68a5179024f2cce59c2058b3f7cd97f8f38aff3d57b4877347ebe3cbc413b37aee873a122422810cdacb07c601c7489adc306be4db2de08f1fde286cf18da3b450f294e8a713aa7562b42a5a54fee1bf6ec31ae5c168c949b838ceda15522a1e0e3ca9987f477fdf3a3edbf18379c8370a4ee8f733223c5232f36fd3a35a18f26fad4e8233246576a4f24d0f56fe7424e3ffa4fd03ca0daa95c1b8a63b48c79b996703c7ca7e5a9715a242e23b09b0f367c2f7d9bbdf263ce65a89bbd2b967f187c6d3df158a521d46804611f8d3ac9b8dda5f725e5c610148107d70e016ff59f2de08541bd32b2fe69fc1a5516d4db0a218f21fdd3289b82ce3cd3a7753fd02e56e1b420d7f8260433998cbaf0f4b47382304162f32f530e40757e56eb1391e03746932e33662384758c5b3ff1c0747076d63f3e08c1287494651d6c1242d171bdfdd56f575f04d41d52e72d85759ec13cee9dd0c122207ebe0496e5b6ac89f178c628643204ed8e15998af41c43deb71e561c07229c4e30cf95a9355b70a6182d72316fc3c891f99854bba17587349ec728eb9e34439835b6346d8f39ad8853de3905e79d8563f031f16e5f05ba38fe26b54a69e7049aa571312d505e436b3510a8def67b1ef01eb0201a8f4854c550d590d2f9f6a7df5297ddf6dadf602d68af624bfd078ae62e8f46a4b6f20d20b88955590ccdb7b6c4db05e6d47f698f6e3fc9ef496eced4787708e6b23c08d9fbccb47c6b227c81bd7eeedb8e4597312fe94b7e5446794779feb25c04560b59dc2ceb9f98554c223a8fc2ce565054c5f159c3f20f6b6d6f633f34402a3ff32d5915b1afaa190724d9eb874b3073ebd92793dc4b0546014036bd460a8eec8b3fa9dc1c6005447416110bbfa3f8abdafcb7609ed0fb77966343b46f5adc1e5d2759d0f4168deea6494910bfefd450ed08064e090e8e187a9d04817fd54eedadccf76a98c0a41c652aa72fe852c8ef739a70fbfe51a47075fea08018ee23e9f0b1095fb50bbfab5604845ebb013ab539d6f8f6071eab8bfb62e960713729cd1c7972ef13cbc3484cf97cb70519e0c501ece0c61f0058f5eb21b0a3c8968b7ae23455e4e74759481618e6161c45eb6addd6b84955e50bbd8491c37b70821b88e3102938df6d3810a5af541a050c77c12fdb4cfab6d882728e4e2d05058a3dbb1d87ed91a5e38873a7fcad1af103af54fc535ff968868ec76dfcd45b3763b0fad52f85b8bee06c798fe301b293380716ce86436ca2add9ff6ee0a10558110a7a91e8ffbcd8ff3559fe5aaf69d58f1cf0de34f1f129c2f2a6530d59232df5383cf605e9e619d1ba6f5a947c373519508dff48096aeb3d17cb779443c366a47bbb696df16b489e58cd27dbde495ac4f33ef30df06e0918b3c62bcea8848abe3d73bcb7d5f625687e7b55e3b22a4e44b157d0ab216f90347cf66be7c2b2b79db86103dae7768a61a697e794e212e448e3e4b021e38702cfb7ed41897c159663fdf1d127beab4cfba4e742ef584abf5ce85e9140feb89461e9ad0597e1fb1a21db305ebf457512f7812e00aa8b976b238e79f3a92932d0a7f824e142036e4202df5951eb25ba6528105f78a023b1a931baff790fc8b9459df8c668e1c10c17a0a81b221db6d7658dce4842fb638fdb5f46d749dab2eb58c1ced0cc154ece9458dff9fbebd33f362b0ff4d390e729b638f614db8d57745826a52f182e67dfd2d5359e977de8e7279f8a8784e22754914ba8850dc0e514d07b0e0c76ff1aee1208f438b4a2a8ee62cf1f72fdda8663f3b2d7edd7ce3ca9e74af1d59530a373b02d610a407fa4db3e0c15c1e7c4d5e14155eeed5a1bf4d70ca492b62cb042331a24f8de9406461fba2274281a5773d55e6b58d09920a64337796669c33b2f2f9cf45e509b2a62fb781a96a12d5587ee03ad3c27b863cb9252eada6aaa0e1bbdaf3959c21a714d5034ac68cad89a51ce951c07d4011a38efcfb97f16a7d982fb9be51af434d558281aa34102b6f865dc766ae67aef4ab32b7c39c68ecc54506dd790271fc9953c06487608736723cd515dbf466e63a1ee6cc6f5839a925b1b74deb756669ea3a822ef5967a616209a8182691ddee895fb24f1f6250bdcc699a4e623579a7c1030eb8e679f3e08f3b9d1aac0946e8f31072545af771179e1252c7a08f06aa242fc159627df9921854ddf547a583692de8a131a961ac02e9387000f5f7d4c3bf85b32e78508007abfaf866eec602f3efb0c6810c1998c0c37146947a482b409744cec65ea7e2993cd4909cd872d072fad518aab4cd998731cd23ff2b7171ee0b2837653dfaa480e4c3edbc2c4769ac8863e697786dcf40ce0ae010d2d5e26862f45428da4a3a23185027e538058672a241f6d0b2a0a1cd44f35e44556e2b7fbdd7f213683cda9b5024aad8f5c586869536ae050929db987f0825e15f4f99a6a172fca423fb9996f9b5a385cb75ec8559fba67da08790ae4297eff05fbbc8070b9237910148d3c155aea989f77e9a322ed5be3d5423c5098a0418753b45da3e8bec2ae68fe1272a806001ee6f70dfc77746a1b6beadd55c3ae953705580ac9cff4c1b8e285f5b1f4d193bf05c0e8150258656595869b727143d7756fd74c7fa9f2b4129d8d59f4e4283e82a86a38685208f424cfa776c3ee0ae500b9ab33154874f237f7680241dd9ef377208f364ab3714f4bb12577f0c37fd4e5fb726b85cb1b1cdcaa2e04abb2f2d553856092f22c7d48cb16d8501400efa2124401e1bd7e8d00baf650ad9467b44af1cf45bbcf8519b259e2808e3e6e3014c084060a52b3cac4c4a53e20d3411f9ded8f56d33fa1d28e4b22f7396ae140731a7f4a9e53e506fbebe91665608126695cb4c0fab59db1dd76af7d06b19b7b3abac2b66b8a4bc9ae7b16bab8259e9ffb69eaca93ec07166f1da09ee310a174b978fd26d4275fd787c49d39a2164a7d8932d7754eb43349847852252b5ee609a5b357aefc86bcd9e128a32e9f086e01727de6e30ef82afb8cf90ef48282a3d5f276b404ab58ccfcf16cdf90fc6e71d3016f9553dabd6f907ec77dfc0a775a82b20536dff3c7764aacb0066e740f3121b2831aa6515195812a827574d75c4da3ef576e54cd176b0a961a20513ab8936d9c8af0d55435ad4e5dac23734a2f8d36d3d0dcd4d6748810b3cd1231771b58b428c4c8de376d330979d51b3828046bb4792d02cee8e39f644c83d0105ac3769899cdd3548711472b80d7ef7e2cea53ec050d98e93711952f88d8162788495f5f339b56a2c47ce8610c20a6d72520b2ea87f85ef3972aff7c6331a47e2decc464ad464c55c92a1940ccff43edacb35171e1e376341bd386932afd4c0ef6c29d7a83e21f6bb543755d72c5a9129ceb7a8d2305fdfc145e4e3e38376f32018414ee7cd3beab7fea5b8b8a6121fa64f9714247a103d4952a58c062ade25eec1fab77503de030f47f910b6dcbc02059ce0891c9d56c49c7046659097f2d1201b25900f2a3732e80f46dc9141ec236495cf1a099bc26474b9e002d73b585c850540563c20fb7726a5f2be7ad010e5e7bf5512e04b2225f66cbc52a0ef7125d0479ab74debb113a8f40d4580a236a27d0ff8a02ad3fcd852c243437ff2ec05475107eb3df42ff2717426ae44831aa186bc2f353ac28971cfc4b7b5ac13750e94bee0dda861314b552a3ae849b3a26d521e675616372d454ec3ffc56665f9480f4b1162f63f9baa1c5c2ba2d7e1628f6dec901af67d24dc556ffb4164cc0d8dd6c577c4b6cfe29bf43530b9b41be00384786cd7026a43096e5e7e0087b285edf39dfc87af976bb6e723af6619563dfbfa6d2a2a7b77bc8517978008eda10a2f90f8acaecd37084ec74f876802c7bd0af1112c9186732e474c26e27736b1738f0f181d5e1f792f5a571322277c340961759f28dddd2f4788df708d0012c26fef821c2ddc9649254100b37a99b68aa3526a0756ac2a00a48cafbfa2d893f3346cd4aa68ece9fbfb82903a046974514b301c27342646e5c7ac4f6af05ec81a8ad9a023869b19a9e3113a8815c3a027382affbebebb1247bcfa86a6790b868159d07f7f1e82395c72dd93922757a76cc678bf1dc29ab46f052b4b51a14f4c25c56b69b40ab9137c18c08db27e891fdce5b28e6e4f2bdafc619aeef787ba8437f220b9b3e7b75bb50d0fc40a32997b675e26d2926237834e30054819285d20dad20a3fd3cc974837174d0e896d8004d8ae98d30f9c369b8585f4cb9ca85b6c5749f0b716dcc69da53f62b62cba7cca05a9fcd638b1654a6793af775a125be658369220864f98a1fd5c4b944dfac1bc35fb10ce660a920bd37920d8bb3e1bf21e5e652faaa26d03b21079776de0bb2d8555be07faf3460391954f8ee77abef5cbf3fa4f87bfc544217391a8755371d4e04f3e554e7f658b1d34531c446aadee883a40c45820bb995ff85fa1b0347126149c10f1aa7ee1bfc7b12c1d51c35cb7c6735f88102d85993cb279c8832b551af5e87928626a7c5fe828e18aa7137a4088cbebfcd5d430ea5850a2f166ce337eedc5ab864f63b0490ef0118576dd477bafa07746a2777f8a27841c68f3724f4d94674e2588f918c1845d3d88c32a0f59644d3c2b189c5fe470a1566c2295f54abc22a2dd6a89a55a1c80726c203a796ca90f8cb1f34fbf519f69e60316ba9ae8c24d867f5d538e34658efa9059d46d49b6ea54650ef76b07c3237491dff8b159e1b0337e329bc55bad37ae559ba0d9259e0c4feeef5dac6380a2f72dccf4cba3207a173db40817850063000dd53207a61c47048995f73bfd4750d66bce2a24154632a537c50df3a52522f9746f8f51af061fd0989814798c6908e39d3dc6f4a2d70ead040e141e878d7404e30a217e7088e81834eec88737a4557ce6992ad2887b7696535d9145d5b59aac61db59ae9a3bde00ccc6fd40d67e7018eeacb56aa8c1f8b804acb1e97241e39d72a3d6aecaee511370160b4033c87e6765a282fc5b9714df03824448f8351481ab2e42bfa9dce27de5133ffe671682fc301e7cd216797bac31ee09f7bacbbc2ba249ccba8fcf2639a989337a3981446345b4b49f7796de7a78b520b7d16d12eba249ccba8fcf2639b989337a3903268c6754d4542e1290bde23ba249ccba8fcf26398989337523ff8b896729d5622af1bd9710fe0a356ba249ccba8fcf26399989337a65f000b297ffc6dd97bb7477585cb825aba249ccba8fcf2639e9893379a4e7a8154becb498dc51aafcf15b770ba249ccba8fcf2639f989337f392edcb79e1bbd7727ae88345c604495f35d7ba249ccba8fcf2639c989337041d2b40ce62e9bdb6da3fe309d7600b7d15e12eba249ccba8fcf2639d98933797b6660a935881f5c8cdaefe211e3ee6216303fa11969b35abca37656dda203eba249ccba8fcf2639298933789a6991ccfbc83724a527b9c1b179513ff53454269f71fb713548172ba249ccba8fcf263939893378f10b8c470faa88d0bbc2b52e6f7dc7ce8e9814b49ba249ccba8fcf263909893370d39294ef8681658fcdce87a9a3f8675e847494349ba249ccba8fcf26391989337261dc2e9418fddf5b186178379997e73e8a9f64049ba249ccba8fcf263969893372b34244e2fccb0af8719d34675a7c3815aba249ccba8fcf263979893378a6c9a19a3b9162b037c74a8f12a590b9994d82eba249ccba8fcf26394989337dc1bb208686e00f5706f6c2f6532d58025dc36df4dbbedc6b9a5366535531f3eba249ccba8fcf263959893376d85cb662d9a953489fbcfda717bcaa556ba249ccba8fcf2638a9893378538628f90ae37d009c498d571650463cdc6d6ba249ccba8fcf2638b9893379f86acd2a523e55b76bbe5674b931057e245a05e42ba249ccba8fcf26388989337d35530da020a70d08f14b5aeb7144370ba249ccba8fcf26389989337bab6802f714e80410c519c77325d04a395bdd6ba249ccba8fcf2638e98933787fb58099f80281173d7c245755f9a805aba249ccba8fcf2638f98933793b6ec58d9b3617c066c7d33bdfd7455e251d85c42ba249ccba8fcf2638c9893372feed338a8159e8cd479ee4875e51d845aba249ccba8fcf2638d989337ec870c479b3b7c738fe16a37c9df994ae211a35042ba249ccba8fcf2638298933770a5867e8230f62bee83cacc798c72f5b315849ab4321bf5452ea75f7708da37ba249ccba8fcf26383989337e9b36b98a83b193d2c1072aad13a28cb266b3d696833bc1343023965ad19223eba249ccba8fcf26380989337c71e990b3d8c2b54bd1abdcb40b9236dd433d0594e23fc0a591c2265a734083eba249ccba8fcf263819893373a55ec2863992812e1f0a6b600f602c84acf03b622c1c07b7c9ad19eb86f6c3d7409df203959e7d27bb6cf621f0df36b5d9fc5d469b03f417379d9ea8820bcfdbf4ed49bd2de3bdad1d9be940c11cf6c9e3d01e8a78ad1edb8678908f76af46ce3b8104e82ef5aaf48e8f43e48afc093ba736bc83674eef41b15639d98fb72c966bbe9f42468ffa4a2b9a45f828c26ce8107fa1ecc94b63db25dd712b0fcca87899afc5f288317712a72e2343fd0151bdec5f650d0524315f91cdb92709d8bff13434bda42b0d8ba20b53da3324dac4ed43b87f1c308b67c8f0234282983e091cd8ef48838af61dd710a9f7b2946d4cf2d3063f71bbbe0d7b29f092ffe2b71b0cee96e778989fc9a328dfd5f9f0726a26a8ed7c5110968f27b8cca1df1ecdb7ea5ced7c758031c9f67369a2f23280ec08a2c6cdfa8a355c300ad657cc450cb663475a95a43735f15b6fe70e99304a64d93a1bcd1acfaa66591efa4b0529b871fbd3b3ec582b04a59db53b9872594be63dd723a699259fd1784ce4527412de68eea1b09e4fb1d63367a00bc6bacf9a523d09d62786a0aeaf85723b65c6b03532240e08dd858c416ee58601fb2440fffca6ed3937f4c3f1c2ae16588e112333884b112bc045a0028ec36d5250cdc40ff609aa539852cd0acb0e06e8ab1351cfe12286f39f8aa74672bbf461175cd981f9b426c3497d3b8b3a0924cd47aaf09bef064b6b3b2854b37532f1ad1acc9479483b4db765530a700664858b820b53e32e78b4e88134128ee272915e024dee45d17cc75e973f9ba51dd7f4446c89add8d9a5cd2f5017f86931134fe20b09905030b9acff7fcfc227d90d13ed1ba582cc93efb528b1543bad35de366fcecdec9d0483e0525553bc9533cc7fc9dbde71822dc605cf0f4c3d75a2cca18daa7b3204cbfc39995f1ef9a636a0fcf627488aec2a9b55887748fba249ccba8fcf2638698933710378bd9901926d157bf277dcbba249ccba8fcf26387989337ff3c5b4a1c4cc5bb3fe1a536db23ba249ccba8fcf2638498933788bd6d8499dbb3237d369249831b4eba249ccba8fcf26385989337e775d5a4760733973de129ccd823ba249ccba8fcf263ba989337cceb9cb58c8715313ee18378d923ba249ccba8fcf263bb9893378adf3a786725ee51217724056e77324ee2d1b45442ba249ccba8fcf263b89893372e06a586e55d17b785597edd71c1c3a856ba249ccba8fcf263b9989337b972c172be4fb4b64f80b3c32cf7c22220d45d905c75ef190352d35f6dc50b38ba249ccba8fcf263be989337affc773f2f6d3e175971a9ecccba249ccba8fcf263bf98933709fd67563bd5dcdef513b0320beca0ccad367e184fdfe9c8a302ae27e9f0aa9d2f88cd5e228151954fb1d0824e277e81b583a8a893c4b6889be8e6fd8c1217a131270283386173448d5bb1b91b71ca99a1eeafcdc4a775fc95e081b04247681abfa95cfa3d6c4431d66f74a8c9121a1f28a35a5f02af9e4c60334efc622de81079156ffb483c112da1f9bec828e017d1e9f533b19c842430eb1fb62b759fce22e04c707a8f946143a3bc5b311d3bc99ae8d4d8fa167afa7a624c48c02459a59b89b71dd8122b0168c342aa0fd4f9d6a857069bfafa4bd63af4487f5f1162fdf99ad4547b565e4833d492b12d443ef1275fa3cf3d05abeb7229ac7cfd59612b5990b035f3d7cf2d183d4fc810497066ea030dadfaf6e1faf996ff6a228834643ee07f12d7aa8b1a4200ab0a02d9e739bdb5e30d9ba3a869eff41364ff0316f013d119bb0dadd3c25be0da5892c6d888a4dd2da7745492d6530e05d9b568c25ed585c83243e4ba249ccba8fcf263bc98933741df777f0c326c0f1c2bfd45d057aa55e209fa5c42ba249ccba8fcf263bd989337f0f303568ef6864e6b6eb3aeaf384170ba249ccba8fcf263b2989337faf8916c351c628d4bceb3d878b17055011cbed28b7697b8b3f8296589f9103eba249ccba8fcf263b398933754864a0e25a1c4fda485530f1ecd4651e293105842ba249ccba8fcf263b098933762b7213dd7390728f1570646759dde805aba249ccba8fcf263b1989337dacc29056cbf6514f4d921286abad144131a849670542515b3d289664b199c3fba249ccba8fcf263b6989337a29a07addef0e993cc2ff2c33e50e67d40a0c9128def6955e0e25e3457dfefc7cd542ba0d19fd66cd4f8d49d59066dc06853509854c3a9e4c0bed645926cee57d74642d9382c9ce9e6dc240c4926e61efc111b723cbdbf780e4d14ecb13fa95e53bba726d8eac6e3caffb8aee67e73d085a86867c4bf947ad42a7ff7969132a9f218d54d034d9b8abb88d15f195984d81a98544acb3b774aa1ced1cb7163dfc808041526f45915c11ef782dce17be65395008be4d993802aa248608f3cb8fa025a6d5fe1911b00a077b7dfa2e7723a53d52630d250d9ceb0c805d07b1d84927cf3bc35a43d8f372fdf0c2ec5dfd5326dd249303f366116f6736f47c962e1396ed8619991aca02ac69cf79e644d997ca54a20e01ef3361f673b8356d364786f2760ba918e1244d500d075f27e411ce077f634108fe904dcdd10d579bfd9492b361af06268a28ce267c47aaef21c7452c6dd2062ebe1120de1f1651b181757ce18057d50cfb9614f201cfe03879542616add08eedc643ea8f03fdb0293a24f07f815e74f82e3f47a8814daeb6331599281044f6358b1387d4fe91d7b2e52a2b136b938e48a8c101f470dee4f4d53dca5e77379344748de3950de925d9312f7461ce8464424171c6bfc375b2d923aff7302cae0f5183adf8f165b093c8624cf026b7c369e3e5c7e09010810edfb3da0bfee7a8270f75cefcca980e73729bfe421b5d55d2ab061e1fcf8d91039ee449008bab066c87eb12627118bdcf928e4586700ed21d575632d8b30ea937dd6c289e2b9e7771729e5cad89ce2ba28d9700f39cd716ae632c67b1fd233d9adbe6bc2c8d24ab48538b450f726307e9aec16d3931cf594a9fe808d0e2602bd3f4898a23938146c99e445a41f0e7f7d7891031c0fd895df55b738807fdd71460069d3586a7bcb4d6de459fd7c8407e11bd9f0bffddefdda20d91a6ddb2e4460650c318e9fbdc8a47604b9a2d5d846bcb034f4f7751620ce4b0d289d4f0ed61c86024b2cad852cb8b931aa9216d7f34ab610993f8527f95a2404d6063cc0c7be6ff58897044c85ec243db2e8f69025a2f8cebaf288d871cd3f5eff80ee5649f901a5314fea91c1162d88ee0c693fb4a196d4d1c72873fcbb9c085e6e78ced84988339fe33052dc7b9ea10bd6aa77c784c33a89045463435b531617b69d3384c69d806d5f32cd02fe39e4725185fcb1cedbcd0b978ac854ed26d56ae745a92e10151d81ea09c2ebcb16a4178c5ea4bef1c3799bccb0c86430db73ce0f36fa160b3dc96484100a70b8ef6f18184d99b21f07b56992454ee4e159784a22b514fb3ff4ad8a7c4e4ecea9f120e9bbca540704b4f6886145d56723048b52c187b634155490cf654c74918fcfe9aaa923086a875d146d4708f2206ebf1fbec6958f484150a52c9441e7e5d5a9f426e4c83eb87e1373a7f5d1cc94d6775a6dd6376f61af14165adf88b2cd241a70104909c164208d71a2be40f26ca7ba948c0ae3148494dc7a74c2cc685eba249ccba8fcf263b7989337f688214f6745761459c98de9ccba249ccba8fcf263b4989337028bf645b2217517592beaecccba249ccba8fcf263b59893373b72d956eb9f650443e111dfde23ba249ccba8fcf263aa989337d7386adf8100519903f60d41c3f56159e2bb3b6142ba249ccba8fcf263ab989337e3b41836f276fd5fd67bdccaf91fa556e28b165e42ba249ccba8fcf263a8989337ef00e2b6104e2b4bf24b481dc008dbf25d8d7a76b349482f2d97316503dd193eba249ccba8fcf263a9989337fbf583fb3f33c4e5c05b0d0881f30353e29b1a5a42ba249ccba8fcf263ae989337ff88abf8bf053fce45d874c6156b5e0bc36ade2eba249ccba8fcf263af989337191ff1e7df2bb671d8e3de1ebff67307d109c4be93c5864399dc24651f510b3eba249ccba8fcf263ac989337b84f90d1097b7848b39c080987f19a72e87d054049ba249ccba8fcf263ad989337da22e85f422dcd6f7233f244754fa87f5aba249ccba8fcf263a29893373eb121fbdbe1333434504647335862ae8ead27a6e62768f1f51bb55f4fc0e937ba249ccba8fcf263a39893375de2bcef2a5d0b44fbdfc3876d22c2552b5fe771a6f5a41fe761e709bb8e22c871b59d9896d6bff1036e676cd933d70a7ab372de331be15ed60fcd5909b474d47d063fa279631f8282befb7ee40bc98ef556487dbfc763317ca63144836a06091b13e435c6350116d3bcba249ccba9fcf263a0989337d60705ec0d6e7d0b40e18b8cdb23ba249ccba9fcf263a19893371d1f6beca1d909d257c7287ecbba249ccba9fcf263a69893372142359d53899ca727f09023c2ab4cba249ccba9fcf263a79893377cee3e01b4d3d28856524ebd4f359cdd7b1e2998ff0b60606407cd9c86cd948804c078b41903902f012e11fc9f9bdbc4cd4ab1e6db85b5a5708fb41d5672d7a61f5b233eb0695ec49e8f09838462f25a96fe8f1d4463633c65ec20371dcafe3dd97d82dfa29ff9bed008b32881b1697b206b6ad7204dc006976ee89313d8d6259a4ed6b2a63b1c707974f5cc21168d4249585402043b3a72b6ca1ded588c4b41cc862009f2e76dd9db202239ebe04e2bf2230e8e73341f679614726643616e2ca6ce6693b106fcaef442f7296eb4729d62022d093c95de2de5d666e3d8a135ee2a0140946f9c8ac4d439d7ba8709b7394c0ae00c4c732b69a699877d6d821da35a0715a9d38e4c8e204c2820c8d0398a2f31b436a52499d855ea65e37c41c57791e7cfc678dca0d008bb01f93220471964c994ece136aa2a1ee5582e55d05202b924e4d2048b4c1c3017a232bfa6a5742290e35d478fabeed1c943c171bdf318f7214b339f0c3f8d3ff62623303e10193d1367ec7ba1bc1065c0f518729b9646fb9a6899bf374034f0976fad6c4dc17a77a019f30071b7b9d68a80656ab5dfcd6a5468a0c0ca236fddba249ccba9fcf263a498933740d69c9d009ffda79a0526c6457b7c73c14d153b1dba249ccba9fcf263a5989337935b084cf3e4e4d673c9ef98fb94b857ba249ccba9fcf263da989337acc5e1e693886f69217e1085d5e0702a3cd1f7584f1854bf137b42a3c9b16063ba249ccba9fcf263db989337ef8269390ee05949ce3eb60537ad136bc149b1311dba249ccba9fcf263d898933787dd5203f6ca00c21f3bec986b92b457ba249ccba9fcf263d9989337178f0447fb3c74be4409028dc32384bb060b0dcdc85319c66db19ea4e58be764ba249ccba9fcf263de98933795613d88bd419871a8f3c9ff383bcc0ec4dc2a86f7919e0bb85c0c270537d0fc6c415dcfc2589a09a5b22e9b566ab4cb9598989c4892364a6faf1e81c8a2d438f65186db6b1eaa0110417f1318d507f7f6e0c391db0ede74dffbcf3b6abf0fa550ee8f740d9f9ef3f7f3faa0d7f08d2b3b54c6252806452421ddb3be210793cadb3d032e17db519f7680a99ea0afee978fb8c5bcca3f186de5f6aa8c2f82825ad8fa0b4bdcba249ccba9fcf263df989337e97643f4da93c4ca983439f4d5b2f08f04d1350aa03c1728c621d536ae32120831a2e39a58d40b992c9ffda3a2eb65f525b69c5960dd1d389c63a41b32816223fe0a67e20fd23bebafccad4b5bf9c4292a0efe2204f74c50427f66e260f86946968f1c2dfa6735ed0a19587f0bffabed0985714369944f869d4f3c430d8677d21d1517d509185f8d3d6fc451877329fc3869499296fad6ef249f65bccd910aa676ffc28d40cf87876e37868f77ab224bb59099992582291c7ee16f23f407bfc576b85b3b3542dda9dda416977a0d6ad294aa828aaf85f0972c83c42ffac3a58cdf0c3aec89c0fbfa95b7e7bd4fdfc44fbbb8b0c60c0a623cd493c5c2346d0c89ae8846e624860b309503e39834f52aacbf68e4bb4ad310fc688b25aafe3f08193a15cee82d0aa693eb382fb7419d4eaa578723bd5e5857428bf75a2f8624b1a151c48e4636d21f9636507d5425c55a632a33bfde573bb608e44bf4143cd961ee74979277ef89165cf3b167a8c671efc5391d4a51d2f3c542960669ae44473bf3c2c2cdd42b977273374edb7c43f84f42ae65f5321e92595927bd052b461b2bf038f19bb0ed15e74c78df47fe6b72d30b1275dc2f2b80223cf30ea782778e173516359e0a2096016814dc7f72218f3a0803fbcf7f391c6ce54ccffc359fd0d22721a90fc4ba4ebd033ea835786b617ded5225b3c8ef80ae778f285f7bd7badd7d2ce19781efbdaee5c494f086eb863fc660aa92adfcff17b5f8f2b43364a72b007f96ed98796a7c1ed089eadfa8536c27b4324f4503668b5972807f57121d27c74dc77d2d529d401fdf2d366bdf8d1773ac47b32db1cd4e049a740c3c5b0284edbdf416aa3cece81beac60ae0f9303c8bc07a77dbf23db84e4c7771a41080a78a735de6e87296e39f13e5d00c5ffa8dc1befb1d3f0c69742c385fd8f50b47cdb28bd19ac2f937f303b86b5568da23c0f1694b7fdb64cc46889e8a16044b8522a381d4ecff6dbccddc29ca2ec7cddf40eb572e7c8b2e872409b7c22d48247891f1d4f8b4b8d1907a918f77c0c599df8e51e65860762bfd045efdc52ce14a8f9ea445d955854dd5e489501f570e19d4d2b3434338d91ac09ac32d542bfe1b6c1e7281b7c286aa9be976965374bcc8d4a5c62c5483b0e11621fc01793a1c4c72c3eae57f40dd4008ace94f1c8e1502b3ec08be60e232d7ad4268ee3668f69a230a30ba5a64708eb32e92282b168ec6418eb03e7a2f6897a9449792bd9aa1508c6e65dd8d90bb5ede9b32c78959f9e0b8513b6c86e4a151ee31211901a51ddcc320461d2c5ebfd661ca67fe472f5fd29d007f7ce691141b3516a9828522486b9cf4de7c772a830339f58ee403dad633a04fb9b591ab79c1b82ff30221fe6ce73a603e8aee7f57d96209017a7b8eb8c7ee3b6bcbbb6ac0c189045e019be01af9c8ddd9d57fdd5188ed736faaa49a35b550c5f381eaa058d00973341b0d98bbf9d9ac7b2b63c14b03cd17ebf330733cc41042ffbee6fb77253f830c13fc4892fa9e835a42be5e5c19a3b8acfeff5b3a39bbd2f32ddd84b8ccec4a49663ab3c90b1cf3537c354b28f3b8fa24491f97c96d162c6d4111104d6eb8ea2207ac082c53c83eeaffff04ca727f92576127ad1b6e657e505d06de183c2f11c68b08c3b1365a66df08720468245155b26d0f519f43c1074be34d31bb76e50552e549e1cc75e055176a546c9b261ebd5dd55e3343e112357b06df50b8ee1e62211d8b9603a2e406e513ccba950a63620a620a39e4a42c7aa3cc176a2d71c7c68ecebdb7bc0001f7db75739db54bd1f94a1467a3d48b957b2bf1cba4dcedeea54487fc13079df3850516e05fdc3431496745303deca8369f4b070abe90a5e0bde686d24081c03b5dd2ca5a66cf1dfb15d7ff8aab73f9710f7d388ec8a062b487531e0552544fd2ba48cf4bcd832c2322abfc3ce2c2cdb484edd17f4908100d625fb454cb49dba344773e86d96193a321e5014fc5ddb15bc494f0b6186c3e585de770d42a5cb89eb2f1948a9ca4676a9771949b4ac2532fc4476c75fd096adaa92810238971f6758e7bf3d6ccb490035ab11260231b46acd8c098ba2d957b037542f4db4710dff1f47da3bb25d580108c9b35f74437405bde05d90db20b21e93f34181275a4e1394938e9b60f7240a4fc693ef9b39697014dec82ab59d05cf114af950f7a488186c2d13394cb987ee076e9d120e7cef4444ff292f830716bd6751579086aca66d043fbdb1bcb02f0639119a83733d65c9ece9e90dc9a5ce157b9cac7da2b4ee6e4707b52ba249ccba9fcf263dc9893378455c0b720db916ece01b70a80bbeb75c155ce3d1dba249ccba9fcf263dd98933717b21830f46d245a794bf03251d3b46dc1b1a5341dba249ccba9fcf263d29893376954aff61194f804a901018a9ccbc273c171643b1dba249ccba9fcf263d3989337bc52bd9a759df2f38114dd2176ab87111168ba249ccba9fcf263d0989337ffd924225dfb48363c73fbf7da9cf2e8d2a05f82a9d9dffd903b98adf2d87905590e994aa538898fba249ccba9fcf263d19893370965482a5c3bea778d7ccf7a8fc9066ac1c18c301dba249ccba9fcf263d6989337e79487736b687458e939f1981b42ba57ba249ccba9fcf263d798933737b75585b3a39cf465885ec1e6f55ffdb4a3718a85eb245a77e246a3f9b46563ba249ccba9fcf263d49893379db1e5893684a9c732032a78d9754179c1f785411dba249ccba9fcf263d59893379d1d9b4076e6700c98e2d04160510773c1559d3a1dba249ccba9fcf263ca98933707c4032be055cc6d475dede823150976c1b1ff3d1dba249ccba9fcf263cb989337f16ec388343f11d014fb7d065dab8bddf467ba249ccba9fcf263c89893372447f0cdf1650a857c329bd9df1390636669b756d2827d09ce5b1ef575e7de8fa3fd804ab9656c8fba249ccba9fcf263c9989337d1ced798f11450bd406d7ccb8f8c35ba249ccba9fcf263ce9893372eb2d6d28df6e82fd1f3f1b12d592dc309ba249ccba9fcf263cf989337262d66346c008141d5eae6981d9cae57ba249ccba9fcf263cc989337fdb6c8e989f1ff5075cbb7fa4a0bba249ccba9fcf263cd989337f0b3123e4ce7d04a43752e5ab4ba249ccba9fcf263c29893370672c69c4a275f4190080027626f2b6bc16fd6311dba249ccba9fcf263c398933761bf9fc36653a890bbbdea9829eab257ba249ccba9fcf263c0989337fadacf16839b4621e10e11629e080143064baf517639cb1a7d605da3072a7f63ba249ccba9fcf263c1989337c9e2691dd5c5aed1ac52c1b05eab5bb2f667ba249ccba9fcf263c69893372bb571def6e2dbc1a46f7cc5438f35ba249ccba9fcf263c798933769bdd172fb09000c63f820a1abcbbca7bc0286ba249ccba9fcf263c49893371f64a44093775db374cb11484a0bba249ccba9fcf263c5989337fe59db108fbab3833b4a4a153ae751d2a4fda0d500932eb604119e9a68440c3229316e14f17418dcd21685a1d9eae80e29728cabe9736df2e03e790fbcb31d2e747b97374f53f456187d49bf49d4b8aa8ae8fbfce50efad98789ba1de807ed5aea0d331c769271425e460c8f9632eac06e66fe20181465e09c7d8a23a462f4c16d012ba2c4180495e870e2c32339f317c2f5e292d640073749a50f888610b958c4db13412de54fc38d4478bd9fc4f77fe91d6ea56033f77913a4df316ef226974a41dd788893b8e8b67e60cd08ad064347726f68f0a39b35d800b918cc95fff5c72f898ce5b922f3014457d939e70870761d9cbc5f45916485e2b8c8b3dd15243eeba1fc506d123b059c6797bec6d554348e9ee7d1e2dcd2ea80de4346b230913856535074ba200d34032461490955992270064da079c0e0100a84c9cf1ca9ab18e12a2a54fd9444a4e2a1b8643cbae1a6e3813e1e162eb8d3968f179c86b9da4e33c65a6e041aad97a34a39312ba55dd2caecb28fba17b58ed757298b816365f14d08a49d0c8c184e5f26a1fa2832dedba40b535c4492d38922e23ae5eafa028610ed4feeb958c8d1b5a5485e1eeb0f080c7befcec2728dd2c6d96b0cadc39e91428f95e936eca00616612bcef51450db51d91779237852611f7c14f097631b2e178ab41f8ea2f8ba7307c42cb7824e3a8e4067fd2b319374067c9fd0a209147dbdd8549b0706fb8deee0d17ac6b9cbba588ac3ad2c8f712d7c86adca2606975b2d05874bbe6f00037b5929cf126d85168edbd6d7ba249ccba9fcf263fa9893373b77244812908c391593aa3e83c55f64c3e138661fba249ccba9fcf263fb9893375fb6b43fa96dfeb0b4c7f14c7fb52a65c39f16671fba249ccba9fcf263f8989337735f5967212f5e19bfb241ed1041fc5bc343d75c1fba249ccba9fcf263f99893374b03f25bcd862458bdb14b9999882158ba249ccba9fcf263fe989337a3cc6a12e9c0d95b968432a70973e31a9b457b7c2c41a62e94597c8f3aa33cf8f3046f8daf0632ffba249ccba9fcf263ff98933700dc88178f0ec040483ec6bdcec604f3e535d7ba249ccba9fcf263fc989337160504e5e1fa770c5027732b5e07b03ae453da7a44ba249ccba9fcf263fd9893372f3692bb6280ff165b9147162ecba0350aba249ccba9fcf263f29893377308c915c20e7e4b62831ca6fd4452dba26e3362664588f3e346ab82f151a75fba249ccba9fcf263f3989337bde621ca9501eca2a068f51ed5ab739c7d68ba249ccba9fcf263f09893374d2e11d7deaa6aa38e0cd581d2f1363de401b47d44ba249ccba9fcf263f198933735bda49cb3dc0b29bc07b69f34c1d66bc34d8a6e1fba249ccba9fcf263f698933767b75a4981e3ac69534cb4fda0af0762c31b93631fba249ccba9fcf263f79893375523e1be45d7a452a9e34d99c7072458ba249ccba9fcf263f4989337095a29e8409347cd51c62ac6e24f9980bd422d23cd2fef9078199aef0753a32561da3deeddeeaf2aba249ccba9fcf263f59893377d4b12d2698b58bde13b94293e30bdd3737586ba249ccba9fcf263ea9893379646457826125894b3273f085eab43fdf567ba249ccba9fcf263eb9893371db7eb33f45450fe47179f569d030a74c1e1b43b1dba249ccba9fcf263e89893375dfeae3a26115934353ee798fdf8ae57ba249ccba9fcf263e998933787d71f4c99991a93cc2a6bcf85c42868c105b8ca9c3327553d1452a35f7172634d61886ef17416762b8691026ad2e3b1cbcfd0c8bd4a0b6b660dca4d48a2a401a6a706195f3d7667ba4a229800d21575db088e18f8eb032f626afe804e00dd6a2091e48e6eeb4e3a0e1953c80bfd1886c7bed7f4f3e0d23f06094899ba249ccbaafcf263ee98933790a5666d297d4e6e9db9f36c3b96daea2533280aba249ccbaafcf263ef989337292a4d9ad5b3852951d344152e9b7e340aba249ccbaafcf263ec989337508b6637624645562f54ca057951daeaeffa270aba249ccbaafcf263ed9893377aa2481e0a1c2233e4ae574d596d4b56c34b79561fba249ccbaafcf263e29893371c7f2348e3e2282333f8e03a8c034f64c39722661fba249ccbaafcf263e398933725c8850aae5de5c789cb39a3610bba249ccbaafcf263e0989337e8b3e4a921f98485a4d07d6cd960cf68bd22b249e69282f3a483b2e003eb330bb579654dba249ccbaafcf263e1989337040550dc0625f269b50ec31a38e3415ec3bb585f1fba249ccbaafcf263e69893370d8c71202d3dbeabf286db4e95e1a657c33ffc571fba249ccbaafcf263e7989337634de941b4b283e0d9363f9e1d5c0705e426aa70b1b41c189b4eeb15bb6219e5ba249ccbaafcf263e4989337488b25104646c309a21368fc71af13ce56ba249ccbaafcf263e59893374e801a91509f5b3b20dedc515ba833f360de18d019cc4e72822f69f2f4cddc2b6b051ea43b3060913ab7e1d0f8b55eb6b7093ecb652f990875a74a44834ad4fd63b640a771eeaf542c9a5530222e0dfc84dfbfba0975967f9179d19884b75c602fd6232be1ecb1a0f0d745b7220e1d6ac1a712da7a70eaf822413e6e9f37209c7ef4f3a4a866256b1b5e79e456b2f58635f3be24d2de4ea22b99eab854d49cadd658d79c45387cecbbea32d1b846257bcec9d8288f173d1cc5cd560f48c26e0b748c0b0ec160fe4b7c9ec6cbdab4cc47effa1921fe976e603c659fa23a7880a40c4f224b37cb12d0dae03dc70acb85bd5081631ff8fcc7ed856a37f12e2fd7d3f9d2d2fae5ff0dc983e73c5f60d56581366e4bb7a7756955b53ed2410d8fff6518c73d534d459b1e79a03700f59995174a0285a8e2a56d8880681d3d974efa623c15d69ee7a6b178420dda810390218ac5355528a1d452c14131118876a97ead9c639aa4d2b09b9e8796556f30fed74349afeb0dd4731a8a1a23aa07c16149619c5c0c8353a7974941dc9e3398081a0cfd1e559475afb9d21c5c57e2162040ae133f90af337788eee0976b9abaf1a4bbd41002eb3064de0d83f19325163a3017c5aca903bde031bf1954162372e823112c6205550c6b49c98df95eb99277cee765dc6915c958a636fcf57c5a95629de0542a2bfc16384afcc738ee48c240926d2c43e01f99600b3473c173f851783d8eb4d7ad8ecb9b364da558e21899c804c9315f00aa0b65404d13f7f11d090191441e8b8e19acdeb4171b581bbdfb66766a9a3ce4d85873e045d0a8e9c6b1059c26adcb9ea2ebc6f82ce6d00b3e1c44ec833f47fddc3d73feca0a500c7390139a477f11de34a6f61f1b3005152167b0c6b2d420040b53a7c07bbd8ebd19c1e98b84ac63e72ae26da4ffb9ed3d8475337bb976aef9b8578e0c103ded6754d48ee28b5e5ff3dadbb534dbe9da9b0e8287f5154257d1628fefbf8e87067e46f530a24030dff342e353b5a46b42d7219f3bef994cf391246c427c9aaf3c047e57e92db0c352943dcf4e2d351c9e4f8719321c5d432812e11f5a324c988827777db1a3b49271a7ba8b8e27a7f5c8be4cb536b78b2b1072c137ef289dd5512c1f226de9bfd658803b4786f473e3e982e51843449362016872a3e71f615e22bc2e9589a67514d21d1cc69f251e5facf4722ef6b07010b180cefdc681e7ca22b108d54cc4289b069ebc27d68d13e2e44048e34c35771c7c5dcdb92c4f38c972770fcdfe8c17cbbe6b9ed10d1ff288f0344365e2cccc210c9170f824ddf1d8fb23459edc2ce55da91b88072cc0a89032a738ec5fc3fba425bfb167024b808a1aa6ac9460299afd66bb22eed1f9cdd62b7e73496367d2a45d209be0a7f0d3c0dc150be47e3b18e4d3684c04710e6a2cbb29ddbb16ca074f1a20d61d93d2ed23330c68d26e03d5eec9d8629c20e933ee1d2ef4158bab7abed0710c1dbec74b0287e8a669cf6515b9d60657c238af97f6e487db31fa31df5817c454a3a3f77fe600babe2c6e9caa6d6d8515ab4c78b215090d603c2889497117cc8c3b5aa90445f9afb12d5a27a5ef9dccb19abf68aeae3fa4fc4eed5955740c7e1c7028c60b23e2b18ac6dd1fb87c396070146eedbe70aa6ac02e9b9365236d3cd1f804a3e4209db2d41f2fc3346da4982354eca1fcd60dad81522c81715ec76021a1e27046e3298ddc70d2b233aec9754b4f59051d910afae1fac08e1092ff4fd5a4d8fd242aaeebd97dc1b465befe036db3baca537b505a845d772090ec7f9c0216470ed617d41f60ef4c4be10ce16e7d42329a4899fd3766b65d2af38705f290019ca0806d527c9bf1ab82e151f34b2b316b5dd59a05e68fa5ad69dffedef34547df9eec59a7a851ecc3f5b2a3d422bbd52a0b5519b282adbcaac8f6170a9e22f85c50a297d475825d06e7cce52d9725db0e87ebc66608b28d3103f68dccbe3a735749b5273a73541602738f51a018f7f7fc9f7192db51d37a208572ff5d2257a18457463331a9a5cfb6ad42f48f227d947676fd6b61b0bd1810fb1db3e24c26bb485feb6e9284b871cb56e5fbe76954e905aeda8bd197655e9a64d63869d8b7eee634766ba050a3ead268ec9e43fc2f2533c5045145f989add1f32e0d57e60f9a8502306bcabc3b432b8c6cdca0d94b1d9f12727cee894332f635e9571145d6ecf57b0ae782ea5d9970e2b615dc38a106cd98ce7f84d427c25512e64d4ca90a7ff30433ba20efd6f8a555b6326fe1921280bdbdc5fe9a32cf7a39fa299f84c4b079e0c77dffcfc251f1403bdca86923366410f737373189f3019ee0f245698d5d713079af633db2054fa8fcd94f3e32c6eb1325cf9d2644565ad512e58f5f7201c379e1c06964ba7ef21e9b5e79b953703fd2b39107ff94a1cc71dda55968a0cf08ffcf3e6543eaaf7f3b17f6741395462e1dec47f12fa68be2be934c311c4ebc71f29d28a48d176f836eeb5814298bae15e6b84c10330898ff2c9b3497c2fe93095a92b9b486354c26976f038bd79416a58245c5d4ad25486311db9290272b2eb4d387d04bba200eb4238622e30119ca5c5049b72bfca48c73745f30e7f5f372964c3b3ba56880b0dbc350ca616ae0ba87b46135e6fcb7b3d80adcdb64d3de83e73329aa5be790d79a017c46581f22415d98f998ea6b4451bee558ecd9387abadaf1057d1d27faf0368e3f3633b9ef1b59a65e6e3a16c4065db890617a03057d666c64ca8b1e7be4beb9c121203cab3e1c69afbb3d849a7451caed288c2edd9d2c777968e6b5e0909efa05c6d1b99c3934671d4fc7ea9390de7ec7a91e0887ac045a3703d75ccee5f069317f2daf75c8db0aecb8bb67b9bf800bc57bff40c1bc5baed984930137778987fbc27b56c16d5133c90b9173489312c81e1257fa2171028704be5b0430e1b8956b16fd811d98c9b3c1936bfb4ca49219975aecabacc3b81a683fffb3e424883663feb52e25d035fd6d0f823d74705ab6286447f94b332b0f37d7e408657cc60a38ea056e290ec48d17cc4e0e1b1a0c6d2b68ed66ec48a2d90c4d79b88204aec4f9989f00cde481430615b7d41a8ae097a44037000500b4eb56016347426e8bcce8853877a3ebf04ff1b4016be98065427863c97a1cd79b7abc067e842b44255c86c06b00053827206391db99b6438dc47fde49febc75453a772b8bfcde5e7d5d8133506ea96c1371bfec6ffa8808a9844d75e1f9757eb48524fa0d1ecf59e3a18e355f0eccea66ed07703a57e0892641befb1912716020eac4878fb14dce3476333f786f712eac8b18364ef7e22d2a2b67bc5b29b86e1dedae483f96a6ef7b5118cfad887aa2fa944d8f548d68964a0d64c32dfd98c2dbc36f871483c57c851e2f42bf50cd9275b79d67a8f0b965e57a8f98e883f0194849240f82b88c0505600618b91e2be35e46278903c4219ec9d46ed7d639244fe1d88f319bf23bb22916e62df92fd15c66cc77823080a144092a5fab438281c39f8572f22c7424b17c2463da47fb309b31415017c75e23f32021a7fb5c1768edb4efabdde9803c7f97280f0a4f522eed50389c4d04bac3f77f9eec65be1e3638e4cbe652e6bb80dd864538dff678f14cd04373baba249ccbaafcf2631a98933707815bfb20ffcca24eb93c22c1ba249ccbaafcf2631b98933745a4a047b9e6fe43e4880e0fd60f87cbeeb15f6850ba249ccbaafcf26318989337e5a02c7816581b3650f70aa16a952bc7eea17a6350ba249ccbaafcf26319989337cda8c4544c954b21d6fb5e9fbdba007d42a5d2ba249ccbaafcf2631e98933762aa4e2c6430769c7a32f142d2dd3e2964627516a8057d79f4a470ff35c451ebd7c10329ba249ccbaafcf2631f9893370262455e6c730aa24e675d21c1ba249ccbaafcf2631c9893377688207adf599643b8e40938db7930c0eef5a25b50ba249ccbaafcf2631d9893377e1409ce3a440ed530c1877f1d5042ba249ccbaafcf26312989337e6a7f0a0f148b9240fe11ca0edbd6dbc77ad0e955e8169d0fbf14ff3c37ba7bdba249ccbaafcf26313989337588d2972e3b87559a6e013b8f1a537c8ee2db46450ba249ccbaafcf26310989337c59c84285ff812b7623397a25def66c0eeefd55b50ba249ccbaafcf26311989337a330fa6b90ff94ab4acd0fab4aef53ad95b4ba249ccbaafcf263169893377d260aa5be755366dacc623e3ca0c0ab00e913d1e60f743f441a1f3ba7be3ceb232dec28ba249ccbaafcf263179893375d920c004be119370523e19bc729e1c2eecfa65e50ba249ccbaafcf263149893374a30bddf3cd3513acccbb6d3d2c100c32eadd2ba249ccbaafcf263159893372ebf82543b8e41c61dbafc7f5f3ffd556c4471c2773844d6d9214ff319aca6bdba249ccbaafcf2630a9893376fd6549e4f80902a7a2662b1b9dfce17ab97e33cba249ccbaafcf2630b9893379249396d649bdbbfe0fabcee5a4755c5ee915f6150ba249ccbaafcf263089893376396602c778191cf4bb240a43bc07864ba249ccbaafcf26309989337586d92a181aef44f6ddb7de8e06ad3b5c850dec679d81a721f8360f3374ebabdba249ccbaafcf2630e9893372671828172849a683709b4746d10d817edd1ed3cba249ccbaafcf2630f989337b5765b1a27474b6b1205f293afc5aac5ee39c46150ba249ccbaafcf2630c989337f245cb233ad9b7f68e9dfe9f71a7876456ba249ccbaafcf2630d9893373a34e03e4677591ad2e5463a3a7c8915888bcc942f00c533796164f35fbdbebdba249ccbaafcf26302989337a55cf7078dbd17b7df6f47714a7794caeeab526750ba249ccbaafcf263039893374fd2566daff7ff1328c287232f5142ba249ccbaafcf263009893370119b2daa1c5357460245565b9fc9d1b27e1bfb9b1c4fa46df655df371aeb6bdba249ccbaafcf2630198933747370990a684359b54467b49e46d76c4ee556a6050ba249ccbaafcf2630698933753649e73bfb85eed8aec1fd9f652c3e8207fae6edb6da4466783a1f3ba249ccbaafcf2630798933732ed4beaa7f7466ec50e4c4165b1d8177b9fee3cba249ccbaafcf26304989337d8dc6d5ecc57589b8b20bfbd758fcac4ee7dc96050ba249ccbaafcf2630598933784238bab3c10aa557acd5b4d2f09e76c1c8e79ed3b5c2bf50737c297ba249ccbaafcf2633a98933778eea7da87ec85e1e65cf18fd54f71c7ee4fb76350ba249ccbaafcf2633b98933706058dbb239ee02d3dbe8719c84c42ba249ccbaafcf2633898933765bbd6fc6981ac6a387aabd6fa028600a44df507f9018d96170051a317db7063ba249ccbaafcf26339989337ed52c95d72b4f76bf88e0a0cc0d718c6eee33e6250ba249ccbaafcf2633e9893370c96ca7d2a4f26ea30f8de9b5a7fc07993d972c091444c45b1271ff2ba249ccbaafcf2633f989337731fdc85e74b0fa3496c9e7c21655773c1b5fd3a1dba249ccbaafcf2633c989337aa5e4c2931f14f5217f1255e0bfdd770c10741381dba249ccbaafcf2633d989337b70b317458e89f58232ee1452dabbf6dc16bc8341dba249ccbaafcf2633298933714912eef1f700f89f02587690197a26fc113e1361dba249ccbaafcf263339893370e74788bd7c1e6ea64cb7b9f7173ec6356ba249ccbaafcf26330989337200b9d1d11ef31b326236a841e065f9a13d03e4b86f7357975fe021e31faed38e6df724ea53581e9e7a2aa30ba249ccbaafcf26331989337aa44d296bdee01e74f5a3c858487dfc2eed99b5e50ba249ccbaafcf26336989337e9ce5be07683dea344925dbcce11155bee7bc9e94fba249ccbaafcf263379893371d8a37f87fb62027a122e3f4c659d3c0ee19555c5087b5517d2c7b0f6f986ffc01da3784c7f80f0ba1cf946fe0400805a764ceb6a4905f912d619a8b2dfed00d1b6c2187dbb2ffb1987b5c3383b4d3cc1b4ceaee04199ca80d378c957901be6fbe6729ac01f1960207f27a06a5951cea3dba249ccbabfcf26334989337c2fc66cc50c52a819eece34a5c11afc0eec9335c50ba249ccbabfcf263359893376916557a6749761477ed41a4bf1c7a64ba249ccbabfcf2632a989337b4477631343c8b9e6522ffd2d7027a2ffa021d854b74844f4c628abcc70399fe7642a29ae592e6eaa3224432ba249ccbabfcf2632b989337500316521cc721a44e2db723c1ba249ccbabfcf2632898933736680cae27119b4616970f04cd3fd8beee691b5a50ba249ccbabfcf26329989337d06a86c4fd29d5a5445721974befc5ca96b4ba249ccbabfcf2632e98933720ac48b670927e55bf4376abb2db2593b9752f3c3dcba1404f8f63f38fcbbdbdba249ccbabfcf2632f989337d9250dff3359cdc1a787397f3aef64c2eee3175e50ba249ccbabfcf2632c9893377c7b002480ec27fcdd5981a47145996956ba249ccbabfcf2632d989337eb7a763157a87c33fc49a70100f79d879904a405065d864187ce5ff39f54b9bdba249ccbabfcf263229893371fba195d0a1653a5300e5fc0e017dac1eeab835d50ba249ccbabfcf26323989337fcedd7aba708bb0b9fbe8747324d42ba249ccbabfcf26320989337bf91a7ec37011f6b3750f97d0aa076fd0d6cf7a6431ab50f773f56f3afcdaebdba249ccbabfcf2632198933774215be5cf78f1d89472a5482ea526b39480587a3119ca802fb836b5490ce09a4485b4c8c7487776e24a2d12bc9ab938638eebc1c3868bfb7c0a984bb6fddb170afcb00cb56eb120e9e027c739d26e9dcde76d402194110e1386cd952216d91fce607e57724a48dcf8bc846c07821287649fc3ad17544aa261578146e3d9bfbb411d9ebc8042cf6534fa8f79d9d9cb0639a9085893795b27de5f465e2749aa2da4fb2180a8406fa1bd896e507c3c3ebc3f1795b96c3d5566f09910e8674c7a11a1b93021267036e92d64542048d415bc80afc1d0e78d56f2a0d37b591c9ba258318645c0fb2cc7e672cfdd5c889d6983cb97e56d2ea74855b3713f8491bee378e42ff2fe7ec9b9cda8c5031d5227765df95a58a6d359f0a843a75a728581bf579424a0385e1463cb0e78d143c9ede6efcc6190e3cffb3bde3a4d583833ba54b5186e40f77b706e3c2ad6121743c5e6d7070cd73c58fa37417bec6697d4b53216613e5a3648ae13d34f387a7d5f6cf8e25a09e7abc7b608d6e0c42ae7b1ee705856194abb6430e96e2d7ae6cb766da9059643c750ddcc64516032a6376156ba789f3878c42ed86ec5a3cdba400c8f791c5f4fa1ed48c08696a693ab82bb4088dc31aab42f4989cb386ff3afe286f5eca98296a028de90b763d06359d10a9aa5d934ab79d5e748dc8c963dbeec0e7177d316e594f085fd0af3ad6eabb69badb733f693c1e7417e4d0d9baea3acd86522580ae469b83d09d1ac2390ea514634c8c3ab5ef21d16d656c618e63083afba249ccbabfcf263269893377b0bceb4e83518115cb485b39fd77212e2e6220dd2f644051887f90a3debcdad783f061e1035037931eb87651e396d7a0c209cbd45456dfe6d5a87ea63a9ab83301796b8936bc01a16e7ad43d359947f0a2d1d7c6b3c885bd9f219b913003d59923e5a46ffa7d9ac53dc3fca69bfd3b85d4c7f3d3b134f86126efdc14daa6ca62323d42f9470f5f74e610e7956f78937eab6e4e7ca245489c01f60b73e4040024f2a4dee0a1bfcdb6b65dd2bbc18bf8e9036b6ac6cccd11e1935a5010f5bb4c8423701e71f6fe38f0c39b28abe9fe4d497a6c040bdc9d8349070f5b7be86d676ac242eac159da06dd36f5c7cd66fe6421d5bb13c00e8d67777fdba758d5e0e0132fdf9bb46133bcc8720f98c469514a8cac6c423ed548c1effe865e99cd7e3063165983244c400467902071ce2ba72826bd6254feb11695dbfb01e29bb4df6ec5b58a1bd9fd5cfa553107d03d9e8233e1d9db485f52f3483ce322831840c07179f93a784ee4a9c43c7273ee71a02d3de89b040265b4d093618a981dfdb1675f93709a6a4d1762567fc654e8e1c6f63a8b3a9cdb554abc153c54929dc23da219965a03fcd437cc67f7d3d5c09ac4f46c20bfd93eb1f4512831583d8ef6b44488f7b91eed9c0786cb394c088387c5c10512246a952ce9130db2ef05acd19ed057a6b95d526ba5e6c01fbb0cf6f97129bd0cd5e04ca559b5599207f4344ac3a008fc4370699c67a1743a2215009095745b38e157cd1727f5eaad2ab9042ce28be8a4dc7e5248dc3ad1aea60195c43d0faece26f1acd8625799e38728d3042b1b1194dba18a6faef26c06c28d38e7403d7ff96c5d4be91ee46e2547d4ac703457f2aaacbc76093b0e756f8361032412d8ed0f30b38db467f04078a6273df3bbc60409ca9806bc6f8bebc35271129021ae4e299f34bb26eac20268192c172ac28079b4d0e731a0af82df8801945f0fec50f5014f8106d73f3a058893429a213cef69500c071e024a2ee8ab23eb64758378c5e4687c683a30194b755c27a89c0affeb21a30121422b61608dc311bfc483b86557608be082d987f865c87919626af070f405e45024fbca5908b2c71afd92b7012d31102b0fd5cb0bed8e7cb1bcbd9e6b39e411b73968fa2d724d80bff10e09073f29d12026898f169d48796144a5be8453b6a34f7e4558f79c7480b09f0f732d9f479afca512b5bde54e81365608e2cd957c194197267dc825af7ee288dc3fcdd09de7142c1ed2371fa5ad9585e577591a672bea953ed7123edd9506fbdde384cb2c621fa65baf8940e657af7782d16b2897e3b4a7c5244dcf09b4343ede97aae049ab32b4fbc8c1a6a02c9d3ef0979451a2485e47c0e690f58c73871c640846562fc792d3490d3991b3cfb89d06291d57654a30d9d274d246c6dfbf6f452c80d28dcc57a85b1c3719c1547e6394f95c98f7222735204520b25d4517762e88ed21a43d468871285adac86e6c895393a0db39b8a4511c4ee14577671eafbeb8c2377a37886d18230727f8a00f0759eaf30a3439c565165b0cccff31e403c5b544e2e86410ac1f539fe6ca0ffa9cf475941ed004b93d36650e849a46c0fc812a5a617ba249ccbabfcf263279893377eb86cc33ba643d5c7d6c3df0c18ba249ccbabfcf2632498933754d4b7169587b74dc9d6bb840e18ba249ccbabfcf26325989337eca410c22f767e536aba87917b4842ba249ccbabfcf2635a98933742fe1864076acb7dc9d6f7be0e18ba249ccbabfcf2635b989337b8c98e7a9876e91b6224fbf7f341b24fef1743fd50ba249ccbabfcf2635898933702f0f376f492500b8e3d0ad3541124cdeec7276a50ba249ccbabfcf26359989337b68cc541d090f1167bb42b363cb706c5ee030e6150ba249ccbabfcf2635e9893375e5a21744cefe08467cbda9a63833c49efaf13f650ba249ccbabfcf2635f989337097202ce77aef2437eb1b6ec0acfeac5ee4b0c6250ba249ccbabfcf2635c98933758b23055e84b01ddf60c915e3a493ac6ee955d6250ba249ccbabfcf2635d989337f1ba09c612a43aed2053f06eeefe0fb84cb40051d05f1d180fcd95e0b967a0a5dad7a948603b356af5140258fd312a28ba249ccbabfcf263529893373d766d9e6db538a04eb9521fc1ba249ccbabfcf2635398933781a6bc78dfc1b8429791a7582b2bf5c1eeb1945d50ba249ccbabfcf26350989337e8f742e245121e9c53de6ef500ab2659ee29a1e74fba249ccbabfcf2635198933754ed5d4319eec97e3c93ff19b56dc049efd3aaf650ba249ccbabfcf2635698933745f404d9a47f6628fb790fd0e8bf87cdeef1a36a50ba249ccbabfcf263579893376227791d1b6d8036fdbdcfb6ff7333cbeee7f36750ba249ccbabfcf26354989337a15a80d3518b57c7c25cae81efd5ef43ef3d25f050ba249ccbabfcf263559893371a2aeef0b52b15dac8d6ddff0d18ba249ccbabfcf2634a989337d3168da13472e72a091c6cfee7600484043c1f24a4f68829f466a7947492e7485704d474b2aaff27300b582b754d967f7b53e72cba249ccbabfcf2634b989337aa0885aaf6fa94a48a29f88d7660a0faaf921ce432f54fe55290630793a44ff0699f1ff011c324aafe89f7f6d8c625a75c5c0769e27abecff06f6235fcb3db0a02e5bace14e15cc2401e241ac2718a922beab6ad168e3578e76c7e2fc2ab897fafe6b444b979c00422235d23cb07b4ee3ebde307597460d068773180cc96957be5cfb3e3820e9c344d3921eb1708d23ed4e1e7dee6f7092468c5ef8b481c9739a6bb871eee9ed27381ae8364f23882dfb0c9045e94bdd7f391c65c4aa0b2f5a84bb8e5b75b87882a2b8025907297fbd71eb5b0e751f6036f54ed5f1e7e43acda58c98faaf0935d954f036d19120341e049c2a7546a129d64247463f432927dec19c7fa0b16ecec4d0ac613c3038a923aad31f080e47925dae66b096e7e23e5097da7444cbca1bc9c4c035dda54c2edd000fa5f92b3ebb046dd360ed21d1c47b184b7e241e30dbe1f78878a03bab379da44de35e8feea8924c5a9afb84eac62c54b6813d17076d4c81a571d468df80b49483fe3da39ef995407c8bf6427e228623eb0d33e632449fa5060e2b2efd193a8f7ca1afcb1938da7b4dedcc76d4fd3b283b5596c8b00c14cea48351a8fbe9bfb261a654ad8214dbd9f64b4ab7cb7d1703aaacbda701f702a8033040322caf7188893f634a51afd033df1e810012bc7dd5d0da6f904743b6b680fd0f613240be8a7d3e0b8cfe6f3964a37aa01c21704a758afe4c0057aa8236b5b510e752cb48320beed654cbd7b31b764d88c52998ca4685ad4086247e126ac200e44448ea01d7d47ab690df32a928550a32d8cf94b086cca7da2941326dc765a4f93fce339dfc4cdd00504b961d049118a587b4c74a87b6e0a1a6b6d52fc5373c75fa595dbfe07b71b266347edb07dcc8e40809a49c3b6d6f85b2e7c5eb126b6df1818ca824345d6614cdcba249ccbabfcf263489893373cd74f3f4f542b4a1e826e271cd200d3a2bfd2ba249ccbabfcf26349989337a3aa315f2a5169f31ba5edd3e5a7b648ef3f76f550ba249ccbabfcf2634e989337bfc2be1dd00e81b9d1c3123e1f31e7c1ee698b5d50ba249ccbabfcf2634f98933705c69d6a1426c1473b83159f64efc90cb3b4ba249ccbabfcf2634c989337e66ee746a5b506193069b5d6649c990ddd46ae57a58efa1e6ffea3c93d7349ebe979fa28ba249ccbabfcf2634d98933757792c5362a768497c454d924befc7c196b4ba249ccbabfcf263429893372176f6491c4f3aa1b843e188982533c9ee03c86550ba249ccbabfcf26343989337226e53fec21a462f71d750f828e96344ef2f9cf050ba249ccbabfcf26340989337926f9ecc0cdd203b184f3fed61ef1905b0b4ba249ccbabfcf26341989337a9365534427b701119fb48ffd1076463e2926f64ad2c9659314cdbc8adc646eb8bc4f728ba249ccbabfcf263469893371c5cb8b9178d3aeb5448410803fd24521e1163cf517800fd6edfd8e0f622ce122f5afad5660c918bf0c71312e12634986155759e06aa6a021092a000fcfb7f6687b8bd0263497c20b00358ea91a04ddcb5bcc5f8734564932149590ec1efd5eafc3b535dcba587e4a443a6d198bfb31aa47a11e7224881dce79f8945ea30313612e2b3a7c8d1b58fc4e5d5b5c64fa1921c79fe603d1ce008d03f7f297e945fb027e62a82e5fe7ff238c1aed7e6d0027f4d4c420f27e55d348966885eaa4e342534c9893086923f47afbf57ab4d3206c3b3010b1c161673edb236412756c74e5e64839fe6cc2ff6f4a7e7bcafbbbb221c54f217bcca6be98786362558bb0578b1dc0a2af1fbe1a83000fd479efbe3b35f272089d8336a1723c69e41a69e2f35996b8e5b3de8679e204d639c38f4ed514176fb3f7ace929b5395c650b427dd2c56af7682bd33082ed3c13adb819f9a88e93b3f14017631ef26a880596c146aff909c08fb803ad45a5d618982d9e12c58cfa5d7783cc6a5b014ce1f0115fe053dbf97ece609847558a265a24523940c046c5f84aeb897656fc72fb561cf52bde7e3bc1a4779f598ceb14b345628e42e534a12345c5c5178deb574d35acfb638685f876ef6ce08a451eaefe7913974a887a8299c55f1397c6cfc2ca46fcb0c100826cfd326a7f6a032b72bbdaaaed1c50a045ca9f0c0aac0c713c9ebb476e4f67e1609920487d791b2aa02d5d7a465e61b38943af690b57c6827ccec87bccf5daf671251a6ab777f2afdb208fc6bcc6b30fe35b2cee6905c5f6d14aa813d0823f86f5fe6143c0c03abcc1d0e4830ef96473472892140b7e0ac27bae8f9b9bd8497b48bc42af4ddd16721b7040e7966baaefa09945d623b3a3742379731fbc5cde422ea09f20a0c11f9bf4fdc1466e4d8cdd44776ceb83238cab697f627391320fc3d759e428b1868c41464699bdab3392150079c5e9cca948e66f3e0f8b3b0db7fdc0d3c31d9c3484fd213cbff8be76bb68d26c16ebe22463216d7c97cc41b0a29b8b4f63bb95ed392282bbb33f66bb01a085bed090d1c2b10906f912fd4f547804d9377177817d3dd50953fbc4c66f125adc1d367a89b2af965242b1002f8d0d0f715755645b01bbad3de7edca6614bb4a26f36b87eb0eba12691ba69e6792a0c741326f48f67a68670bdd5eef955f9263b2cbdf23c4149553bcb608f4f94a760b6e2f5c2da82d132eab7e9524f0bea6d8af4b6f5134c8250aea533c7946dbaf074dddf0d1f2a5e55c412fc27e4e94e97919967a42c0f91f92e72a87381577fe933388a48d2ae9efab53f76bcc52c40b53fecd634a4ad07c65a8708606436d2b10ed1c7020accaa0841e85d3c4e489eeef7d23e05ae6dba249ccbabfcf2634798933734670dbb898e3d6ecad69bcd0f18ba249ccbabfcf263449893375bf7b23e5ae3eb9f4eb1f61ec1ba249ccbabfcf2634598933721adedb0b5425133c7d6a32d0c18ba249ccbabfcf2637a989337b039e7fa5b80cfa88b9405eb0a3d31adf089448252ba249ccbabfcf2637b9893378fa808794f57225189af0b0172ab4dd356ba249ccbabfcf263789893373768f3a70c7e0838807bd2d5c9865f754c48e94f71c481147137ddc0c74c1385ba249ccbabfcf2637998933780cb1c52ad34fe97fdd8887c00fe9cde30d2c30f101e3e5c3b06b5fe390b4573262466df8bf040d7700f393dd814a9e3871f6fdce6233d01824c9fb7a6cf53e1b835da73711dfe663d8edd3408ac63929caa17ff85128b2db8da5a7fc45ba840db28576a2591d4dcfc5e54042b2b34259d58c05d4cf28cdc06c40f4cdf46f7a6e53cc1e693f7f1569a601d8c06342cccbd2039b22b45b15f1851287dee6eb1760d68b6da940573ec206f1f352b352881770e8daaca15425764c09fdc084d1b4cfc39067a886e8fe106533cf5604f52d411c81e1b9745d6a42d1be440252310ce7bdbdff222507657f38e7c7852b54979c229924b33dc0709e7419fc2d3c070493da385f6ae88eff7368750b9184f47a1978e082f91b33d1bbaafb0a94af8fd95ec234b95d48012d34e3b3c4a997c4d40661750ba4c87d6b3927bb27bfef300a1339c402d76a7fe4e2eb410a1c39384a28184915f8351d69ed0076d0975181ebbafb1698b8ada420ecd98723b1fa0ac2f85363302d5a4fb3ed7a9c25aa15e4fad3e6087ae465942fc120b6c9d98f1e4e2669451e728d4db4c285c51bc5871846f9c87ea1d383e8ab2b9410fa1ffa1531a1b527a90ff3a2d12d013b728c5a8bb4423bace483acb604a01bebe92fec515612eaeb8a019a40c00f43c6aff8c63073ce14edfc3f946da1985c45210a132fa3a82d4b100ad1dfbc8238288cd573601db132ec3d1490eed2d18cefd0e08754c14bac1d06c7ed4211f7ddf90057d038e7d6e3a50d893e543e47ab7bb7ac6ed6007b1742f006161279ccc5ae696830d79235abb48de47573a48a9e07e09a13616d56ec9154c3953817d3720076e1555559d59594767f087e83d14e9691780962bb3988df11fbe0fc18a09e04607630680adaa862797faba249ccbabfcf2637e98933720bc65e71381ee9a4ee16e19c1ba249ccbabfcf2637f9893371b19066485b44921c3d677a60718ba249ccbabfcf2637c989337ed01547157442033d5b5873b614342ba249ccbabfcf2637d989337dabc0068434bbe1a39cbf8c1b8072155c3ed31551f6bea7d565ac2b0f1782f829aaba684d648aac850f2ee09ffd2f146eb46c19447ba249ccbacfcf2637298933735ae171c5761bf98d0a568fa7171decb56ba249ccbacfcf263739893373ea4bb89b921bea9e49dd234467436c84e1bb59326a923d18130ccc0ff5a0085ba249ccbacfcf26370989337b8bec94dd7f29350c8d6d36b0d18ba249ccbacfcf26371989337fb6938d6204b0b7b11b987c10a4742ba249ccbacfcf2637698933775973ac28041349a4ea3a418c1ba249ccbacfcf26377989337ffa3af73595e1b5b9ff60aa12c6d0616eed5bebbbcb73e8ad116a7a38a32d830f0f5bad561eb486c332515ccc6beafa4e8ea67296c343ae522ce0748a7949565c2aad84e21bcec501e2c59ea9a6b5191848297792a86d2666a412f14710d040f5c31e61eea73e1c7337f2f2b6cb3b5b1e92f61caefccad70089e099406603c3146ea2eee10201ff6eb36dd6bbe50e5d8ad5a5394ea324a0861d5ccead2c14e2ecbda83adacbff4eef3449d4283992b9dae82defc010a26ce7be90215a9f45288b53fe836c53cad7427145a3d29d92298e22e5ffeec0592a8b4c3b5cefb3f61596b7d8af7716723eab04c837d8801143158959e3477dde9d2944b7e3e47ee5a4bf7eabccdea7fa291a5c869a2c27728b90e671a2adf9ec130de22251320fb9f166bbd7fde74cfd8470e05445495725744d0aa15fb9e2c8cdf63b652b0b3016da8c104c161718e4b98713d2327591dae756564c02c894c86c4f28715053cea027b4ea65fb982ba249ccbacfcf263749893376fa648b85b51e5f3f78e30d7ce9bf3bef043399652ba249ccbacfcf2637598933743372b453563170869899da44fbfe264ba249ccbacfcf2636a989337d36f6eb3ec408e54309ca8968ce7151726c44a5d560b317bb90d44f309119abdba249ccbacfcf2636b9893374425da404146d750497e00d44ca1eabeeebf275a50ba249ccbacfcf26368989337ec3131b3c1592c215ee9ea9c71830a6156ba249ccbacfcf26369989337412501ef36e9106d7f0a34239f9852b53e45fc4769bc60e763474df35da9a4bdba249ccbacfcf2636e989337e347f758718ae8d61410eaf26a740bbeada749007004d2f44cbe4ffe94502f4decdb8b00247e17e2277c8b89cdd1bd02478461eb783a092bc78755440f15a56b5a49e0834221577241fa75d49aa9b73e73cfc44606162c1aa7456fa4efe60201a980f4eb4c8de475f0f50368227749b3fb1688153a40cc2992fe0d1cc429b8aff1b93fea8b23abb839a1ffd1bc5b702348aa764e518096c18078a995700c87acf7f5e46b2e932ba6d369264977b110edfac3067c97ab0dca19cdd09294fd922ac52c9dd5ff05dd1ed932d6c4c11283628666fc93ec34ba3ebf4d79a9df62bd337492f41f831250dfd25e8535eabc83986032666daa87d432454528f346462740d86085384bb33171d71fb5f816df50a443ced660718107f51f42722dc26b56122ecfed30b0bba7ac93603a9f5fb40b63f4cb5f87b76006773abf9150d38537077e235f1d90f67143e6a3c4858607846e121e25ea888bdb997174018612597d06fcb02472c38d663cdb7e84fc62569561ffd7149c1c53b7943a997b312138579f3d81636184c36398841d05c5f0bca3858dbb1147064ab8107386dc0cdb6b5ca492dc24b7dc02cc839ec9ccd209e3513b40f92a97b64192a34fa8c6e0302939044951223403e036787f8c25692d4e8ba33376a6986f986b9781ed35e1fcd0e94e2ba8d075657f5c49f8418c84d35c5069080b03496901fa08669faccae4c7031eae42df492d93863735cfe6ab21b7b013089547f1aeb53f9897d4018fefaf1c88cb67aabd3435f0fae6a43683fb2574de4dd9466d67d612b04725a2a426bec5e5f03d49a812067ae651ff30d586f80f8ca04c25297555e9d838690312c4ffec3644ab4dd4689dacf745c57423cf1ab152e408fc3a6816ca7299a80dd4683b0394942b82b959f09b45b0e60161299556eeb35ae30f6c2c04f5186221ed4984679d95ba249ccbacfcf2636f989337ec429af27bb9fe6e9edb641f303eb38969f966e2a4ce5f81aa91a7e56f0dba1696ad80ee6741914869732f159dfa7d9327b4a10f306f00f6c54c9355caa1fbe8b14c3303bb20945e221a6e854c43424e163033e02ebe8e27fbc5549a294c14894c73fd98068030b7007fdc25c846b4cdf6509556fa2c0b21a4716c0729c9965402101c9e8668c96db58f910e99f30d22cf58bc36a5987f8b04751bf932db3d354e295c8be6ab1059640cd30824d30492ac09d3319a73fa2693b63c4dbbfa2138f847e21f01dcd9e8b92289644df420376cbc8785c055b92bbaafc9deceb4abadb407d1a2b25f5d0232328991037c6835c0e61e31da35546402ee623b73276743dae48901465beb09d976b94cdb48167b845057021f2526dfc8a354cbf877ed8a8a4c44ed1a5acd0a237ae1ddf497c3c9fce2bf1ebc367f5b6c792b9a3aae213f35113d3949cc97f79176398abce52406a7994ccdd852738090d3aaf88febbdf03cc807274eb10fc90d57f167c4464bee261fbb14ae17aa864206bd79dd72a4008f36fc4c653ad3658706196de6473f80a93d7dc2dd0f377889a4399f702877849a7f734441699e266928a13058877291903c9a83e1eef09660ba249ccbacfcf2636c98933707f89860766f7cae4eff122fc1ba249ccbacfcf2636d989337ffb8eb5f954d1714c63689b969ae2b18239b4d3dba249ccbacfcf26362989337282d29c93aaa73ed375e21c3a2e1c9cdee71dc6a50ba249ccbacfcf26363989337f190dbaafd5f9e1cfecec03b1495fe89b438ab46f3234f45e77422f2ba249ccbacfcf26360989337bce0524fc0aeb7949187b6fe6de501c132d2a4493674594743d07f0cb6d657cac5f5182a8cc546882eaa4fd3b15ff4685fbbfd1c6f80eb59335f2e5e30359109dac5bbe6e0708f735c16cae16bf1e9a5d2dee9405b2985377318d16c821012add3ba249ccbacfcf263619893371cb938ee2f12cb76d0a84574e21f93b58e7ee772c61a12d52e560dd41cafaab2b8f39138daac3edaf480dacd8bd08ecbfc5b763ff215fb217b37291c338b6868422b57d712d0708a5b2c915b002562a3e0904377911a19ebab891d4afada5be1b949d1f841d3292ff52d1bf77a16ba249ccbacfcf26366989337eb69ef9edc54acd4ace5a1630d663168f388148e0fa091d7a32b8d32f1c24b7983daed0888d90713391493a6525c5ac1c62cbe62e6d060b96ea03b6e85ce434bb519b40bfa2ccf9d739dc9bb2d40213ae43afd63c7c9194adf7027d6cb06a2a549fd1e1d594152be9734d0b52a7453ace1332e722ef874c200a88ce1126d2e80f3fcdececf04a3c0d4a3997d6a2d1508e71b561cb00a5cf7834862bbd388cafc909c314466ba249ccbacfcf263679893372764c90db664e04a74cc304df21e1f18ac21833dbbfea3cd6a9d2e620ec1fd0f14454bcfb1264e66dc20a475e71aae34efd8092cdc3b2d4c0d5c15e7b66f7743ad90a448f8acfd6b5dd729886a1df6b6fd2eb7fad34749b220d54401ad40aa04e882fec5301b3d7e950ee523fa9f0ca62745fc6b3f14324e9c1faa9d04be4da9a01287b1ae60f29abf0cdf96a22537d106a12154ab3c0b6b433dd0af5da2e8faa49b98bcdfe7d4caeb2c2272e46e79a6ef783c618585e30aa6f9a451956c1a97beae57e5fcad3b1c4d88d4c54355113ec30f3b923d90426fb6b3ceeabfd478c214b495a238a5f92d7c46b035ec410301546681040df01c5897f7eda8eaf7068be79ded2a83539a3fd97f14d22e9ca9c6aa09fb6f6c4b5fd05dc338ee4d187c6b89e08bc4bf28cbf144c690432c514aaa3f49f14ac3913001fd7be850d1d0c0a69e11602002dc8aefe8d8a6838da561a41ca5a6ac3c6a5d7fc67aea4b079a818853fcb1278ec3a92ab4863ab439830ec4b610e0ca3b3a6ee6a9d7894fb29e6c5e3dd7fed41738724b0270eebeadf88a70495cb5f9e7eab1704f01862b8e5dc177336b4bc1d45bf15d9d634dc35cf488321b642bca46b361d4995cef626825bf2a345b372e0a20ceaed44ae6f29ae3ea463e042748a53a463b748a8c51ca1c190ea9d1ecd8734ea9d67cd3109cf765a1e61f12bf51f9e3430afd09cb82613b0f476e5d46337cc75794e1764a42c5c31581919b4edc16577c23ddddaa74a6205742f41613a759f184f22b250b5807c1b468bec700f3447a633f9ec38362b548b6a5fb817b61417e485d648af41795b80b15915c2da17e36e7d2a1fb08189b23e8b2230a0407f5a8c650e1bd19db91806d760d15df754a4512b7eef4fc3db356a02ed899465101a08ca4ab727ca8213b4a8f0d939d41abc1e8a413a7a282f96dacd3817aa187406c574de1bc3f3a2b06be6c440626d83bb53e728f0ad88ec342ca879cfa89a8ba7899bbe9b3faa03f952b09f0146a07dd70fb7403f0bba7fb47b4a9b1a6f3f446691bc38e42bff6cb174ca36aa66a1b3460f6b0a73152180d85067560e184b002f5f1f74bdc25e4aba872afc339b12e0432fde6574b1d32b01ed8ffa2afaca356e1cee904535663a7cb3c9ecff8506b72e519ecdf59ae4284c59967f4a48282b18346f0a6e29bfd2bdb0353b3033e7767804523e1e57061dce64d143627169b3c64d779593a24dc9fd45fed47823a996af73eaa47443b7ccb6c0fbe84bb4a52ae581bd5c9f0bb6150627a8d0da1d1e6684329e3b621caaf71f54ec693526673fe4e13518c39fa65d8d69ccb9ae363c5199d7d365d51dab9b4d36350fdd27b74bc692caafbb9358a4ca62c50e2e51298fa94452010803260ddffe6eb3db82d1d72e6660ecba651926c7f9da12a580b4c7af0c89e601c934b45da2077496ceb56bb2efd096552abcdcc46c69caec7e8dee5c537caa9e5700c8907374515370dab069da02550d9e945969fd2a943cb0f0128f52b6b5658d613b93701e4ad66521ff55691a5da079fc6cb3235925bfc0595f7b54bd37b8171ec02ac2696beb74056ad23ce00cd15812cd2354489ce286c93fc75d0e288e80b91ab19bed3e1326c9651befdab1c184032f20e3b5fa8434d119f9b085401878e5ae59e847c9fde6f9e0bd203ecb38a168349ca264d7d74aa7d1341f8e5701881312cce7a837bd619008f4556ac5fc4dbff9a3cdeadc6e6e3dd5994f4ef30dd3de33ffff602943f8bdf5659b5bd9692bfd845b19d3fd19b8e87c6726c5e0da1baaacc636b7fb47c1043cdc994f36c8068a40d73b9d73401111f39c30e5c69444b222df6cadc2c60949a0da74407e506f6ccdad36be5505ca8fd333d714b42bef47d709c079d0cf547fafbc0a170a03c942ddf18dfde7c1ec08bef45252a7131bb9a9fd8647214b410749d70af49454807de30f9f106595a21d68e2aeda4585f64b35085151c87d833936ac96d0edaa2c53b718f97ebfabfd14867758a1dc0f5598c6073aa2ca6a28ebfa0dbdba6560e219932a348ce20283e715e5db7f6ecba34e0bcd4791cb2a8fe62d57de463dc30a50c52f3a7e6a33dc84bb2d43867a19fbeb8579238cd8fc106004e2d081107ada3d968c3bd3047fb16d4729cc524dd89515eb179553c0c40c5de5559c68098d9b60d2fec511b679c9892b3692fa0741a5fe9edb273a2e7b82855f70ab5423f6e53fb5c8df62c5d6116547ec27732c6da0017b9ba249ccbacfcf26364989337a397a9145e5a63de3db5772da1d2bc13890a86ba249ccbacfcf263659893372434422d1422260d689e1718ddec80eacfc2c109ba249ccbacfcf2639a999337b59f4d7aa7c32552f08bd8a975d9caf25aba249ccbacfcf2639b999337b0870d0ef87eed597bc918af73dcb470ba249ccbacfcf2639899933768797bed7c9e5c87d0bdf83f7facdf1179d33336ba249ccbacfcf26399999337202012c8b142da8da970d5ad976c486fba249ccbacfcf2639e999337db3cb4366403799f23156526ecd3b842e4a1d38344ba249ccbacfcf2639f999337dc25d8f587b4dadf1d388b256e8282606bdb338ecd5737ba010bff75ba249ccbacfcf2639c999337d61de0a9d9c9bd55fb2697976ff1a84de46d079044ba249ccbacfcf2639d999337f046ac3f3d45880b589f987df5c204379831d7ba249ccbacfcf26392999337eb052e2e630cb205b4d9f223b0d7148822a00ec8f617afb4ad9aba875d197665ba249ccbacfcf26393999337ea4e7960ba4de91657e10f24f523ba249ccbacfcf26390999337accb6a0a2701cd8b784c9261d6334eba249ccbacfcf263919993379602d3d6808559aeeda7ab3ddfc604c10336d7ba249ccbacfcf26396999337c1adf8c93d5a5b0890452e427285a21b57ba249ccbacfcf26397999337ab561f98d840170de649f01f2bc504ed2134d7ba249ccbacfcf263949993374249d49a41f31917ba8170ab75d786f45aba249ccbacfcf263959993378efe13ab9f00753b9b90cb12ed1eba0bd934472fba249ccbacfcf2638a999337dab39c62c4f7198e55c28b64c6b3a147e4935d8944ba249ccbacfcf2638b9993372a11ef7edcf4db2b43e18fa2de23ba249ccbacfcf26388999337ce30bef3c498ccd4c343e943bb93d6092d552827e48156496321a982bde2a45fba249ccbacfcf263899993370d256462426f129db3a5831f58c97747e4db3a8944ba249ccbacfcf2638e999337eb41883c23e957decb58fd8e8852676a086f4870ad512fbabb0ff675ba249ccbacfcf2638f9993373857ce12a9332ed08f36ee6de5c30479b432d7ba249ccbacfcf2638c99933733bb268d2cfc5d1498fc09ab50a319cce3f96afe43ba249ccbacfcf2638d999337315431fc728287f56540b592e9ef693649b5ba249ccbacfcf26382999337b65f04728876379c5c03143c01bc2d5f659f71b77f0349221fc6c88739328665ba249ccbacfcf26383999337f009a87da426f21ba17418aff972b470ba249ccbacfcf263809993370bbbeff11877e8f30f54306865b7ac81cd726b520dde6a9848f0d65a54ab977664c61bf4417cc8bf84a01f7989cbe0ec3810e1fb14e8feddac8b8c8ac4778a3e4eb9f96401ab9d108fac0174fee2d8a89cee65abaf3d4d40b22226b9adbfb91a9e13431946ef9578de3e8fece4b5e8336e262440d39e9f8221eecb9c8477f29d8fcd78a327ff4ddfb8b761341a68c54f8a2efac6d607920ddf661dd1162bdcb5490884ca46566f2acea6bf18b46b95d2cae082c2d8a0260758c14e959a9772a30c28e86dc412060ca2bcfe1095e9081313865096b528af3a970b0d6befcb9430c916f7c1ee3d1b89da276ae68d9fa8fdeafe3b208ac704069933a0c384160256b38b1267a30e264e656b82b702ce0cee283e87f8d9b4460c4e26c11d7f4abe10acec38e53f89ec20810bd032a9d3e4de4c80c0f089db5b59aaa29cb7bc13ba759ee5757d67e51bb8a37680f5f3f1f8d87566c5a3e771e6f08a19d1427517a38084a026b05a36a4bd434ae48d8d034a592ec95352f104b35486fcbdce1c39226bee48d5d295a93e717d9023581d0d0d39feb59ec87475f2fa88ecae6e55ebc3ae207d3df0835adf2666f89b83133760f7de86820bfcf2f16cf9f45bbaf9dda36a65253ce78244330df56f24304359b7c996379e54c6a6e0932db99397154f9d834eb8adfd733c9a3df76ea5772d0fd2f085c3ca610211a60dbc86069df4ff5c36e6923c05f172464751c85b0f4bdf9ab4f17012601180fd470c00a09e13a3c4c4f35305c15401a40a6ccc0a1a80f44e5f12c6ec5ed7b3a2950b5a9ab37c79c2dfbeaf64178cd2e3e238e0578106cebdbe89cdf78b299041a21464dbc04f03fa2152f6e4a00543b6309f0c908d1f4ed4e91959d064acf2a6b5556e9f024fd1d20af3accde6a0a90f9a89232ab504091a72a8a905668fb05c585be55bf5e7617765c0648d0f703d74cfd69c27a0697e7d52165d0933f544246f048410adf7da720ed9bc4b30c334a62099194ad881d65b4f0df411243669d4670b0dffc791905e1e3ae0ebbd70f370ad185a2321bb296cf6ae6f7b57e31caedaf8f49d6cadb4bc76506bbd8c894bad78f65c294fa41e12dd9a0c2f1c79ba249ccbacfcf263819993372ffe1ed9958d1837d94b913f722bbf1857ba249ccbacfcf263869993371443bd815a00c4f74b9bd5adc78e486fba249ccbacfcf26387999337596ea498bba141f8c30251bee8ef714048b5ba249ccbacfcf26384999337914e31ad54166b9c0e0a7f34a9dee111493e3636ba249ccbacfcf26385999337c20007303ddb88c42e52bd439f71ba0bf181472fba249ccbacfcf263ba9993378f47f324bfd3d90e49b906a97593d8f15a')
-function ok()
- if ji~=true
-   or th.o==0
-   or th.o~=
-    bit32.bxor(th.u,jn[2])
-   or (th.z and th.w~=true) then
-  evq(); cav(nil,0)
+local au=po('b9adb7b1cdf20cfbc68b44a8872fe922686df6a7283a68b7575d452e25cf072471b2d61dbb80650830ee628b79372ecd64ac2f79e82b7ab26fb86354da3739194d03a9efdd61ab66cf34cc8ef8ccd1ec56d208218233b9f2ce7e49a6e5fd41ee4a8588d35c81d97bd077416aeb60e1593744ad77504697d9073a5d9f22fa228d29ee65f5a0ce6d902e5bf525f578e84cc5c36051714176215dae756a61872ac4e2c1c481e966f108f005dba3bb89662ce58331bc6d1120a8eae49cb02822fbfccdc5ad4faffd547532e586afeb6aed499acae6f2eaf997f5f905bb33ad8ffb2efda563876bef9d284e0deb5f212b12a81f5fc5dad5d107647fdab8b3d3d9414013f13126ffa6e9cf1199342bb8002a95e04c86cf5b08c9b0e54f72ca327657267093914496088e793ad4462ea1b99a0242ec50398288480a495edf18d298c547f35ea18a139a504e584fdc17ece8589f6b5aee20ea2fd286559a4782d85683821f6f8d6fe98e127472c6de33cc7c2f99db1b46d379540303fb3a4733ee02faad41231d2e761316e869dda760747b9ed1ebe9d473229f817e4db9eddedeb76d8e191e2af7208c2e89837f0e7341603446e13d39805887e3aada335342e540b1520bc054f6be40b857907ab12b09fa3ad3b2d074608a591642cf123e909484869975f3c00ec6dc22577ccdd2909aa22c3df4a2eb58df45348c3fa3bd36b30c4055ab4852c8da16c556aa8874c1ef7831d3479b4d8a408791419ceae10b76f32bf776b7d60578be7f98f220314cc58e3a856814535b130bdd9365b0cd778a29a29bc185ac020dc1aaf7849e9cabb3dbbdc83f2ac4e1bc1e6ea6ab0f47d2543e608583dbccbb726b1c482a520042cef3eddf482f2be06cab473a06858e648ad255e36927f29a189fd87c3f6b3aba26faa09c8791c319a407437eb8139ea22512d57d68bdbbd63656b26c34a7aa794d440532964d84486a28ac8d6a3bada177fe7a4a728ec2200c9f66572ced4d2875f1de1bbf1f9df0251f08ae28602554f2e04de92575af8c23276542abb659ff26f0f0dd4c4598e0ffbbde5746543cc47499aeac5d0fda572d59ff277da57e0aa7f9bed032e19370e7f52ce19d2ae3aa90981b63fce13d432d2169a1010c6751672240bae5b3733c5975a3bb0112ce7dae3f694211543de49be974903f241ec75d1e590fec80eb9002ee8ed253e63363b0a0ff60e39b89a96f6425420e6d3f026039a164a96f4af8cf1331057dea827d4c2eb7c3c2584f84e110d570d2b1fd49db79158196d6813966b4cc2c8ca132d238b1f67151a79bbfb4d4c4341b33cb6738266a199d1861585f4e530abedcf8b44a7eb3a70350db908f0731ae963ee02bbfac706134471e51931edfc8737c9668938ef027be71707dc5e44c56e70e33eda0308a35f70be49a1d354c1b41f149bfcbd27eb966d3dc768c4af4c02c16b5c1b78886403f5f872a2f3b7a02b9aef15745f2d7d90a50e0475d8ad75a258130e35d20d30098002966225869d0911fc5e93c70bb2fc5ef5a52f01c2a9447f3bad8433d8c95d8b11a04032eccec3c658efaebfbc1f434212c1a76a31c8089320c363edaad80abd494ac121fa2bb76fc14988051644af7cfb3e70bc68696ab56a555534abd80eec921e08d6f9c0d6f3747de58792a0251ae148e4dd7163941f12709170aefd5145dfd052bc51b0789f6dcc4fc9badfe7b68f1ee242453e8e555244b42e547d61406123a300a5cdddb33b332813122cdcb1f94ea928f0c035c2da40e04ee632b84f289912ef617a42309a80c28da48b026614e91cd15994d716f55f7decbb37fd97626b6c5ed2faa7aa556745059ca4b15930403cec1a0d45991544360e8606d7f646403ee6179a246663c58bec00f10f183c9efbd1a65f5de5fdd2d49f828929bcf49721a3740804192bb96624319b9e1e2e6bed2a0c6e35169d7a66f02553698d0a9fb35b5d428df0aac6ccf12d4afdad80cdc9b5a98a26b21f2cf0aa2a05674a510302e5a6a8babde53e623899b77141537a6fbc9256c063d383e401071b883fa8ec2faab7ef313581a8eb9711a2c9f39ed7634742b4275c037a45bd7931ac17eb386eeb40a94600b1e345fad82c8529ff729644466dfa4cb75d667b2fff762978ba8524a46aa4a8ec3809a162955e2f07e6069d89dbdd6a4304b56e1a73c0bdb9738592a38361a51aaae0de15cc0163ed978ea2c15f1b9b18956b526f53fb748be8132386cb489e83dc0d43c5f0f12c63d4e7a26450b9afb37c8c06d73276ae45c78029e7e82af774e0f7e5dfc877b6813ff13415dcf56ad44c737a51cb7397ad2b10b49b0966af8cb83be0c3b78e10e7fbf615ce2d14bc60274e1b5036708dd18aae2534b0c10f871bedb3c0f3e05b004e2f7978f9556816dfeb6045d304a2ca7983c1c415df35342c1f131088f098ce16907f7d976e502cda47a7f8bf03640c148f06684a21a301bcbc0c37e10431cd241597aca11bd1a4055389fb17cdc2a59fb44baa1b02c108f9f56c0fdf4470e309cd1eabf5ec2359444c82615e4543387e4129f2720d7817788e3bd0c680dc531878f9bce670c5d852d059013b36a80e28b067f5a190ba8935e352a7c72b4aad61dcf0f67a8c9750bc53d14e9b1afc9359b4e12d529e7a6d043fcaa81053a68a1ae52cfeb9a0cd09b79ec801aff33decff307afa0c589f429b5936d1895a81fbb6a645e85f8f39481ed06c19c41e93ffb03d9c2d8a42473d80d28c88be7ec4ef26ffed79692dfacc2a6db8dfcfdc8c43f929fb4841d0885cf33e58561b16a269f4fb2284b2efe7c71225dbab712e790a2892a01a11d75f9ebb444e4096c736bef446360367e0481ce396aaf835a9f5725d2bf0ca45bdfa3fae088d023acaac710c72a89fd203376374ff76ee58f1e28b12a3b16e77f57970e55f7206e6edc14bc90774bab8e534e11c55bdd2fec9ca185426d5d89b4aaa71eef78a7bb056ea396d3dc88bc6fb7558b856368ca158c7bb3cf6da620f2a7062f51289efd82082542eed3faaaea30fa3cab473772035db815bee613000ddfd48594961a87b8466819cbd764e6aeb6311b84990b8cf41055fb92832525acda03acac9ef1c346645fc4ac420b76e0faaa706cd50fe1353028a11c4b9607854024d1fd83135415b867b3a11d73229974510da8308c6acfaead9be54f7db0b98589ab3c4dd43435b2feed7c48d118f020413b866c51be29edca2338e2be5dfbca0660468b6d01a4c176c3c0e185272ee2db40bea964bfd2faa1918b1385109bb3921c3d699eac79d4b2fcd5b816f8767568571ddfad94ff0fe47f63095f32485fdfc82417cb154b8b208ebf6b096016b52561cd342f8b1ed373ff127f8c9f86ffc0957e49286f01def425b0a3d25a216de774d44f1506401193cbab8f5ca5b467d18509ce4ab5666cc009de48c104f7f95f38009a6188d928bf2fdb81fdd21f52190a28d6c6c6a6884691060a6aa7c9804ddea4787acdd7826d574aafb8417a2e183880acce8b0c2f148ea38d305aa8a5bcc9585c9dc7650095f8e2fba760cb3d117395dc696726e94726f4a317a4bae31c3862813816158b7b0b3b51a9592044119f82b6b3051ce961ee1c774c2ce8fbe3234b1cda0ef3a2b9999537cde966476738b600d8b0ba1aa93d34d61afe33cc797b864b1fe78b43dd0cb5262eee5b8c33eb5ab4d92bb86cf7121d31afe78145c8193e2af4ac0549a543cbb4986f2d4b816ecd80917bf92d79f2b74471afb7711cdb2acabfb487bf57d9b3da81d58251ec30ac8f5fcca0db0960c970ac73c3a5f7b5291fd4209b463c83006f3a35a0395821ad88341387241809fa8558d6ad9b368974a2d2dbf37e65854205dbc67b16ee08d2f5fd72054dbf3614eaa4e97b8e6eaf480f3fd607f1893507b950c6dce38b95078fdbb19393d29b58622619b4dad785a05788ee01821938b94f443f55cfef4d4ba403708eacb75f76bfa424cf186a04fe712d8bc196d2cb7d5f7211b8b085b6a3e2712474fff6d8ba98bf384b2682c7ca9174439fcf7b627a6a3d62585089a99fc7919c1e32a8ed3a105b893c8808f4939ce84e2feae3b9130a868a476c1599190b48aaaed1774c25bf4f041634509d51ae9e28fa0f9fa7b8a95b50abdc949775a909f89814916ce135ce9a6b0e0b62fe75cbe600bef98daae73630ebcd2c05964c54e2b249d6fcf4c77bf29b70494443c08676b3f61fc9f66475ae98268497b16720b56e9755cd61446f88072c511169f1c8029b7a87e99aa5973fe97ac5269aef9bab7b71f0463fda7fa4cc379514289ae38812619ec22b0758182b7d0c07af3fed299e1134a79db73ce5b3442ff02948c0db0aafdad97402070233afca39c4320abcf8d1d6269e72b5b20b8a769878ad9c682188f4963af0a4e83f970c98192b980766e9601926159b41ce89be1160b7c59a41618bccd708edb0c141b7ccbd9046d76cfeeaba7c1faab67de8d3090381e08b73e23bc7883db46ab78991dd1fec2a10f5d37fe090d19dd1728bb2eff00e08876dc63aa15e72b1689afd134e3ab5afe401b95e217e7c8fd277b972ba9cc65332f14d21d263eb5bebfc0da865d4bbfb3d88f92348f203bc318d7adf6c04ddffaa9eeba095b586d2ac93140e3ec7aeb56f742e7673aec43206afe58edb4b4498808d2d98401735f57d066932c31c95018d8f93acad0b793636ee5cf92a82395c997b626d2ed3cd463d0a8aa97c1589c43ca597057f19d12ad0f76e73062bf65261fc228b66e1ff3939fbde81d4367005403b4a62ced86e9a6f0766e845969ac662d67e28246188448af53483c3dcb056722dfde3a8257d92eca9260ee590284e8e738f8f5d4b69f9c79f05c3d9ba8ab043ec0fc4fb337ccc1efa036e57c424b913d6c821e66bea6022fc6969493be544c7dc7ac1ea865aba69cbe16be02ff5957acfeb5a7c18e3d61593fbf2abe8ed38315157d91eee03c64d08aab5efaf8c417c8c4cd06b6229c05064197d7ed405e19386ce647c3897d4118c2f3a440be5fcb17c887e8f59af75faed2ddb12220992b6e55620161ffa4aa26715f07bdfb419983a1b251ac6f93f13026b85b95dc542a14253002d3a3910264771a64be24dc90aa2bf7145b25fbea97c3452407d000604116f096d1a2290f390373496f47ce4f0bde3873e085efab15bc418a082fc1afda93aad0731984f4d8de1739f9233e17fe090290ce82362082158dd64a5455f2bc1e9c7667f9da8d78447fff06e38bd450f102854878e4ba4d23a337602ef4a8125b6b4c759bba94ff31f817d2bc1100865503c994566ee451cb644bd013923be5da5a34dd605572a7257e3ef6faf8e83146d2ae2efac16a9a52bd370aaaf91f47ea966f94638ee27ccd6f75bf49078a62a960da937b00d408333b28ac1f23438821edaa1829a65e05b83b70e7b41d8ac8fc3fadfe37ab9e76bc70922c1aa8e7d8d9bc57fb5a973c2c8f4dd4fbc9bc3c9ad80f94329d9c9e49442ede3a5141a7981a53ba04c81f60301eac86c0f587e12fbd4af5487ff3f1c802ca1ebfd6c58e2abf563e436e5b948310adc91683db2c9e4f26601c83207e8b753012dc1ab4826684358f9faa60bbf79934221b13af5e4ad534264dceea1e5aedccc4cc6f03c189a9281577c0eade8b1f7b063bd04d3351fa5e147c8d0a29329865b2de26b150e4e235d334d2b6c5e166c929d9f8b025eab863541021aa2ce88505c0d35d438cb8dd2ebedbcb28e47a3f5ad21a6fb9e70ece82f6d97e65d22a8af34c7f14a45bbcd7507876e6650c77f700e6da7fe69ef97b75067ea0ce3801ddead3f3da63149600aa27f8463d9fdc85a274d403d0c75b4764ae20caae6e57e1dfa9594d39aa68a19587bbbd332626aab559e36ad3dc6b2da5b3e428a2d7bfc536eabbb2126b225a7fe4f78c8fc961cbafa8d0ceb9c9ed8d20d1e61a3d518b4db79f13f45d5c8117a3af3a18e4f219147cd659309c71170c4f82044782b687154c7ee4e3dfed918ae72b0c70a1d4f7a0a93f47157d4a58a6f1bfe6fda456634336ddbb4c6629735424d55180df35c85361ee005092d6e4127a79dc63b997686eff042898f2920341958f359cf8ee9802e82ca553752277cc6db215540aede20f1482231c120e980dda84fca849af7cd6e26b25764c46d3d4cccf29a8943602f5bc6a847df710ed67d75fe7c0c376332f61fb45fdeab7773aabcc0ddd93ab7fd3e6d91262ead15394c7fbded92714c841dd2d623e21456869a2a84dc0cccc2297884959360b0ada378d84547ca0d328070f251b5f83969876f3fd7b01402dce214417651895380e1d5a81b5519b5bd14f06413832c181ff3dccdeff760a50d45dde24b07b49cf3ecad4650511028f7e4420571cbc0e97989ae2ba852507f8c5eeceef7d3fe25bca08392a362a44259b152d2688dc82984c3ce4255cad5e6a2351caab823b42ea1f447ff2656e2a7c8ae2e1da12f8c9c0aa7e2d2c9d299e4410b8b9dad9088a3b0fa4ef5faa861f1c39bf8ce4c7262ec6d45f99c4f0f2292a582032bd0f10657205376d2d5ad4da8d594c37fb1e45a4f4a8894e7e1c5dbd3651b7cd743704b5fc982fc76d5c485702388510d1ed8a1243c906a75da9b4a71ef2e7e454431295676575fed727f73ced854dc29d7d8e1bc566e599686d688560179a816543f31b03a9ce2cb8793640bdc9f2a8a98372e1abd4d85c99b6e91b599553d183cff33cf418966f2d284b24809a1289c0e19ddcfc15d66c57917604f2d39f3476769271579263fed28cc1c8eb4c22149a3059ed4bfd109ca9b9a34f0d425381b484be05e48d997a656e0bf144488f8701b6671a50e74937de1a79db22d3f1774f031fa647869e8dfacd1d1f936c50ebcc0b87b1ddbf1d727e095dd9c1b44c694ad083cab57d5bbd7b7f613ba1c850d25341f805117b9a0fb9fdb937e36631770d03f0eb472c2d798a830271a3a14f04f077f8bf5bb84b52044564a916b02466193d6bf17252409e5e9df01b9a30693d4443000a1aede5e0c974dbbf96e6385fa1bee4b3bfcaff891ba2fb2483c8d40df6e324a8b5720d05904be22c197d35d2d4bcdf5efdfd2fb4e37dce081d175cb680dea3a57ccc6532fa3c5ffe3dfda421d334ad6e6ba715f8beb4d01ffda97a9f30e4ac597ffb323ec8dcf3ed51e8fedb29866dea3694ab38b20f07349b474ab2599bd3aaea3a382f03bdab1e117c05e42d274ec9b820f588e234b9cad848eb0e3c571a45729fa4b0b1c5bd6430a8be75f487ab59b38c2216d41b8883f0cb84d967b6cc29ca3bc899e2c3e1cfdf6641bf0e53194e25881be177da89a97aad4ff2290e7927faf3d8ed3b9c4d6bb597347a758f88b119afcd665f27ef3ce5de3401a527af336ebc8900cf6f8b29852f4cad14573356720cfc8a8c5275da44d479332aaa2cca6338cec3852eb557d6d1f5c6cc1d0166e49cfc88a269b75d6058541cf21245447368672976a226cd98e479746e4164d582c98d04f66130c682d31b2363e2da5b16a6414176b538ebf46f0c8ebc0557c8417220f1003f72e7e9f85562a30ea366c098d436ccd153180ad89bf5d8912f7c2a1d1c34a4fe7347bd22bbe7e8af36ade9545dc5af2e16ca1f48685509d4ef9762a4b7417bd5cedaba8129eb37631b9f65cbffb093888ac67df80ea37f8b4a6fd2ef403a940052403e495163ee7208d5cb87cf662aaa5e10937e32e375ee459c81d2067d8b0cec6dc515ec231ed4539aa413f9b061834c915263dd1f217caa2683d88b0f50568d986d429417add39b673b639f6e00bf1d8702c479b867f53cb4b4c12674e641a97855b53e5d210572602059bcf8932caeaa80ce0382b766ee9d41c1893262447ac66b7ec3ce702025e77b4836cd87535f4f36418b70d028fe7d5e885708fab6d8aa86dcdd2d9b4e51a2bf96d68ed156965bda0b07c5c6ef2d940904d75c9fdbf5fb976b51eba47e98431beec70c6f4fba8e4a3eb3373430b50ec62dcb032157df43f49e0040dceda487b30d0728692b3693d8501eae738816e8f0992912c31feb1507887b5a728735815f4fb2db7ced6d75b3ae0e4a7750693f26501f3397692dddd9e954f44586f6996ebf12e27c6dfd535ff41ba7ce02ebadca7f9cb3f375aa04f8c8011ff66d00dd49a1dee65b1d2ee90651eb884816519ad11620f027404432d792b3d4ce9bbaffa5b590af88ceadfbc397df7bef1966f0dcb0c653a22450fbec16acd08dca37dc8894e835954bc004f14c573170560e97ee526841d270ab38b95ce752a076257619c8b8be5d3596f4614d6bb52d3bac492ac59f6ccaff7183de52edb5d5bccba3379a81eeaa3f36299b7aa18b8c88a899fac0f8e1a7448ee81c916c52fdbe8ce0c48110e3a595171a63205458f5a0ed4a846dcf3c701930752c5873ef0aecf3a039344ca142b2813f5a8acbbd8a0ccc145ec44a7f9942384c291995f83430ac995303077be6dc228b8577382015ca78413dd127083a3e7d0e037ff3870b8be666efce24a3b05d7129446e445f25e5f030e1aae1e4fcaf911d58137f3948cb79094c77de0db75a5f3bc811cc75623235a367bc0bdb7dd04509f0790ebbc57d468b3ce1ffb2bb97ae0db1e4feda890afba93defc1db06c04ef55d6fd279dc65a9e9ab24ffcdd19bf1c078e0c6d4472b49ab7e2cafdae1cfea9c7086819aedb06d298dba2ef67665970a73ed2a7a075c5797b94b836f7babb7c57ccea7cb9715674c4e7a69cc8e866159f7d986d16dfcb9e45f4be55bd40a7ad515428bc1a2c2cdc063fcee5699239a6f7bab6d14a7da69eed07811cf3d69d6d61e5a7b5120634bb926a071f95ef2e4f320e226239665f368f14841817abff5ded330c7163bb1de3023f76c125b108365920b38d79ead182aef713c220351e14a8ce4bcd7c019153a9d3a0f2e350aeb243a4c822b9b77c82aef713c220351e15a8ce4b1ef925728695b67fd5074112d4c65bdf895a1f29ae82aef713c220351e16a8ce4b1422d27e720e0d5ad6d56133f28f81d71e3bfacad20735eeefbef1ff8767e6c482aef713c220351e17a8ce4bbd16209fcea22b8bdd12d27620026c978182aef713c220351e10a8ce4b92a5a7897562dd2c96ff9256967fda2482aef713c220351e11a8ce4b45ae173dce532c396baee2a120ea6ace8182aef713c220351e12a8ce4b81f0011ee4508c9e05f2979a898ac84e891eac70ad82aef713c220351e13a8ce4bebf028b6b4c379ef0c809283e609e567b5f9a75848f1c1793b7306007ba7fdc482aef713c220351e1ca8ce4b96cf869aab346cbfff0e02d096b79ca82e6a6dc582aef713c220351e1da8ce4b2d5eac96fe496dc80faa0bd624aea62b8782aef713c220351e1ea8ce4b067676e162f976c4c618f65a0ed2732a82aef713c220351e1fa8ce4bf6a903366bf8bab8564a30546b8f0c6dc3af18e8d9e5566859fdb4f582aef713c220351e18a8ce4b2e5007a4df8f5d0ebcf25d5206b25d2e9c0e39ed5382aef713c220351e19a8ce4be93fbb6338de650e831ba63ff63e6b569b8e8fd95282aef713c220351e1aa8ce4bc8dfa25e3ee956a787a8597286a10cc6b1d19082aef713c220351e1ba8ce4b415c22b5727def790ad5a3b20fccef486d32963bad3ea767c35eeef482aef713c220351e04a8ce4bff0c4aa2ccc82e5df80003863ddf0c8a74209182aef713c220351e05a8ce4bfc1daadda886583fc2f6f71ed68f4533e17583c050a891aa7be5fcff8f0ef3c482aef713c220351e06a8ce4be13ed6d3d10dd8bc85d9f0847aded94b8a1e89b3ae82aef713c220351e07a8ce4b4cf753438493062c41ea1cc7248e93188782aef713c220351e00a8ce4b30bcb2c411c7d33b35f0ab11348a54a01201e4ce55271f0a6b7bd400072ce5c582aef713c220351e01a8ce4b5b1e4b8d26f6a42163bd4bfb4db60c0c9c9a6fc15382aef713c220351e02a8ce4bfdcddcf6c1b6b64ea5d74ac9df9c82aef713c220351e03a8ce4b82ae800196d45d2a4ee844e6810c5ada9785d853189b485e2150c9006593d8c582aef713c220351e0ca8ce4b3707d675fa7e6873c5e242bd202aecf38182aef713c220351e0da8ce4b5cbb1106f4e8f5cb860b406228826bc6899a6209ae82aef713c220351e0ea8ce4bfa09d8fbf4c022110a0dc7c29fde3f1f7bd286d9f531a9676546f1f482aef713c220351e0fa8ce4b7a9468049c7cbecb66eebf0c354236c8893ead0bae82aef713c220351e08a8ce4bac511b95f304dea48ae82356ce734c2482aef713c220351e09a8ce4b3f1f2716d983051d12226a0d44066210b442c2f4f9ccd66ff32a203afa68452712aaa580047586ddbfeea14819ba5d38bb7b8ae6bda4e2f61060b6dee00759a64c3672d0121d59c60a429108e534e6b98908924a17da521c798fc39fabc6034584d9937df0d9edc37646a4a70741be70640f20a5f19d12f2fe34378cb05b951028cc38db0faf782d63e98c686eff32bf8e628d13ed5bdd9d12a699b0a8f8e361e7a6e5f33745a0d688c614843e30bfb27579b217188d684aa95968c3d6d4f969fe3456618ad8b14fa2c1edf48d38862e197af9d6fa8a4a1f934ffbc74779f8c20d984b277f74c5f7ff7b0f4ecce22ac81fe8d4abef83407e4a90970bf0dbcbe6cb8740f6fe6d226e92f0034b729d641c2841ff21e62b8d6cfc6068585c390303e41b88e90486a4edba3ba8fc166e7367707f37c5f1d3e7fe467bdd5be850dbff7f9a4b4b4e50bf91f33d84f89c6eda0db6afea99bac4b795d81ea580f3205cc6190c8efe15636278d7573f7de9444bef2fcf786707efa66f372cc4e4c5b9a8db4a04cae4be515903eeffbef9897895c8286f6362fa43a59e70bb18a7df1b6e5c475a1b719bdc074e20b054e070d832af37f034e936cded2c5aecbd940abcb6b0e98293f0302c025c0c9f9535039bcb4a2be7d815040af38d235332e651be32e8ccfcd72d1f1be6f7e90887d65fe44aabaf0cd9b137a91186a0ce183576eafb66184322877490be7a9ba70a57a8448e4cb0677dc58f389f6a665cf7517a7af31034a9038a56b9ba2b0f33d95422a4c0c84781154d193fbfdf3ca4815702dec15f150a6e220d2a51c1c880a81d9bb0de48b9ef2423de49162982d5f20d5d83025340faacd27bbdbd6e26f197392880fb89ae1efbcf51dca842fcefc40c1a4db6e4ef7d23857a82aef713c220351e0aa8ce4b86d21fb86c76a95f6272db064182aef713c220351e0ba8ce4ba429ed9df4c9a2423dd2aa23f89582aef713c220351e34a8ce4b751461a699de4cf86112be824082aef713c220351e35a8ce4b26e25fd09ecadaf4a2d25e177a9682aef713c220351e36a8ce4b83d7a5ceaebc270a80aa3c629ca657418a9e9ba6ae82aef713c220351e37a8ce4bf89c8a811c9ae15b66863304204e61058182aef713c220351e30a8ce4becde1c509f8162d117af0f9c568a64d1b0ea8509bf631f3ea13bfbffa727f1c462a31692008d64a90271f57ca4553843665684bf55c17414a193b2193f9adcd02cd010af19196abef37d52de34341a2c0809429b82aef713c320351e31a8ce4b9626adf3d89888b6fb9eee3ee81d5982aef713c320351e32a8ce4b0a731f3cbb1f1ae9acd2ead5869682aef713c320351e33a8ce4be3a58c6a0a78ddb6173dd3b8de73a365aada7a2531b02cb001d2905929ee7c54d10c1a66979552b9683414a3b43c22f820a4dbc39697bfc5e790c254eb90cf255873e5e23bf8f369741de8ae18614db21731c546f633ff93f4d3baa55aaab0f0971a4e1396d60b6eaadf334eb210fe1012076db6ca4e3150312d3c5e4bfc4faf6bc867638e6216dd16b8c89feab86077e9e9897f5d1d23dd78bcd081db588d374f591d4acfd9cc1f3e113a591052e588f4d7278557eaaf0cd4b9d20acdae787cd53f93995ffe879febe73bda53cdcdc1fb1f24f0135635bb4a8ba132e551e008cd58589a3f9a00b270251e0504eecd26114d71cc793b0330ff4b545761317df3d837dd4320595af2fc5e4ed565e795eeb974b9b262f52cbea1aa44a70ac279874edd89d504db9f5a36dfa8a2a1d932b52399fc2f707f8c19e7bb8536c46c550125f562f7c3b885f219973c1f854a2aa1691f7d501401fed9cc7af07c86f1a717674530c4f582aef713c320351e3ca8ce4bbffe85726354ddae3b815d56548a51138ae2776bae82aef713c320351e3da8ce4b1a136582347f00de9e5b2e5642105a2482aef713c320351e3ea8ce4bc1eab78015a339d789382a38016513afa073cbe91a561e8a2df205009123fdc482aef713c320351e3fa8ce4b180beb0bb026f65fa1ddaa64f1de29258bc6c6c7af82aef713c320351e38a8ce4bb6c4802d093d66dd3a2eb67820f6d5998182aef713c320351e39a8ce4b0ced096a917d0df89af9b5517bb4b287451ff85241cab581ffd3860063a68dc582aef713c320351e3aa8ce4be435ebcbdaf9af7f4a9de0188d16f95188386e1d7ce65a97b2d36e2110de62c7d7f765824615eb3184c1b4706cbfe299623e9e0e75f495ebe8d0cbabebd94e5ea0b9719d8d1f9f393f00b680b346cf7fcc3e3b1274977419c3f8529e4a4aca1217fb9c49880049d56f4183f89d64a528e64f20d9c26e58cacd285217ff8cd481effca1ba63d06b3b9b64fdd81983b48f2297c992c7f6d7d1a9b8d0fad267a7edf23f2c436882aef713c320351e3ba8ce4bb962f21f2246314b8628b742dd9865590c5946e5f4a061163a55ef5ee8e3f5bc0dad7570d3f65b5cc1dd69057fea281de3b90c2223536c86450240472d675c83697f123791323e8ed980c6a129d6945df9d4206073822411727aa78069b67ef4a17bb2056adb06c4c762e170b7c9a3815372e18afd352616d46e72c281bc8cdec98e35c1c20ac1b0fc4f602f17128c803c977b5cc3c928f9f632ad8911133b95160d4a4c75ce7c6261459a24a906ff1b14f7581fe3b585a71d3ebc3005659ca85eb78d05b9a98d2a244e0abb2ce0f6d1ff6e8b279d4fff4670c92740d5cdd134fee63376d4276440620e1aee6b5d353f07c16e553bea6a952e8f9a8e487e0a5d5b45c5aaef87635bd50e9c59db7700d2422801a5f7a7e99955f1e8f012b3b2bad23ad6fdc1669fcc78f258e141867d08819b42fef5ae48659572c41297d513556d86474edb34094346f647429412e9fa754b574700ea0ca565514eecf1c16a6440b2105bdfa90eda8bbe99f7ac059713dea7eb14f91522a484772ff8ce41afa8fcb93dac1ebaf747e987fce011dd799060a7152c3055a36adb82e30b3d5dfb79f7efe737e6f922b970502879fc84648d2c75fe0537ce4822be6006e314c7e82d675732ae205a624a684c50260783f39d4e913255ecb3d3bc84224a9277b0ebeb6aa76e8df65eef2495e86b7f8a73f0a8e2a74b20e2d06191837a5a24342e6078d92b658ba253c37a619f7ef15a848c712357b3d763dd30512bbedcbc279f7b9e6da2777287cdb18add5a13d9735d0b55bc3b08614c6dbbfa8317c4eb6a418a60eda1d88b2681c0874d2cc4e4ae6cf942ed92c73228cff83583a240331a3591df799c3c9c1970976b3223c736eac85b10870bcc4f08eeba0fa59aa6f564ab5104048b0614ed7c5f9590e16dfc0de3e04627a2dce509f4e2af2e82d9351fb0dda5cf537e1127169ca6d4dae6fe4008efe42060eae0e4faab12b2a694e1bdcf082f50a628644739f34ec3ff7c7fde6a7d32306266b931362bf9182451a1f01465603a014bfe524d633ab10bce0648b32866a1691df19c7ba2082793d8a97b86f691fa7d9ace46fefccdd4fbe913e01f1fa38755e24c4a40ef7de3e073514260f3681075750325d797890cad980f3e600a9e7a41f8cf8a32ac3d27294728cd1d117bf9c29f7ba64e00eb91638f9b54f3be1cfb40d0b94b2a2b0291bc1e363a0be97edf539dbcfe7e35bbf19fb6af24bec02d6e3aa90c26193d829cda7d26ece91a4beb71b69c1715561069d53669d1e2f6131cf856c846a6d29bea2d62f095a6f4fbe97cc7e5953441e26972c567d40d445c98263a0fb18b866f0c47bb1e30aa1dbbc338d654f458fb6e623ae0e71cfe19a5e3a8fcf4bb58acb6b2993f583bd6211300a894afb54933b4b51b02c13cbfbbd8078ddc2efe312a0e9e501ba6336969cfba9fd50aac6ee8c66be19b7097b467cbd2aaa69e13c4eaa70e251067eed8635fb2fcc01e95bcfd3000a34b030d1e9dd601494a7a5b251075cc0f13a971c1e7e00fad0b39cba34b61239aa0ed25f2cfbf816631714214b353d81fee1d28e643bb5da0df46363e87ea5808bc4d3f70c1bf587e3547f1c22ac35cce6c76326d5ecca207b84141218e00d7e625fef9852997b9a7dc692b5963dfa94845f7792d17838af79b9b6ab2d926cb2ff943ac22ec42a47a54b1685e27d0c5a3740164d3e384e5e9066412c71e87c1612de4efb5c97ec3b670f90ba91e15795ca2b216209b30c7d464af0c77b85aab5f14c42600a394316e3a2210f55bb8d52e00e6d066c4990d9a638118de7b439bac2be7eab65037cbdbef8ba01349b6964b670bc7d4bf4c4a6beb489469ad6b97691a6bac8dea7fc742584fafc2e98442ec17ef8e82dc128fb42dd93fd126cd3f1774d7c94356e106d41fe710b68556e498e03b225dffe79a34f96a2e9a196ec8ad47ef206d9d01e3402f7f7ae088b587c4f591c51450b1714232323e073517a4998a34785db4efde4edd6d14e0b4da39c4db14e989eea97431c90af6fd976b3892ecdb5b61a8c4867d4bbeb14f0381b14b698df1592255424e1a5e22f39b73de22c1472645cd3cf1b55d426dff9a0fe6bd5a657aad591a28d44465cc0241943338ce83eab877e9a1089310210ff20bb55b45e35d942788e081fca829f22083c18fa8d6aad12cd7afb2da74b64ee8d7814a2d3b024ada7151e209a78ac8dfff353c5384ca9a1b1fa71368a8806970d5c46a61597450e470b809fe8ad52e40195606a3abe6d555af97e9b4fd0a367f5309bbc8eb1b591c573582aef713c320351e24a8ce4bd2c5d5b0f51605e75ca39453b032ce328af2fd93ae82aef713c320351e25a8ce4b59f15a262dbc87c508261c5e3792d0a689ea08e1ad82aef713c320351e26a8ce4b5d4628dcc8e38e5b625f56b80a7666fd8936a54fae82aef713c320351e27a8ce4bb6a5ae78868d42bd0c2cdebfaf117206826482aef713c320351e20a8ce4bd121bb4dcb4c0f8c983ed6f161f71c66459f02d95782d0f15713d6e050cba213550cd7406385500682aef713c320351e21a8ce4b8674594ff553b31401c57fc6692ef8ea892e1338ae82aef713c320351e22a8ce4b24342ae755e938a30a818756a606cc2482aef713c320351e23a8ce4bb30281d61d3dc2de3873bdcedfea58ebd888da20dc30069f133bf8ff69d4edc482aef713c320351e2ca8ce4bda38d630e4e5da17ddcb55ca1a6639a489a2c0ddad82aef713c320351e2da8ce4b5e0d526b4f1f3a6d98f59d06272aae93894291c8ad82aef713c320351e2ea8ce4b886eb353e766b9657a5fbe250c7abff189a2bd40ae82aef713c320351e2fa8ce4b58b60da7a64ff33d283cffea82aef216264ae182aef713c320351e28a8ce4b70fe27246e964a56b6c683d3df5f0631286bcbf24040f03d1360397d3ecb80ac03a03840a34f9d0582aef713c320351e29a8ce4b246022db40c2e7a859788e8c89110a1a516482aef713c320351e2aa8ce4b8407057da73f0e43ca163956d6c2672482aef713c320351e2ba8ce4bee26baeaa3cbb967034289a233b5f5f6fc29e582aef713c320351e54a8ce4bfe6c27108cc10dfe531eef4239c25982aef713c320351e55a8ce4b827dec51f43bffc59217555806381b2782aef713c320351e56a8ce4bcd4f993662d6096262b23a0a4182aef713c320351e57a8ce4b61e3a7756b3da4d77f6f127b3cfae98b89a6a5bfad82aef713c320351e50a8ce4bdb55c1fa8303a6888cde389c258aa72c8882aef713c320351e51a8ce4b4e4646af376d2a4ca81ebf713e7f6fbf1ef40cbb316f324df5d5df009161f2c582aef713c320351e52a8ce4b84fad1dda550aa63b2d256648e9682aef713c320351e53a8ce4be967d58839a3266c0dd366dd029782aef713c320351e5ca8ce4b1034cbe55a3b0f26421cef6694bf5982aef713c320351e5da8ce4bf71abd8d7cbcf71a14222fc84985f714427aec60a4d5f36ad5aeaa4d8753a70f3532252f72180e6ec9a3e73ff341468188278e221fa0d9cc27516dd75920febaeef3d98315df1c41aa7676784de38c6cd3effb721e3258af4273f6b8f71dbf66c0ae194168ce9f30c83c4da4ff3ba79f7dd22170a070a79c5306f4d49f72f7b5947f013c04758345212a7cfaeea1f7f75249fe9c95b343cec50e39c7954b324bc520457a8cb2052b3ee4914a8ac2889770f9f4c57617c1c3f1061bb41b99ac498e9c2fcb3f93bf23dca10cc26479e3f658d6a9070cb7a61e0426a7e7dfbe4beb36e1f1bae7956218b46858da31620d3448d219fbea4e23dd15af84db84e2eacc5929c51a1e56dab8a7fc80d698736b288f999aeb39719761dafcb11a831e13957569a71c4760d944d9243025254395503752bb101307fcc3e9231698ab410159d57a2040fa41c11de951767bf07646d134af187c86f804751be145320c8b43f602a14c5ab0d62b9b3b1a08cb90070c6bb94776bb77aaa5266515db0b941d79cf9efa4b4738926f7aa5c6f5950dc187882820d5101b545a4a7295fbd63263b9892e399154d40535d5023e6d4b0a216e8f9fbf69271b92e62ab00e53942504bbe2a832526e3b9cc13b71b9f6cb9b6b0df8f9bf266285e316d5364289194e8b6b82960bfae662623809ec6e464b6e46c13d3bf46d2d2d2e4130d57a4adf8c2074bacc54e949f5fdaf3770515afa750c171b4f94112d64da317434e3f007d6ed4ff9a3472f2d5d60181eaace400e7483dbec5fe9ca17c70d93d64bc1624586ce235fe7a6dda17db95143d2c06f87218c58f3262cecc499ba1fdc9002152baaf722d97ea359c0e648c8e10c82aef713c020351e5ea8ce4bf771aa6caf98e05ab79b52b9981a1c348992704fad82aef713c020351e5fa8ce4b4de9f0185724152333b9942214f2663189c2f94bad82aef713c020351e58a8ce4b24dc49f0e4ecb6dc3be1b0f95eb60c8f8976aec3ad82aef713c020351e59a8ce4b5141721333d0bb9dcaef6258aad82c2782aef713c020351e5aa8ce4b952bd7655cdd18fd60feb10cf5ca4a493c170a3261378ebd9ac2efc195b718c8bba2d33d713cf60282aef713c020351e5ba8ce4b037ea95947396c7b692c55b21f56f2a273d9e082aef713c020351e44a8ce4b90566b3fc20827be39ce397e72e6230d8a2aac63ae82aef713c020351e45a8ce4b9185bb4094760740218bfd6ff66e4cb989e6c1f8ad82aef713c020351e46a8ce4bcf1d4a3e64d6730e4a28dc123baa56608cce41c80467c0037111f2ffb7d2e6c482aef713c020351e47a8ce4b5be9199df06b1abca533da9af3119632db6482aef713c020351e40a8ce4bca74166fb5b7af8442c38052467ebc35897a8751ad82aef713c020351e41a8ce4b8fca66f5744f907c214de34623435728f3c07012577cd667c39a23f582aef713c020351e42a8ce4b21e9212864a52b270f3269eac269a6a8f6c079c582aef713c020351e43a8ce4b1df2a35cfd4935fbc532a6572022b66f8182aef713c020351e4ca8ce4bdcc8da027231b004c51cd635f56686bb899ea9fbad82aef713c020351e4da8ce4ba78af2cdbd0aab9ae759b20718feecf989920f4bae82aef713c020351e4ea8ce4b968f67e5cc160d4b6b0252606db1d6493aefa6a0a1b0873217dfce00c3cedec582aef713c020351e4fa8ce4bd6169c4e18ccc63bddc4fdd9527200148ab6716cae82aef713c020351e48a8ce4ba3604098817e736dcdb2615b20d67a748182aef713c020351e49a8ce4bded1f1029172e046d7f3219b8ae106e979aad892b3107552e156e7ff6f0adbc482aef713c020351e4aa8ce4b492ceadf3c5484d08e828effa011ae4c6f6482aef713c020351e4ba8ce4b325ed4f6306ca5273d5024048b826949892e986aad82aef713c020351e74a8ce4bf05ea2d45b3be89385c0caff0512d2c6f26482aef713c020351e75a8ce4b1840069b19c5942b3cedffd3c0257923e89a65f672bb545587279b00d38ea4c582aef713c020351e76a8ce4ba60e424cf8b7228cf12a6026251692938782aef713c020351e77a8ce4b3a916e6f0eb932df9d5b662e3bdcf2725f84e182aef713c020351e70a8ce4bd5422261cc3f6e6db2562eb7265245078aba195cae82aef713c020351e71a8ce4b557f3f9e629025be656570b3b672e48089ea90b1ad82aef713c020351e72a8ce4b43ca277ee11976a33ecbe1b2b5ea926e89be009aad82aef713c020351e73a8ce4b57f7d55fa8916cd7be9a5958c2f0202782aef713c020351e7ca8ce4be587e79970dc39d77463bc586856f688fc68be9374300c23d649c6090a47a863053aefa3dbf3e27582aef713c020351e7da8ce4b6500864d0ce147c7d52dd53463caf571066c177ebc976b2fe5dde4e05f4f8e909431997946aad075efba7533d2aa4d10544fab3b5c163fd5c8788976fe6c55b8ad00664436b7552ab787b0f3ee5c5ad4019ee46327c33a9e1ba29fe7b17e477d1eaf8313b2a8e32179d4b10f99e734b636f06e6ad3223e1ee92601de23cb5591cc0ce16287eb8a3edb6a8f9d9294f5f0093c28d878579cb78766fb5e2d171e2c49eb19989982aef713c020351e7ea8ce4bc4f67d9110e75cf9b885a55f2907baae62807f84d44c2a043f587eb73c57954663400e2d8002400e1e8d15042918cf108f3227c70d9d0645ef505d18eb053f16e8b9f96d67f7f33b34b2b2eba20a0a1f8b07eee333d1c1934e5be68af8f3a2a352c5422f1f4c8179f843ec644d148d68d7eb3e9dc335cf56b4266a8e15f664c6ae2c2e028b95f346fbbe03494ad68865047e4da565952f893710a158fa2010ce770dd20ecb8db983d2f0af2f2f1338733a39f0bc46b6fe67460e0d26ac4516f569bed170d8dca0c102530594003bfe3cb667efa509dd6ecf202dba56c9066783de636e37c4f7f0a1d6c4e93880785de28303d2b6795b236e1c58a6bc4c901c0f280032c30bf22bb84cb7a0cccf6de90c2dbda1f701075fd94fc03e823fc213e789e438421231af40f20380ac8b134514aa5207d672004a42a312c2dd4d2a4896bed4d4a7addc97f4b99c75fd24af8876e68b5f9d607c56b66e0b030b3215b7a22ad423a23979491f262bf6b54f9ce103f7122e732a3999c91187a32672127bbe6b51d64cc37cb6de380d7768c8c246e4f97875d2c817abfc9287225bc50b394c3ec23c1dfbda67442bac43d611d944498572987706fb4f1e1daea1ff4bbf00bd646d48839fd781afb36047a7ea3a404c9927d0298d0bd6cb372c4e1bb36c27864fb27f2d4a451477bcd55d75c914b27ba24c76267f3a047fea041c1f13f0aa335f39c80d8b3dd991140e523832818912605e7727a10a6ca7c24beab8a88ff2ec60c7ff9de9fe4040836220757fdcd7a58d5f345018b63977d3aa9b0ee803d0b3b4555ed1d608f938350c1a6146e96113f9fc4adfd6493bc595fdf2c72e03eae18a31148fda2fc025a88cf75f555da80e2db2bdcfe3584e93172fe532ef7cb02275806b1ef059523dcec7a85af69dfb0eb33a767d2d9a231b9c008597930e3a593ed6c4c90f260fd0891414f19b2d0e82b7379ddafe16084533aa6ad815410ef44db0a89dc6c51ba04eb100da7b4b48c05260af6893987020063a55e4ddc98eeffa60cecabaeaaddb41163ee64715ffa83e6a5a2a35c6cc0227e6a1178a8f33d226b683d97bdc23d33635a41c6c5ddd1977e3d5b1db1024f8421b19971fe642194db499d232c32f369cb65db267b548ff39cf2d1299a0081d6abe5bf61432b7236b3309c71f7aa63fbb8d789b29eaa18934596b8fd1cd1e7e5b422230bf8a58fd7817f9dce6c58d329a1cf2237a4195275a39a521e2c2dea2d42321e89f44707b9b8c459ea50d7e725f01bc0526c86e8a663d8af44d97d4fc0c00a0f0c8a4cbac2d8e9d3d161d23d4d9299040176ea5f6070bfd478bab1b168ab14ba08f53367e6114a99e460f16f135a16fa6d29e4ee4506e2d1f0de95f27693a5c63766f67741df744ca5e609d53834e252db6d7ffe09d5fb7a94bf6debd9ec8ffb1c44ebe4534275b14c05a64f5c86c8e0cc7052b2bc3c9742f6c992552bcf8fd8f688bcd0d08b240e64c03cdef5f1718d8efc361bafb27cf95e769851da5d0f32f826cd6a2d95227ae5afee3c5da0fc907307209a988bcfa9d030f7301befccb0142cedb797e1789503b01c067bd6b3a8d71fee1e32b8000112612da7b6bc20413966a0962df1ccedef6e9138968d75eccb69a1c12cf9a92f2737040e352f6562ef991bbcfc006779e97e7447464b2f172329b438da0bab640d11be442b5312fdb33b30effdc99d61145a4c939f1c276acffed40864f421843aba7199a247c7b53f9dce93216a0e67f2b4aaab5491535e936495d42fed1bc9f9abb091d28272d6165f4956de7358098e360a097f0f2eeb35637d49454d70b067eabf5b90ba9fc47a9de99c4a753838cdaf543da886061ca5e21e84d3cbbfbb9eb24a4e491a825097b3241e170cf163bb6de4661d2251a538dcdb4fb20593a92e24cefec7240a075431b32097bc367e8356eae5a1169220098c01a6bffff3a72a8a1098e2e85685a487e08c7fee26e4835f5ec3edbc2413afb33e59085f15cf44a718444538991e4459fda310a4185d1afd2421c2dd9f5fc36ec8193551b33c3abaf8043327ef644b74db1a9cd8d58f464433559f5ed22fb0f763a3d85735bb6513f0088185b0c76f9643bfb0b5b80538f7f105235d61c0f95ce98b4c3096830add8c25b645cf0ef397acd2690885b18a2f8e41241fdc48db3d3c1ca89ec8df2c8c75fc6e420d4ceadc56d6a4792f11b630777bb259bc17b8272ba0359a63cc1b53d83e558ffca31de82aef713c020351e7fa8ce4bfe0df74f8e5f10bd9b31cbfa2d1b0f1e6cfc9382aef713c020351e78a8ce4b4b781148603f44c2b0c62881026063a84a3724c582aef713c020351e79a8ce4bedee95f309e80492130bfcaaf16af202a7f3e082aef713c020351e7aa8ce4bd563e4133d1b5c2ec9e99fbdc226d9728a9238e5ae1ce474ee5bd8f0820b016faa62076d2438a04a10f618206d8a58a3d065fd9ee5f9443ae528bc2e8474805376677cd8dd1d9b11e982aef713c120351e7ba8ce4bb0f7128f396cfc3651906eab83119ad6496482aef713c120351e64a8ce4b47cf4396092058aee2d163a6ab840eb568286df32bac8830cb7dfdff73aff3c482aef713c120351e65a8ce4b80a50f8366ae9871bdc13451d71ec60d8aa27a64ae82aef713c120351e66a8ce4bc735a73c6073adbf26d0b2d27f1106ec446482aef713c120351e67a8ce4bf67e531beec15817638fe4929e4677220e249328c2a4f1b7a5bad4008175e5c582aef713c120351e60a8ce4be763031901c4fd452f6aba7420ee4f978182aef713c120351e61a8ce4b423bd907bf5e42db5d44e0f516da5da8ea231dc582aef713c120351e62a8ce4b192bfb91dd382a1a00d33ab7f19682aef713c120351e63a8ce4b56ee748f2ca3fe26ebc4a77695c225f6894e3946ae82aef713c120351e6ca8ce4bcc31434f75a88ef66fd2b6cb389682aef713c120351e6da8ce4b682274beb535f821e7c4c689610bdd122df9e2e6fd005cae3d26cc00a5b9dbc582aef713c120351e6ea8ce4bab00d20831df8a150881f69a1cda71668926d48ead82aef713c120351e6fa8ce4b27d80ce1cb8d2d3ee08aee7e32045982aef713c120351e68a8ce4b5b3b1ce6b96a1c4393818ca56b62dda9369b7e4673c92ad6c3becd002788ddc582aef713c120351e69a8ce4b4a4b6a433a5e8df22190ee8eee0a5982aef713c120351e6aa8ce4b69200d348d0aee05910a214f46a476a8aac53cc582aef713c120351e6ba8ce4b5bfe170dc9b69d3c5292614ae0a1f2b2c139e182aef713c120351e94a8ce4b12e9ff74b7ede2f0f71170884e4c2ba8feb2dcc482aef713c120351e95a8ce4b331a4ae30bf57b6fb91518f0d2286ea85ade31c582aef713c120351e96a8ce4b059424fc3a7e0301fe5f3f5632986f2482aef713c120351e97a8ce4b97310c83c3eb380e568f4456a637762482aef713c120351e90a8ce4b6567d1470dabcc631e283f56a66d6f2482aef713c120351e91a8ce4bedbb228bdad37399f622cac82096b6028282aef713c120351e92a8ce4bed3f68e1053c0d4ac6f846563e51792482aef713c120351e93a8ce4bb0e4f212f24d1f4c53bb20dc198782458f2d3bf5da2c23b0db4322b17ded978d746ad23a29220c6161b85de37412454aba314ee28dcc9f0180129de597dfe04c9fa8da6b34eac18dbb2d306763eed1adf91314ba718ac053bac1dbeff47b2ea981ce9e9124a35a879379e1d0cfd06c946d308a84916cdaf068b0c66e49758bff28d1a2031b274f3f95299bc03ef9e29d14a65845d4d4a16510a127118d43f4fa21e6f2e7ac8dde6bc92b130003616561f7dafedc45450c07c83dc9a6fb450da7d2ada4a4d67fbae9c724c55cbe011070bc5872ae282766d79d84cc66ce5138abedbea139e7566bcbcc91df0c0de25a6940a3391c5a245bea0ea3a5a5cb168c63bf4dc4c6eceef4802bb8f587366d768acb3c172d6ed553556c9c85198e5d0d954ed48d5a4c65e44529c749ac34fad7258adc28628f5a5289d6fd97b49e17f2c985f6021a16795e127898088a27d4246eeb35b897f821d3606f7b2645f040173ea3626447a2cf3aed94f136eb96e56b07ff06882cfcccfc1ac577e7ce27e1c2984662816c112415593dca7ce7f69bb2580d29be1edbce44e42a20d82b0ced69a0931e228fbea0a6963f48cc04b1281d7fa55adfa41e97cf1fae60cee8739228529cc6a4683bd4a02d71fa8c354029050b670d8425af8ec8d01b543984a93ac1bf0441594f07684955177f8ce244eb16fd191dc5f037f6dc43ac843b0c9db0fd80f93fd452e16dda75ed6dbc880f56a879c70e4a1ad686e1b2addde097888c2336ac2cdc5b04202ad68beade681c3d54504c8254c4b4416b874bf6d48b917e6e8f45dd7077168c30d13e2698872fca977915f2b3897bfcffb35c4a14471583fa7d90bda7587b7be857af0c7b2c0f14513c7bb5630357c4913804f79d0f32c42db94c4361b94a8ed21cfa2acf0770983b5534d6ed3b6017dc9e489fe57bf66b88422ba91cc6bc82aef713c120351e9ca8ce4b243c99e2cc6a854f622e87f24082aef713c120351e9da8ce4be4856d8668f932ccedd2fa78da9682aef713c120351e9ea8ce4b5b602b706b02e7860eddefe224b65a82aef713c120351e9fa8ce4bd7efde401df6f863623aa00c4182aef713c120351e98a8ce4bcbdf805ca17d0792c5f5ef76bbd55a82aef713c120351e99a8ce4bdb2081709a9502bb85430efc7c0e4d4e8992ec70ad82aef713c120351e9aa8ce4b0b38b7fff4329529d8d6263b266681f78882aef713c120351e9ba8ce4b5c0db068f67d1507d8a5ca095701a84dc29639fce9c793f789239a00d75ca3c582aef713c120351e84a8ce4b55c099fa0b3e36b960d2627f259682aef713c120351e85a8ce4b4faa30237c9bcfe0574572696f9fc303facf2360f56739b0d46ca85d4f51308169c843a7ae0bc14a6c9624d36e9266adfd00b8c47ab2e9f458bf2c0d4438621e69f60f38c52854b013e687ac86efab37605f4b4d66e46574e8112c4e86c871c5d8530fb5c31944b68d47cebc2dd09316f2d78e410137ad8885e3915dd0d38a713b5e3822be49501181b2e85ff9aff6ea5d9df954f32a2ab253553d854114c4461a029cf8aceb0c83ca7eafa473f0c640dfc1afd5e9dacae6ee8c22f3bf83a0e87d415af30ae602de7952ff797ee3c976fb65ab36556b7f1bce46b13750a936b94002193db02879d5112ab2373c57505a28f910a7018b5f62a9ef8ee043f25e32cd15357a30a45cd488bb9691f762f898bc2ee10d409cd8404e1a33fa937dbdf0d1234c915a201bd39a772d1fd136a7897c73aaba287db23c9c79471c1ba9f90ebef5f64981507287821743d9800436c7ae92d5cd080bdf8f9566a8225c2b792462b3b2040282aef713c120351e86a8ce4bcab711a26bc5ec2ea3391c459486adb9892217f9ad17fac07b0006a548b7b6ef50b092c8828704fcfa9371cf16cde1646cb3cc8692d2e2149eeb898500ed33e93c55478b70a81a5d5782aef713c620351e87a8ce4b3f51618a1622479a5ac05c567a35952482aef713c620351e80a8ce4babf4dafa002a6da85f4441444f4f8e99eecc420b42827670219f09007d5b01c582aef713c620351e81a8ce4b8d5cb1fb292a2b7758f9c750cf7665eb89ca7a38ae82aef713c620351e82a8ce4b1ecbdc7c4cf6f5429f78ee8ef1ec5882aef713c620351e83a8ce4bd3bb165e700d82c388f379c21ead661f8eb39deef93c4e839b9fbc00c328cac582aef713c620351e8ca8ce4bcfeacd3bf8120c355768d35617806e81d86ea9408c7db9ee47931c9cc23e7d4d8b1b01e8daaa69632b08a21b708157ad6ffee0894fc4511eb8584c20bd08c870bf3fbc7725ce801c86267dbb4a2a6320ef10413e8b5b3abb7bb15a07f45145aabf82aef713c620351e8da8ce4bdc2b384047d52444358922f7cd3d18b39c4eb89dbb46c1bf5020c052f8bb94a78d75d98bd130e461b6ba22463c8ff2b95cbf9bdddea8ae303a8642aef35cbca6952f13ec878ae1e6132f70f1b09ba10e4652c7bde63ba193047bca5590ac8c3ca31a899f58adea1511efc68e5adf82aef713c620351e8ea8ce4b431050669ac0afe011ba3fbcb50acabdf0cc8d617be57528f0fb34d8d62eff849810ede6422255a2ed353aa47e73ccbe88280ab371af01cc7e4f410525473ddb013f2dc29987e0d5e5d61dcf42d0697ce5a03f4ad0b8310497e23ff6103ea01eb5be52c516bd90997e823cba5067cb90ee1fcbf98eb73c41ed38db8c6a907327717e55bd680e554c12d95554c73ad1479fee4dee5abe23bd96ff95b0fd2b9b872473a7bf9a502bae2f8567a72bda623fc0e0cc1b567d310a15958506c0faaedac62c9d2c214775bf2a3ddabc44467866acb624a3abde613dd290eb27a8a4de95459dd3f90c42037384a78a5beb2e298b3998e385aaf7e3191057917bff502d0ae02cdfa0f19939988fc4e845f056333f534286a1fc3e4d1c81b4ccc7ff481408d95a63855b85f88deee3728689d7371e4cdccd7b24bc097cc65538ca264445d8bd95d077ec673fbd2a8859470d24353ee6a94290681c654dd19724da7cd87a79e1a749931ab69bb07723e53525c3b8466e2633cf90c4d30136156e22187c85eb2535c90bdb65bb8e6318cbb3ff0b41241f79887b7947804a20f105ae76c669610bcdc8104e66c766659f1386585b854c10d3ce3f53d7f97a48026e93855c53f49b6747d0b500b42595859b0956cb0eb98e63d1fa8ea3a4bb5755d125465accb0575601c919afb70ce396c5cdf46c28811c6699e01da5d09eb01e2b25f8aa36bac7dd47dcccd5f2406faf29bb8aa1501cb76b7afbf2647d44c606e0115384612aedeb58de211f6679f6316b6e505e3cf2a9d685668c2d1f164de8cc0f2dafc3ccff015701a712bd56f35748d589cf502aa7e348f093dcabeef14b2c352702c5c9bc6e41ecf8212ead253f9b1f29f76af5b22c7f60c3779b0a152fd8d4e6e66378035b68eca0da7c0edeb8b227b58927f1be498befed8422b5d0b2bbfb5b40c90fa44ad9c8293d9d692a125c5ff296fc0ff614c3f49149ca3ae823f0d1e6e09532d9e7b79df15176679600d88b773b9706f0beabf3962cee69592665b6e818618f594093aa0818884105a09f87114b69d3be1e379bf9d447ae3a7a5153b5727ab23213e6937d0984598147cbaaa2d53e56566bdb6a3382aef713c620351e8fa8ce4bc134c81ef1bab96772ca1b2525f2f0918782aef713c620351e88a8ce4b8a7446d7ca68b5bd3a6b73560a35b22482aef713c620351e89a8ce4b75a76659c5587aff2619495b7af7de2a82aef713c620351e8aa8ce4bfffd795adb33c4959edf305b46f1bf2a82aef713c620351e8ba8ce4b7522b8b26004579530dc8feae929f26eeba0e082aef713c620351eb4a8ce4b37d5052536b1cc79ae19f6f092fcb7a8ee6690c582aef713c620351eb5a8ce4b1aa476dc885bebdb36deb988dc10c424b510fb425cac25dbd27caab4242e2a9e0bcefb8bc25bb23db67feed107fdfe9945d507766152bfe6b6dd8ec974b32a31a5405187360d8e914f85e7cf8635bec61648714d3fbda3bec30e0c46572d7bdaaf5423e0b46c9a208c507b44961f42501507df12e3f5c2fd689c9d7759c3f7f6fb9e11b653e48f720ba5e6ebb98d472fb4d55a67de3e473e04328dc8b3e57bece1e5c5565fd06eb68a15a76229f0a6d9ae570139067029350d3f607accaa1cfa4b75637724981c406df07d5b964beb454f5ecffd7ceaa898daad49be35f4c54cddaff94fc2c5e1b5b46121c6dea939edcb6824b6bea5eff8f492a7a8960605031a26b83fa035abc1aa09b016399874d7e463a2cf3c66ed2e9697b53ab24bc3ae4362f30545e32c87cdf214ac9e5cc4cea3273aef869e8d19145d7df4f646926a53c62a8ee635bd28eb402288fd15d71bfdedf37a1249f635d564c927b4983df40f398ca267cee21255e86e25d271e21a4141e2ef92b163bf8f9f902dc5dc2b5cb2e9b8b0811898930fa37a9e9be83d2c1620ec62cb626c2154d2fa137a2de882bff6cf5cbd74b99ac8346d73dbbdbe4909801abdda08fd3924b344a1d4efde04840c2c7fb81b66be9e6054762dc4d48b8bb0f9c1ba970e10de830583edb422ee5c311d33fd19410f166433f49ca3a74cf66017d300f8c280a24e20e54dcf8f61d74d101441ed50d9e79b981876eedb23ba540cfd211c78d5e1c1e7fc9151fc5851dadb09d1a24941c56601b8fb859e6a5d414b04496a7215579cda21e71c1f5fcd2d71bdc96a28ef58843303458e016a2b4b641b6876d35beac0d02010919c8c5fb41e65c81a852bbd36d677343620e6df0f05cb9ee6bdf405b591aedf809a8619d2d51f657d2cdee92dd624c98dfd82dd7eb3b7a56120c9df69534c0e8f2ce13082aef713c620351eb6a8ce4ba822026d590e0eac74298c7a8e185775373bb9bd86a10a279ceae32a5b6c53cec3307ede95dcc499e86bf8fab6a07881d9a938a0444ac99c43c844afa52e0a79b35a2fafeffd706f9f00a7ed3d334b82b3510281e529845b2b9313003fec480374fc35c0347c00d3bae686e17e48cee4961be9a5d3c0f564d9492dd2620c8d0b5bd0d8ddebca192a1bc9ba6a74f0e372d216c9347da81d48557186af1010d9ce9d02f0da98c69783258863421a575c0d974e4ac64b1ea8a3ecec714f147f2b8a9869e65304a77d32b1b64090babfd7dc19eddabcce68538eeda18fef837dadcda696cccd1a3150e6b766c891390be25f8be75ef2cb0420c77d924808892c43953ee2a0d042de533b3ed0e57b7ec3feb9742fdcfa5d6b8a763b181c135c256208679e9bbe7aedfb1674aa7e619c22fdb626a56961f2ae9c5efebacd328ca6c14e11b759f28d5a43dbb90435967565d6969488edb72c506cdb6f34dd40e7a791dd5d13ba165072d479092669d4baa03e284137d75ddc7460b838bfd65a965265bfe0cc528ecfac7aacfef49c9a7e840f05e1de9b830c81cb04ce98acf9fb8522160e2a35ec39fc7b667e123fff6c93d11c052e9b002a53c43e928a302ff338819cecd259ce45c8aafc1c3baf4582b23b97fac08229298f5a346f336e6e6e0fa023535c31ef4609e6db805e4504b9f6e52ad67f824dc0cd8ff788fd7556f072328e5b2c42b41864927c738d8fea99c810f78da19f42d0b3b866ec36be7b561dd9442c177e5f1abc132e1280fb062b46a6cb931a226058b36a35ea3b3e36619b87a3e31e342ef4bd87df46f4a34f9c32f028f9d5e40744b7be3d4ae6efac61af7965c329b1297a1340a8e04826b74309f3e10069e98aabb38ef9a4e7f67012fe2f349a45dc2b43f401da98ddfd175df54f029f63119baada623ca06bea88982069af920565ac974e1ad108e8b2be6eb53a7aff2aea01dbe0f17dc7b63b0a8cbec5a8ec34d722847f7cd9761147de5b4fac04c1a4a5b21c8c85b4c9dfc7c8799b7cb24d529a4b859f29b91c7892830a8bc27c0997181d90e4b9c64755e8d11ffe0c24e930ad34886fc61260c2ed0251a37e5e2874f6be05261b5bfc496f18b2da1c244465795fe2b8e2fdca9b104cb02014ca883193a893a893121bc46cc3ecc0f53cb0b2a0f64eab130c38d9f252e17db88ee4e17bd1ccc8e1e88bd4f322e6be8ba04eb2049d9cb4d1d385a67e72d0f24b7af33d28f39be62b645068b6a6bd35a18e8e634d9fcf2878fb9b0c5973541b1cc02b7d7dd855acc7eb49fde8808b961064c9f576b5d9704437ec7ad17dd13f4165fb6f43465d68c1a743a5657ae5edba3729ca74fa3808a648a94d5540bc038dd9481da1ad5c58e2b9b9cf543ab63c870c52cebff09177919beedf8f829a3ab065e44fbb34a92e21a42069f01d9945a0fcffb59003e75a3b60f2365b371c49b288ef40687aa4da2e8dce3b92f1d82de0ef2c4cb59c043bfb36c1af1dfb179f6acce982aef713c620351eb7a8ce4bc6ed4d76c27e6f7762922a254182aef713c620351eb0a8ce4b3304f678728a787267868a814782aef713c620351eb1a8ce4b7bb5f8937a753aec4fd29ee80f9682aef713c620351eb2a8ce4b0136c879f98f4ad1df1ddb03b3decbc68996100aae82aef713c620351eb3a8ce4bb43e9c18665fb0e77f99310ab2fa6aa8d63c2ec582aef713c620351ebca8ce4bb22c90f408f2a637da8463a43223bb964cbe29098cd400a3354612008d0f0bc582aef713c620351ebda8ce4b4eaf6fb6ef44f63fa5d2ee087d9682aef713c620351ebea8ce4b5a9f56668394b532c2bdeee64e455982aef713c620351ebfa8ce4b2c24ea6d2e06ae4367faef454782aef713c620351eb8a8ce4b32d33fac7f148d9f58e18e8ba94ee5f889c6c349ae82aef713c620351eb9a8ce4bdfa34b14025888ad581ee70e20aeb8128182aef713c620351ebaa8ce4b93d66d84a4eaf22f023af5b0cbb95d0a8a59b39c7fb611ecf5b595005f6d9ec582aef713c620351ebba8ce4b9e609b3fdec34e0e88d26e99579682aef713c620351ea4a8ce4b2ce79a5052917e102d6c66ffd2eabd238a4e9980ae82aef713c620351ea5a8ce4b8985fb0f515c9f1e8e01298d00ee6dd3898a001aae82aef713c620351ea6a8ce4b1299f294877de0bb243d41c64813bf588061775eafb48929950e130007650cc582aef713c620351ea7a8ce4bb9004415fcad389f9af5bac2a47b025a0e5ea9e4903dc78d6b89c44b6f0c7c88c6c6d0fe30f51f211bdc6b270759b72b88f01c11ef223edbe6eb8d489504ffd2506ddb2c53b9e5929ca165069b7821584d6d27df2f20788a231a9ffda2dce3e62c37f42a85191ea6c23df3ec96775e38697bee2a645915a59e99ed3391745d5dfc78d1aaa1d4b119c0b07c551943c50ed4182d221f91e1e3e74161906c927c15fd7cb8d1bb180dd5f695c9a3b248cf0cd75b783b6683c6e244956da7cec4457564f23e32b634d8c9d28525911878aee0282b78b5d3f2c685618aa318ee417cc715f80aff023fcf4e0c17f4325890627c2950aa82f488ca4c841811d01806da8906047bbfba143ad68d69ed5a720601806023a8d246b525bc4cdc67229aa320045f17bf0d8918c9e53dd02a5881159f750e90ecd46d7f95802f17d144f936d0dde0a8468bbfd610c5fa161c4e531ae9eeb3800942c61fbcd63e7d598747ff586b1afe7bf02f274fba40ad3b247a8e9c1911ffe9717947323d7b486770b558569504c68972559b1a6361adb2539d7d5642f30867f362dff8508ddc11be13247ab49e711e0fc2c5761b8f82aef713c620351ea0a8ce4b8431997a70800859413518954c2e571a8a4e9674ae82aef713c620351ea1a8ce4b222fce7b5e790e185a929a563a2ce42482aef713c620351ea2a8ce4b735ab00cd9fb847958b211c3e5f4a31563141fc7a415531b8f4c0d00757405c582aef713c620351ea3a8ce4bd1a5e2c776fa3ab86e3e41506eeabbcd89f6a212aecc6252f728becfe47073861896fbce4e6419ee2029af82449ec39b044e6a7a1ac6d946abbd0f0919610f9ff3fa543f92564ccab682aef713c720351eaca8ce4b92133244843e51407aaf88564255cd2482aef713c720351eada8ce4b5704b8bd1aa15d6984b1c9abccad76622d164fcd5e16ed5e7d63b8007152c5c582aef713c720351eaea8ce4be296aea5d2452b7762c3b4d740cf8e39ebf7bf32532df3d59e5baddf9df3be0849d01ed54e74f7cea74ef963ced1bbdca59142f8e87f4593392db5ac2e308f0015ad05184da6b98189c2bf3e16270d8f7b6f1cb7a0e1c365f2330b9eccb12acdd04d672c9cb79d4a895e0bade16a43c572b3a34c0836a3ceb46c9329a9c12e8d3167c4190cf8c5c0d6588a0b4f56af2166efe30d0220fb59f7acddaead72f6995a27a4d1a7328b14b02cb7f0e774a690b01b6867508583325f99f89627972707bb66c120434e9bc6d6613f7c62ef6e6632fc5c25c0c7325508ae7e8e3264964bc0804421212dfe705dc52006dc3cb16fa4cc9e9d7ef9a46835f09163bcca55b88a51c71bdb8f430d6ab08427a0c30fd3e8116d27038610a4a225a9a6ae3a60d220c012dd2a3002854590cbeed7ddc7b9a29d1afa70035fc625208a6a947118d03723da031b28a495a7b975ed5ec867c0da68257eb903fb80ec6643efb7a68214d9dec4d0b011120639549db23d78a3110b1af40722cd5d52fe31940a0c2b7e19d6d19a32450e95ac915acf7ec868507d6f96d3f8dd4e92d3f2764cbd24232e67f05262e990149283f212b55b99e6ba26a4a7178bc97c9895b0c9409770004f3e75b52673592346fa3ba6ec093c5489c66a03a4c210de6b9cafb3213e9b14b9e11a9c54d0cddfabfb49bcff53a1d7a3fdbfd93761d4be75262298ebd1fd0e1fe7b44f6c5de7f2739498eb4382be805f1e4136b004b495adc16d6512f0eee65fc812ce8f7977161ba48d55ed72343903bad2f060c701525d92cef26cc96bb671b839174542e2922a5f5296a4d3b585d4d9a2fdb9a6420e55bc91682de4ff961b42b4aebb3a9ce169174dd35df04550e404ad21d801ae172a8da226fdffbbe8442886212d636739e5dbb87ac971ed9ea228b026364aef16b521e404456c6a349f4041f4580e5370a4b31c3143294457ba1475c3a15160f2911bcc93af03e6daf71d2cd485ecd3c2e40e28bdcfcbf83789128b45a6f4430a31b2e4578a7fd6a25ba7ecf2dc684b7512d9ac57246f66b81e4702ca84103be4f07e5787f7df84dd991a9cf2861ad91a5c0b9b2f455e5ac7427788e4934039b12dc48b7f10685b3d7e6a5741708dae0f4716d786c371213d352a76b9a2c99e3e2431fc3896e53f028509d6e6491169d563b49d68af4f3165e7e87dfc16a948ebd3173fe87fd647bcd39b107432a73edb5f006c45e273f7107770e34d450c33164f652a1249ea471e923176cff7c231bb148be1921350be8dcfb5968d97bc1993199c376ed1a65ab77187337821a2ec6ccc4383c3907e625161099580b18f25166a4c3af1f3839a079d69a9ac1f11bfc6048305fd410df4dec4c972911728db328676a4b52d89bbf0a4067df25971cd791000612717d9dd8f7eeaeb27403dd3725461771d00fb7100a3dda3bf8d894a1cc12c74eead915f0565aee30868c3ce0b40fad70fd391b1feb5475903da64741b140887a7b9eca76cfbee39080264f961a772eee904680bcfb5a2634100898cdc89a163301b7bc59aeddc524b02879043d2b040eda25aba7046e5f09447532807595e0e1f1cb03339f561545fb6d139602d528e519e56efcdda394df83cb8f3955801e76de41dcb4de5f8d4a0a42d408dd976bf2358cf54c2ad4c7be80a15062500dc5fbba005e3640afd7b50a3966adee81b02e805667001c6bc1b838a7c9798ed757b3f1aeea0da8c507291fd8ad83b03f464d7c46b1d463584470b2e787da9fca97acb3c8af4e5b7880e5ba73afd1b5377c2ba126ee37a192a24f9a5051d544150ad57a3cc1d6fc313ed4122a4aff22d95e6fbf2e439f167f4775cd822b6913e8f1f9840620bc75e732c00567798d59441d65ee45d022c86c3ebfd11e01a41e61a49f4d5746f920467fee8c59729c554f135e4fabc14d043af532ae91c00be10458513f2765eb902f7625c487dfcd22f3d9e71056863fac470af68353de0a85afcd416469f94d6472fd3a9894ed730ac92edbc0d20b4b37b7c473326645343c54d78d0dd419ae0af3bb7d5cbcd7262df2fab6ec416139ba0d1dd2331e993745ebce3dc96fa3fadc09e63f449ad0ff76a596669037c06f60eb9ae2ce10f9cf9e9f8e1dfba8c77af418b8dba92128e1eca84315bd4176d930763e37fd4ab32e022ae514e95a59a0982f5e75f4a17a58917dfe69b057880ceb5e0f09e7d87bb35489a5415b787245929e41da2f6cc811e77f93dcd3e0be9a9fef6716ea1eac7ca6d113b7439f9ffd160856f341bdeb73dc67cd3fedaa1b358af6b325198acba10ea683043dafd021112bd7b44ee1918d84c3327da0c8988782fc175f0dcaf77e80388c0c7a06be02f8299fe04b05f95ef1d7110e657f19b44c5e29ca134f1b1ba908e0077b6493936a578ea46f464e765b9582cf98cb7601cd1c4c170639a74f0513a541753bee932862ad6c31962dfd4a250d0a92af6d8d988e31887a7b3bc13dadd941ca54c5c112ec22f1a6ece4d473d4268e7401854c858aa3b0d835dc3861516da71593270c775b0e9c752eb4b0f0c4bf800e404c2b586d6e36a3eeb16d72941402bd24e83a96581e0f1eb37cddeb744ea3feb330a19285fb1ab784c9c771552623abfc9c76a4cf7d93214f08af282302c07b7b8946b57870965f9d5a88dd9b5518f68316d6560a9b1649731614dd9a0a884807beae6b60db7809e35caa10a208fe7a97ac3c966c8d89381af697e1242886b24641613a8e705380d88e4884550d325f080a114e11e41a0e4dddb4a4574dc98e53a06f8db9690463e36d7be8e1fb9c36f7f00fc396b25b10f200e4344987fb7284ac1e1660752dbe41a77a3259b176d3f73df0c120c285da1551556a95f07aec9b1da93a798cf6c1efdb338697d84ca13b597b9dd1e0abcfe0500b6dda66828d3f9a66f3938aa51684df30f48ab0fa6f490b72466aad3f3604036fc710392d5c7ab0c363b55b1d06536a39f5a834adf4ff95a1db63b00a43fce564f5acd10d357480a6f5c6d4364178cf94d54d40954754a492947e9be50f97378105859f5902ccc9b19d23a717373b89c22bb90b140ca4c62412483937a93737989db3340d2b606be520c254df9d29a033580b29b899e2f5bb6ed10746daeca15b8e3e80d28d8d95a27f3c234c4a5f44e241617409925e5deeb1aaffc98efadf91f8f1612f6dc418b1871e78b4bbbbcf2e01597b2dd7c1fae06b15b4b56314d47c2c15525ce843ed31bf7713eb3024273a4eb80d485a8122e1b078de46053f8f1507298db42dab5ecd95a8d275670f1816ebaa0e4200a20b3cda53c336a1f568e0181b3c6bd77b9c9207627a72663c6feac232ff263b73084a06c1e74921dd0e9cf3f98514876d2647ba3b5e1cfc6f85002d19e7b3f952c155f092220c9b3ba4f58ba21512c7b6cc5d2b50660163a453ec91553da46cae38a68d1ee57141f129e41f65a5c623676e815d814dee891f3e02d2157f091209076a73222222e113be4541252d56292bbc41e675768eb792b4e18c051f91d8d1a93cd1cd4c73f08a7d4a7c96bf0d0b973abd1e05793b2119a190c546c7beddb1c40ad989c05e86aa2eee716a2dea23c563747ca155797e85b86b3bc812d6a52ed3fed63095cbb0db4cefb5f3ce082aef713c720351eafa8ce4b04fc592c6efefadb612eeb5e4082aef713c720351ea8a8ce4bbd28fe4d973084c681d19e4a8e3e5b8289e68cb3ad82aef713c720351ea9a8ce4b6a109779f30f5e33844ff0f17faaa5738ade68e6ae82aef713c720351eaaa8ce4b89d8460f118cd56bcb7f35d24ce0f146e942e082aef713c720351eaba8ce4bb13d3985a038ea8bcc212c1c2879d45be0127e55b6241aebb6787b2ff7c45de03fbdf33e82aef713c720351ed4a8ce4bf2a69a21b1f7b20aa499d01f0d0eaf9689ee6ecdad82aef713c720351ed5a8ce4bc1d077f02a724665b703f9d4e29ea43a8ac6019eae82aef713c720351ed6a8ce4bef8b7d801749aeb21a98dcd656c2f2425e63e182aef713c720351ed7a8ce4b5f002f17f7bd1e6de304f77edf6a707dd3cc48f629877e0f4ac9ee036f88e6e32717ec4282aef713c720351ed0a8ce4b8973f6bcc43a48736726e9824782aef713c720351ed1a8ce4b6939d3221fcf52539ce2493857a6598789a2d1b9ad82aef713c720351ed2a8ce4bb0c3e5df1cc392d11ea46f58c967d3823e914b3855edcf676fea1cf582aef713c720351ed3a8ce4b3b25b2ed45babfe020b059c8d60187a862a851c582aef713c720351edca8ce4bc2bd2eb59899d6f1ff2106e29602fbf889eee749ae82aef713c720351edda8ce4b731a57b1134f7b726f8d3a925e0e17f07fb7d1458ba7a667016beef482aef713c720351edea8ce4bf1ed644d8ea000e0aac8377380365e87893ee4b9ad82aef713c720351edfa8ce4b853fcc36cadfa27b6ed30ae67e9782aef713c720351ed8a8ce4b4ab852d5f7b04394252dd6dbf0f81624499bc4bdcb5eddf12b526e00e98875c582aef713c720351ed9a8ce4bdb2eba7fa373833b3a63008f207ab3e5896e3d31ae82aef713c720351edaa8ce4b69fd9f7b3cbdad1728de527820a646998182aef713c720351edba8ce4b31fbdd0310a10d70a2e24f7b178976055c8bfcf33069fbc651edcf003f04e0c582aef713c720351ec4a8ce4bea9b2805728ec87736768e3d0f32c6f4895a8444ae82aef713c720351ec5a8ce4b75d7ce19323cbf65b47ec2afce115e7fa96482aef713c720351ec6a8ce4bdcbef987df9f1f618ed11b766df0354d228d81bd21299f924f1f0500614cfcc482aef713c720351ec7a8ce4bb18ec6307c6a5610625e58a14082aef713c720351ec0a8ce4b7937f673651e518108ea9ffaf25a6bfa89a2bd4bae82aef713c720351ec1a8ce4b476146e383a175b417264b962076a2bf8182aef713c720351ec2a8ce4b2bdc167b8508f2b13fb8619df19ce54599cb596e1a0c5446f50aa2008f4facc582aef713c720351ec3a8ce4bb604fcbb1947dd9fd20ea1db73eed68b9be2421d5382aef713c720351ecca8ce4bdf043471efecf5bbb98acd7d25c638038882aef713c720351ecda8ce4b776e814b9817f74b987b75fca77d9ccba321cc04d14371f98d459600f1ff9ec582aef713c720351ecea8ce4b43523c6359273b499e422ccfcd5ee4aa9bdaf7445382aef713c720351ecfa8ce4b2840840b0757a2f04f3fb372b8230d3691779182aef713c720351ec8a8ce4b9d7c2d43aff120264d24d3997867e4a9dc913bd013dbb8829115b3009b5dbfc5a0ca74756a702aa5c8afc46b829996f8558632b631070a94360d35b2d5b9711e63f43b32a4a63ba2872c016ffd8d61e3a61ca54d82aef713c420351ec9a8ce4b8003a287d2de632e8f69737926b665438abae1a8ae82aef713c420351ecaa8ce4b3ddd6a84f4e95005d96af417906aa2f8898a6649ae82aef713c420351ecba8ce4b309606bdd37c1fa7c6ea49acc8c6a4f68932f946ae82aef713c420351ef4a8ce4b88728fc329d2479ddf639180f2b2da328ad2dd93ae82aef713c420351ef5a8ce4bf42d89971ebf8e6246a89a561255e42482aef713c420351ef6a8ce4b5ddd1976d3599568002f0d3f9cde93b61108f71b1f2c25339c3b55c391cd8856a7277f961192a14ab9ea483b82aef713c420351ef7a8ce4be4d8f83825339b28b35353093996b2278a16a285ae82aef713c420351ef0a8ce4b9ead7bf688cbc4ce39b2eeee8b365982aef713c420351ef1a8ce4b1b9908c07308d292eeac2681f7f0a234e0ba00742a99418321f6feffff58f5c482aef713c420351ef2a8ce4bb824c6cdf57d1c434120053e8d3e58db893e1924ae82aef713c420351ef3a8ce4b6be78f2c67f97dbea6866e5b9ac40e2b82aef713c420351efca8ce4b83b43f8fa219117b369c8751c40b205ec943f875afc0f04e1178fcff1194f2c482aef713c420351efda8ce4b56b4b1e9d9ec2fe7329987a2e072ce198a6edc73ae82aef713c420351efea8ce4bbfa16161e1b3465ae996ee76bb135982aef713c420351effa8ce4b942bb42c389c3cc5642af209e6bc196c27e37ac4df593ec2f1a89100f5009ac582aef713c420351ef8a8ce4be2865f182df94e1eb9a00260c14a451f8ae2d27aae82aef713c420351ef9a8ce4b45b92f97430deb702a46b9fb61ca3c7fe4571582e5d4a4673f82ecf482aef713c420351efaa8ce4b5b9b5d470dccc6935b92428b45ce5f358aba1897ae82aef713c420351efba8ce4b48642496c2201e519cd2aea3719682aef713c420351ee4a8ce4b52a334db8a8343d504b48dd05db0e8ba8ff353d5590554a0ef15a2009f5aacc582aef713c420351ee5a8ce4b3a005c900212b14fc9f48b43e08e84c19d7a58f15582aef713c420351ee6a8ce4b9e9b67e2ed39ab20ca3e685be6c3062b82aef713c420351ee7a8ce4b5bfaec64a3493341a44c7e068adb9cb36dea4cf2356c66c475fc00008788f7c482aef713c420351ee0a8ce4b6503509693cb537667ee4516984294158a02786eae82aef713c420351ee1a8ce4b3cc21dccdca176382f75428f562264ee89da623cae82aef713c420351ee2a8ce4ba51e2179d26beb799f29e99b560ecabe8946caffad82aef713c420351ee3a8ce4bce0a7d2a88b8cbb8cdeb0dcc9616920c8b2655a8af82aef713c420351eeca8ce4b73830c70ce73c59ebb564cb1202626e28182aef713c420351eeda8ce4b2d4282f2d9e5905272812f7ed13e6744d01ead49ae9bf31518d66609d57af2337f56949b4999694379f6163382aef713c420351eeea8ce4b9b4c3863e99f5dbf21dfc695c1e078290444aaf38e739e4691fcfa90703839490d17069b46ce524af8367be7f4f7d852fdf83ab9b6bf4dc01ccea26cccbb4b157c844d97cea2cd63d7a49cb96bf7b13296584eadcec9bb268aa3f3d71c715d238a8bda88dbef4b998c425708301df0c497c7dbe4f49c509acf9f00f5ba16529a111d71fda37dd77c6f2284aa4b7628bce49cd8d8f4326d8db692524d2963fdb3f8e4e565fa1772d0c97871f9c10653cde815d95197f81c59861e707aff05ba3e9e5c72925412c7d4deebf023feb91e7151dd8447627b54ee3fff22da436c45d531bf3bac360b98e1234c494d6a6464e3eceb1e5a648221fbe358e4b6b945d8a16fff6588799fea4c486cb5705c2aa63af573d4238d95243440810a5fdf7d5502207a2d4ffe38590350882b5fc88615e93e135c9403f87d249b080333bc3962f0bcd1c047013e63a8f3471b3e207751405d01ffd001204e41ebfca5871fcbac202cec803a3fced4ed91ddf9342f36ef245e9d20a41bcdf5499d9c4c55b845792c9eb2c35c582a418d308594fa640aac3ba8ae36e6a613e68be0abff0c474b246e89585fdd3772b1d326088b9fdac82a9d3c599e6e764a2dba57080a01238e40d96b6e31e34be6e55727fda7ca00e8d9217b59ca633d447b43e42092db9135c343f32b81766f3374c60a0796d80fc7601b9010b479111c4ef2f429884c43cd0bdbba90c49c7f4243c1433d9d512f4fbc78c1c5d2de985fee0ea87419f16a3278478f1213bc3b23366e399983d2be67ecb6ca70d3100c2e6e46391f65192f52861368d2c4da241bb4180f8d1f0e80318b19a42bc8f108baa4cfd46eeb9718938fa41ed18ac8b6183da4ea49ba0322cf7f2e7288bed919dcc8ba73bced1704a137cc873da6ff25c163ed6405bf0c4bed89c8621373c17682aef713c420351eefa8ce4b60812dc452828e69c262ab96edd1f2369277e182aef713c420351ee8a8ce4b9abb7efcee07e0af248f90e3f02a5a118b1e6faeaf82aef713c420351ee9a8ce4b2b3ee108801e04e0bc08dcf6f7ae3ab99dc6c8e65582aef713c420351eeaa8ce4b21396c8920ff8c44c9b0165255118ed80e6482aef713c420351eeba8ce4ba53f546f334766999b3db2244d1ec5bba9f1e713d7dc077d8c0f032181d8f7e30778ff4282aef713c420351e14a9ce4b1d420f3e6e917a37b49c407e1ccad3b289ee5bf0ad82aef713c420351e15a9ce4b9cd5d98e383f6752527c9a9f37b259699c4e853854933e7192ec56b171b7ac83090c34ad193c1e0635f9fd634f8b1afdce332ec84df0565fef82aef713c520351e16a9ce4b738ce46f0598dfb97d64871ad8fcf26214aee182aef713c520351e17a9ce4be85f94da36e79697154f974f18ca49499a6a9f51904e29a77a622e714fee1ce46765294382aef713c520351e10a9ce4baffa0b3a766a85626edbd36912e9edcb5200ec8082aef713c520351e11a9ce4b72b4573751ffae47f5b7070ccfc65704aaf36a964cf49696f7fc4c0c2804e1f24461d272497d45fc8c3f650561f78c82d02276feb1a825de2113ee8ff87afccec1d29413e15afb620ac8dc6e5908f671076c829df139d8e82ff2b3afbcf983fa2d22219b2f35a1c111dc9e554daf491a7a852614022cd1986de6ba3cffcb25259121fb7e29270c7f172cfae31a0df7f7d5bfc865dd76e8f188647b869cbae783864bde7f07c5ffc02ab7373c2f160d16b2c5fd528d8eae417a25923906b83058352bf016e33fc8fd0a6ad29b5862f05f888e81d29dafacb8a8f750c06b412ae49a584d3008ad8cbe16ac21b8af6541fa9695f46fbddd242a8ca01ea19da440e910f49cb49272d8bb90b8d5cf37e7b77699318b2f926091116cf8f7d450e5e68e4d3c5f4095a4f3636b4efbce5306b8682bd8dc87ca554cbe91d79dd07336845fc5c46d5a739bd1de0b938a617b4e57aeca04af22439d01b08fd0dabcbefa5c1e5dd01e8a1326f3fb72285f68676bc10d1fbfa9e7331c8b5b024ef212e33be2cae6c4ee0082350cd6aa9093f201814fe244b241fecf33ca3e2160b8d9b4e84980adcc0f1d0e56d37dd849ed1d92a1ac0740ad0be0f5749994c69140f90956cf61dacaa4670cec83294bced24941a0cc06f51d976a6d2138778528d66630f84aca10ede760936dd9b75bd30bc5ca21ed686e33c6ba6b6ff07147bc4d777d7ec4c3fd860fa07f50fe1ff49a60c3f9aea889155051b713b874aad494928664e82cdc5f61969c82300c075371e386712d0e2389412e76e0dd4e1ca1ba5aa13bdcc09e7578596ad064b6521100875f6d8e2fac113a4fd636a0185bb440d126ee42a3857ce73f518c24ea9bf0addaae2a4c48946d268d3b3da0b72ad10311597258abcf76b1d57e21c7e9c8a3c4638e94436d1ebb6d03cb47833237019a0d082f0ba6b19f18fe6f7d69942ed4e6c72fc3ea38f7d5f2f204cc6d63926c9f7f0ec08fb6c3e4af9143f2f242ddabc9709fea2d3ff1ffd00914b3f6bb48e3d8e86bc1eab02646a405c839d7e98a2a1a8614534e6bf643caf02a2141137d45c143921918438912db1c1cd847b2b02ba59559eeb1f7a9bb5d291b5190dd849ba508e0dceddb6e665f7d520f1a520fcac451e4201675dc48362b68ce52a1ebfeef30d4f7d6dcf4c70eecdf51b64d1a6c1fd63eebe0a8088388f172d3fcf2bd872c932525379abe73730a0280de4862530b511616db3a5155f750cf7397aad0926e9088725e67c9eaa4b1a7285a3a3eade1c6fba7629bb0ef308e8e78c76ed2e9109d75d5aaac2fdba2e07d9beb42682abcb93ee4234e6ca312ad9f006c4a93702d97d1e7ca88543e43cf4ae2a2b9bf155eab62886f72dfb2d19095ac82aef713c520351e12a9ce4b939e68c3f2f0b66545e43af703ad82aef713c520351e13a9ce4b62714112823a1c0e74320da05782aef713c520351e1ca9ce4be4d66c83d7766e826e363b1f4c36c9658a0ec5d4ae82aef713c520351e1da9ce4bee67435e47bede6ae8c2a14a25e6f1c08782aef713c520351e1ea9ce4b3a4e889abbe16d06ee08ac881489ca201085a7eee4cb3d95c77ecb002dcddac582aef713c520351e1fa9ce4b17d19aafb983ea0a95f6f29286a85e82aef713c520351e18a9ce4bc391791486d4da778e3cf15fb0cacc949837c49c0d5f6644dcaa66b805232cbc2f470d1a020820de1cde843b307c5aa67ea4c84d2b4fdc64b107d9b3b821e0758d64ad9b236409c88282db4797784b75fa48ceb9bd3d42f964a8d63e0a93ca1f822f057723ff3bd242b2fecfaf91f402363b4cfa601f2655ba48ebcaeb576c0e37491202eea330879912b887c0b94fae608f4a9c7f6f9f4e1217f2c16ad24620fa0f2bf7dc28cde78878aac24f2490c1273b364000cbeaab934bed06e908fdcfa6160fa7dedbf8c936aa42090435348b1420eb966f888d128c1d5463c9c8d0f0811a2f0e8d0e0113fdf25edd620b4ff212a421dc4b05c8e0839dfdd6e92abbe84892920f9a86c4a92c8439946e151b8a2f427fcf1b9224abeee432e353a9d4d26557be1ea4dc8843e231ccfe8972d69f4aebb5e3d89ac139ddf44d2499a6d8c5238c6f592b726a6650613c10a544636b86fefc785b04c330529a39ff5fc302ad580429fb6e6eb1fb0c85632408a5ffc4d6c00c98e500b80f5052594dbb14915b3ce9b8c9f35cd742ef3be346d3feb5b9ae24a90b68c923930ba170d397283482a56f11a1e6efce1fe1f5b4e20ce78d80ae1bc508b39ef6deb4013bd092a638d0f5b469b8c74bc5e9b37fa972f6ba872e8f6e88018887ad2057ba026bc0f5995b80275f7cf2f9f49ba97c844d1051616b2d2d887b8b1c51cf6c4e57228e94de38769b0e17edf5012c0396fb035f3efaa141c90e7ae88119c477d6f6c2f3d096e3cecbe31975df0477228fe3f5c282aef713c520351e19a9ce4b10e02d007618bfb2ee407054eedcd7d88ed9f612be09817ed5b3771c2f4c232b69da1f2b9d3e91e2728b9f1541efa20011f2611783b6cc04106675d3611c19a2de97ae65af08e12b03204bba6e487a3c767bd437a7651f29e984f6289940365dca1a1355c594ae9c722e45fb3aa0dc257ba10e0406f3c918df76a64f7e7410729c07369051d14be4b9d7f88ace1039ecc377b6f8dc8297f3e852dbc1770550d151f6d57f2a7cb679c7592e122ec360231b92ccf2bf3068866166be455c421f03cd4855845cef2d38a7c715f6c7181247fce589665ab024266f46e4261bfc828ab204026c5d95b77e5614eec31e824d87bdfa8cadfe5338bbe284f9d4147b9f00b97aa659e3cad8a3338a6ae4779ed642d68b301195e6c23a04dd92073571dd70cc463fa26453ece3d12541e830a33cb0a9b24306b10366cf84d5020bc07ae694503a99da8a2612618cfb22db9a97a5beb233a3a400919781cee1d044150ca5e18aa9dc0af6ac4e3e8c3bdbe05cc5495ae1b3f665aa96da1529829c1aee468ca406c49f477282cfe590bc25b45bbfc8f299f5bef1b0ed4b34af575962a2239f1e800095ee676b834dd2520a51ee5812176da86594e527774efdf6e24f9fd1080630a32988989ed7a4562f5eea208ca3e99bc90cfb94c9fd1262388c539c013e4f04027bc219c6c62b43a29c810bd2873df92592ec491294d578da2892e69be6d9d4ce71d27cbb593be29cc9eb4f6706dcec6ea27e74fe5ad43afea17ae90742cbfd02dc6a19822ba83f776b83b01fc444cddcb1c5f62f99c000ea8f1cce1623a89f498f06fd60a7b429eaa2b5d540584f1bb066292121a4837a0658429ff246f84c69b1eb8b7acdb491021dc7abf0c246797afbfb4810f8be03fef14541a392d48fd766db29055cfd5ceae049bfc0041c12f3fbe7b8bea60f3179c8900331b015f41982764c50f129160f8f020bf8b9c83f6b58e573741d9247eb1b9cf60df44e741224528078a07225dfb44fdf47a810b97e596d652fa534ba0a336c1419cdce183670d4631ef05a9e58ff3a72ba2e1482fcae7fc177eefa99a7160371920c38ac761cd3041434c2de6b1af19dcaae0311550e0bb493fb87129628d3492d1eea7a6e0b4c24c1efbb05b91aee4a23740c9bdca94c5c96594237a9d1a1ffa460e605a44a15808ff06624478392c12800309b9932b5c2720737515a32e84ff7576499c155f124cdd7965bf5f13126de736937c6b3e93b53660c574fdab96bb0b9bbb1878681b88f8548608ce4a93b67962ccd11cd95d0acc6b54e9c0241d9ca922d9e1b62bff4c02aea1dba464588a4a2df5b85e12a417613811c52454b9f485d6ad0b40dd2014c9029034592da1937420437d812107faac96e4b7079f58020527773438f2596b8d5ea7bbbd44c0a35e70321d0de6cc8f3f84ea863b7c49c6dca610f7c19c542087af7a225163de7ce58e15454617049c27e190087d830f27c0c78ccc51cf2c7e414aa5f8dd51c1645984d26ceccf237c878b5f401728de6c87398129dc4ef5b745635439a5b5bcf2cf961b49ce3ca4826b83f15956863478e9a7a284a9a214b36bdac509331e5d93bb887ae82aef713c520351e1aa9ce4bd881b95874a8d2caefd25e5cdc9682aef713c520351e1ba9ce4b378c1699d5d54a40a8d72e8ee39c82aef713c520351e04a9ce4b2c58de2bbd4999627fc4527707c2b3b79d72f1e45582aef713c520351e05a9ce4b78d7729cc94166e701fa8792c11eb63d8ab681a1ae82aef713c520351e06a9ce4b83fa8a61fea196e206de87fef9ba893d9b36b8be5282aef713c520351e07a9ce4bb2630466f470b1b28cabcf54be62be889d56c8a85582aef713c520351e00a9ce4b2aa8bfc0378149c40176147cd08ef22d8a16638dae82aef713c520351e01a9ce4b7d83ff4713eff6a6255dcfb0b60717cc4ea5208182aef713c520351e02a9ce4b9b1957497712de9d281f69ba58614184cacf7973a095dbad8fe46c222b3492e0f2c549848872df0c914f03c973f0d1c282aef713c520351e03a9ce4b739758e8dda52653fbd7b6bc4d9d82aef713c520351e0ca9ce4b2ffce40c1844e855d5af3f4958b2f1248f1a49e5b482aef713c520351e0da9ce4bad95dde9e56dd974e89a235316e6bf6d9b92b7f65282aef713c520351e0ea9ce4bdb316fe1fbb22c7bb27f1f54fa9ea4859b4654155382aef713c520351e0fa9ce4b4d7e8a32c026cd245d9791a1d52289979b721b2c5382aef713c520351e08a9ce4bba3168402b9c44a7f0fe1a26460649629baa1ee85282aef713c520351e09a9ce4bb29898376bc8c6b427515c529de6c9709b32a1fa5282aef713c520351e0aa9ce4b727afee9aeec825e5d814495eb707c048f16182d8e781b577b4867b94dfe99082e45c0dc28137609111941caa7d435c482aef713c520351e0ba9ce4b11f4bf2fb15e4265622a030e4182aef713c520351e34a9ce4b67ba30bb4d168832863aee1e819d5882aef713c520351e35a9ce4b1dea2ed2870643ab58771fc6a56b08c76f9c1e4b708d4eb73cca7d4974c1139253c7e967731bd7caa63f0d5eb31a1e2bafbd16871f3883d3bce2c78d94b0484212eeb93b1942b986035ceee16e78b4726f253bd2fe6daa19137acf1a16c68da6c7dcd7c6f6ffed82ac9f208d75eca17ad6ca7bcc1ada582ad28d446b0aa38e9f5d3988fcffac849a3a4ae88c03c615dd64601c525265c859bb59a952ac18ad09bbabeaa8a56438827332e193ae6730509d67c22226d8d64d543856640925b8433bfc35320d2913d5cbc2ce6c552cb92c88d9a8151ff2b5a974f6c031ae5a97148da9bfdd69121030809108bea054733e2468e821acd4e92c0209b382853a8f6f713f1358dc1bdd86f643a850111fca31917be8cb3fba63c03908fa105debe506b22e582861f4ca54955afb0ea33f470233a0930b36b6e54916649c88ecd27343ed7d7a1a7e2eaa74b6a085a59834d5618c9b49464d25605a0e6edcf045744d3e2203e3feb54b9b40cabd0b0de53c6c36b6d52fa1d4a3f24f3ccaccdbc1176194a338e3a3571980e3d2e4468cb24f342f8c56c81141265faa7d242d238c9c07f785e12fac841cc591d9b97c34ddf53c5b083bc2488eb13cb00782aef713c520351e36a9ce4b566bf22cac6ab16b62e23b164182aef713c520351e37a9ce4bb26b537665d9b08233297a61fab2a1c722276d7b82aef713c520351e30a9ce4bf2028a09694a4cc76fac9d069fa2c4979b026f2c5382aef713c520351e31a9ce4b6558f65977ae1319c1a2457bc085ba77e9c5e91913e595678f08dbf4')
+function ab()
+ if qp~=true
+   or vb.p==0
+   or vb.p~=
+    bit32.bxor(vb.x,ln[2])
+   or (vb.v and vb.r~=true) then
+  bll(); fca(nil,0)
  end
- th.m=bit32.bxor(
-   th.o,
-   jn[3],
-   th.u
+ vb.q=bit32.bxor(
+   vb.p,
+   ln[3],
+   vb.x
  )
- if th.m==0 then evq(); cav(nil,0) end
+ if vb.q==0 then bll(); fca(nil,0) end
 end
-function zl(py)
+function jv(hx)
  
- local so=string.sub(py,1,4)
- mz=so
- local x=string.sub(py,5)
- local uf=pu(wi,pk)
- 
- 
- local y=va(r,"a-735ce8bfa22a90741b8f694c\0"..so..x)
+ local is=string.sub(hx,1,4)
+ ki=is
+ local z=string.sub(hx,5)
+ local qb=el(iy,di)
  
  
- local lh=0
- for kvm=1,#t do
-  lh=bit32.bor(lh,bit32.bxor(string.byte(y,kvm),string.byte(t,kvm)))
+ local y=xw(u,"a-48fb52b80dfd515e555f77c5\0"..is..z)
+ 
+ 
+ local la=0
+ for lbc=1,#t do
+  la=bit32.bor(la,bit32.bxor(string.byte(y,lbc),string.byte(t,lbc)))
  end
- if lh~=0 then
-  ssc(); evq("vm",0)
+ if la~=0 then
+  fca(); mit("vm",0)
   return
  end
- jy()
- th.u=ngj(so)
- th.o=bit32.bxor(th.u,jn[2])
+ cy()
+ vb.x=ulr(is)
+ vb.p=bit32.bxor(vb.x,ln[2])
  
- ji=true
- return x,uf
+ qp=true
+ return {z,qb}
 end
-local x,uf=zl(na)
-ok()
-function jh(eme,jcb)
- local kd=0
- local ni=1
- for qpz=1,4 do
-  local iee=math.floor((eme%4294967296)/ni)%256
-  local pn=math.floor((jcb%4294967296)/ni)%256
-  local kw=0
-  local ne=1
-  for ipd=1,8 do
-   if iee%2~=pn%2 then kw=kw+ne end
-   iee=math.floor(iee/2)
-   pn=math.floor(pn/2)
-   ne=ne*2
+local ff=jv(au)
+local z=ff[1]
+local qb=ff[2]
+ab()
+function qy(kys,kng)
+ local yj=0
+ local lw=1
+ for wsf=1,4 do
+  local jfh=math.floor((kys%4294967296)/lw)%256
+  local cd=math.floor((kng%4294967296)/lw)%256
+  local zd=0
+  local xy=1
+  for vyy=1,8 do
+   if jfh%2~=cd%2 then zd=zd+xy end
+   jfh=math.floor(jfh/2)
+   cd=math.floor(cd/2)
+   xy=xy*2
   end
-  kd=kd+kw*ni
-  ni=ni*256
+  yj=yj+zd*lw
+  lw=lw*256
  end
- return kd
+ return yj
 end
-function iz(kvm)
- if th.m==0 then ssc(); evq(nil,0) end
- local xgb={v[1],v[2],v[3]}
- xgb[3]=jh(xgb[3],kvm-1)
- local mqt=pqz(q,string.char(33)..mq(kvm-1))
- return pu(lz(mqt),xgb)
+function wz(lbc)
+ if vb.q==0 then ufe(); bll(nil,0) end
+ local tdt={m[1],m[2],m[3]}
+ tdt[3]=qy(tdt[3],lbc-1)
+ local rze=ggf(w,string.char(33)..zc(lbc-1))
+ return el(kc(rze),tdt)
 end
-xg(3,jn[3],fq[1],fq[2])
-local jbr=1
-local cc=0
-function tr()
- if th.m==0 then mbn(); ssc(nil,0) end
- if cc~=0 and jbr>=cc then mbn(); ssc("vm",0) end
- local jrj=bit32.bxor(string.byte(x,jbr),uf())
- jbr=jbr+1
- return jrj
+ym(2,ln[2],sp[1],sp[2])
+local foj=1
+local ld=0
+function tf()
+ if vb.q==0 then mit(); ufe(nil,0) end
+ if ld~=0 and foj>=ld then mit(); ufe("vm",0) end
+ local jap=bit32.bxor(string.byte(z,foj),qb())
+ foj=foj+1
+ return jap
 end
-function hoa(xgb)
- local jrj=0
- for kvm=1,xgb do jrj=jrj+tr()*2^((kvm-1)*8) end
- return jrj
+function osi(tdt)
+ local jap=0
+ for lbc=1,tdt do jap=jap+tf()*2^((lbc-1)*8) end
+ return jap
 end
-function mp(cl,jyo)
- local jlm={}
- for kvm=1,#cl do
-  jlm[kvm]=string.char(bit32.bxor(cl[kvm],jyo[(kvm-1)%#jyo+1]))
+function oy(fj,isb)
+ local bjc={}
+ for lbc=1,#fj do
+  bjc[lbc]=string.char(bit32.bxor(fj[lbc],isb[(lbc-1)%#isb+1]))
  end
- return table.concat(jlm)
+ return table.concat(bjc)
 end
-local yk
-local et=false
-local xt=0
-function dw(kw)
- local yj=snq[14]
- local jlm={}
- for kvm=1,#kw do
-  local qpz=string.byte(kw,kvm)
-  jlm[#jlm+1]=string.sub(yj,math.floor(qpz/16)+1,math.floor(qpz/16)+1)
-  jlm[#jlm+1]=string.sub(yj,(qpz%16)+1,(qpz%16)+1)
+local sj
+local kv=false
+local yi=0
+function lb(zd)
+ local sv=gzm[14]
+ local bjc={}
+ for lbc=1,#zd do
+  local wsf=string.byte(zd,lbc)
+  bjc[#bjc+1]=string.sub(sv,math.floor(wsf/16)+1,math.floor(wsf/16)+1)
+  bjc[#bjc+1]=string.sub(sv,(wsf%16)+1,(wsf%16)+1)
  end
- return table.concat(jlm)
+ return table.concat(bjc)
 end
-local kc=false
-function td(mg)
- local kuq={324508639,610839777,3285377520,523124044,2309737967,271136839,1432778632,2712847316}
- for kvm=1,#mg do
-  local cwz=((kvm-1)%8)+1
-  local kq=(((cwz-1)*3+5)%8)+1
-  local kw=string.byte(mg,kvm)
-  kuq[cwz]=bit32.band(kuq[cwz]+kw+(kvm-1)*73244475,4294967295)
-  kuq[kq]=bit32.band(bit32.bxor(kuq[kq],kuq[cwz]),4294967295)
+local rf=false
+function fi(pg)
+ local fjp={324508639,610839777,3285377520,523124044,2309737967,271136839,1432778632,2712847316}
+ for lbc=1,#pg do
+  local sjv=((lbc-1)%8)+1
+  local ti=(((sjv-1)*3+5)%8)+1
+  local zd=string.byte(pg,lbc)
+  fjp[sjv]=bit32.band(fjp[sjv]+zd+(lbc-1)*73244475,4294967295)
+  fjp[ti]=bit32.band(bit32.bxor(fjp[ti],fjp[sjv]),4294967295)
  end
- for zi=0,7 do
-  for kvm=1,8 do
-   local kq=((kvm-1+zi+1)%8)+1
-   kuq[kvm]=bit32.band(
-    kuq[kvm]+kuq[kq]+bit32.bxor(2654435769, zi*73244475),
+ for bv=0,7 do
+  for lbc=1,8 do
+   local ti=((lbc-1+bv+1)%8)+1
+   fjp[lbc]=bit32.band(
+    fjp[lbc]+fjp[ti]+bit32.bxor(2654435769, bv*73244475),
     4294967295
    )
   end
  end
- local jlm={}
- for kvm=1,8 do
-  local kw=kuq[kvm]
-  jlm[#jlm+1]=string.char(
-   bit32.band(kw,255),
-   bit32.band(bit32.rshift(kw,8),255),
-   bit32.band(bit32.rshift(kw,16),255),
-   bit32.band(bit32.rshift(kw,24),255)
+ local bjc={}
+ for lbc=1,8 do
+  local zd=fjp[lbc]
+  bjc[#bjc+1]=string.char(
+   bit32.band(zd,255),
+   bit32.band(bit32.rshift(zd,8),255),
+   bit32.band(bit32.rshift(zd,16),255),
+   bit32.band(bit32.rshift(zd,24),255)
   )
  end
- return table.concat(jlm)
+ return table.concat(bjc)
 end
-function sw(mqt,mg)
- local us=mqt..string.rep(string.char(0),64-#mqt)
- local mi={} local kr={}
- for kvm=1,64 do
-  local kw=string.byte(us,kvm)
-  mi[kvm]=string.char(bit32.bxor(kw,54))
-  kr[kvm]=string.char(bit32.bxor(kw,92))
+function pn(rze,pg)
+ local ww=rze..string.rep(string.char(0),64-#rze)
+ local ey={} local yc={}
+ for lbc=1,64 do
+  local zd=string.byte(ww,lbc)
+  ey[lbc]=string.char(bit32.bxor(zd,54))
+  yc[lbc]=string.char(bit32.bxor(zd,92))
  end
- return td(table.concat(kr)..td(table.concat(mi)..mg))
+ return fi(table.concat(yc)..fi(table.concat(ey)..pg))
 end
-function uo(fp,mqt,nt)
- local js={}
- for kvm=1,#fp do
-  local jrj=string.byte(fp,kvm)
-  if (jrj>=65 and jrj<=90) or (jrj>=97 and jrj<=122) then js[#js+1]=kvm end
+function cc(ch,rze,ru)
+ local eg={}
+ for lbc=1,#ch do
+  local jap=string.byte(ch,lbc)
+  if (jap>=65 and jap<=90) or (jap>=97 and jap<=122) then eg[#eg+1]=lbc end
  end
- if #js<256 then evq(); cav("vm",0) end
- local function pnd(kw)
-  return string.byte(kw,1)*16777216+string.byte(kw,2)*65536+string.byte(kw,3)*256+string.byte(kw,4)
+ if #eg<256 then mit(); ufe("vm",0) end
+ local function qiw(zd)
+  return string.byte(zd,1)*16777216+string.byte(zd,2)*65536+string.byte(zd,3)*256+string.byte(zd,4)
  end
- local function yd(ui,ux,lu,ta)
-  local kuq=nt(mqt,ux..lu)
-  for kvm=1,ta do
-   local zy=td(kuq..snq[1]..string.char(
-    bit32.band(bit32.rshift(kvm-1,24),255),bit32.band(bit32.rshift(kvm-1,16),255),
-    bit32.band(bit32.rshift(kvm-1,8),255),bit32.band(kvm-1,255)))
-   local wsi=kvm+(pnd(string.sub(zy,1,4))%(#ui-kvm+1))
-   ui[kvm],ui[wsi]=ui[wsi],ui[kvm]
+ local function ur(gk,gz,tn,lq)
+  local fjp=ru(rze,gz..tn)
+  for lbc=1,lq do
+   local oz=fi(fjp..gzm[1]..string.char(
+    bit32.band(bit32.rshift(lbc-1,24),255),bit32.band(bit32.rshift(lbc-1,16),255),
+    bit32.band(bit32.rshift(lbc-1,8),255),bit32.band(lbc-1,255)))
+   local xuz=lbc+(qiw(string.sub(oz,1,4))%(#gk-lbc+1))
+   gk[lbc],gk[xuz]=gk[xuz],gk[lbc]
   end
  end
- local function wsv(ui)
-  local jlm={}
-  for kvm=1,#ui do jlm[kvm]=string.char(ui[kvm]) end
-  return table.concat(jlm)
+ local function fid(gk)
+  local bjc={}
+  for lbc=1,#gk do bjc[lbc]=string.char(gk[lbc]) end
+  return table.concat(bjc)
  end
- local cu={}
- for kvm=1,256 do
-  local bq=js[kvm]
-  cu[kvm]=string.byte(fp,bq)>=97 and 0 or 1
+ local wd={}
+ for lbc=1,256 do
+  local oc=eg[lbc]
+  wd[lbc]=string.byte(ch,oc)>=97 and 0 or 1
  end
- local gt={}
- for kvm=1,32 do
-  local kw=0
-  for ose=1,8 do kw=kw*2+cu[(kvm-1)*8+ose] end
-  gt[kvm]=string.char(kw)
+ local ba={}
+ for lbc=1,32 do
+  local zd=0
+  for tyv=1,8 do zd=zd*2+wd[(lbc-1)*8+tyv] end
+  ba[lbc]=string.char(zd)
  end
- local px=table.concat(gt)
- if string.sub(px,1,4)~=string.char(86,50,67,83) or string.byte(px,5)~=1 or string.byte(px,6)~=1 then evq(); cav("vm",0) end
- local lu=string.sub(px,7,22)
- if string.byte(px,27)~=0 or string.byte(px,28)~=0 or string.byte(px,29)~=0 or string.byte(px,30)~=0 or string.byte(px,31)~=0 or string.byte(px,32)~=0 then evq(); cav("vm",0) end
- local tl=pnd(string.sub(px,23,26))
- if tl<1 or tl>16777216 then evq(); cav("vm",0) end
- local nfw={}
- for kvm=257,#js do nfw[#nfw+1]=js[kvm] end
- local ih=(32+tl+32)*8
- yd(nfw,snq[2],lu,ih-256)
- if #nfw<ih-256 then evq(); cav("incomplete case stego carrier",0) end
- local di={}
- for kvm=1,256 do di[kvm]=cu[kvm] end
- for kvm=1,ih-256 do
-  local bq=nfw[kvm]
-  di[256+kvm]=string.byte(fp,bq)>=97 and 0 or 1
+ local st=table.concat(ba)
+ if string.sub(st,1,4)~=string.char(86,50,67,83) or string.byte(st,5)~=1 or string.byte(st,6)~=1 then bll(); fca("vm",0) end
+ local tn=string.sub(st,7,22)
+ if string.byte(st,27)~=0 or string.byte(st,28)~=0 or string.byte(st,29)~=0 or string.byte(st,30)~=0 or string.byte(st,31)~=0 or string.byte(st,32)~=0 then bll(); fca("vm",0) end
+ local bn=qiw(string.sub(st,23,26))
+ if bn<1 or bn>16777216 then bll(); fca("vm",0) end
+ local hqe={}
+ for lbc=257,#eg do hqe[#hqe+1]=eg[lbc] end
+ local kj=(32+bn+32)*8
+ ur(hqe,gzm[2],tn,kj-256)
+ if #hqe<kj-256 then bll(); fca("incomplete case stego carrier",0) end
+ local tr={}
+ for lbc=1,256 do tr[lbc]=wd[lbc] end
+ for lbc=1,kj-256 do
+  local oc=hqe[lbc]
+  tr[256+lbc]=string.byte(ch,oc)>=97 and 0 or 1
  end
- local fdl={}
- for kvm=1,ih/8 do
-  local kw=0
-  for ose=1,8 do kw=kw*2+di[(kvm-1)*8+ose] end
-  fdl[kvm]=string.char(kw)
+ local ryh={}
+ for lbc=1,kj/8 do
+  local zd=0
+  for tyv=1,8 do zd=zd*2+tr[(lbc-1)*8+tyv] end
+  ryh[lbc]=string.char(zd)
  end
- local ya=table.concat(fdl)
- local iq=string.sub(ya,33,32+tl)
- local t=string.sub(ya,33+tl,64+tl)
- local mn=nt(mqt,snq[3]..px..iq)
- local nx=0
- for kvm=1,32 do nx=bit32.bor(nx,bit32.bxor(string.byte(t,kvm),string.byte(mn,kvm))) end
- if nx~=0 then evq(); cav(nil,0) end
- local pu={}
- local fu=0
- while #pu<tl do
-  local fs=nt(mqt,snq[4]..lu..string.char(
-   bit32.band(bit32.rshift(fu,24),255),bit32.band(bit32.rshift(fu,16),255),
-   bit32.band(bit32.rshift(fu,8),255),bit32.band(fu,255)))
-  for kvm=1,#fs do if #pu>=tl then break end pu[#pu+1]=string.char(bit32.bxor(string.byte(iq,#pu+1),string.byte(fs,kvm))) end
-  fu=fu+1
+ local nn=table.concat(ryh)
+ local cj=string.sub(nn,33,32+bn)
+ local t=string.sub(nn,33+bn,64+bn)
+ local su=ru(rze,gzm[3]..st..cj)
+ local cl=0
+ for lbc=1,32 do cl=bit32.bor(cl,bit32.bxor(string.byte(t,lbc),string.byte(su,lbc))) end
+ if cl~=0 then bll(); fca(nil,0) end
+ local el={}
+ local ku=0
+ while #el<bn do
+  local py=ru(rze,gzm[4]..tn..string.char(
+   bit32.band(bit32.rshift(ku,24),255),bit32.band(bit32.rshift(ku,16),255),
+   bit32.band(bit32.rshift(ku,8),255),bit32.band(ku,255)))
+  for lbc=1,#py do if #el>=bn then break end el[#el+1]=string.char(bit32.bxor(string.byte(cj,#el+1),string.byte(py,lbc))) end
+  ku=ku+1
  end
- return table.concat(pu)
+ return table.concat(el)
 end
-function wm(eod,ta)
- local vj={}
- local qz=1
- for kvm=1,ta do
-  local hz=string.find(eod,string.char(2),qz,true)
-  if kvm<ta then
-   if not hz then evq(); cav("vm",0) end
-   vj[kvm]=string.sub(eod,qz,hz-1)
-   qz=hz+1
+function uh(sdz,lq)
+ local lt={}
+ local nh=1
+ for lbc=1,lq do
+  local xu=string.find(sdz,string.char(2),nh,true)
+  if lbc<lq then
+   if not xu then ufe(); bll("vm",0) end
+   lt[lbc]=string.sub(sdz,nh,xu-1)
+   nh=xu+1
   else
-   vj[kvm]=string.sub(eod,qz)
+   lt[lbc]=string.sub(sdz,nh)
   end
  end
- return vj
+ return lt
 end
-local function nt(_a,_b) local _i={} local _o={} for _n=1,64 do local _v=string.byte(_a,_n) or 0 _i[_n]=string.char(bit32.bxor(_v,54)) _o[_n]=string.char(bit32.bxor(_v,92)) end return dp(table.concat(_o)..dp(table.concat(_i).._b)) end
-function ke(vj,uq,mu,el,ls)
- if not yk then
+local function ru(_a,_b) local _i={} local _o={} for _n=1,64 do local _v=string.byte(_a,_n) or 0 _i[_n]=string.char(bit32.bxor(_v,54)) _o[_n]=string.char(bit32.bxor(_v,92)) end return ke(table.concat(_o)..ke(table.concat(_i).._b)) end
+function uy(lt,qa,np,dt,yp)
+ if not sj then
   if false then
-   yk=sw(sw(sw(wf(xy),string.char(17)..string.char(134,14,128,118)..'a-4fbe5c342495e0f3ebcaf7ce'),string.char(18)..'a-4fbe5c342495e0f3ebcaf7ce'..string.char(134,14,128,118)),string.char(19)..string.char(134,14,128,118))
+   sj=pn(pn(pn(bi(um),string.char(17)..string.char(185,173,183,177)..'a-1466065f8bce4c00adc00a0a'),string.char(18)..'a-1466065f8bce4c00adc00a0a'..string.char(185,173,183,177)),string.char(19)..string.char(185,173,183,177))
   else
-   local is=nt(wf(r),string.char(17)..mz..'a-735ce8bfa22a90741b8f694c'..tostring(qy))
-   local cw=nt(nt(wf(r),string.char(17)..mz..'a-735ce8bfa22a90741b8f694c'..tostring(qy)),string.char(18)..'a-735ce8bfa22a90741b8f694c'..mz)
-   yk=nt(cw,string.char(118,109,50,58,115,116,114,101,97,109,58,102,105,110,97,108,58)..dw(mz))
+   local xo=ru(bi(u),string.char(17)..ki..'a-48fb52b80dfd515e555f77c5'..tostring(bd))
+   local mr=ru(ru(bi(u),string.char(17)..ki..'a-48fb52b80dfd515e555f77c5'..tostring(bd)),string.char(18)..'a-48fb52b80dfd515e555f77c5'..ki)
+   sj=ru(mr,string.char(118,109,50,58,115,116,114,101,97,109,58,102,105,110,97,108,58)..lb(ki))
   end
-  if et and type(print)==snq[13] then
+  if kv and type(print)==gzm[13] then
   end
  end
- local uv={}
- local oic={}
- if el==1 then
-  if kc then evq(); cav("embedded digest replay",0) end
-  kc=true
+ local iq={}
+ local ghr={}
+ if dt==1 then
+  if rf then bll(); fca("embedded digest replay",0) end
+  rf=true
  end
- local yl=nt(
-  yk,
-  snq[5]..tostring(ls)..":"..uq..":"..mu
+ local mn=ru(
+  sj,
+  gzm[5]..tostring(yp)..":"..qa..":"..np
  )
- local oc=string.char(0,86,77,50,95,69,77,66,69,68,68,69,68,95,70,82,65,71,77,69,78,84,0)
- for kvm=1,#vj do
-  local nh=vj[kvm]
-  if type(nh)~=snq[9] or string.sub(nh,1,#oc)~=oc then evq(); cav("vm",0) end
-  local eo=#oc+1
-  local rr=string.find(nh,string.char(0),eo,true)
-  if not rr then evq(); cav("vm",0) end
-  local px=string.sub(nh,eo,rr-1)
-  local bcv,qpo,ta=string.match(px,"^(%-?%d+):(%-?%d+):(%-?%d+)$")
-  bcv=tonumber(bcv) qpo=tonumber(qpo) ta=tonumber(ta)
-  if bcv~=uq or ta~=mu or qpo<0 or qpo>=mu or oic[qpo] then evq(); cav("vm",0) end
-  local di=string.sub(nh,rr+1)
-  local ygw={}
-  local yj=snq[15]
-  local wsv=0 local ae=0
-  for jbr=1,#di do
-   local kw=string.find(yj,string.sub(di,jbr,jbr),1,true)
-   if not kw then break end
-   kw=kw-1 wsv=wsv*64+kw ae=ae+6
-   while ae>=8 do
-    ae=ae-8
-    ygw[#ygw+1]=string.char(math.floor(wsv/2^ae)%256)
-    wsv=wsv%2^ae
+ local ds=string.char(0,86,77,50,95,69,77,66,69,68,68,69,68,95,70,82,65,71,77,69,78,84,0)
+ for lbc=1,#lt do
+  local rz=lt[lbc]
+  if type(rz)~=gzm[9] or string.sub(rz,1,#ds)~=ds then bll(); fca("vm",0) end
+  local jz=#ds+1
+  local hq=string.find(rz,string.char(0),jz,true)
+  if not hq then bll(); fca("vm",0) end
+  local st=string.sub(rz,jz,hq-1)
+  local aay,xws,lq=string.match(st,"^(%-?%d+):(%-?%d+):(%-?%d+)$")
+  aay=tonumber(aay) xws=tonumber(xws) lq=tonumber(lq)
+  if aay~=qa or lq~=np or xws<0 or xws>=np or ghr[xws] then bll(); fca("vm",0) end
+  local tr=string.sub(rz,hq+1)
+  local rlk={}
+  local sv=gzm[15]
+  local fid=0 local zb=0
+  for foj=1,#tr do
+   local zd=string.find(sv,string.sub(tr,foj,foj),1,true)
+   if not zd then break end
+   zd=zd-1 fid=fid*64+zd zb=zb+6
+   while zb>=8 do
+    zb=zb-8
+    rlk[#rlk+1]=string.char(math.floor(fid/2^zb)%256)
+    fid=fid%2^zb
    end
   end
-  local jlm={} local fu=0 local ngn=1
-  if el==2 then
-   jlm=ygw
+  local bjc={} local ku=0 local piu=1
+  if dt==2 then
+   bjc=rlk
   else
-   while ngn<=#ygw do
-    local jz=nt(
-     yk,
-     snq[6]..uq..":"..qpo
+   while piu<=#rlk do
+    local gg=ru(
+     sj,
+     gzm[6]..qa..":"..xws
     )
-    local mg=snq[7]..uq..":"..qpo..":"..fu
-    local jyo=nt(jz,mg)
-    for ose=1,#jyo do
-     if ngn>#ygw then break end
-     jlm[#jlm+1]=string.char(bit32.bxor(string.byte(ygw[ngn]),string.byte(jyo,ose))) ngn=ngn+1
+    local pg=gzm[7]..qa..":"..xws..":"..ku
+    local isb=ru(gg,pg)
+    for tyv=1,#isb do
+     if piu>#rlk then break end
+     bjc[#bjc+1]=string.char(bit32.bxor(string.byte(rlk[piu]),string.byte(isb,tyv))) piu=piu+1
     end
-    fu=fu+1
+    ku=ku+1
    end
   end
-  if el==1 then
-   yl=nt(
-    yk,
-    yl..table.concat(jlm)
+  if dt==1 then
+   mn=ru(
+    sj,
+    mn..table.concat(bjc)
    )
   end
-  if el~=1 then uv[qpo+1]=table.concat(jlm) end
-  oic[qpo]=true
+  if dt~=1 then iq[xws+1]=table.concat(bjc) end
+  ghr[xws]=true
  end
- for qpo=0,mu-1 do if not oic[qpo] then evq(); cav("incomplete embedded stream",0) end end
- xt=xt+1
- if el==1 then
-  local xq=dw(nt(
-   yk,
-   snq[8]..tostring(ls)..":"..uq..":"..mu..":"..mu
-   ..yl
+ for xws=0,np-1 do if not ghr[xws] then bll(); fca("incomplete embedded stream",0) end end
+ yi=yi+1
+ if dt==1 then
+  local vx=lb(ru(
+   sj,
+   gzm[8]..tostring(yp)..":"..qa..":"..np..":"..np
+   ..mn
   ))
-  return xq
+  return vx
  end
- local kd=table.concat(uv)
- if el==2 then
-  local dl=uo(kd,yk,sw)
-  ji=true
-  return dl
+ local yj=table.concat(iq)
+ if dt==2 then
+  local ot=cc(yj,sj,pn)
+  qp=true
+  return ot
  end
- return kd
+ return yj
 end
-local de=hoa(4)
-if de~=1173295296 then evq(); cav(nil,0) end
-local oy=hoa(4)
-local ar=hoa(4)
-local ud=hoa(4)
-if oy<1 or oy>4096 or ar<1 or ar>65536 or ud>65536 then evq(); cav("vm",0) end
-function ax()
-local uw={}
-local fr={}
-local ty={}
-local ej={}
-local ff=0
-local np={}
-local xf={}
-local ys={}
-local bk={}
-local jr={}
-local wl={}
-local sp={}
-local jj=0
-local uk=0
-local qj={}
-local op=0
-local mf=0
-local gb={}
-local ce={}
+local ae=osi(4)
+if ae~=616440596 then bll(); fca(nil,0) end
+local dc=osi(4)
+local eo=osi(4)
+local qt=osi(4)
+if dc<1 or dc>4096 or eo<1 or eo>65536 or qt>65536 then bll(); fca("vm",0) end
+function iu()
+local gi={}
+local gj={}
+local zj={}
+local pv={}
+local ad=0
+local hc={}
+local xa={}
 local se={}
-local ad={}
-local ou={}
-local bn={}
-local bw={}
-local zu={}
-local ri={}
-function pa(iba)
- local oic={}
- for kvm=1,#{iba} do
-  if iba[kvm]<1 or iba[kvm]>70 or oic[iba[kvm]] then ssc(); evq(nil,0) end
-  oic[iba[kvm]]=true
+local dm={}
+local iv={}
+local eh={}
+local lm={}
+local ks=0
+local vz=0
+local oj={}
+local hl=0
+local vu=0
+local bj={}
+local yz={}
+local kb={}
+local me={}
+local sr={}
+local uq={}
+local ys={}
+local vw={}
+local sb={}
+function ea(lje)
+ local ghr={}
+ for lbc=1,#{lje} do
+  if lje[lbc]<1 or lje[lbc]>70 or ghr[lje[lbc]] then fca(); mit(nil,0) end
+  ghr[lje[lbc]]=true
  end
 end
-function ha(dg,pl,ta,ti,ov,wl,sp)
- for bcv=1,ta do
-  local oic={} local jf=0
-  for kvm=1,4 do
-   if dg[bcv][kvm]<1 or dg[bcv][kvm]>4 or oic[dg[bcv][kvm]] then evq(); cav(nil,0) end
-   oic[dg[bcv][kvm]]=true
-   if pl[bcv][kvm]<1 or pl[bcv][kvm]>31 then evq(); cav(nil,0) end
-   jf=jf+pl[bcv][kvm]
+function dk(ng,qn,lq,zw,hd,eh,lm)
+ for aay=1,lq do
+  local ghr={} local fx=0
+  for lbc=1,4 do
+   if ng[aay][lbc]<1 or ng[aay][lbc]>4 or ghr[ng[aay][lbc]] then ufe(); bll(nil,0) end
+   ghr[ng[aay][lbc]]=true
+   if qn[aay][lbc]<1 or qn[aay][lbc]>31 then ufe(); bll(nil,0) end
+   fx=fx+qn[aay][lbc]
   end
-  if jf~=32 then evq(); cav(nil,0) end
+  if fx~=32 then ufe(); bll(nil,0) end
  end
- for kvm=1,ov do
-  if ti[kvm]>=ta then evq(); cav(nil,0) end
-  if wl[kvm][1]%2==0 then evq(); cav(nil,0) end
-  for ose=1,3 do if sp[kvm][ose][1]%2==0 then evq(); cav(nil,0) end end
+ for lbc=1,hd do
+  if zw[lbc]>=lq then ufe(); bll(nil,0) end
+  if eh[lbc][1]%2==0 then ufe(); bll(nil,0) end
+  for tyv=1,3 do if lm[lbc][tyv][1]%2==0 then ufe(); bll(nil,0) end end
  end
 end
-function vv(fb,rvk,oee,ta,ov)
- local pw=0
- for kvm=1,ta do
-  if fb[kvm]>=rvk[kvm] then mbn(); ssc(nil,0) end
-  pw=pw+rvk[kvm]-fb[kvm]
-  for ose=1,kvm-1 do if not (rvk[kvm]<=fb[ose] or rvk[ose]<=fb[kvm]) then mbn(); ssc(nil,0) end end
-  if oee[kvm] < -1 or oee[kvm]>=ta then mbn(); ssc(nil,0) end
+function ud(xh,dmn,jti,lq,hd)
+ local nj=0
+ for lbc=1,lq do
+  if xh[lbc]>=dmn[lbc] then fca(); mit(nil,0) end
+  nj=nj+dmn[lbc]-xh[lbc]
+  for tyv=1,lbc-1 do if not (dmn[lbc]<=xh[tyv] or dmn[tyv]<=xh[lbc]) then fca(); mit(nil,0) end end
+  if jti[lbc] < -1 or jti[lbc]>=lq then fca(); mit(nil,0) end
  end
- if pw<0 then mbn(); ssc(nil,0) end
+ if nj<0 then fca(); mit(nil,0) end
 end
-function zc(ki,ex,ka,vg)
- local oe=0
- for kvm=1,ka do oe=oe+ki[kvm] end
- if oe~=vg then cav(); mbn(nil,0) end
+function si(oq,as,en,cr)
+ local nl=0
+ for lbc=1,en do nl=nl+oq[lbc] end
+ if nl~=cr then bll(); fca(nil,0) end
 end
-function ac(ex,ta)
- local dd={}
- for kvm=1,ta do dd[kvm]=bit32.band(ex[kvm],67108864)~=0 end
- return dd
+function xt(as,lq)
+ local an={}
+ for lbc=1,lq do an[lbc]=bit32.band(as[lbc],67108864)~=0 end
+ return an
 end
-function hg(kuq)
- local uvn={} local pb=kuq
- local bl={1,2,3,4,5}
- for kvm=1,5 do
-  pb=bit32.bxor(pb,kvm*374761393)
-  pb=bit32.band(pb*1664525+1013904223,4294967295)
-  local kw=1+pb%251
-  while uvn[kw] do kw=kw%251+1 end
-  uvn[kw]=bl[kvm]
+function pu(fjp)
+ local klc={} local fs=fjp
+ local md={1,2,3,4,5}
+ for lbc=1,5 do
+  fs=bit32.bxor(fs,lbc*374761393)
+  fs=bit32.band(fs*1664525+1013904223,4294967295)
+  local zd=1+fs%251
+  while klc[zd] do zd=zd%251+1 end
+  klc[zd]=md[lbc]
  end
- return uvn
+ return klc
 end
-local wa=hg(s[1])
-for ue=1,5 do
- cc=0
- local wr=hoa(1)
- local gv=hoa(4)
- local fn=jbr
- cc=fn+gv
- if cc>#x+1 then mbn(); ssc(nil,0) end
- if ri[wr] then mbn(); ssc(nil,0) end
- ri[wr]=true
- if wa[wr]==4 then
-  mf=hoa(1)
-  for kvm=1,mf do
-   gb[kvm]=hoa(4) ce[kvm]=hoa(4)
+local kw=pu(o[1])
+for ui=1,5 do
+ ld=0
+ local vc=osi(1)
+ local xb=osi(4)
+ local vg=foj
+ ld=vg+xb
+ if ld>#z+1 then bll(); fca(nil,0) end
+ if sb[vc] then bll(); fca(nil,0) end
+ sb[vc]=true
+ if kw[vc]==4 then
+  vu=osi(1)
+  for lbc=1,vu do
+   bj[lbc]=osi(4) yz[lbc]=osi(4)
   end
-  for kvm=1,mf do se[kvm]=hoa(1)-1 end
-  vv(gb,ce,se,mf,op)
-  for kvm=1,mf do
-   local xn=bit32.bxor(s[1],bit32.bxor(0x5C91E2B3,kvm*374761393))
-   xn=bit32.band(bit32.bxor(xn,374761393)*1664525+1013904223,4294967295)
-   ad[kvm]=(hoa(1)-bit32.band(xn,255))%70
+  for lbc=1,vu do kb[lbc]=osi(1)-1 end
+  ud(bj,yz,kb,vu,hl)
+  for lbc=1,vu do
+   local ia=bit32.bxor(o[1],bit32.bxor(0x5C91E2B3,lbc*374761393))
+   ia=bit32.band(bit32.bxor(ia,374761393)*1664525+1013904223,4294967295)
+   me[lbc]=(osi(1)-bit32.band(ia,255))%70
   end
- if jbr~=cc then mbn(); ssc(nil,0) end
+ if foj~=ld then bll(); fca(nil,0) end
  end
- if wa[wr]==1 then
-  local sk=hoa(4)
-  for kvm=1,70 do uw[kvm]=hoa(1) end
-  local vb=sk local eb=bit32.band(sk,1) for kvm=1,#uw do if eb==0 then vb=bit32.band(bit32.bxor(vb,uw[kvm]*374761393)*1664525+1013904223,4294967295) else vb=bit32.band(bit32.bxor(vb,uw[kvm]*668265263)*69069+362437,4294967295) end end
-  for kvm=1,9 do if eb==0 then vb=bit32.band(bit32.bxor(vb,kvm*668265263)*1664525+1013904223,4294967295) else vb=bit32.band(bit32.bxor(vb,kvm*2246822519)*69069+362437,4294967295) end if vb~=hoa(4) then mbn(); ssc(nil,0) end end
-  pa(uw)
- if jbr~=cc then mbn(); ssc(nil,0) end
+ if kw[vc]==1 then
+  local qo=osi(4)
+  for lbc=1,70 do gi[lbc]=osi(1) end
+  local pa=qo local bk=bit32.band(qo,1) for lbc=1,#gi do if bk==0 then pa=bit32.band(bit32.bxor(pa,gi[lbc]*374761393)*1664525+1013904223,4294967295) else pa=bit32.band(bit32.bxor(pa,gi[lbc]*668265263)*69069+362437,4294967295) end end
+  for lbc=1,9 do if bk==0 then pa=bit32.band(bit32.bxor(pa,lbc*668265263)*1664525+1013904223,4294967295) else pa=bit32.band(bit32.bxor(pa,lbc*2246822519)*69069+362437,4294967295) end if pa~=osi(4) then bll(); fca(nil,0) end end
+  ea(gi)
+ if foj~=ld then bll(); fca(nil,0) end
  end
- if wa[wr]==3 then
-  op=hoa(4)
-  if op>1048576 then mbn(); ssc(nil,0) end
-  ff=hoa(1)
-  for bcv=1,ff do
-   np[bcv]={} xf[bcv]={}
-   for kvm=1,4 do np[bcv][kvm]=hoa(1) end
-   for kvm=1,4 do xf[bcv][kvm]=hoa(1) end
+ if kw[vc]==5 then
+  for lbc=1,eo do sr[lbc]=osi(1) end
+  for lbc=1,qt do uq[lbc]=osi(4) end
+  for lbc=1,qt do ys[lbc]=osi(4)+1 end
+  si(sr,uq,eo,qt)
+ if foj~=ld then bll(); fca(nil,0) end
+ end
+ if kw[vc]==3 then
+  hl=osi(4)
+  if hl>1048576 then bll(); fca(nil,0) end
+  ad=osi(1)
+  for aay=1,ad do
+   hc[aay]={} xa[aay]={}
+   for lbc=1,4 do hc[aay][lbc]=osi(1) end
+   for lbc=1,4 do xa[aay][lbc]=osi(1) end
   end
-  for kvm=1,op do jr[kvm]=hoa(1) end
-  wl={}
-  for kvm=1,op do wl[kvm]={hoa(4),hoa(4)} end
-  sp={}
-  for kvm=1,op do sp[kvm]={{hoa(4),hoa(4)},{hoa(4),hoa(4)},{hoa(4),hoa(4)}} end
-  jj=hoa(1)
-  uk=hoa(4)
-  if jj~=0 and jj~=1 then mbn(); ssc(nil,0) end
-  for kvm=1,4 do qj[kvm]=hoa(1)-1 end
-  ha(np,xf,ff,jr,op,wl,sp)
-  local za={} for kvm=1,4 do if qj[kvm]<0 or qj[kvm]>3 or za[qj[kvm]] then mbn(); ssc(nil,0) end za[qj[kvm]]=true end
-  for bcv=1,ff do
-   ys[bcv]={}
-   bk[bcv]={}
-   local xl=0
-   for kvm=1,4 do ys[bcv][np[bcv][kvm]]=xf[bcv][kvm] end
-   for kvm=1,4 do
-    bk[bcv][kvm]=xl
-    xl=xl+xf[bcv][kvm]
+  for lbc=1,hl do iv[lbc]=osi(1) end
+  eh={}
+  for lbc=1,hl do eh[lbc]={osi(4),osi(4)} end
+  lm={}
+  for lbc=1,hl do lm[lbc]={{osi(4),osi(4)},{osi(4),osi(4)},{osi(4),osi(4)}} end
+  ks=osi(1)
+  vz=osi(4)
+  if ks~=0 and ks~=1 then bll(); fca(nil,0) end
+  for lbc=1,4 do oj[lbc]=osi(1)-1 end
+  dk(hc,xa,ad,iv,hl,eh,lm)
+  local ol={} for lbc=1,4 do if oj[lbc]<0 or oj[lbc]>3 or ol[oj[lbc]] then bll(); fca(nil,0) end ol[oj[lbc]]=true end
+  for aay=1,ad do
+   se[aay]={}
+   dm[aay]={}
+   local uz=0
+   for lbc=1,4 do se[aay][hc[aay][lbc]]=xa[aay][lbc] end
+   for lbc=1,4 do
+    dm[aay][lbc]=uz
+    uz=uz+xa[aay][lbc]
    end
   end
- if jbr~=cc then mbn(); ssc(nil,0) end
+ if foj~=ld then bll(); fca(nil,0) end
  end
- if wa[wr]==2 then
-  for kvm=1,ar do fr[kvm]=hoa(4) end
-  for kvm=1,ar do if fr[kvm]<1 then mbn(); ssc(nil,0) end end
-  for kvm=1,ar do ty[kvm]=hoa(4) end
-  for kvm=1,ar do ej[kvm]=hoa(4)+1 end
- if jbr~=cc then mbn(); ssc(nil,0) end
- end
- if wa[wr]==5 then
-  for kvm=1,ar do ou[kvm]=hoa(1) end
-  for kvm=1,ud do bn[kvm]=hoa(4) end
-  for kvm=1,ud do bw[kvm]=hoa(4)+1 end
-  zc(ou,bn,ar,ud)
- if jbr~=cc then mbn(); ssc(nil,0) end
+ if kw[vc]==2 then
+  for lbc=1,eo do gj[lbc]=osi(4) end
+  for lbc=1,eo do if gj[lbc]<1 then bll(); fca(nil,0) end end
+  for lbc=1,eo do zj[lbc]=osi(4) end
+  for lbc=1,eo do pv[lbc]=osi(4)+1 end
+ if foj~=ld then bll(); fca(nil,0) end
  end
 end
-if not (ri[86] and ri[177] and ri[76] and ri[163] and ri[106]) then mbn(); ssc(nil,0) end
-for kvm=1,mf do
- if ce[kvm]>op then mbn(); ssc(nil,0) end
- for ose=1,kvm-1 do
-  if not (ce[kvm]<=gb[ose] or ce[ose]<=gb[kvm]) then mbn(); ssc(nil,0) end
+if not (sb[85] and sb[199] and sb[243] and sb[228] and sb[115]) then bll(); fca(nil,0) end
+for lbc=1,vu do
+ if yz[lbc]>hl then bll(); fca(nil,0) end
+ for tyv=1,lbc-1 do
+  if not (yz[lbc]<=bj[tyv] or yz[tyv]<=bj[lbc]) then bll(); fca(nil,0) end
  end
 end
-local pw=0
-for kvm=1,mf do pw=pw+ce[kvm]-gb[kvm] end
-if pw~=op then mbn(); ssc(nil,0) end
-local qs=(function() local iba={} local pb=1035542541 for kvm=1,70 do iba[kvm]=kvm end for kvm=70,2,-1 do pb=bit32.band(pb*1664525+1013904223,4294967295) local ose=pb%kvm+1 iba[kvm],iba[ose]=iba[ose],iba[kvm] end local jlm={} for kvm=1,70 do jlm[iba[kvm]]=kvm end return jlm end)()
-zu=ac(bn,ud)
-return {uw,fr,ty,ej,ff,np,xf,ys,bk,jr,wl,sp,jj,uk,qj,op,mf,gb,ce,se,ad,ou,bn,zu,bw,qs,op}
+local nj=0
+for lbc=1,vu do nj=nj+yz[lbc]-bj[lbc] end
+if nj~=hl then bll(); fca(nil,0) end
+local lp=(function() local lje={} local fs=577529165 for lbc=1,70 do lje[lbc]=lbc end for lbc=70,2,-1 do fs=bit32.band(fs*1664525+1013904223,4294967295) local tyv=fs%lbc+1 lje[lbc],lje[tyv]=lje[tyv],lje[lbc] end local bjc={} for lbc=1,70 do bjc[lje[lbc]]=lbc end return bjc end)()
+vw=xt(uq,qt)
+return {gi,gj,zj,pv,ad,hc,xa,se,dm,iv,eh,lm,ks,vz,oj,hl,vu,bj,yz,kb,me,sr,uq,vw,ys,lp,hl}
 end
-local ze=ax()
-local uw=ze[1]
-local fr=ze[2]
-local ty=ze[3]
-local ej=ze[4]
-local ff=ze[5]
-local np=ze[6]
-local xf=ze[7]
-local ys=ze[8]
-local bk=ze[9]
-local jr=ze[10]
-local wl=ze[11]
-local sp=ze[12]
-local jj=ze[13]
-local uk=ze[14]
-local qj=ze[15]
-local op=ze[16]
-local mf=ze[17]
-local gb=ze[18]
-local ce=ze[19]
-local se=ze[20]
-local ad=ze[21]
-local ou=ze[22]
-local bn=ze[23]
-local zu=ze[24]
-local bw=ze[25]
-local qs=ze[26]
-local fy=ze[27]
-xg(1,jn[1],fq[2],fq[3])
-local ka={}
-local ef={}
-local az=1
-for kvm=1,ar do
- local tl=ty[kvm]*4
- ka[kvm]=string.sub(x,jbr,jbr+tl-1)
- jbr=jbr+tl
- for ose=1,ou[kvm] do
-  local jv=bit32.band(bn[az],4227858431)
-  if jv<21 then mbn(); ssc("vm",0) end
-  zu[az]=bit32.band(bn[az],67108864)~=0
-  ef[az]=string.sub(x,jbr,jbr+jv-1)
-  jbr=jbr+jv
-  az=az+1
+local om=iu()
+local gi=om[1]
+local gj=om[2]
+local zj=om[3]
+local pv=om[4]
+local ad=om[5]
+local hc=om[6]
+local xa=om[7]
+local se=om[8]
+local dm=om[9]
+local iv=om[10]
+local eh=om[11]
+local lm=om[12]
+local ks=om[13]
+local vz=om[14]
+local oj=om[15]
+local hl=om[16]
+local vu=om[17]
+local bj=om[18]
+local yz=om[19]
+local kb=om[20]
+local me=om[21]
+local sr=om[22]
+local uq=om[23]
+local vw=om[24]
+local ys=om[25]
+local lp=om[26]
+local sw=om[27]
+ym(6,ln[6],sp[2],sp[3])
+local en={}
+local qm={}
+local vv=1
+for lbc=1,eo do
+ local bn=zj[lbc]*4
+ en[lbc]=string.sub(z,foj,foj+bn-1)
+ foj=foj+bn
+ for tyv=1,sr[lbc] do
+  local hh=bit32.band(uq[vv],4227858431)
+  if hh<21 then bll(); fca("vm",0) end
+  vw[vv]=bit32.band(uq[vv],67108864)~=0
+  qm[vv]=string.sub(z,foj,foj+hh-1)
+  foj=foj+hh
+  vv=vv+1
  end
 end
-if jbr~=#x+1 then mbn(); ssc("vm",0) end
-function zk(er)
-local fi={}
-local jc=1
-for kvm=1,ar do
- for ose=1,ou[kvm] do
-  fi[jc]=kvm
-  jc=jc+1
+if foj~=#z+1 then bll(); fca("vm",0) end
+function xj(ha)
+local lx={}
+local fa=1
+for lbc=1,eo do
+ for tyv=1,sr[lbc] do
+  lx[fa]=lbc
+  fa=fa+1
  end
 end
-function da(rm,fd,io)
- local xgb=lz(io)
- local ee=s
- local ib="c-59ca847fcbab7bdc9d31"
- if zu[fd] then
-  ee=lz(pqz(s,"k-d8b636cc32dce61ab61a"))
-  ib="d-c4a6fc4b3f9844e82389"
+function am(nq,ul,bs)
+ local tdt=kc(bs)
+ local ip=o
+ local vt="c-0a6ce22500bc135b5413"
+ if vw[ul] then
+  ip=kc(ggf(o,"k-f266a955d9177df151dc"))
+  vt="d-27fbfe6b1cf18165fc5b"
  end
- local mqt=pqz(ee,ib..mq(rm-1)..mq(fd-1))
- return pu(lz(mqt),xgb)
+ local rze=ggf(ip,vt..zc(nq-1)..zc(ul-1))
+ return el(kc(rze),tdt)
 end
-function du(fd)
- if th.m==0 then mbn(); ssc(nil,0) end
- local rs=bw[fd]
- local eod=ef[rs]
- if #eod<25 then mbn(); ssc("vm",0) end
- local io=string.sub(eod,1,12)
- local jb=string.sub(eod,#eod-7)
- local dk=string.sub(eod,13,#eod-8)
- if #dk<5 then mbn(); ssc("vm",0) end
- local oee=da(fi[rs],rs,io)
- local jlm={}
- for kvm=1,#dk do jlm[kvm]=bit32.bxor(string.byte(dk,kvm),oee()) end
- local vs=zu[rs] and lz(pqz(s,"k-d8b636cc32dce61ab61a")) or s
- local byy=jlm[1]
- local nq=jlm[2]+jlm[3]*256+jlm[4]*65536+jlm[5]*16777216
- if nq~=#jlm-5 then mbn(); ssc("vm",0) end
- if zu[rs] then
-  if byy~=8 then mbn(); ssc("vm",0) end
- elseif byy>4 and byy~=6 then
-  mbn(); ssc("vm",0)
+function rd(ul)
+ if vb.q==0 then mit(); ufe(nil,0) end
+ local kx=ys[ul]
+ local sdz=qm[kx]
+ if #sdz<25 then mit(); ufe("vm",0) end
+ local bs=string.sub(sdz,1,12)
+ local ef=string.sub(sdz,#sdz-7)
+ local jp=string.sub(sdz,13,#sdz-8)
+ if #jp<5 then mit(); ufe("vm",0) end
+ local jti=am(lx[kx],kx,bs)
+ local bjc={}
+ for lbc=1,#jp do bjc[lbc]=bit32.bxor(string.byte(jp,lbc),jti()) end
+ local ih=vw[kx] and kc(ggf(o,"k-f266a955d9177df151dc")) or o
+ local zes=bjc[1]
+ local bx=bjc[2]+bjc[3]*256+bjc[4]*65536+bjc[5]*16777216
+ if bx~=#bjc-5 then mit(); ufe("vm",0) end
+ if vw[kx] then
+  if zes~=6 then mit(); ufe("vm",0) end
+ elseif zes>4 and zes~=6 then
+  mit(); ufe("vm",0)
  end
- local lb=va(vs,string.char(38)..mq(fi[rs]-1)..mq(rs-1)..string.char(byy)..mq(nq)..io..dk)
- for kvm=1,8 do
-  if string.byte(jb,kvm)~=string.byte(lb,kvm) then mbn(); ssc("vm",0) end
+ local ej=xw(ih,string.char(38)..zc(lx[kx]-1)..zc(kx-1)..string.char(zes)..zc(bx)..bs..jp)
+ for lbc=1,8 do
+  if string.byte(ef,lbc)~=string.byte(ej,lbc) then mit(); ufe("vm",0) end
  end
- ef[rs]=nil
- return jlm
+ qm[kx]=nil
+ return bjc
 end
-function sd(nh,fd)
- local xgb=nh[2]+nh[3]*256+nh[4]*65536+nh[5]*16777216
- local jlm={}
-for kvm=1,xgb do
- local qpz=nh[kvm+5]
- if nh[1]==4 then
-  local nfz=s[((fd+kvm-2)%8)+1]
-  qpz=bit32.band(bit32.bxor(qpz,bit32.band(nfz+fd*31+kvm*17,255)),255)
+function za(rz,ul)
+ local tdt=rz[2]+rz[3]*256+rz[4]*65536+rz[5]*16777216
+ local bjc={}
+for lbc=1,tdt do
+ local wsf=rz[lbc+5]
+ if rz[1]==4 then
+  local sjs=o[((ul+lbc-2)%8)+1]
+  wsf=bit32.band(bit32.bxor(wsf,bit32.band(sjs+ul*31+lbc*17,255)),255)
  end
- jlm[kvm]=string.char(qpz)
+ bjc[lbc]=string.char(wsf)
 end
-return table.concat(jlm)
+return table.concat(bjc)
 end
-local function gg(eod,fd)
- local wb=(fd-1)*4+1
- if wb+3>#eod then cav(); mbn("vm",0) end
- return string.byte(eod,wb)
-  +string.byte(eod,wb+1)*256
-  +string.byte(eod,wb+2)*65536
-  +string.byte(eod,wb+3)*16777216
+local function nz(sdz,ul)
+ local mv=(ul-1)*4+1
+ if mv+3>#sdz then fca(); mit("vm",0) end
+ return string.byte(sdz,mv)
+  +string.byte(sdz,mv+1)*256
+  +string.byte(sdz,mv+2)*65536
+  +string.byte(sdz,mv+3)*16777216
 end
-local dn={}
-dn[0]=function(jrj) return nil end
-dn[1]=function(jrj) return false end
-dn[2]=function(jrj) return true end
-dn[3]=function(jrj) return tonumber(jrj) end
-dn[4]=function(jrj) return jrj end
-dn[8]=function(jrj) return jrj end
-dn[6]=function(jrj) return jrj end
+local rw={}
+rw[0]=function(jap) return nil end
+rw[1]=function(jap) return false end
+rw[2]=function(jap) return true end
+rw[3]=function(jap) return tonumber(jap) end
+rw[4]=function(jap) return jap end
+rw[6]=function(jap) return jap end
+rw[6]=function(jap) return jap end
 
-local ns={}
-local gd={}
-local lwp={}
-setmetatable(ns,{
- __index=function(obn,fd)
-  ok()
-  if fd<1 or fd>ud then cav(); mbn("vm",0) end
-  if gd[fd] then return gd[fd][1] end
-  local nh=du(fd)
-  local byy=nh[1]
-  local ygw=sd(nh,fd)
-  local kw
-  if byy==6 and string.sub(ygw,1,9)==string.char(86,77,50,45,70,82,65,71,0) then
-   local bq=12
-   local pc=string.byte(ygw,10)+string.byte(ygw,11)*256
-   local uv={}
-   for of=1,pc do
-    if bq+3>#ygw then cav(); mbn("vm",0) end
-    local qo=string.byte(ygw,bq)+string.byte(ygw,bq+1)*256+string.byte(ygw,bq+2)*65536+string.byte(ygw,bq+3)*16777216
-    if qo+1>ud then cav(); mbn("vm",0) end
-    uv[of]=obn[qo+1]
-    bq=bq+4
+local omj={}
+local ux={}
+local xpz={}
+setmetatable(omj,{
+ __index=function(exy,ul)
+  ab()
+  if ul<1 or ul>qt then fca(); mit("vm",0) end
+  if ux[ul] then return ux[ul][1] end
+  local rz=rd(ul)
+  local zes=rz[1]
+  local rlk=za(rz,ul)
+  local zd
+  if zes==6 and string.sub(rlk,1,9)==string.char(86,77,50,45,70,82,65,71,0) then
+   local oc=12
+   local ap=string.byte(rlk,10)+string.byte(rlk,11)*256
+   local iq={}
+   for mh=1,ap do
+    if oc+3>#rlk then fca(); mit("vm",0) end
+    local bt=string.byte(rlk,oc)+string.byte(rlk,oc+1)*256+string.byte(rlk,oc+2)*65536+string.byte(rlk,oc+3)*16777216
+    if bt+1>qt then fca(); mit("vm",0) end
+    iq[mh]=exy[bt+1]
+    oc=oc+4
    end
-   if bq~=#ygw+1 then cav(); mbn("vm",0) end
-   kw=table.concat(uv)
+   if oc~=#rlk+1 then fca(); mit("vm",0) end
+   zd=table.concat(iq)
   else
-   kw=dn[byy](ygw)
+   zd=rw[zes](rlk)
   end
-  if er and er[fd]~=nil then
-   kw=er[fd]
+  if ha and ha[ul]~=nil then
+   zd=ha[ul]
   end
-  gd[fd]={kw}
-  return kw
+  ux[ul]={zd}
+  return zd
  end
 })
-  return {ns,gg}
+  return omj,nz
  end
-  local yu=zk(nil)
-local ns=yu[1]
-local gg=yu[2]
-local kj=ra({132,47,66,227,255,140},string.char(49),{152,97,248,255},2053300902)
+  local omj,nz=xj(nil)
+local xxs=dg({80,222,110,183,5,36,106,132},string.char(49),{132,140,88,164},1638304954)
 
-local bg=bit32.bxor(853031742,853031128)
+local iaf=bit32.bxor(323931566,323931720)
 
-local ek=ra({80,118,32,167,5,43},string.char(51),{176,17,72,4},309152992)
+local sys=bit32.bxor(3269066732,3269064762)
 
-local vn=ra({66,153,92,99,139,48,222,56,198,162,159,51,140,25,70,103,84,136,131,127,122,58,25,78,71,105,122,165,45,146,74,228,227,254,162,166,60,207,198,118,240,154,117,111},string.char(52),{179,10,26,28},2253189126)
+local nxk=dg({38,44,61,115,127,86,247,200,210,17,44,4,174,169,159,144,133,236,192,15,72,245,197,180,195,162,131,240,69,24,178,5,114,233,19,146,111,124,152,178,193,63,167,26},string.char(52),{50,145,253,55},3372070026)
 
-local ul={kj,bg,ek,vn}
-lv=false
-local gf=2166136261
-for en=1,#ul do
- local jx=ul[en]
- local pe=type(jx)
- if pe==snq[9] then
-  for pt=1,#jx do
-   gf=bit32.band(bit32.bxor(gf,string.byte(jx,pt)+en*374761393)*1000003+2654435761,4294967295)
+local jq={xxs,iaf,sys,nxk}
+km=false
+local mb=2166136261
+for vs=1,#jq do
+ local mq=jq[vs]
+ local qr=type(mq)
+ if qr==gzm[9] then
+  for de=1,#mq do
+   mb=bit32.band(bit32.bxor(mb,string.byte(mq,de)+vs*374761393)*1000003+2654435761,4294967295)
   end
- elseif pe==snq[10] then
-  gf=bit32.band(bit32.bxor(gf,math.floor(jx*1000)+en*374761393)*1000003+2654435761,4294967295)
- elseif pe==snq[11] then
-  gf=bit32.band(bit32.bxor(gf,(jx and 1 or 0)+en*374761393)*1000003+2654435761,4294967295)
+ elseif qr==gzm[10] then
+  mb=bit32.band(bit32.bxor(mb,math.floor(mq*1000)+vs*374761393)*1000003+2654435761,4294967295)
+ elseif qr==gzm[11] then
+  mb=bit32.band(bit32.bxor(mb,(mq and 1 or 0)+vs*374761393)*1000003+2654435761,4294967295)
  end
 end
-if gf~=3537417384 then cav(); mbn("vm",0) end
-if bit32.band(gf,1)~=bit32.band(3537417384,1) then cav(); mbn("vm",0) else lv=true end
+if mb~=3066132275 then fca(); mit("vm",0) end
+if bit32.band(mb,1)~=bit32.band(3066132275,1) then fca(); mit("vm",0) else km=true end
 
 
- local function lq()
- local qw={}
- local function vo(fd,kx)
- local rf=qw[fd]
- if rf then
-  return kx and rf[kx] or rf
+ local function vq()
+ local bz={}
+ local function go(ul,wn)
+ local te=bz[ul]
+ if te then
+  return wn and te[wn] or te
  end
- local oee=iz(fd)
- local eod=ka[fd]
- local jlm={}
- local ai=0
- local function tk(eme,jcb)
-  local kd=0
-  local ni=1
-  for ipd=1,8 do
-   if eme%2~=jcb%2 then kd=kd+ni end
-   eme=math.floor(eme/2)
-   jcb=math.floor(jcb/2)
-   ni=ni*2
+ local jti=wz(ul)
+ local sdz=en[ul]
+ local bjc={}
+ local ms=0
+ local function uv(kys,kng)
+  local yj=0
+  local lw=1
+  for vyy=1,8 do
+   if kys%2~=kng%2 then yj=yj+lw end
+   kys=math.floor(kys/2)
+   kng=math.floor(kng/2)
+   lw=lw*2
   end
-  return kd
+  return yj
  end
- local function hj(eme,jcb,qns)
-  local kd=0
-  local ni=1
-  for qpz=1,4 do
-   local hky=math.floor((eme%4294967296)/ni)%256
-   local vrj=math.floor((jcb%4294967296)/ni)%256
-   local iei=math.floor((qns%4294967296)/ni)%256
-   kd=kd+tk(tk(hky,vrj),iei)*ni
-   ni=ni*256
+ local function tm(kys,kng,ufi)
+  local yj=0
+  local lw=1
+  for wsf=1,4 do
+   local tdn=math.floor((kys%4294967296)/lw)%256
+   local nyy=math.floor((kng%4294967296)/lw)%256
+   local rsx=math.floor((ufi%4294967296)/lw)%256
+   yj=yj+uv(uv(tdn,nyy),rsx)*lw
+   lw=lw*256
   end
-  return kd
+  return yj
  end
- for kvm=1,#eod,4 do
-  local tg=string.byte(eod,kvm)
-   +string.byte(eod,kvm+1)*256
-   +string.byte(eod,kvm+2)*65536
-   +string.byte(eod,kvm+3)*16777216
-  local jyo=oee()
-   +oee()*256
-   +oee()*65536
-   +oee()*16777216
-  local as=hj(tg,jyo,ai)
-  local nfz=0
-  for wte=1,4 do
-   local bm=(wte==1 and 1) or (wte==2 and 2) or (wte==3 and 4) or 3
-   nfz=nfz+math.floor((as%4294967296)/2^((bm-1)*8))%256*2^((wte-1)*8)
+ for lbc=1,#sdz,4 do
+  local ho=string.byte(sdz,lbc)
+   +string.byte(sdz,lbc+1)*256
+   +string.byte(sdz,lbc+2)*65536
+   +string.byte(sdz,lbc+3)*16777216
+  local isb=jti()
+   +jti()*256
+   +jti()*65536
+   +jti()*16777216
+  local rx=tm(ho,isb,ms)
+  local sjs=0
+  for zsj=1,4 do
+   local zv=(zsj==1 and 4) or (zsj==2 and 1) or (zsj==3 and 3) or 2
+   sjs=sjs+math.floor((rx%4294967296)/2^((zv-1)*8))%256*2^((zsj-1)*8)
   end
-  local my=0
-  for wte=1,4 do
-   local xl=(wte==1 and 3) or (wte==2 and 4) or (wte==3 and 2) or 1
-   my=my+math.floor((nfz%4294967296)/2^((xl-1)*8))%256*2^((wte-1)*8)
+  local pw=0
+  for zsj=1,4 do
+   local uz=(zsj==1 and 1) or (zsj==2 and 2) or (zsj==3 and 3) or 4
+   pw=pw+math.floor((sjs%4294967296)/2^((uz-1)*8))%256*2^((zsj-1)*8)
   end
-  nfz=my
-  jlm[math.floor((kvm-1)/4)+1]=nfz
-  ai=tg
+  sjs=pw
+  bjc[math.floor((lbc-1)/4)+1]=sjs
+  ms=ho
  end
- qw[fd]=jlm
- ka[fd]=nil
- return kx and jlm[kx] or jlm
+ bz[ul]=bjc
+ en[ul]=nil
+ return wn and bjc[wn] or bjc
  end
-local function gk(fd)
- local rm=1
- while fd>fr[rm] do
-  fd=fd-fr[rm]
-  rm=rm+1
+local function sz(ul)
+ local nq=1
+ while ul>gj[nq] do
+  ul=ul-gj[nq]
+  nq=nq+1
  end
- return vo(ej[rm],fd)
+ return go(pv[nq],ul)
 end
-return gk
+return {sz}
 end
-if lv~=true then cav(); mbn(nil,0) end
-local gk=lq()
-local aw={}
-for bxu=1,2 do aw[bxu]={} end
-local mh={10,19,18,25,38,41,33,24,28,31,1,16,17,3,14,45,50,30,32,23,13,47,40,21,29,22,7,8,9,37,49,15,46,43,39,34,5,26,20,4,2,44,11,27,42,36,6,51,12,48,35}
-local llr=aw[1]
-    local il=type(task)==snq[12] and task or nil
-local mk=il and type(il.wait)==snq[13] and il.wait or nil
-local qi=function(pz) return coroutine.yield(pz or 0) end
-if mk then
- local fk=coroutine.create(function() return mk(0) end)
- local zz=coroutine.resume(fk)
- if zz and coroutine.status(fk)==string.char(115,117,115,112,101,110,100,101,100) then qi=mk end
+if km~=true then ufe(); bll(nil,0) end
+local ci=vq()
+local sz=ci[1]
+local qs={}
+for cop=1,2 do qs[cop]={} end
+local co={43,26,5,25,46,12,14,51,18,40,9,34,16,1,8,37,11,41,36,27,19,33,24,31,13,23,30,21,4,29,22,32,15,45,20,50,6,38,2,48,35,3,7,39,10,28,42,17,47,44,49}
+local bmy=qs[1]
+    local tz=type(task)==gzm[12] and task or nil
+local fu=tz and type(tz.wait)==gzm[13] and tz.wait or nil
+local ze=function(ns) return coroutine.yield(ns or 0) end
+if fu then
+ local ry=coroutine.create(function() return fu(0) end)
+ local fc=coroutine.resume(ry)
+ if fc and coroutine.status(ry)==string.char(115,117,115,112,101,110,100,101,100) then ze=fu end
 end
-local ix={
- wait=function(pz) return qi(pz) end,
- [string.char(100,101,102,101,114)]=function(bv) end,
- [string.char(100,101,108,97,121)]=function(pz,bv) end
+local tg={
+ wait=function(ns) return ze(ns) end,
+ [string.char(100,101,102,101,114)]=function(tc) end,
+ [string.char(100,101,108,97,121)]=function(ns,tc) end
 }
-local hh=function() return {} end
-if type(newproxy)==snq[13] then
- local qf,ly=pcall(newproxy)
- if qf and (type(ly)=="userdata" or type(ly)==snq[12]) then
-  hh=newproxy
+local ou=function() return {} end
+if type(newproxy)==gzm[13] then
+ local qe,sd=pcall(newproxy)
+ if qe and (type(sd)=="userdata" or type(sd)==gzm[12]) then
+  ou=newproxy
  else
-  local xd,gs=pcall(newproxy,true)
-  if xd and (type(gs)=="userdata" or type(gs)==snq[12]) then
-   hh=function() return newproxy(true) end
+  local rg,gf=pcall(newproxy,true)
+  if rg and (type(gf)=="userdata" or type(gf)==gzm[12]) then
+   ou=function() return newproxy(true) end
   end
  end
 end
-local task=ix
-local newproxy=hh
-local je={
-     mp({254,35,89,183,130,74,216,73,121},{138,66,42,220,172,61,185,32,13}),
- mp({250,48,67,178,216},{138,66,42,220,172}),
- mp({253,35,88,178},{138,66,42,220}),
- mp({249,39,94,177,201,73,216,84,108,232,46,79},{138,66,42,220,172,61,185,32,13}),
- mp({254,45,89,168,222,84,215,71},{138,66,42,220,172,61,185,32}),
- mp({254,35,72,176,201,19,213,69,99,237,54,66},{138,66,42,220,172,61,185,32,13}),
- mp({231,35,94,180,130,91,213,79,98,248},{138,66,42,220,172,61,185,32,13}),
- mp({231,35,94,180,130,79,216,78,105,229,47},{138,66,42,220,172,61,185,32,13}),
- mp({233,45,88,179,217,73,208,78,104,164,53,88,189,220},{138,66,42,220,172,61,185,32,13}),
- mp({250,33,75,176,192},{138,66,42,220,172}),
- mp({239,48,88,179,222},{138,66,42,220,172}),
- mp({254,59,90,185},{138,66,42,220}),
- mp({228,39,93,191,207,81,214,83,120,248,39},{138,66,42,220,172,61,185,32,13}),
- mp({226,45,69,183,202,72,215,67,121,227,45,68},{138,66,42,220,172,61,185,32,13}),
- mp({226,45,69,183,193,88,205,65,96,239,54,66,179,200},{138,66,42,220,172,61,185,32,13}),
- mp({237,39,94,178,205,80,220,67,108,230,46,71,185,216,85,214,68},{138,66,42,220,172,61,185,32,13}),
- mp({254,45,68,169,193,95,220,82},{138,66,42,220,172,61,185,32}),
- mp({229,49,4,191,192,82,218,75},{138,66,42,220,172,61,185,32}),
- mp({229,49,4,168,197,80,220},{138,66,42,220,172,61,185})
+local task=tg
+local newproxy=ou
+local ez={
+     oy({17,91,243,195,44,85,13,12,57},{101,58,128,168,2,34,108,101,77}),
+ oy({21,72,233,198,118},{101,58,128,168,2}),
+ oy({18,91,242,198},{101,58,128,168}),
+ oy({22,95,244,197,103,86,13,17,44,7,86,229},{101,58,128,168,2,34,108,101,77}),
+ oy({17,85,243,220,112,75,2,2},{101,58,128,168,2,34,108,101}),
+ oy({17,91,226,196,103,12,0,0,35,2,78,232},{101,58,128,168,2,34,108,101,77}),
+ oy({8,91,244,192,44,68,0,10,34,23},{101,58,128,168,2,34,108,101,77}),
+ oy({8,91,244,192,44,80,13,11,41,10,87},{101,58,128,168,2,34,108,101,77}),
+ oy({6,85,242,199,119,86,5,11,40,75,77,242,201,114},{101,58,128,168,2,34,108,101,77}),
+ oy({21,89,225,196,110},{101,58,128,168,2}),
+ oy({0,72,242,199,112},{101,58,128,168,2}),
+ oy({17,67,240,205},{101,58,128,168}),
+ oy({11,95,247,203,97,78,3,22,56,23,95},{101,58,128,168,2,34,108,101,77}),
+ oy({13,85,239,195,100,87,2,6,57,12,85,238},{101,58,128,168,2,34,108,101,77}),
+ oy({13,85,239,195,111,71,24,4,32,0,78,232,199,102},{101,58,128,168,2,34,108,101,77}),
+ oy({2,95,244,198,99,79,9,6,44,9,86,237,205,118,74,3,1},{101,58,128,168,2,34,108,101,77}),
+ oy({17,85,238,221,111,64,9,23},{101,58,128,168,2,34,108,101}),
+ oy({10,73,174,203,110,77,15,14},{101,58,128,168,2,34,108,101}),
+ oy({10,73,174,220,107,79,9},{101,58,128,168,2,34,108})
     }
-    local sn=print
-local re=warn or sn
-local xp=function(pz) return coroutine.yield(pz or 0) end
-local che={}
-local vl=loadstring
-local pv=nil
-if type(vl)==snq[13] then local pd=vl(string.char(114,101,116,117,114,110,32,103,101,116,103,101,110,118)) if type(pd)==snq[13] then pv=pd() end end
-local xe=nil
-if type(vl)==snq[13] then local yp=vl(string.char(114,101,116,117,114,110,32,114,101,113,117,101,115,116)) if type(yp)==snq[13] then xe=yp() end end
-local ml=function(kw) return math.floor(kw) end
-local tf=function(...) return sn(...) end
-local aj=function() local pyv=type(pv)==snq[13] and pv() or nil local at=type(pyv)==snq[12] and rawget(pyv,string.char(103,101,116,110,97,109,101,99,97,108,108,109,101,116,104,111,100)) or nil if type(at)==snq[13] then return at() end return nil end
-local zv=function(kx,ykq,wu) local pyv=type(pv)==snq[13] and pv() or nil local at=type(pyv)==snq[12] and rawget(pyv,string.char(104,111,111,107,109,101,116,97,109,101,116,104,111,100)) or nil if type(at)==snq[13] then local ju=at(kx,ykq,wu) if type(ju)==snq[13] then return function(...) return ju(...) end end end return kx end
-local bt=function(zn) return zn.n or #zn end
-local ge=function(fe) return coroutine.wrap(fe) end
-local fh=function(...) return pcall(...) end
-local zo=function(gr,qg) local ykq=string.char(114,97,110,100,111,109) return math[ykq](gr,qg) end
-local ie=function(kw) return tostring(kw) end
-local no=function(...) return re(...) end
-local dv=function() return os.time() end
-local ik=function(mg,gw) return nil end
-local ub=function(...) return xp(...) end
-local wq=function(kw) return type(kw) end
-local af=function(fe,ykq) local pyv=type(pv)==snq[13] and pv() or nil local at=type(pyv)==snq[12] and rawget(pyv,string.char(110,101,119,99,99,108,111,115,117,114,101)) or nil if type(at)==snq[13] then return at(fe,ykq) end return fe end
-local cd=function(zn,qm) return setmetatable(zn,qm) end
-local he=function() return os.clock() end
-local gi=function(kx,wu) local pyv=type(pv)==snq[13] and pv() or nil local at=type(pyv)==snq[12] and rawget(pyv,string.char(104,111,111,107,102,117,110,99,116,105,111,110)) or nil if type(at)==snq[13] then return at(kx,wu) end return kx end
-local hc=function(kw,nuv) return tonumber(kw,nuv) end
-function oz(mqt)
- if mqt==5 then return ie end
- if mqt==13 then return af end
- if mqt==11 then return ik end
- if mqt==3 then return no end
- if mqt==14 then return gi end
- if mqt==16 then return aj end
- if mqt==17 then return hc end
- if mqt==15 then return zv end
- if mqt==6 then return bt end
- if mqt==12 then return wq end
- if mqt==1 then return ub end
- if mqt==9 then return ge end
- if mqt==10 then return fh end
- if mqt==2 then return tf end
- if mqt==8 then return zo end
- if mqt==7 then return ml end
- if mqt==19 then return dv end
- if mqt==18 then return he end
- if mqt==4 then return cd end
- ssc(); evq(nil,0)
+    local uk=print
+local qu=warn or uk
+local ir=function(ns) return coroutine.yield(ns or 0) end
+local sol={}
+local jk=loadstring
+local ls=nil
+if type(jk)==gzm[13] then local lr=jk(string.char(114,101,116,117,114,110,32,103,101,116,103,101,110,118)) if type(lr)==gzm[13] then ls=lr() end end
+local mu=nil
+if type(jk)==gzm[13] then local db=jk(string.char(114,101,116,117,114,110,32,114,101,113,117,101,115,116)) if type(db)==gzm[13] then mu=db() end end
+local xk=function() local orc=type(ls)==gzm[13] and ls() or nil local zt=type(orc)==gzm[12] and rawget(orc,string.char(103,101,116,110,97,109,101,99,97,108,108,109,101,116,104,111,100)) or nil if type(zt)==gzm[13] then return zt() end return nil end
+local eb=function() return os.clock() end
+local mi=function() return os.time() end
+local aq=function(zd) return type(zd) end
+local hj=function(ka) return coroutine.wrap(ka) end
+local bb=function(...) return qu(...) end
+local kq=function(lc,xx) return setmetatable(lc,xx) end
+local du=function(...) return ir(...) end
+local ga=function(wn,hev,bg) local orc=type(ls)==gzm[13] and ls() or nil local zt=type(orc)==gzm[12] and rawget(orc,string.char(104,111,111,107,109,101,116,97,109,101,116,104,111,100)) or nil if type(zt)==gzm[13] then local gs=zt(wn,hev,bg) if type(gs)==gzm[13] then return function(...) return gs(...) end end end return wn end
+local nv=function(...) return uk(...) end
+local wj=function(gr,mf) local hev=string.char(114,97,110,100,111,109) return math[hev](gr,mf) end
+local tk=function(ka,hev) local orc=type(ls)==gzm[13] and ls() or nil local zt=type(orc)==gzm[12] and rawget(orc,string.char(110,101,119,99,99,108,111,115,117,114,101)) or nil if type(zt)==gzm[13] then return zt(ka,hev) end return ka end
+local ed=function(wn,bg) local orc=type(ls)==gzm[13] and ls() or nil local zt=type(orc)==gzm[12] and rawget(orc,string.char(104,111,111,107,102,117,110,99,116,105,111,110)) or nil if type(zt)==gzm[13] then return zt(wn,bg) end return wn end
+local aw=function(zd) return tostring(zd) end
+local yr=function(...) return pcall(...) end
+local js=function(zd,yhs) return tonumber(zd,yhs) end
+local qv=function(pg,lf) return nil end
+local fg=function(lc) return lc.n or #lc end
+local ah=function(zd) return math.floor(zd) end
+function jy(rze)
+ if rze==15 then return ga end
+ if rze==18 then return eb end
+ if rze==10 then return yr end
+ if rze==17 then return js end
+ if rze==5 then return aw end
+ if rze==8 then return wj end
+ if rze==9 then return hj end
+ if rze==11 then return qv end
+ if rze==16 then return xk end
+ if rze==14 then return ed end
+ if rze==3 then return bb end
+ if rze==6 then return fg end
+ if rze==1 then return du end
+ if rze==4 then return kq end
+ if rze==13 then return tk end
+ if rze==19 then return mi end
+ if rze==2 then return nv end
+ if rze==12 then return aq end
+ if rze==7 then return ah end
+ fca(); mit(nil,0)
 end
-local vlc=setmetatable({},{
- __index=function(zn,mqt)
-  if type(mqt)~=snq[10] or mqt<1 or mqt>19 or mqt%1~=0 then ssc(); evq(nil,0) end
-  return oz(mqt)
+local zxr=setmetatable({},{
+ __index=function(lc,rze)
+  if type(rze)~=gzm[10] or rze<1 or rze>19 or rze%1~=0 then fca(); mit(nil,0) end
+  return jy(rze)
  end,
- __newindex=function() ssc(); evq(nil,0) end,
+ __newindex=function() fca(); mit(nil,0) end,
  __len=function() return 19 end,
  __metatable=false
 })
 
-local fo=bp('46330700b96ca4fa0b71e1780a000de02348b3c05ceb486ef1070049a46e17d78a10890700e119c6ba732cb13d0800dc39edd8631c8e0697070040af6e0bec9f189d03003bc2007f0b006b8b5a2ed99737ab2709804d02000df02d0800c23cef866b039d1e900300ac6dabdf0b008a6eadd73545db5cd9f272ad0a00977ab0c9035ecb4ad2e86e0600ec15d7a84330a807000fcd2844b7c640c503003dc51a640600fb02cdb05322b505003cc2117d85fe0a003bfb2a5ea9d363e17452d40600b9408fe10c7be303000ff03f490e0020c90d7893f969f06e488415789dfc0a00b9608ff21160f743f6d0560c00ac558bf21d65e574f8c04482e307006b924827d29224be04000de02e4ab4040049816407ec0300e10ed1b90700c217df81701c9a0305003de5104084f3040057a96c0dee0a00dc31fb82431f8e0e95b42507003cc41b6795f572f10300578c5c390300429d72040a0053b4700de7d108861c31ab0d004bb26807f2af02861b03b76c0fe30a00975786f2057ec44dd8fe7807008a6fb8d43f49d940050040af7018f39e040053864e17ec040039d71a678402009b589d09004b9e5617f69517800c350700fb02ccb24432b53109009b66bcd33458c549dee20600dc3bfb82681f85050079855a3fd0b00400977aa6c82907000ff52c5cbfcc53d20900c221ee9b6a0f911887bc04008a4a9bef1805003cc61d778cfc0300e100c6b20500dc09ee976715080020c0116592c87ced6107003bd2167f89f265f60c002ac8076f9de062fd6953c9076e0800ac6e9af20050fe66f807006ba2462edcae33a1040042975f1aef0b0020c7037e94a26ff86e49c50f0b0053b6700de7d11c8b1d3ab67c070039dc083d91fc69e50a009b56bcc51452d454d2f5740700825ea5da2d47d0550700ac559ae70274f4710c008a63a9cc3a44d650c1d379b8c5050049af6414f0970800fb12d8bd4b35a721b00700ec0cdda95e14a32c0600825aafff3b4cd00c00ec0edab2401fa330bd9403ddb20400826aafcc2703002ad20d71060079875419d6ba2a0300dc01fb940e0040ad671eda85139e053fba7003f2980c0059a77a11e9904a8c1c3ab46f1b04007e875938c40e0059bb741cee9801941839b66f1bea9103003dd91a6008008a72add32649d940cf0b0079bb4f27d58621b22f1d905e11007e935920ccb32ea23d12985039c7a62ba83a0100ac55080039c7146091e76dee7e')
-local ja={138,66,42,220,172,61,185,32,13}
-local ft=87
-local ot={}
-for me=1,ft do ot[me]=me end
-local yc=dp(wf(r).."field-permutation")
-local md=string.byte(yc,1)+string.byte(yc,2)*256+string.byte(yc,3)*65536+string.byte(yc,4)*16777216
+local ye=po('463307006c560985aa0a2b780800656a2c8aa323267d61090090aaf56659e0d38e92ae08005f4e0ab182301f56480700e3f5ac002884b2fc040060673584b106006c7a229ead00290400b3b1fa4679070002144ce3d874450a0800a8a2e10663c6e5a7a60a00684701a78e2e2f676241680a006c5a228db01b3d4366456c0700c2c294231ab385ca06007971268db9143f0400b592e051640700456310aa862e025a03008097df710700656f2f91a408297a0c001c1152e8c4414c1508241c55e805009b8ec27a5ff507001c1355f3da4a4c090d009086cb765ddac688859883cf7e4c0700686e3d86ae0f29700e009c91c9735ff3db8498bc9cd2745bfa0b00656d3e91a54935686e4c6f320a00b3b1ec4753d4f0bbb38ca50700404a09ee9c2b0f490500b5bce04278c50c0002145df6c765540f132e0554e70800071058f4df6a4b180707009b8cc46a46fcca83070011044ae8d57c52190400d8c99b28150400bdabe2517307001e0941eff87d5117040040411bb48903001e1e56ec0a0034166bc0cf53642e381a340500a892e24967cf0300d8ecab1c0500c2c28a3005b203003a0a72d60c0007015cebc3674408091e1b4de209005f530bac833c13505f610a00797b268d9214347e75516f06001c0a5ff2c76e4703001e1041e70500221577f5ef4201007a6c0c009c8dc77e58fb909c9cbf9ed2740c00808dd56f43e4d78286b98cd56e090034266bd6ef597533340d0a004d4f1ba2872e037e4d6e5e0b00656e3a92ae042b66735d723a05006d7e3681b00a0a00b39cda7c55f4ffbcb99ab30c009e8dc97f42f492809abd9fcb730e00c2c09d362ca98ec9c2fdd78a2b04b40800405115b39c300b424204003a005fc8e303007a5405a3070045531ea3881215451100bdbfe2497bdef2b4bb91b4eb5070cbf7bebc0b00454a0caa831706504c67411b02004d5f1506006d7c38a7b600210300794b269b020034184a030022357dd104009ea4fb705506005f650cb19338050800e3e5b80f2783a0eced0700b5b7ea415fd8f3a00b006d402399b53c2a737e496b320e0065633097a21233606e4d2e2897ac17070060533f92bb0b2d6204004d4f16a08008007a57348ea22837656b05009b8ace7056f7030022297dd50300687e2b860a009e96c56a5eb2da9e94bc89040007286ec8e10600e3f5ad023f94b20700113c4ef0dd76410e0300110159fd0400605735b7aa')
+local fq={101,58,128,168,2,34,108,101,77}
+local wx=87
+local uw={}
+for qi=1,wx do uw[qi]=qi end
+local gd=ke(bi(u).."field-permutation")
+local fe=string.byte(gd,1)+string.byte(gd,2)*256+string.byte(gd,3)*65536+string.byte(gd,4)*16777216
 
-for me=ft,2,-1 do
- md=bit32.band(md*1664525+1013904223,4294967295)
- local qc=md%me+1
- ot[me],ot[qc]=ot[qc],ot[me]
+for qi=wx,2,-1 do
+ fe=bit32.band(fe*1664525+1013904223,4294967295)
+ local yn=fe%qi+1
+ uw[qi],uw[yn]=uw[yn],uw[qi]
 end
-local kh={}
-for me=1,ft do kh[ot[me]]=me end
-ot=kh
-local hya={}
-setmetatable(hya,{
- __index=function(zn,fd)
-  ok()
-  if type(fd)~=snq[10] or fd<1 or fd>ft or fd%1~=0 then return nil end
-  local rs=ot[fd]
-  if type(rs)~=snq[10] then ssc(); evq("vm",0) end
-  local bq=3
-  if string.byte(fo,1)~=70 or string.byte(fo,2)~=51 then ssc(); evq("vm",0) end
-  for me=1,rs do
-   if bq+1>#fo then ssc(); evq("vm",0) end
-   local tl=string.byte(fo,bq)+string.byte(fo,bq+1)*256
-   bq=bq+2
-   if bq+tl-1>#fo then ssc(); evq("vm",0) end
-   local kuq=string.byte(fo,bq)
-   bq=bq+1
-   if me==rs then
-    local di={}
-    for tp=1,tl do di[tp]=string.byte(fo,bq+tp-1) end
-    for tp=1,tl do di[tp]=bit32.bxor(di[tp],kuq) end
-    local hs=mp(di,ja)
-    return hs
+local hm={}
+for qi=1,wx do hm[uw[qi]]=qi end
+uw=hm
+local xxo={}
+setmetatable(xxo,{
+ __index=function(lc,ul)
+  ab()
+  if type(ul)~=gzm[10] or ul<1 or ul>wx or ul%1~=0 then return nil end
+  local kx=uw[ul]
+  if type(kx)~=gzm[10] then fca(); mit("vm",0) end
+  local oc=3
+  if string.byte(ye,1)~=70 or string.byte(ye,2)~=51 then fca(); mit("vm",0) end
+  for qi=1,kx do
+   if oc+1>#ye then fca(); mit("vm",0) end
+   local bn=string.byte(ye,oc)+string.byte(ye,oc+1)*256
+   oc=oc+2
+   if oc+bn-1>#ye then fca(); mit("vm",0) end
+   local fjp=string.byte(ye,oc)
+   oc=oc+1
+   if qi==kx then
+    local tr={}
+    for dz=1,bn do tr[dz]=string.byte(ye,oc+dz-1) end
+    for dz=1,bn do tr[dz]=bit32.bxor(tr[dz],fjp) end
+    local zz=oy(tr,fq)
+    return zz
    end
-   bq=bq+tl
+   oc=oc+bn
   end
   return nil
  end
 })
 
-local yo=mqp or {}
-local eg=type(yo)==snq[12] and rawget(yo,"getgenv") or nil
-local ck=game
-if type(ck)~=snq[12] and type(ck)~="userdata" then
- ck=nil
+local fn=ngi or {}
+local gy=type(fn)==gzm[12] and rawget(fn,"getgenv") or nil
+local wr=game
+if type(wr)~=gzm[12] and type(wr)~="userdata" then
+ wr=nil
 end
-if ck==nil then
- local ah=v2g
- if type(ah)==snq[12] or type(ah)=="userdata" then
-  ck=ah
+if wr==nil then
+ local mg=v2g
+ if type(mg)==gzm[12] or type(mg)=="userdata" then
+  wr=mg
  end
 end
-if ck==nil then
- local dt=type(eg)==snq[13] and eg() or nil
- local gy=type(dt)==snq[12] and rawget(dt,"game") or nil
- if type(gy)==snq[12] or type(gy)=="userdata" then
-  ck=gy
+if wr==nil then
+ local yx=type(gy)==gzm[13] and gy() or nil
+ local rb=type(yx)==gzm[12] and rawget(yx,"game") or nil
+ if type(rb)==gzm[12] or type(rb)=="userdata" then
+  wr=rb
  end
 end
-local kt=xk or v2q
-local co={
- [hya[37]]=function(_, ykq) return ck:GetService(ykq) end,
- ['GameId']=(ck or game) and (ck or game).GameId,
- ['GameId']=(ck or game) and (ck or game).GameId,
- ['GetService']=function(_, ykq) return ck:GetService(ykq) end,
- ['Players']=(ck or game) and (ck or game).Players,
- ['Players']=(ck or game) and (ck or game).Players,
- ['HttpGet']=function(_, hqs, nk) local yym,kd=false,nil if type(kt)=='function' then yym,kd=pcall(kt,hqs,nk) end if yym and type(kd)==snq[9] then return kd end local gl,br=pcall(function() return ck:HttpGet(hqs,nk) end) if (not gl or br==nil) and nk~=nil then gl,br=pcall(function() return ck:HttpGet(hqs) end) end if gl and type(br)==snq[9] then return br end local yg=type(ck)~="nil" and ck[string.char(72,116,116,112,71,101,116,65,115,121,110,99)] or nil if type(yg)==snq[13] then local vc,wo=pcall(yg,ck,hqs) if vc and type(wo)==snq[9] then return wo end end local vh,rx=pcall(function() return ck:GetService(string.char(72,116,116,112,83,101,114,118,105,99,101)) end) local kl=vh and ((type(rx)==snq[12] or type(rx)=="userdata") and rx[string.char(71,101,116,65,115,121,110,99)] or nil) if type(kl)==snq[13] then local ko,ir=pcall(kl,rx,hqs,nk) if ko and type(ir)==snq[9] then return ir end if type(kl)==snq[13] then local qk,st=pcall(kl,rx,hqs) if qk and type(st)==snq[9] then return st end end local ba=vh and ((type(rx)==snq[12] or type(rx)=="userdata") and rx[string.char(82,101,113,117,101,115,116,65,115,121,110,99)] or nil) if type(ba)==snq[13] then local jl,kg=pcall(ba,rx,{[string.char(85,114,108)]=hqs,[string.char(77,101,116,104,111,100)]=string.char(71,69,84)}) local ph=type(kg)==snq[12] and (kg[string.char(66,111,100,121)] or kg[string.char(98,111,100,121)]) or nil if jl and type(ph)==snq[9] then return ph end end end local lc=nil local kv=type(mqp)==snq[12] and mqp[string.char(114,101,113,117,101,115,116)] or nil local od=type(mqp)==snq[12] and mqp[string.char(104,116,116,112,95,114,101,113,117,101,115,116)] or nil local vid=type(mqp)==snq[12] and mqp[string.char(115,121,110)] or nil local mw=type(mqp)==snq[12] and mqp[string.char(102,108,117,120,117,115)] or nil local isg=type(mqp)==snq[12] and mqp[string.char(104,116,116,112)] or nil local wj=type(pv)==snq[13] and pv() or nil if type(wj)==snq[12] then if kv==nil then kv=wj[string.char(114,101,113,117,101,115,116)] end if od==nil then od=wj[string.char(104,116,116,112,95,114,101,113,117,101,115,116)] end if vid==nil then vid=wj[string.char(115,121,110)] end if mw==nil then mw=wj[string.char(102,108,117,120,117,115)] end if isg==nil then isg=wj[string.char(104,116,116,112)] end end if kv==nil and type(loadstring)==snq[13] then local oq,xo=pcall(function() local zw=loadstring(string.char(114,101,116,117,114,110,32,114,101,113,117,101,115,116)) return type(zw)==snq[13] and zw() or nil end) if oq and type(xo)==snq[13] then kv=xo end end local qe=xe if type(vl)==snq[13] then local ak,rv=pcall(function() local rc=vl(string.char(114,101,116,117,114,110,32,102,117,110,99,116,105,111,110,40,95,111,41,32,114,101,116,117,114,110,32,114,101,113,117,101,115,116,40,95,111,41,32,101,110,100)) return type(rc)==snq[13] and rc() or nil end) if ak and type(rv)==snq[13] then qe=rv end end if type(kv)==snq[13] then lc=kv elseif type(od)==snq[13] then lc=od elseif type(vid)==snq[12] and type(vid[string.char(114,101,113,117,101,115,116)])==snq[13] then lc=vid[string.char(114,101,113,117,101,115,116)] elseif type(mw)==snq[12] and type(mw[string.char(114,101,113,117,101,115,116)])==snq[13] then lc=mw[string.char(114,101,113,117,101,115,116)] elseif type(isg)==snq[12] and type(isg[string.char(114,101,113,117,101,115,116)])==snq[13] then lc=isg[string.char(114,101,113,117,101,115,116)] end local pj=qe or lc if type(pj)==snq[13] then local zr,ve,tu=pcall(pj,{[string.char(85,114,108)]=hqs,[string.char(77,101,116,104,111,100)]=string.char(71,69,84)}) local iu=type(ve)==snq[9] and ve or (type(ve)==snq[12] and (ve[string.char(66,111,100,121)] or ve[string.char(98,111,100,121)]) or nil) if zr and type(iu)==snq[9] then return iu end end if type(pj)==snq[13] then local sf,an,ez=pcall(pj,{[string.char(85,114,108)]=hqs}) local xc=type(an)==snq[9] and an or (type(an)==snq[12] and (an[string.char(66,111,100,121)] or an[string.char(98,111,100,121)]) or nil) if sf and type(xc)==snq[9] then return xc end end return nil end,
- ['HttpGet']=function(_, hqs, nk) local yym,kd=false,nil if type(kt)=='function' then yym,kd=pcall(kt,hqs,nk) end if yym and type(kd)==snq[9] then return kd end local gl,br=pcall(function() return ck:HttpGet(hqs,nk) end) if (not gl or br==nil) and nk~=nil then gl,br=pcall(function() return ck:HttpGet(hqs) end) end if gl and type(br)==snq[9] then return br end local yg=type(ck)~="nil" and ck[string.char(72,116,116,112,71,101,116,65,115,121,110,99)] or nil if type(yg)==snq[13] then local vc,wo=pcall(yg,ck,hqs) if vc and type(wo)==snq[9] then return wo end end local vh,rx=pcall(function() return ck:GetService(string.char(72,116,116,112,83,101,114,118,105,99,101)) end) local kl=vh and ((type(rx)==snq[12] or type(rx)=="userdata") and rx[string.char(71,101,116,65,115,121,110,99)] or nil) if type(kl)==snq[13] then local ko,ir=pcall(kl,rx,hqs,nk) if ko and type(ir)==snq[9] then return ir end if type(kl)==snq[13] then local qk,st=pcall(kl,rx,hqs) if qk and type(st)==snq[9] then return st end end local ba=vh and ((type(rx)==snq[12] or type(rx)=="userdata") and rx[string.char(82,101,113,117,101,115,116,65,115,121,110,99)] or nil) if type(ba)==snq[13] then local jl,kg=pcall(ba,rx,{[string.char(85,114,108)]=hqs,[string.char(77,101,116,104,111,100)]=string.char(71,69,84)}) local ph=type(kg)==snq[12] and (kg[string.char(66,111,100,121)] or kg[string.char(98,111,100,121)]) or nil if jl and type(ph)==snq[9] then return ph end end end local lc=nil local kv=type(mqp)==snq[12] and mqp[string.char(114,101,113,117,101,115,116)] or nil local od=type(mqp)==snq[12] and mqp[string.char(104,116,116,112,95,114,101,113,117,101,115,116)] or nil local vid=type(mqp)==snq[12] and mqp[string.char(115,121,110)] or nil local mw=type(mqp)==snq[12] and mqp[string.char(102,108,117,120,117,115)] or nil local isg=type(mqp)==snq[12] and mqp[string.char(104,116,116,112)] or nil local wj=type(pv)==snq[13] and pv() or nil if type(wj)==snq[12] then if kv==nil then kv=wj[string.char(114,101,113,117,101,115,116)] end if od==nil then od=wj[string.char(104,116,116,112,95,114,101,113,117,101,115,116)] end if vid==nil then vid=wj[string.char(115,121,110)] end if mw==nil then mw=wj[string.char(102,108,117,120,117,115)] end if isg==nil then isg=wj[string.char(104,116,116,112)] end end if kv==nil and type(loadstring)==snq[13] then local oq,xo=pcall(function() local zw=loadstring(string.char(114,101,116,117,114,110,32,114,101,113,117,101,115,116)) return type(zw)==snq[13] and zw() or nil end) if oq and type(xo)==snq[13] then kv=xo end end local qe=xe if type(vl)==snq[13] then local ak,rv=pcall(function() local rc=vl(string.char(114,101,116,117,114,110,32,102,117,110,99,116,105,111,110,40,95,111,41,32,114,101,116,117,114,110,32,114,101,113,117,101,115,116,40,95,111,41,32,101,110,100)) return type(rc)==snq[13] and rc() or nil end) if ak and type(rv)==snq[13] then qe=rv end end if type(kv)==snq[13] then lc=kv elseif type(od)==snq[13] then lc=od elseif type(vid)==snq[12] and type(vid[string.char(114,101,113,117,101,115,116)])==snq[13] then lc=vid[string.char(114,101,113,117,101,115,116)] elseif type(mw)==snq[12] and type(mw[string.char(114,101,113,117,101,115,116)])==snq[13] then lc=mw[string.char(114,101,113,117,101,115,116)] elseif type(isg)==snq[12] and type(isg[string.char(114,101,113,117,101,115,116)])==snq[13] then lc=isg[string.char(114,101,113,117,101,115,116)] end local pj=qe or lc if type(pj)==snq[13] then local zr,ve,tu=pcall(pj,{[string.char(85,114,108)]=hqs,[string.char(77,101,116,104,111,100)]=string.char(71,69,84)}) local iu=type(ve)==snq[9] and ve or (type(ve)==snq[12] and (ve[string.char(66,111,100,121)] or ve[string.char(98,111,100,121)]) or nil) if zr and type(iu)==snq[9] then return iu end end if type(pj)==snq[13] then local sf,an,ez=pcall(pj,{[string.char(85,114,108)]=hqs}) local xc=type(an)==snq[9] and an or (type(an)==snq[12] and (an[string.char(66,111,100,121)] or an[string.char(98,111,100,121)]) or nil) if sf and type(xc)==snq[9] then return xc end end return nil end,
+local eu=xs or v2q
+local ep={
+ ['GetService']=function(_, hev) return wr:GetService(hev) end,
+ ['GameId']=(wr or game) and (wr or game).GameId,
+ ['GameId']=(wr or game) and (wr or game).GameId,
+ ['HttpGet']=function(_, jff, vj) local eaz,yj=false,nil if type(eu)=='function' then eaz,yj=pcall(eu,jff,vj) end if eaz and type(yj)==gzm[9] then return yj end local eq,wp=pcall(function() return wr:HttpGet(jff,vj) end) if (not eq or wp==nil) and vj~=nil then eq,wp=pcall(function() return wr:HttpGet(jff) end) end if eq and type(wp)==gzm[9] then return wp end local nw=type(wr)~="nil" and wr[string.char(72,116,116,112,71,101,116,65,115,121,110,99)] or nil if type(nw)==gzm[13] then local pr,yh=pcall(nw,wr,jff) if pr and type(yh)==gzm[9] then return yh end end local lz,fm=pcall(function() return wr:GetService(string.char(72,116,116,112,83,101,114,118,105,99,101)) end) local im=lz and ((type(fm)==gzm[12] or type(fm)=="userdata") and fm[string.char(71,101,116,65,115,121,110,99)] or nil) if type(im)==gzm[13] then local re,jw=pcall(im,fm,jff,vj) if re and type(jw)==gzm[9] then return jw end if type(im)==gzm[13] then local dl,wa=pcall(im,fm,jff) if dl and type(wa)==gzm[9] then return wa end end local ig=lz and ((type(fm)==gzm[12] or type(fm)=="userdata") and fm[string.char(82,101,113,117,101,115,116,65,115,121,110,99)] or nil) if type(ig)==gzm[13] then local rc,ax=pcall(ig,fm,{[string.char(85,114,108)]=jff,[string.char(77,101,116,104,111,100)]=string.char(71,69,84)}) local lg=type(ax)==gzm[12] and (ax[string.char(66,111,100,121)] or ax[string.char(98,111,100,121)]) or nil if rc and type(lg)==gzm[9] then return lg end end end local em=nil local pj=type(ngi)==gzm[12] and ngi[string.char(114,101,113,117,101,115,116)] or nil local ji=type(ngi)==gzm[12] and ngi[string.char(104,116,116,112,95,114,101,113,117,101,115,116)] or nil local cmb=type(ngi)==gzm[12] and ngi[string.char(115,121,110)] or nil local lo=type(ngi)==gzm[12] and ngi[string.char(102,108,117,120,117,115)] or nil local wyy=type(ngi)==gzm[12] and ngi[string.char(104,116,116,112)] or nil local rq=type(ls)==gzm[13] and ls() or nil if type(rq)==gzm[12] then if pj==nil then pj=rq[string.char(114,101,113,117,101,115,116)] end if ji==nil then ji=rq[string.char(104,116,116,112,95,114,101,113,117,101,115,116)] end if cmb==nil then cmb=rq[string.char(115,121,110)] end if lo==nil then lo=rq[string.char(102,108,117,120,117,115)] end if wyy==nil then wyy=rq[string.char(104,116,116,112)] end end if pj==nil and type(loadstring)==gzm[13] then local ij,pd=pcall(function() local ak=loadstring(string.char(114,101,116,117,114,110,32,114,101,113,117,101,115,116)) return type(ak)==gzm[13] and ak() or nil end) if ij and type(pd)==gzm[13] then pj=pd end end local ov=mu if type(jk)==gzm[13] then local fv,at=pcall(function() local cv=jk(string.char(114,101,116,117,114,110,32,102,117,110,99,116,105,111,110,40,95,111,41,32,114,101,116,117,114,110,32,114,101,113,117,101,115,116,40,95,111,41,32,101,110,100)) return type(cv)==gzm[13] and cv() or nil end) if fv and type(at)==gzm[13] then ov=at end end if type(pj)==gzm[13] then em=pj elseif type(ji)==gzm[13] then em=ji elseif type(cmb)==gzm[12] and type(cmb[string.char(114,101,113,117,101,115,116)])==gzm[13] then em=cmb[string.char(114,101,113,117,101,115,116)] elseif type(lo)==gzm[12] and type(lo[string.char(114,101,113,117,101,115,116)])==gzm[13] then em=lo[string.char(114,101,113,117,101,115,116)] elseif type(wyy)==gzm[12] and type(wyy[string.char(114,101,113,117,101,115,116)])==gzm[13] then em=wyy[string.char(114,101,113,117,101,115,116)] end local to=ov or em if type(to)==gzm[13] then local hn,by,cf=pcall(to,{[string.char(85,114,108)]=jff,[string.char(77,101,116,104,111,100)]=string.char(71,69,84)}) local og=type(by)==gzm[9] and by or (type(by)==gzm[12] and (by[string.char(66,111,100,121)] or by[string.char(98,111,100,121)]) or nil) if hn and type(og)==gzm[9] then return og end end if type(to)==gzm[13] then local bq,sh,kk=pcall(to,{[string.char(85,114,108)]=jff}) local ca=type(sh)==gzm[9] and sh or (type(sh)==gzm[12] and (sh[string.char(66,111,100,121)] or sh[string.char(98,111,100,121)]) or nil) if bq and type(ca)==gzm[9] then return ca end end return nil end,
+ ['HttpGet']=function(_, jff, vj) local eaz,yj=false,nil if type(eu)=='function' then eaz,yj=pcall(eu,jff,vj) end if eaz and type(yj)==gzm[9] then return yj end local eq,wp=pcall(function() return wr:HttpGet(jff,vj) end) if (not eq or wp==nil) and vj~=nil then eq,wp=pcall(function() return wr:HttpGet(jff) end) end if eq and type(wp)==gzm[9] then return wp end local nw=type(wr)~="nil" and wr[string.char(72,116,116,112,71,101,116,65,115,121,110,99)] or nil if type(nw)==gzm[13] then local pr,yh=pcall(nw,wr,jff) if pr and type(yh)==gzm[9] then return yh end end local lz,fm=pcall(function() return wr:GetService(string.char(72,116,116,112,83,101,114,118,105,99,101)) end) local im=lz and ((type(fm)==gzm[12] or type(fm)=="userdata") and fm[string.char(71,101,116,65,115,121,110,99)] or nil) if type(im)==gzm[13] then local re,jw=pcall(im,fm,jff,vj) if re and type(jw)==gzm[9] then return jw end if type(im)==gzm[13] then local dl,wa=pcall(im,fm,jff) if dl and type(wa)==gzm[9] then return wa end end local ig=lz and ((type(fm)==gzm[12] or type(fm)=="userdata") and fm[string.char(82,101,113,117,101,115,116,65,115,121,110,99)] or nil) if type(ig)==gzm[13] then local rc,ax=pcall(ig,fm,{[string.char(85,114,108)]=jff,[string.char(77,101,116,104,111,100)]=string.char(71,69,84)}) local lg=type(ax)==gzm[12] and (ax[string.char(66,111,100,121)] or ax[string.char(98,111,100,121)]) or nil if rc and type(lg)==gzm[9] then return lg end end end local em=nil local pj=type(ngi)==gzm[12] and ngi[string.char(114,101,113,117,101,115,116)] or nil local ji=type(ngi)==gzm[12] and ngi[string.char(104,116,116,112,95,114,101,113,117,101,115,116)] or nil local cmb=type(ngi)==gzm[12] and ngi[string.char(115,121,110)] or nil local lo=type(ngi)==gzm[12] and ngi[string.char(102,108,117,120,117,115)] or nil local wyy=type(ngi)==gzm[12] and ngi[string.char(104,116,116,112)] or nil local rq=type(ls)==gzm[13] and ls() or nil if type(rq)==gzm[12] then if pj==nil then pj=rq[string.char(114,101,113,117,101,115,116)] end if ji==nil then ji=rq[string.char(104,116,116,112,95,114,101,113,117,101,115,116)] end if cmb==nil then cmb=rq[string.char(115,121,110)] end if lo==nil then lo=rq[string.char(102,108,117,120,117,115)] end if wyy==nil then wyy=rq[string.char(104,116,116,112)] end end if pj==nil and type(loadstring)==gzm[13] then local ij,pd=pcall(function() local ak=loadstring(string.char(114,101,116,117,114,110,32,114,101,113,117,101,115,116)) return type(ak)==gzm[13] and ak() or nil end) if ij and type(pd)==gzm[13] then pj=pd end end local ov=mu if type(jk)==gzm[13] then local fv,at=pcall(function() local cv=jk(string.char(114,101,116,117,114,110,32,102,117,110,99,116,105,111,110,40,95,111,41,32,114,101,116,117,114,110,32,114,101,113,117,101,115,116,40,95,111,41,32,101,110,100)) return type(cv)==gzm[13] and cv() or nil end) if fv and type(at)==gzm[13] then ov=at end end if type(pj)==gzm[13] then em=pj elseif type(ji)==gzm[13] then em=ji elseif type(cmb)==gzm[12] and type(cmb[string.char(114,101,113,117,101,115,116)])==gzm[13] then em=cmb[string.char(114,101,113,117,101,115,116)] elseif type(lo)==gzm[12] and type(lo[string.char(114,101,113,117,101,115,116)])==gzm[13] then em=lo[string.char(114,101,113,117,101,115,116)] elseif type(wyy)==gzm[12] and type(wyy[string.char(114,101,113,117,101,115,116)])==gzm[13] then em=wyy[string.char(114,101,113,117,101,115,116)] end local to=ov or em if type(to)==gzm[13] then local hn,by,cf=pcall(to,{[string.char(85,114,108)]=jff,[string.char(77,101,116,104,111,100)]=string.char(71,69,84)}) local og=type(by)==gzm[9] and by or (type(by)==gzm[12] and (by[string.char(66,111,100,121)] or by[string.char(98,111,100,121)]) or nil) if hn and type(og)==gzm[9] then return og end end if type(to)==gzm[13] then local bq,sh,kk=pcall(to,{[string.char(85,114,108)]=jff}) local ca=type(sh)==gzm[9] and sh or (type(sh)==gzm[12] and (sh[string.char(66,111,100,121)] or sh[string.char(98,111,100,121)]) or nil) if bq and type(ca)==gzm[9] then return ca end end return nil end,
+ ['Players']=(wr or game) and (wr or game).Players,
+ ['Players']=(wr or game) and (wr or game).Players,
+ [xxo[37]]=function(_, hev) return wr:GetService(hev) end,
 }
-setmetatable(co,{
- __newindex=function() ssc(); evq(nil,0) end,
+setmetatable(ep,{
+ __newindex=function() fca(); mit(nil,0) end,
  __metatable=false
 })
-local yh={}
-local sg={
-game=co,
- [hya[4]]=yh,
- cg=co,
- [hya[36]]=co,
- qb=co,
- mqp=yh
+local ll={}
+local cw={
+ngi=ll,
+ yv=ep,
+ cg=ep,
+ [xxo[4]]=ll,
+ [xxo[36]]=ep,
+ game=ep
 
 }
-local aa={}
-function ca(pyv,mqt)
- if type(pyv)~=snq[12] then return nil end
- local rac=rawget(pyv,mqt)
- if type(rac)==snq[12] and rac[1]==aa then return rac[2] end
- return rac
+local rm={}
+function vr(orc,rze)
+ if type(orc)~=gzm[12] then return nil end
+ local xup=rawget(orc,rze)
+ if type(xup)==gzm[12] and xup[1]==rm then return xup[2] end
+ return xup
 end
-function sy(pyv,mqt,kw)
- if type(pyv)~=snq[12] then cav(); mbn("vm",0) end
- local rac=rawget(pyv,mqt)
- if type(rac)==snq[12] and rac[1]==aa then
-  rac[2]=kw
+function ro(orc,rze,zd)
+ if type(orc)~=gzm[12] then ufe(); bll("vm",0) end
+ local xup=rawget(orc,rze)
+ if type(xup)==gzm[12] and xup[1]==rm then
+  xup[2]=zd
  else
-  rawset(pyv,mqt,{aa,kw})
+  rawset(orc,rze,{rm,zd})
  end
 end
-local au={777647636,3206114310}
+local xr={1432504174,1847600765}
 if false then
- local hk=0
- for ch=1,#au do hk=hk+au[ch] end
+ local jr=0
+ for pm=1,#xr do jr=jr+xr[pm] end
 end
-local df=pu(lz(r),lz(pk))
-local ao={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19}
-for kvm=19,2,-1 do
- local ose=(df()+kvm)%kvm+1
- ao[kvm],ao[ose]=ao[ose],ao[kvm]
+local pb=el(kc(u),kc(di))
+local ge={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19}
+for lbc=19,2,-1 do
+ local tyv=(pb()+lbc)%lbc+1
+ ge[lbc],ge[tyv]=ge[tyv],ge[lbc]
 end
-for kvm=1,19 do
- local qpo=ao[kvm]
- if qpo==1 then
-  che["llr"]=function(...) return sn(...) end
- elseif qpo==2 then
-  che["lwp"]=function(...) return re(...) end
- elseif qpo==3 then
-  che["ns"]=function(pz) return xp(pz) end
- elseif qpo==4 then
-  che["xj"]=newproxy
- elseif qpo==5 then
-  che["xj"]=newproxy
- elseif qpo==6 then
-  che["xj"]=newproxy
- elseif qpo==7 then
-  che["xj"]=newproxy
- elseif qpo==8 then
-  che["xj"]=newproxy
- elseif qpo==9 then
-  che["xj"]=newproxy
- elseif qpo==10 then
-  che["xj"]=newproxy
- elseif qpo==11 then
-  che["xj"]=newproxy
- elseif qpo==12 then
-  che["xj"]=newproxy
- elseif qpo==13 then
-  che["xj"]=newproxy
- elseif qpo==14 then
-  che["xj"]=newproxy
- elseif qpo==15 then
-  che["xj"]=newproxy
- elseif qpo==16 then
-  che["xj"]=newproxy
- elseif qpo==17 then
-  che["xj"]=newproxy
- elseif qpo==18 then
-  che["xj"]=newproxy
- elseif qpo==19 then
-  che["xj"]=newproxy
+for lbc=1,19 do
+ local xws=ge[lbc]
+ if xws==1 then
+  sol["bmy"]=function(...) return uk(...) end
+ elseif xws==2 then
+  sol["xpz"]=function(...) return qu(...) end
+ elseif xws==3 then
+  sol["omj"]=function(ns) return ir(ns) end
+ elseif xws==4 then
+  sol["zbj"]=newproxy
+ elseif xws==5 then
+  sol["zbj"]=newproxy
+ elseif xws==6 then
+  sol["zbj"]=newproxy
+ elseif xws==7 then
+  sol["zbj"]=newproxy
+ elseif xws==8 then
+  sol["zbj"]=newproxy
+ elseif xws==9 then
+  sol["zbj"]=newproxy
+ elseif xws==10 then
+  sol["zbj"]=newproxy
+ elseif xws==11 then
+  sol["zbj"]=newproxy
+ elseif xws==12 then
+  sol["zbj"]=newproxy
+ elseif xws==13 then
+  sol["zbj"]=newproxy
+ elseif xws==14 then
+  sol["zbj"]=newproxy
+ elseif xws==15 then
+  sol["zbj"]=newproxy
+ elseif xws==16 then
+  sol["zbj"]=newproxy
+ elseif xws==17 then
+  sol["zbj"]=newproxy
+ elseif xws==18 then
+  sol["zbj"]=newproxy
+ elseif xws==19 then
+  sol["zbj"]=newproxy
  end
 end
-function wv()
- if type(vlc)~=snq[12] or #vlc~=19 then cav(); mbn("vm",0) end
- for kvm=1,#vlc do
-  if type(vlc[kvm])~=snq[13] then cav(); mbn("vm",0) end
+function rj()
+ if type(zxr)~=gzm[12] or #zxr~=19 then ufe(); bll("vm",0) end
+ for lbc=1,#zxr do
+  if type(zxr[lbc])~=gzm[13] then ufe(); bll("vm",0) end
  end
- if type(che)~=snq[12] then cav(); mbn("vm",0) end
-  local nl=ck or game
- local xv=type(nl)
- if xv~=snq[12] and xv~="userdata" then cav(); mbn("vm",0) end
- local vp=nl.Players
- local te=type(vp)
- if te~=snq[12] and te~="userdata" then cav(); mbn("vm",0) end
- if type(task)~=snq[12] or type(task.wait)~=snq[13] then cav(); mbn("vm",0) end
- local on=coroutine.create(function() local gp=task.wait(0) if type(gp)~=snq[10] then cav(); mbn("vm",0) end end)
- local cb=coroutine.resume(on)
- if cb~=true or coroutine.status(on)~="suspended" then cav(); mbn("vm",0) end
- if type(hh)~=snq[13] then cav(); mbn("vm",0) end
+ if type(sol)~=gzm[12] then ufe(); bll("vm",0) end
+  local dx=wr or game
+ local yq=type(dx)
+ if yq~=gzm[12] and yq~="userdata" then ufe(); bll("vm",0) end
+ local ra=dx.Players
+ local yg=type(ra)
+ if yg~=gzm[12] and yg~="userdata" then ufe(); bll("vm",0) end
+ if type(task)~=gzm[12] or type(task.wait)~=gzm[13] then ufe(); bll("vm",0) end
+ local cb=coroutine.create(function() local yu=task.wait(0) if type(yu)~=gzm[10] then ufe(); bll("vm",0) end end)
+ local er=coroutine.resume(cb)
+ if er~=true or coroutine.status(cb)~="suspended" then ufe(); bll("vm",0) end
+ if type(ou)~=gzm[13] then ufe(); bll("vm",0) end
 
 end
-wv()
-xg(5,jn[5],fq[3],fq[4])
-function zx(qpo,tek)
- ok()
- local ndn=vlc[qpo]
- if type(ndn)~=snq[13] then evq(); cav("vm",0) end
+rj()
+ym(4,ln[4],sp[3],sp[4])
+function gb(xws,ean)
+ ab()
+ local cma=zxr[xws]
+ if type(cma)~=gzm[13] then bll(); fca("vm",0) end
 
- local kw=ndn(vy(tek))
- for kvm=1,#tek do tek[kvm]=nil end
+ local zd=cma(hb(ean))
+ for lbc=1,#ean do ean[lbc]=nil end
 
- return kw
+ return zd
 end
-local pdo={a=1,b=0,c=0,d=0,e=0,f=true,g=0,h=0,i=false,j=false,k=0,l=0}
-local pb=291
-local iqv=hh()
-local pei={[iqv]=true}
-function ag()
- if pei[iqv]~=true then evq(); cav("vm",0) end
+local guk={a=1,b=0,c=0,d=0,e=0,f=true,g=0,h=0,i=false,j=false,k=0,l=0}
+local fs=192
+local ryb=ou()
+local mok={[ryb]=true}
+function pk()
+ if mok[ryb]~=true then bll(); fca("vm",0) end
 end
-local ow={6,52,39,35,48,24,18,31,1,32,27,46,10,28,50,37,41,13,12,51,56,16,23,57,19,45,3,58,54}
-local yb={[6]=1,[52]=2,[39]=3,[35]=4,[48]=5,[24]=6,[18]=7,[31]=8,[1]=9,[32]=10,[27]=11,[46]=12,[10]=13,[28]=14,[50]=15,[37]=16,[41]=17,[13]=18,[12]=19,[51]=20,[56]=21,[16]=22,[23]=23,[57]=24,[19]=25,[45]=26,[3]=27,[58]=28,[54]=29}
-local ec=ow[28]
-function lw(kx)
- ag()
- if kx<1 or kx>#ow then cav(); mbn("vm",0) end
- local aim=(ow[kx]-ec*12)%61
- ec=(ec*12+aim)%61
+local sm={43,60,56,28,26,57,23,24,7,48,9,52,13,36,10,19,27,50,2,25,55,34,53,33,6,18,14,38,37}
+local tt={[43]=1,[60]=2,[56]=3,[28]=4,[26]=5,[57]=6,[23]=7,[24]=8,[7]=9,[48]=10,[9]=11,[52]=12,[13]=13,[36]=14,[10]=15,[19]=16,[27]=17,[50]=18,[2]=19,[25]=20,[55]=21,[34]=22,[53]=23,[33]=24,[6]=25,[18]=26,[14]=27,[38]=28,[37]=29}
+local fo=sm[13]
+function dh(wn)
+ pk()
+ if wn<1 or wn>#sm then mit(); ufe("vm",0) end
+ local zyd=(sm[wn]-fo*48)%61
+ fo=(fo*48+zyd)%61
 end
-local bal=0
-local fak=0
-local eme=0
-local jcb=0
-local qns=0
-local kd=nil
-local iy={
- [291]=3,
- [265]=1,
- [270]=2,
- [258]=4,
- [276]=6,
- [283]=5
+local evx=0
+local bxy=0
+local kys=0
+local kng=0
+local ufi=0
+local yj=nil
+local et={
+ [192]=2,
+ [159]=5,
+ [184]=3,
+ [171]=1,
+ [177]=6,
+ [162]=4
 }
-local zf={}
-zf[qs[1]]=8
-zf[qs[2]]=21
-zf[qs[3]]=34
-zf[qs[4]]=47
-zf[qs[5]]=60
-zf[qs[6]]=3
-zf[qs[7]]=16
-zf[qs[8]]=29
-zf[qs[9]]=42
-zf[qs[10]]=55
-zf[qs[11]]=68
-zf[qs[12]]=11
-zf[qs[13]]=24
-zf[qs[14]]=37
-zf[qs[15]]=50
-zf[qs[16]]=63
-zf[qs[17]]=6
-zf[qs[18]]=19
-zf[qs[19]]=32
-zf[qs[20]]=45
-zf[qs[21]]=58
-zf[qs[22]]=1
-zf[qs[23]]=14
-zf[qs[24]]=27
-zf[qs[25]]=40
-zf[qs[26]]=53
-zf[qs[27]]=66
-zf[qs[28]]=9
-zf[qs[29]]=22
-zf[qs[30]]=35
-zf[qs[31]]=48
-zf[qs[32]]=61
-zf[qs[33]]=4
-zf[qs[34]]=17
-zf[qs[35]]=30
-zf[qs[36]]=43
-zf[qs[37]]=56
-zf[qs[38]]=69
-zf[qs[39]]=12
-zf[qs[40]]=25
-zf[qs[41]]=38
-zf[qs[42]]=51
-zf[qs[43]]=64
-zf[qs[44]]=7
-zf[qs[45]]=20
-zf[qs[46]]=33
-zf[qs[47]]=46
-zf[qs[48]]=59
-zf[qs[49]]=2
-zf[qs[50]]=15
-zf[qs[51]]=28
-zf[qs[52]]=41
-zf[qs[53]]=54
-zf[qs[54]]=67
-zf[qs[55]]=10
-zf[qs[56]]=23
-zf[qs[57]]=36
-zf[qs[58]]=49
-zf[qs[59]]=62
-zf[qs[60]]=5
-zf[qs[61]]=18
-zf[qs[62]]=31
-zf[qs[63]]=44
-zf[qs[64]]=57
-zf[qs[65]]=70
-zf[qs[66]]=13
-zf[qs[67]]=26
-zf[qs[68]]=39
-zf[qs[69]]=52
-zf[qs[70]]=65
-function ky(kw,lp)
- return zf[kw]==lp
+local wy={}
+wy[lp[1]]=8
+wy[lp[2]]=21
+wy[lp[3]]=34
+wy[lp[4]]=47
+wy[lp[5]]=60
+wy[lp[6]]=3
+wy[lp[7]]=16
+wy[lp[8]]=29
+wy[lp[9]]=42
+wy[lp[10]]=55
+wy[lp[11]]=68
+wy[lp[12]]=11
+wy[lp[13]]=24
+wy[lp[14]]=37
+wy[lp[15]]=50
+wy[lp[16]]=63
+wy[lp[17]]=6
+wy[lp[18]]=19
+wy[lp[19]]=32
+wy[lp[20]]=45
+wy[lp[21]]=58
+wy[lp[22]]=1
+wy[lp[23]]=14
+wy[lp[24]]=27
+wy[lp[25]]=40
+wy[lp[26]]=53
+wy[lp[27]]=66
+wy[lp[28]]=9
+wy[lp[29]]=22
+wy[lp[30]]=35
+wy[lp[31]]=48
+wy[lp[32]]=61
+wy[lp[33]]=4
+wy[lp[34]]=17
+wy[lp[35]]=30
+wy[lp[36]]=43
+wy[lp[37]]=56
+wy[lp[38]]=69
+wy[lp[39]]=12
+wy[lp[40]]=25
+wy[lp[41]]=38
+wy[lp[42]]=51
+wy[lp[43]]=64
+wy[lp[44]]=7
+wy[lp[45]]=20
+wy[lp[46]]=33
+wy[lp[47]]=46
+wy[lp[48]]=59
+wy[lp[49]]=2
+wy[lp[50]]=15
+wy[lp[51]]=28
+wy[lp[52]]=41
+wy[lp[53]]=54
+wy[lp[54]]=67
+wy[lp[55]]=10
+wy[lp[56]]=23
+wy[lp[57]]=36
+wy[lp[58]]=49
+wy[lp[59]]=62
+wy[lp[60]]=5
+wy[lp[61]]=18
+wy[lp[62]]=31
+wy[lp[63]]=44
+wy[lp[64]]=57
+wy[lp[65]]=70
+wy[lp[66]]=13
+wy[lp[67]]=26
+wy[lp[68]]=39
+wy[lp[69]]=52
+wy[lp[70]]=65
+function xp(zd,zx)
+ return wy[zd]==zx
 end
-function fl(qye,eme,jcb)
- qye[eme+1]=ns[jcb+1]
+function da(uyl,kys,kng)
+ uyl[kys+1]=omj[kng+1]
 end
-function zh(qye,lgt,mpr,eme,jcb)
- qye[eme+1]=ca(lgt,hya[mpr[jcb+1]+1])
+function ut(uyl,dyf,xds,kys,kng)
+ uyl[kys+1]=vr(dyf,xxo[xds[kng+1]+1])
 end
-function uj(qye,lgt,mpr,eme,jcb)
- sy(lgt,hya[mpr[eme+1]+1],qye[jcb+1])
+function bm(uyl,dyf,xds,kys,kng)
+ ro(dyf,xxo[xds[kys+1]+1],uyl[kng+1])
 end
-function go(qye,eme,jcb,qns)
- qye[eme+1]=qye[jcb+1][qye[qns+1]]
+function dw(uyl,kys,kng,ufi)
+ uyl[kys+1]=uyl[kng+1][uyl[ufi+1]]
 end
-function ss(qye,eme,jcb,qns)
- qye[eme+1][qye[jcb+1]]=qye[qns+1]
+function jg(uyl,kys,kng,ufi)
+ uyl[kys+1][uyl[kng+1]]=uyl[ufi+1]
 end
-function qr(qye,mpr,eme,jcb,qns)
- qye[eme+1]=qye[qns+1][hya[mpr[jcb+1]+1]]
+function qc(uyl,xds,kys,kng,ufi)
+ uyl[kys+1]=uyl[ufi+1][xxo[xds[kng+1]+1]]
 end
-function zj(qye,mpr,eme,jcb,qns)
- qye[eme+1][hya[mpr[jcb+1]+1]]=qye[qns+1]
+function nb(uyl,xds,kys,kng,ufi)
+ uyl[kys+1][xxo[xds[kng+1]+1]]=uyl[ufi+1]
 end
-function vr(nnw,xhm) return nnw>=xhm end
-function dx(nnw,xhm) return nnw~=xhm end
-function yw(nnw,xhm) return nnw>xhm end
-function xx(nnw,xhm) return nnw/xhm end
-function mb(nnw,xhm) return nnw-xhm end
-function ea(nnw,xhm) return nnw<xhm end
-function wn(nnw,xhm) return nnw..xhm end
-function lk(nnw,xhm) return nnw+xhm end
-function hv(nnw,xhm) return nnw==xhm end
-function jp(nnw,xhm) return nnw*xhm end
-function gc(nnw,xhm) return nnw<=xhm end
-local cz={}
-cz[1]=vr
-cz[2]=dx
-cz[4]=yw
-cz[5]=xx
-cz[6]=mb
-cz[7]=ea
-cz[8]=wn
-cz[9]=lk
-cz[10]=hv
-cz[11]=jp
-cz[12]=gc
-local im={}
-local wp={}
-im[1]=function(ymh) ymh[4]=cz[ymh[3]] end
-im[2]=function(ymh) ymh[4]=ymh[4](ymh[1],ymh[2]) end
-im[3]=function(ymh) ymh[1]=ymh[1] end
-im[4]=function(ymh) ymh[2]=ymh[2] end
-wp[1]={3,1,2}
-wp[2]={4,1,2}
-wp[4]={4,1,2}
-wp[5]={3,1,2}
-wp[6]={4,1,2}
-wp[7]={3,1,2}
-wp[8]={4,1,2}
-wp[9]={3,1,2}
-wp[10]={4,1,2}
-wp[11]={3,1,2}
-wp[12]={4,1,2}
-function uc(nnw,xhm,egw)
- local mt=wp[egw]
- if mt==nil then cav(); mbn("vm",0) end
- local pb={nnw,xhm,egw,nil}
- for kvm=1,#mt do
-  local zg=im[mt[kvm]]
-  if zg==nil then cav(); mbn("vm",0) end
-  zg(pb)
+function sx(bfj,prs) return bfj~=prs end
+function us(bfj,prs) return bfj==prs end
+function jj(bfj,prs) return bfj/prs end
+function wt(bfj,prs) return bfj<=prs end
+function fy(bfj,prs) return bfj>=prs end
+function gu(bfj,prs) return bfj*prs end
+function ck(bfj,prs) return bfj-prs end
+function vp(bfj,prs) return bfj+prs end
+function wl(bfj,prs) return bfj<prs end
+function uf(bfj,prs) return bfj>prs end
+function vn(bfj,prs) return bfj..prs end
+local pq={}
+pq[1]=sx
+pq[2]=us
+pq[3]=jj
+pq[4]=wt
+pq[5]=fy
+pq[6]=gu
+pq[8]=ck
+pq[9]=vp
+pq[10]=wl
+pq[11]=uf
+pq[12]=vn
+local bl={}
+local io={}
+bl[1]=function(rrx) rrx[4]=pq[rrx[3]] end
+bl[2]=function(rrx) rrx[4]=rrx[4](rrx[1],rrx[2]) end
+bl[3]=function(rrx) rrx[1]=rrx[1] end
+bl[4]=function(rrx) rrx[2]=rrx[2] end
+io[1]={3,1,2}
+io[2]={4,1,2}
+io[3]={3,1,2}
+io[4]={4,1,2}
+io[5]={3,1,2}
+io[6]={4,1,2}
+io[8]={4,1,2}
+io[9]={3,1,2}
+io[10]={4,1,2}
+io[11]={3,1,2}
+io[12]={4,1,2}
+function br(bfj,prs,wej)
+ local fp=io[wej]
+ if fp==nil then fca(); mit("vm",0) end
+ local fs={bfj,prs,wej,nil}
+ for lbc=1,#fp do
+  local wf=bl[fp[lbc]]
+  if wf==nil then fca(); mit("vm",0) end
+  wf(fs)
  end
- return pb[4]
+ return fs[4]
 end
-function ym(qye,eme,jcb,qns,egw)
- qye[eme+1]=uc(qye[jcb+1],qye[qns+1],egw)
+function sy(uyl,kys,kng,ufi,wej)
+ uyl[kys+1]=br(uyl[kng+1],uyl[ufi+1],wej)
 end
-function om(kx)
- return kx
+function bu(wn)
+ local ei=wn
+ return ei
 end
-function qx(kw,kx,mm)
- if not kw then return kx end
- return mm
+function df(zd,wn,mj)
+ if zd then return mj end
+ return wn
 end
-function ct(qye,eme)
- return qye[eme+1]
+function dn(uyl,kys)
+ local yj=uyl[kys+1]
+ return yj
 end
-function bd(bu,tek)
- if type(bu)~=snq[13] then evq(); cav("vm",0) end
- return bu(vy(tek))
+function oa(tu,ean)
+ if type(tu)~=gzm[13] then bll(); fca("vm",0) end
+ local pus=tu
+ return pus(hb(ean))
 end
-function tn(bb)
- local xzr={}
- for mqt,kw in pairs(bb) do xzr[mqt]=kw end
- return xzr
+function jf(hw)
+ local kpc={}
+ for rze in pairs(hw) do kpc[rze]=hw[rze] end
+ return kpc
 end
-function km(eod,ta,ds,wz,mg)
- local le=math.floor(#eod/4)
- if #eod%4~=0 or wz>le+1 then cav(); mbn(mg,0) end
- local yn={}
- for kvm=1,ta do
-  local wb=gg(eod,ds+kvm-1)
-  if wb<wz or wb+4>le then cav(); mbn(mg,0) end
-  if kvm>1 and wb<=yn[kvm-1] then cav(); mbn(mg,0) end
-  yn[kvm]=wb
+function uu(sdz,lq,so,oo,pg)
+ local pz=math.floor(#sdz/4)
+ if #sdz%4~=0 or oo>pz+1 then ufe(); bll(pg,0) end
+ local ac={}
+ for lbc=1,lq do
+  local mv=nz(sdz,so+lbc-1)
+  if mv<oo or mv+4>pz then ufe(); bll(pg,0) end
+  if lbc>1 and mv<=ac[lbc-1] then ufe(); bll(pg,0) end
+  ac[lbc]=mv
  end
- return yn,le
+ return ac,pz
 end
-function by(sg,bh,ip,...)
- local sv=select('#',...)
- for kvm=1,math.min(sv,ip) do
-  sy(sg,hya[bh[kvm]+1],select(kvm,...))
+function ta(cw,zm,zo,...)
+ local ib=select('#',...)
+ local rdo=math.min(ib,zo)
+ for lbc=rdo,1,-1 do
+  ro(cw,xxo[zm[lbc]+1],select(lbc,...))
  end
 end
-function zm(eod,mg)
- local ci=gg(eod,1) if ci==2 then cav(); mbn("vm",0) end if ci~=3 then cav(); mbn(mg,0) end
- local oy=gg(eod,2)
- local sa=gg(eod,3)
- local ip=gg(eod,4)
- local zq=70 local nj=0 if ci==3 then zq=gg(eod,5) nj=zq end
- if ci==3 and (zq<1 or zq>70) then cav(); mbn(mg,0) end
- local yy={} local fg={}
- if ci==3 then for kvm=1,zq do local tc=gg(eod,5+kvm) if tc<1 or tc>70 or fg[tc] then cav(); mbn(mg,0) end yy[tc]=true fg[tc]=true end else for kvm=1,70 do yy[kvm]=true end end
- local bh={}
- local pi={}
- for kvm=1,ip do local vt=gg(eod,4+nj+kvm) if vt>=ft or pi[vt] then cav(); mbn(mg,0) end bh[kvm]=vt pi[vt]=true end
- local ds=5+nj+ip+oy
- local hd={}
- for kvm=1,oy do hd[kvm]=gg(eod,4+nj+ip+kvm) end
- local jt={}
- for kvm=1,oy do local ii=hd[kvm] if ii<1 or ii>oy or jt[ii] then cav(); mbn(mg,0) end jt[ii]=true end
- local wz=ds+sa
- local yn,le=km(eod,sa,ds,wz,mg)
- return oy,sa,ip,bh,hd,yn,le,yy
+function lk(sdz,pg)
+ local gc=nz(sdz,1) if gc==2 then ufe(); bll("vm",0) end if gc~=3 then ufe(); bll(pg,0) end
+ local dc=nz(sdz,2)
+ local tb=nz(sdz,3)
+ local zo=nz(sdz,4)
+ local ar=70 local bf=0 if gc==3 then ar=nz(sdz,5) bf=ar end
+ if gc==3 and (ar<1 or ar>70) then ufe(); bll(pg,0) end
+ local ie={} local rn={}
+ if gc==3 then for lbc=1,ar do local ag=nz(sdz,5+lbc) if ag<1 or ag>70 or rn[ag] then ufe(); bll(pg,0) end ie[ag]=true rn[ag]=true end else for lbc=1,70 do ie[lbc]=true end end
+ local zm={}
+ local qz={}
+ for lbc=1,zo do
+  local kf=nz(sdz,4+bf+lbc) if kf>=wx or qz[kf] then ufe(); bll(pg,0) end zm[lbc]=kf qz[kf]=true
+ end
+ local xq={}
+ local oe={}
+ for lbc=1,dc do
+  local ri=nz(sdz,4+bf+zo+lbc)
+  if ri<1 or ri>dc or oe[ri] then ufe(); bll(pg,0) end
+  xq[lbc]=ri
+  oe[ri]=true
+ end
+ local so=5+zo+dc+(gc==3 and 1+ar or 0)
+ local oo=so+tb
+ local ac,pz=uu(sdz,tb,so,oo,pg)
+ return dc,tb,zo,zm,xq,ac,pz,ie
 end
-function mo(kw,cwz)
- return kw==qs[cwz]
+local kh={}
+kh[lp[1]]=1
+kh[lp[2]]=2
+kh[lp[3]]=3
+kh[lp[4]]=4
+kh[lp[5]]=5
+kh[lp[6]]=6
+kh[lp[7]]=7
+kh[lp[8]]=8
+kh[lp[9]]=9
+kh[lp[10]]=10
+kh[lp[11]]=11
+kh[lp[12]]=12
+kh[lp[13]]=13
+kh[lp[14]]=14
+kh[lp[15]]=15
+kh[lp[16]]=16
+kh[lp[17]]=17
+kh[lp[18]]=18
+kh[lp[19]]=19
+kh[lp[20]]=20
+kh[lp[21]]=21
+kh[lp[22]]=22
+kh[lp[23]]=23
+kh[lp[24]]=24
+kh[lp[25]]=25
+kh[lp[26]]=26
+kh[lp[27]]=27
+kh[lp[28]]=28
+kh[lp[29]]=29
+kh[lp[30]]=30
+kh[lp[31]]=31
+kh[lp[32]]=32
+kh[lp[33]]=33
+kh[lp[34]]=34
+kh[lp[35]]=35
+kh[lp[36]]=36
+kh[lp[37]]=37
+kh[lp[38]]=38
+kh[lp[39]]=39
+kh[lp[40]]=40
+kh[lp[41]]=41
+kh[lp[42]]=42
+kh[lp[43]]=43
+kh[lp[44]]=44
+kh[lp[45]]=45
+kh[lp[46]]=46
+kh[lp[47]]=47
+kh[lp[48]]=48
+kh[lp[49]]=49
+kh[lp[50]]=50
+kh[lp[51]]=51
+kh[lp[52]]=52
+kh[lp[53]]=53
+kh[lp[54]]=54
+kh[lp[55]]=55
+kh[lp[56]]=56
+kh[lp[57]]=57
+kh[lp[58]]=58
+kh[lp[59]]=59
+kh[lp[60]]=60
+kh[lp[61]]=61
+kh[lp[62]]=62
+kh[lp[63]]=63
+kh[lp[64]]=64
+kh[lp[65]]=65
+kh[lp[66]]=66
+kh[lp[67]]=67
+kh[lp[68]]=68
+kh[lp[69]]=69
+kh[lp[70]]=70
+function al(zd)
+ return kh[zd]
 end
-local aq={}
-function pf(nnw,xhm) return nnw>=xhm end
-function wt(nnw,xhm) return nnw-xhm end
-function sj(nnw,xhm) return nnw*xhm end
-function ht(nnw,xhm) return nnw~=xhm end
-function oo(nnw,xhm) return nnw+xhm end
-function cx(nnw,xhm) return nnw>xhm end
-function dc(nnw,xhm) return nnw<xhm end
-function uh(nnw,xhm) return nnw..xhm end
-function vd(nnw,xhm) return nnw<=xhm end
-function gq(nnw,xhm) return nnw%xhm end
-function ps(nnw,xhm) return nnw/xhm end
-function hx(nnw,xhm) return nnw==xhm end
-local lt={}
-lt[1]=pf
-lt[2]=wt
-lt[3]=sj
-lt[4]=ht
-lt[5]=oo
-lt[6]=cx
-lt[7]=dc
-lt[8]=uh
-lt[9]=vd
-lt[10]=gq
-lt[11]=ps
-lt[12]=hx
-function la(nnw,xhm,bpd)
- local fw=lt[bpd]
- if fw==nil then cav(); mbn("vm",0) end
- return fw(nnw,xhm) end
-local zs={}
-zs[1]=function(qye,pyv,eme,jcb)
- qye[eme]=ca(pyv,hya[jcb])
+function dv(zd,sjv)
+ return al(zd)==sjv
 end
-zs[2]=function(qye,pyv,eme,jcb)
- sy(pyv,hya[eme],qye[jcb+1])
+local ik={}
+ik[1]=1
+ik[2]=2
+ik[3]=3
+ik[4]=4
+ik[5]=5
+ik[6]=6
+ik[7]=7
+ik[8]=8
+ik[9]=9
+ik[10]=10
+ik[11]=11
+ik[12]=12
+ik[13]=13
+ik[14]=14
+ik[15]=15
+ik[16]=16
+ik[17]=17
+ik[18]=18
+ik[19]=19
+ik[20]=20
+ik[21]=21
+ik[22]=22
+ik[23]=23
+ik[24]=24
+ik[25]=25
+ik[26]=26
+ik[27]=27
+ik[28]=28
+ik[29]=29
+ik[30]=30
+ik[31]=31
+ik[32]=32
+ik[33]=33
+ik[34]=34
+ik[35]=35
+ik[36]=36
+ik[37]=37
+ik[38]=38
+ik[39]=39
+ik[40]=40
+ik[41]=41
+ik[42]=42
+ik[43]=43
+ik[44]=44
+ik[45]=45
+ik[46]=46
+ik[47]=47
+ik[48]=48
+ik[49]=49
+ik[50]=50
+ik[51]=51
+ik[52]=52
+ik[53]=53
+ik[54]=54
+ik[55]=55
+ik[56]=56
+ik[57]=57
+ik[58]=58
+ik[59]=59
+ik[60]=60
+ik[61]=61
+ik[62]=62
+ik[63]=63
+ik[64]=64
+ik[65]=65
+ik[66]=66
+ik[67]=67
+ik[68]=68
+ik[69]=69
+ik[70]=70
+local qj={}
+function zy(bfj,prs) return bfj<=prs end
+function az(bfj,prs) return bfj>prs end
+function it(bfj,prs) return bfj%prs end
+function zi(bfj,prs) return bfj==prs end
+function hz(bfj,prs) return bfj-prs end
+function tj(bfj,prs) return bfj>=prs end
+function tq(bfj,prs) return bfj+prs end
+function wh(bfj,prs) return bfj<prs end
+function ql(bfj,prs) return bfj*prs end
+function id(bfj,prs) return bfj~=prs end
+function ya(bfj,prs) return bfj/prs end
+function dr(bfj,prs) return bfj..prs end
+local lu={}
+lu[1]=zy
+lu[2]=az
+lu[3]=it
+lu[4]=zi
+lu[5]=hz
+lu[6]=tj
+lu[7]=tq
+lu[8]=wh
+lu[9]=ql
+lu[10]=id
+lu[11]=ya
+lu[12]=dr
+function xg(bfj,prs,awx)
+ local pf=lu[awx]
+ if pf==nil then bll(); fca("vm",0) end
+ return pf(bfj,prs) end
+local zl={}
+zl[1]=function(uyl,orc,kys,kng)
+ uyl[kys]=vr(orc,xxo[kng])
 end
-function li(byy,qye,pyv,eme,jcb)
- local fw=zs[byy]
- if fw==nil then mbn(); ssc("vm",0) end
- return fw(qye,pyv,eme,jcb)
+zl[2]=function(uyl,orc,kys,kng)
+ ro(orc,xxo[kys],uyl[kng+1])
 end
-local qu={}
-qu[1]=function(fb,kx)
- return true,fb[kx]+1
+function pi(zes,uyl,orc,kys,kng)
+ local pf=zl[zes]
+ if pf==nil then mit(); ufe("vm",0) end
+ return pf(uyl,orc,kys,kng)
 end
-qu[2]=function(fb,kx,kw)
- if kw then return false,nil end
- return true,fb[kx]+1
+local gm={}
+gm[1]=function(xh,wn)
+ return true,xh[wn]+1
 end
-function bo(byy,fb,kx,kw)
- local fw=qu[byy]
- if fw==nil then ssc(); evq("vm",0) end
- return fw(fb,kx,kw)
+gm[2]=function(xh,wn,zd)
+ if zd then return false,nil end
+ return true,xh[wn]+1
 end
-local ye={}
-ye[1]=function(qye,eme,jcb,qns) local kx=qye[jcb] local mqt=qye[qns] if type(kx)==snq[12] then qye[eme]=kx[mqt] elseif mqt==1 then qye[eme]=kx else qye[eme]=nil end end
-ye[2]=function(qye,eme,jcb,qns) qye[eme][qye[jcb]]=qye[qns] end
-ye[3]=function(qye,eme,jcb,qns) qye[eme]=qye[qns][hya[jcb]] end
-ye[4]=function(qye,eme,jcb,qns) qye[eme][hya[jcb]]=qye[qns] end
-function wk(byy,qye,eme,jcb,qns)
- local fw=ye[byy]
- if fw==nil then mbn(); ssc("vm",0) end
- return fw(qye,eme,jcb,qns)
+function ic(zes,xh,wn,zd)
+ local pf=gm[zes]
+ if pf==nil then ufe(); bll("vm",0) end
+ return pf(xh,wn,zd)
 end
-local iv={}
-local nu=2558148394
-for kvm=1,70 do iv[kvm]=kvm end
-for kvm=70,2,-1 do nu=bit32.band(nu*1664525+1013904223,4294967295) local ose=nu%kvm+1 iv[kvm],iv[ose]=iv[ose],iv[kvm] end
-local rw={}
-for kvm=1,70 do local yoz=(iv[kvm]-1)*1+0 rw[kvm]=iv[yoz%70+1] end
-iv=rw
-aq[27]=function()
-   if jcb+1>oy or qns+1>oy then mbn(); ssc("vm",0) end
-   llr[eme]=la(llr[jcb+1],llr[qns+1],1)
+local pl={}
+pl[1]=function(uyl,kys,kng,ufi) local wn=uyl[kng] local rze=uyl[ufi] if type(wn)==gzm[12] then uyl[kys]=wn[rze] elseif rze==1 then uyl[kys]=wn else uyl[kys]=nil end end
+pl[2]=function(uyl,kys,kng,ufi) uyl[kys][uyl[kng]]=uyl[ufi] end
+pl[3]=function(uyl,kys,kng,ufi) uyl[kys]=uyl[ufi][xxo[kng]] end
+pl[4]=function(uyl,kys,kng,ufi) uyl[kys][xxo[kng]]=uyl[ufi] end
+function ek(zes,uyl,kys,kng,ufi)
+ local pf=pl[zes]
+ if pf==nil then ufe(); bll("vm",0) end
+ return pf(uyl,kys,kng,ufi)
 end
-aq[30]=function()
-   if jcb<1 or jcb>#vlc then mbn(); ssc("vm",0) end
-   local tek={}
-   for ose=1,qns do
-    if pdo.a>fy then mbn(); ssc("vm",0) end
-    local ws=gk(pdo.a)+1
-    if ws<1 or ws>oy then mbn(); ssc("vm",0) end
-    tek[ose]=llr[ws]
-    pdo.a=pdo.a+1
+local wq={}
+local na=2276424298
+for lbc=1,70 do wq[lbc]=lbc end
+for lbc=70,2,-1 do na=bit32.band(na*1664525+1013904223,4294967295) local tyv=na%lbc+1 wq[lbc],wq[tyv]=wq[tyv],wq[lbc] end
+local he={}
+for lbc=1,70 do local gdh=(wq[lbc]-1)*1+52 he[lbc]=wq[gdh%70+1] end
+wq=he
+qj[(((33-1)*1+52)%70)+1]=function()
+ if ufi+1>dc then ufe(); bll("vm",0) end
+ if kng+1>vu then ufe(); bll("vm",0) end
+ local ph,wn=ic(2,bj,kng+1,bmy[ufi+1])
+ if ph then
+  guk.a=wn
+  guk.j=true
+  dh(kng+1)
+ end
+end
+qj[(((8-1)*1+52)%70)+1]=function()
+   if kys+1>dc or kng+1>wx or ufi+1>dc then ufe(); bll("vm",0) end
+   ek(4,bmy,kys,kng+1,ufi+1)
+end
+qj[(((65-1)*1+52)%70)+1]=function()
+   if kys>dc or kng+1>vu or ufi+1>qt then ufe(); bll("vm",0) end
+   local rr=not xg(bmy[kys],omj[ufi+1],10)
+   if rr then guk.j=true; guk.a=bj[kng+1]+1; dh(kng+1) end
+end
+qj[(((15-1)*1+52)%70)+1]=function()
+   local xm={}
+   if kng<1 or kng>#zxr then ufe(); bll("vm",0) end
+   local ean={}
+   for tyv=1,ufi do
+    local xv=sz(guk.a)+1
+    ean[tyv]=bmy[xv]
+    guk.a=guk.a+1
    end
-   llr[eme]=zx(jcb,tek)
-   tek=nil
+   local dj=sz(guk.a)+1
+   guk.a=guk.a+1
+   local mp=bmy[dj]
+   if type(mp)~=gzm[12] then mp={mp} end
+   for tyv=1,#mp do ean[#ean+1]=mp[tyv] end
+   bmy[kys]=gb(kng,ean)
+   ean=nil; mp=nil
 end
-aq[26]=function()
-   if jcb+1>oy or qns+1>oy then mbn(); ssc("vm",0) end
-   llr[eme]=la(llr[jcb+1],llr[qns+1],9)
+qj[(((22-1)*1+52)%70)+1]=function()
+   local xm=0
+   if kng+1>dc or ufi+1>dc then ufe(); bll("vm",0) end
+   bmy[kys]=xg(bmy[kng+1],bmy[ufi+1],4)
 end
-aq[53]=function()
-   local bi={}
-   if qns+1>ud or jcb+1>oy then mbn(); ssc("vm",0) end
-   local ygx=llr[jcb+1]
-   local oms=ns[qns+1]
-   llr[eme]=la(ygx,oms,7)
+qj[(((26-1)*1+52)%70)+1]=function()
+   local xm=0
+   if kng+1>dc or ufi+1>dc then ufe(); bll("vm",0) end
+   bmy[kys]=xg(bmy[kng+1],bmy[ufi+1],1)
 end
-aq[9]=function()
-   local bi={}
-   if jcb+1>ft then mbn(); ssc("vm",0) end
-   li(1,llr,sg,eme,jcb+1)
+qj[(((23-1)*1+52)%70)+1]=function()
+   local xm={}
+   if kng+1>dc or ufi+1>dc then ufe(); bll("vm",0) end
+   bmy[kys]=xg(bmy[kng+1],bmy[ufi+1],10)
 end
-aq[35]=function()
-   if qns+1>oy or jcb+1>ud then mbn(); ssc("vm",0) end
-   local ygx=ns[jcb+1]
-   local oms=llr[qns+1]
-   llr[eme]=la(ygx,oms,2)
+qj[(((20-1)*1+52)%70)+1]=function()
+   if kng+1>dc or ufi+1>dc then ufe(); bll("vm",0) end
+   bmy[kys]=xg(bmy[kng+1],bmy[ufi+1],9)
 end
-aq[48]=function()
-   local bi=0
-   if qns+1>ud or jcb+1>oy then mbn(); ssc("vm",0) end
-   local ygx=llr[jcb+1]
-   local oms=ns[qns+1]
-   llr[eme]=la(ygx,oms,3)
+qj[(((61-1)*1+52)%70)+1]=function()
+   if kys>dc or kng+1>vu or ufi+1>qt then ufe(); bll("vm",0) end
+   local rr=not xg(omj[ufi+1],bmy[kys],2)
+   if rr then guk.j=true; guk.a=bj[kng+1]+1; dh(kng+1) end
 end
-aq[4]=function()
-   local bi=0
-end
-aq[22]=function()
-   if jcb+1>oy or qns+1>oy then mbn(); ssc("vm",0) end
-   llr[eme]=la(llr[jcb+1],llr[qns+1],12)
-end
-aq[5]=function()
-   local bi={}
-   if jcb+1>oy or qns+1>oy then mbn(); ssc("vm",0) end
-   wk(1,llr,eme,jcb+1,qns+1)
-end
-aq[51]=function()
-   if qns+1>ud or jcb+1>oy then mbn(); ssc("vm",0) end
-   local ygx=llr[jcb+1]
-   local oms=ns[qns+1]
-   llr[eme]=la(ygx,oms,12)
-end
-aq[32]=function()
-   local bi=0
- if jcb+1>mf then mbn(); ssc("vm",0) end
- local rb,kx=bo(1,gb,jcb+1)
- pdo.a=kx
- pdo.j=rb
- lw(jcb+1)
-end
-aq[65]=function()
-   local bi={}
-   if eme>oy or jcb+1>mf or qns+1>ud then mbn(); ssc("vm",0) end
-   local ap=not la(llr[eme],ns[qns+1],4)
-   if ap then pdo.j=true; pdo.a=gb[jcb+1]+1; lw(jcb+1) end
-end
-aq[10]=function()
-   if eme>ft or jcb+1>oy then mbn(); ssc("vm",0) end
-   li(2,llr,sg,eme,jcb)
-end
-aq[31]=function()
-   local vf=llr[eme]
-   llr[eme]=nil
-   kd=vf
-   pb=261
-   vf=nil
-end
-aq[63]=function()
-   if eme>oy or jcb+1>mf or qns+1>ud then mbn(); ssc("vm",0) end
-   local ap=not la(ns[qns+1],llr[eme],1)
-   if ap then pdo.j=true; pdo.a=gb[jcb+1]+1; lw(jcb+1) end
-end
-aq[42]=function()
-   if jcb+1>ud or qns+1>oy then mbn(); ssc("vm",0) end
-   llr[eme]=la(ns[jcb+1],llr[qns+1],6)
-end
-aq[66]=function()
-   if eme>oy or jcb+1>mf or qns+1>ud then mbn(); ssc("vm",0) end
-   if not la(llr[eme],ns[qns+1],7) then pdo.j=true; pdo.a=gb[jcb+1]+1; lw(jcb+1) end
-end
-aq[29]=function()
-   local bi={}
-   if jcb+1>oy or qns+1>oy then mbn(); ssc("vm",0) end
-   llr[eme]=la(llr[jcb+1],llr[qns+1],8)
-end
-aq[49]=function()
-   local bi={}
-   if qns+1>ud or jcb+1>oy then mbn(); ssc("vm",0) end
-   local ygx=llr[jcb+1]
-   local oms=ns[qns+1]
-   llr[eme]=la(ygx,oms,11)
-end
-aq[36]=function()
-   local bi=0
-   if qns+1>oy or jcb+1>ud then mbn(); ssc("vm",0) end
-   local ygx=ns[jcb+1]
-   local oms=llr[qns+1]
-   llr[eme]=la(ygx,oms,3)
-end
-aq[24]=function()
-   local bi=0
-   if jcb+1>oy or qns+1>oy then mbn(); ssc("vm",0) end
-   llr[eme]=la(llr[jcb+1],llr[qns+1],7)
-end
-aq[12]=function()
-   local bi=0
-   if jcb+1>oy then mbn(); ssc("vm",0) end
-   local fe=llr[jcb+1]
-   local lg=nil if type(fe)~=snq[13] then local qm=getmetatable(fe) lg=qm and qm.__call if type(lg)~=snq[13] then mbn(); ssc("vm",0) end end
-   local tek={}
-   for ose=1,qns do
-    if pdo.a>fy then mbn(); ssc("vm",0) end
-    local ws=gk(pdo.a)+1
-    if ws<1 or ws>oy then mbn(); ssc("vm",0) end
-    tek[ose]=llr[ws]
-    pdo.a=pdo.a+1
+qj[(((11-1)*1+52)%70)+1]=function()
+   local xm={}
+
+   if kng+1>qt then ufe(); bll("vm",0) end
+   local ev=omj[kng+1]
+   local wu=kng
+   if type(ev)~=gzm[9] then ufe(); bll("vm",0) end
+   local wo=(function(sdz) local zd=1 for lbc=1,#sdz do zd=bit32.band(zd+string.byte(sdz,lbc)*lbc,4294967295) end return zd end)(ev)
+   if wu==39 and wo~=4640214 then ufe(); bll("vm",0) end if wu==29 and wo~=18757528 then ufe(); bll("vm",0) end if wu==46 and wo~=901967 then ufe(); bll("vm",0) end if wu==73 and wo~=10519800 then ufe(); bll("vm",0) end if wu==47 and wo~=117068832 then ufe(); bll("vm",0) end if wu==105 and wo~=902061 then ufe(); bll("vm",0) end if wu==106 and wo~=106457928 then ufe(); bll("vm",0) end if wu==145 and wo~=4657680 then ufe(); bll("vm",0) end if wu==135 and wo~=20912893 then ufe(); bll("vm",0) end if wu==152 and wo~=256149 then ufe(); bll("vm",0) end if wu==154 and wo~=24062472 then ufe(); bll("vm",0) end if wu==161 and wo~=22567262 then ufe(); bll("vm",0) end if wu==179 and wo~=6303671 then ufe(); bll("vm",0) end if wu==162 and wo~=52670838 then ufe(); bll("vm",0) end if wu==250 and wo~=17593728 then ufe(); bll("vm",0) end if wu==261 and wo~=39319777 then ufe(); bll("vm",0) end if wu==269 and wo~=46414395 then ufe(); bll("vm",0) end if wu==268 and wo~=11198831 then ufe(); bll("vm",0) end if wu==186 and wo~=286780122 then ufe(); bll("vm",0) end if wu==289 and wo~=7677709 then ufe(); bll("vm",0) end
+   if string.byte(ev,1)~=3 then for foj=1,math.min(#ev,32) do if string.byte(ev,foj)==3 and string.byte(ev,foj+1)==0 and string.byte(ev,foj+2)==0 and string.byte(ev,foj+3)==0 then ev=string.sub(ev,foj) break end end end
+   local lv=cw
+   local sg=nz(ev,1) if sg==2 then ufe(); bll("vm",0) end if sg~=3 then ufe(); bll("vm",0) end
+   local oi=nz(ev,2)
+   local bo=nz(ev,3)
+   local gx=nz(ev,4)
+   local wc=0 local cp={} local jn={}
+   if sg==3 then wc=nz(ev,5) if wc<1 or wc>70 then ufe(); bll("vm",0) end for lbc=1,wc do local cu=nz(ev,5+lbc) if cu<1 or cu>70 or jn[cu] then ufe(); bll("vm",0) end cp[cu]=true jn[cu]=true end else for lbc=1,70 do cp[lbc]=true end end
+   local rs={}
+   local qx={}
+   for lbc=1,gx do local kf=nz(ev,4+(sg==3 and 1+wc or 0)+lbc) if kf>=wx or qx[kf] then ufe(); bll("vm",0) end rs[lbc]=kf qx[kf]=true end
+   local ko={}
+   for lbc=1,oi do ko[lbc]=nz(ev,4+(sg==3 and 1+wc or 0)+gx+lbc) end
+   local hk={}
+   for lbc=1,oi do local ri=ko[lbc] if ri<1 or ri>oi or hk[ri] then ufe(); bll("vm",0) end hk[ri]=true end
+   local ai=5+gx+oi+(sg==3 and 1+wc or 0)
+   local kn=ai+bo
+   local zp,jb=uu(ev,bo,ai,kn,"aa19861f9a2c72cadd6baad3")
+   local function uo()
+    local function lh(...)
+     ab()
+    local bw={}
+    local kl=setmetatable({}, {__index=function(exy,rze) return bw[ko[rze]] end,__newindex=function(exy,rze,zd) bw[ko[rze]]=zd end})
+    local nm=jf(lv)
+    ta(nm,rs,gx,...)
+    for lbc=1,gx do if rs[lbc]==57 then ro(nm,xxo[rs[lbc]+1],(function(jap,tdt) jap.n=tdt return jap end)({...},select("#",...))) break end end
+    local vl=1
+    while vl<=bo do
+     local un=vl+1
+     local rz=zp[vl]
+     local zu=nz(ev,rz)
+     if not cp[zu] then mit(); ufe("inactive child opcode",0) end
+     local ok=al(zu)
+     local oh=nz(ev,rz+1)
+     local nu=nz(ev,rz+2)
+     local ew=nz(ev,rz+3)
+     local kg=nz(ev,rz+4)
+     if not cp[zu] then mit(); ufe("inactive child opcode",0) end
+     local vo=jb+1
+     if vl<bo then vo=zp[vl+1] end
+     local ow=rz+5
+     if zu==lp[3] then ow=rz+5+nu*2 end
+     if zu==lp[4] then ow=rz+5+nu*2 end
+     if zu==lp[14] then ow=rz+5+kg end
+     if zu==lp[30] then ow=rz+5+kg end
+     if zu==lp[12] then ow=rz+5+bit32.band(kg,2147483647) end
+     if zu==lp[13] or zu==lp[15] then ow=rz+6+kg end
+     if zu==lp[16] then ow=rz+5+kg end
+     if zu==lp[70] then ow=rz+5+((kg==3) and 1 or nu) end
+     if zu==lp[11] and ew+1<=oi then ow=rz+5+kg end
+     if zu==lp[7] and kg~=4294967295 and bit32.band(kg,2147483648)~=0 then ow=rz+5+bit32.band(kg,2147483647) end
+     if vo~=ow then mit(); ufe("vm",0) end
+     if zu==lp[1] then
+      da(kl,oh,nu)
+     elseif zu==lp[2] then
+      kl[oh+1]=kl[nu+1]
+     elseif zu==lp[9] then
+      kl[oh+1]=vr(nm,xxo[rs[nu+1]+1])
+     elseif zu==lp[10] then
+      ro(nm,xxo[rs[oh+1]+1],kl[nu+1])
+     elseif zu==lp[3] then
+      local bp={}
+      for tyv=1,nu do
+       local tx=rz+5+(tyv-1)*2
+       local up=nz(ev,tx)
+       local tl=nz(ev,tx+1)
+       if up+1>oi or tl+1>oi then mit(); ufe("vm",0) end
+       bp[kl[up+1]]=kl[tl+1]
+      end
+      kl[oh+1]=bp
+     elseif zu==lp[4] then
+      local bp={}
+      for tyv=1,nu do local up=nz(ev,rz+5+(tyv-1)*2) local tl=nz(ev,rz+6+(tyv-1)*2) bp[kl[up+1]]=kl[tl+1] end
+      local mp=kl[ew+1] if type(mp)~=gzm[12] then mp={} end for tyv=1,#mp do bp[tyv]=mp[tyv] end
+      kl[oh+1]=bp
+     elseif zu==lp[5] then
+      dw(kl,oh,nu,ew)
+     elseif zu==lp[6] then
+      jg(kl,oh,nu,ew)
+     elseif zu==lp[7] and (kg==4294967295 or bit32.band(kg,2147483648)==0) then
+      kl[oh+1]=kl[ew+1][xxo[rs[nu+1]+1]]
+     elseif zu==lp[8] then
+
+      kl[oh+1][xxo[rs[nu+1]+1]]=kl[ew+1]
+     elseif zu==lp[70] then
+      if nu<1 or nu>511 or ew<0 then mit(); ufe("vm",0) end
+      local nx={}
+      for tyv=1,((kg==3) and 1 or nu) do
+       local kr=nz(ev,rz+4+tyv)
+       if kr+1>qt then mit(); ufe("vm",0) end
+       nx[tyv]=omj[kr+1]
+      end
+      local my=kg
+      if my==3 then nx=uh(nx[1],nu) my=2 end
+      kl[oh+1]=uy(nx,ew,nu,my,oh)
+      if my==1 and (type(kl[oh+1])~=gzm[9] or #kl[oh+1]~=64) then mit(); ufe("vm",0) end
+      nx=nil
+     elseif zu==lp[14] then
+      local sc=kl[nu+1]
+      local ob=sc[xxo[rs[ew+1]+1]]
+      if type(ob)~=gzm[13] then mit(); ufe("vm",0) end
+      local cq={sc}
+      for tyv=1,kg do
+       local xv=nz(ev,rz+4+tyv)
+       if xv+1>oi then mit(); ufe("vm",0) end
+       cq[tyv+1]=kl[xv+1]
+      end
+      kl[oh+1]=oa(ob,cq)
+     elseif zu==lp[12] then
+      local fr=kl[nu+1]
+      if type(fr)~=gzm[13] then mit(); ufe("vm",0) end
+      local cq={}
+      for tyv=1,kg do
+       local xv=nz(ev,rz+4+tyv)
+       if xv+1>oi then mit(); ufe("vm",0) end
+       cq[tyv]=kl[xv+1]
+      end
+      kl[oh+1]=fr(hb(cq))
+     elseif zu==lp[13] then
+      local fr=kl[nu+1] local cq={}
+      for tyv=1,kg do local xv=nz(ev,rz+4+tyv) cq[tyv]=kl[xv+1] end
+      local mp=kl[nz(ev,rz+5+kg)+1] for tyv=1,#mp do cq[#cq+1]=mp[tyv] end
+      kl[oh+1]=fr(hb(cq))
+     elseif zu==lp[15] then
+      local cq={} for tyv=1,kg do local xv=nz(ev,rz+4+tyv) cq[tyv]=kl[xv+1] end
+      local mp=kl[nz(ev,rz+5+kg)+1] for tyv=1,#mp do cq[#cq+1]=mp[tyv] end
+      kl[oh+1]=gb(nu,cq)
+     elseif zu==lp[16] then
+      local vi={} for tyv=1,kg do vi[tyv]=kl[nz(ev,rz+4+tyv)+1] end kl[oh+1]=vi
+     elseif zu==lp[17] then
+      local ht=kl[nu+1] local rze,zd=ht() kl[oh+1]={rze,zd}
+     elseif zu==lp[30] then
+      if nu<1 or nu>#zxr then mit(); ufe("vm",0) end
+      local cq={}
+      for tyv=1,kg do
+       local xv=nz(ev,rz+4+tyv)
+       if xv+1>oi then mit(); ufe("vm",0) end
+       cq[tyv]=kl[xv+1]
+      end
+      kl[oh+1]=gb(nu,cq)
+     elseif zu==lp[11] then
+      local qq=omj[nu+1]
+      if type(qq)~=gzm[9] then mit(); ufe("vm",0) end
+      local yt=nu
+      local pt=(function(sdz) local zd=1 for lbc=1,#sdz do zd=bit32.band(zd+string.byte(sdz,lbc)*lbc,4294967295) end return zd end)(qq)
+      if yt==39 and pt~=4640214 then mit(); ufe("vm",0) end if yt==29 and pt~=18757528 then mit(); ufe("vm",0) end if yt==46 and pt~=901967 then mit(); ufe("vm",0) end if yt==73 and pt~=10519800 then mit(); ufe("vm",0) end if yt==47 and pt~=117068832 then mit(); ufe("vm",0) end if yt==105 and pt~=902061 then mit(); ufe("vm",0) end if yt==106 and pt~=106457928 then mit(); ufe("vm",0) end if yt==145 and pt~=4657680 then mit(); ufe("vm",0) end if yt==135 and pt~=20912893 then mit(); ufe("vm",0) end if yt==152 and pt~=256149 then mit(); ufe("vm",0) end if yt==154 and pt~=24062472 then mit(); ufe("vm",0) end if yt==161 and pt~=22567262 then mit(); ufe("vm",0) end if yt==179 and pt~=6303671 then mit(); ufe("vm",0) end if yt==162 and pt~=52670838 then mit(); ufe("vm",0) end if yt==250 and pt~=17593728 then mit(); ufe("vm",0) end if yt==261 and pt~=39319777 then mit(); ufe("vm",0) end if yt==269 and pt~=46414395 then mit(); ufe("vm",0) end if yt==268 and pt~=11198831 then mit(); ufe("vm",0) end if yt==186 and pt~=286780122 then mit(); ufe("vm",0) end if yt==289 and pt~=7677709 then mit(); ufe("vm",0) end
+      if string.byte(qq,1)~=3 then for foj=1,math.min(#qq,32) do if string.byte(qq,foj)==3 and string.byte(qq,foj+1)==0 and string.byte(qq,foj+2)==0 and string.byte(qq,foj+3)==0 then qq=string.sub(qq,foj) break end end end
+      local aj=nm
+      local function es(...)
+        ab()
+       local ox=jf(aj)
+       local ly={}
+       local zh={}
+       local wi=setmetatable({}, {__index=function(exy,rze) return zh[ly[rze]] end,__newindex=function(exy,rze,zd) zh[ly[rze]]=zd end})
+       local yl=nz(qq,1) if yl==2 then fca(); mit("vm",0) end if yl~=3 then fca(); mit("vm",0) end
+       local mk=nz(qq,2)
+       local nt=nz(qq,3)
+       local nc=nz(qq,4)
+       local ao=0 local kt={} local kz={}
+       if yl==3 then ao=nz(qq,5) if ao<1 or ao>70 then fca(); mit("vm",0) end for lbc=1,ao do local cu=nz(qq,5+lbc) if cu<1 or cu>70 or kz[cu] then fca(); mit("vm",0) end kt[cu]=true kz[cu]=true end else for lbc=1,70 do kt[lbc]=true end end
+       local yw={}
+       local no={}
+       for lbc=1,nc do local kf=nz(qq,4+(yl==3 and 1+ao or 0)+lbc) if kf>=wx or no[kf] then fca(); mit("vm",0) end yw[lbc]=kf no[kf]=true end
+       ta(ox,yw,nc,...)
+       ly={}
+       for lbc=1,mk do ly[lbc]=nz(qq,4+(yl==3 and 1+ao or 0)+nc+lbc) end
+       local li=5+nc+mk+(yl==3 and 1+ao or 0)
+       local iw=li+nt
+       local pc,dd=uu(qq,nt,li,iw,"aa19861f9a2c72cadd6baad3")
+       local zn=1
+       while zn<=nt do
+        local ja=zn+1
+        local vy=pc[zn]
+        local gq=nz(qq,vy)
+       if not kt[gq] then fca(); mit("inactive nested opcode",0) end
+       local cx=al(gq)
+        local qw=nz(qq,vy+1)
+        local xc=nz(qq,vy+2)
+        local lj=nz(qq,vy+3)
+        local vh=nz(qq,vy+4)
+        if not kt[gq] then fca(); mit("inactive nested opcode",0) end
+        local mc=dd+1
+        if zn<nt then mc=pc[zn+1] end
+        local of=vy+5
+        if gq==lp[3] then of=vy+5+xc*2 end
+        if gq==lp[4] then of=vy+5+xc*2 end
+        if gq==lp[14] then of=vy+5+vh end
+        if gq==lp[30] then of=vy+5+vh end
+        if gq==lp[12] then of=vy+5+bit32.band(vh,2147483647) end
+        if gq==lp[13] or gq==lp[15] then of=vy+6+vh end
+        if gq==lp[16] then of=vy+5+vh end
+        if gq==lp[70] then of=vy+5+((vh==3) and 1 or xc) end
+        if gq==lp[11] and lj+1<=mk then of=vy+5+vh end
+        if gq==lp[7] and vh~=4294967295 and bit32.band(vh,2147483648)~=0 then of=vy+5+bit32.band(vh,2147483647) end
+        if mc~=of then fca(); mit("vm",0) end
+        if gq==lp[1] then
+         wi[qw+1]=omj[xc+1]
+        elseif gq==lp[2] then
+         wi[qw+1]=wi[xc+1]
+        elseif gq==lp[9] then
+         wi[qw+1]=vr(ox,xxo[yw[xc+1]+1])
+        elseif gq==lp[10] then
+         ro(ox,xxo[yw[qw+1]+1],wi[xc+1])
+        elseif gq==lp[3] then
+         local le={}
+         for tyv=1,((vh==3) and 1 or xc) do
+          local up=nz(qq,vy+3+tyv*2)
+          local tl=nz(qq,vy+4+tyv*2)
+          if up+1>mk or tl+1>mk then fca(); mit("vm",0) end
+          le[wi[up+1]]=wi[tl+1]
+         end
+         if qw+1>mk then fca(); mit("vm",0) end
+         wi[qw+1]=le
+        elseif gq==lp[4] then
+         local le={} for tyv=1,xc do local up=nz(qq,vy+5+(tyv-1)*2) local tl=nz(qq,vy+6+(tyv-1)*2) le[wi[up+1]]=wi[tl+1] end local mp=wi[lj+1] if type(mp)~=gzm[12] then mp={} end for tyv=1,#mp do le[tyv]=mp[tyv] end wi[qw+1]=le
+        elseif gq==lp[5] then
+         if qw+1>mk or xc+1>mk or lj+1>mk then fca(); mit("vm",0) end
+         wi[qw+1]=wi[xc+1][wi[lj+1]]
+        elseif gq==lp[6] then
+         if qw+1>mk or xc+1>mk or lj+1>mk then fca(); mit("vm",0) end
+         wi[qw+1][wi[xc+1]]=wi[lj+1]
+        elseif gq==lp[7] and (vh==4294967295 or bit32.band(vh,2147483648)==0) then
+         if qw+1>mk or xc+1>wx or lj+1>mk then fca(); mit("vm",0) end
+         wi[qw+1]=wi[lj+1][xxo[yw[xc+1]+1]]
+        elseif gq==lp[8] then
+
+         if qw+1>mk or xc+1>wx or lj+1>mk then fca(); mit("vm",0) end
+         wi[qw+1][xxo[yw[xc+1]+1]]=wi[lj+1]
+        elseif gq==lp[70] then
+         if xc<1 or xc>511 or lj<0 then fca(); mit("vm",0) end
+         local fd={}
+         for tyv=1,xc do
+          local kr=nz(qq,vy+4+tyv)
+          if kr+1>qt then fca(); mit("vm",0) end
+          fd[tyv]=omj[kr+1]
+         end
+         local wb=vh
+         if wb==3 then fd=uh(fd[1],xc) wb=2 else wb=(wb~=0 and 1 or 0) end
+         wi[qw+1]=uy(fd,lj,xc,wb,qw)
+         if wb~=0 and (type(wi[qw+1])~=gzm[9] or #wi[qw+1]~=64) then fca(); mit("vm",0) end
+         fd=nil
+        elseif gq==lp[14] then
+         if qw+1>mk or xc+1>mk or lj+1>wx then fca(); mit("vm",0) end
+         local ni=wi[xc+1]
+         local xd=ni[xxo[yw[lj+1]+1]]
+         if type(xd)~=gzm[13] then fca(); mit("vm",0) end
+         local qk={ni}
+         for tyv=1,vh do
+          local xv=nz(qq,vy+4+tyv)
+          if xv+1>mk then fca(); mit("vm",0) end
+          qk[tyv+1]=wi[xv+1]
+         end
+         wi[qw+1]=oa(xd,qk)
+        elseif gq==lp[12] then
+         local xl=wi[xc+1]
+         if type(xl)~=gzm[13] then fca(); mit("vm",0) end
+         local qk={}
+         for tyv=1,vh do
+          local xv=nz(qq,vy+4+tyv)
+          if xv+1>mk then fca(); mit("vm",0) end
+          qk[tyv]=wi[xv+1]
+         end
+         wi[qw+1]=xl(hb(qk))
+        elseif gq==lp[30] then
+         if xc<1 or xc>#zxr then fca(); mit("vm",0) end
+         local qk={}
+         for tyv=1,vh do
+          local xv=nz(qq,vy+4+tyv)
+          if xv+1>mk then fca(); mit("vm",0) end
+          qk[tyv]=wi[xv+1]
+         end
+         wi[qw+1]=gb(xc,qk)
+        elseif gq==lp[18] then
+         sy(wi,qw,lj,vh,9)
+        elseif gq==lp[19] then
+         sy(wi,qw,lj,vh,8)
+        elseif gq==lp[20] then
+         sy(wi,qw,lj,vh,6)
+        elseif gq==lp[21] then
+         sy(wi,qw,lj,vh,3)
+        elseif gq==lp[28] then
+         wi[qw+1]=wi[lj+1]%wi[vh+1]
+        elseif gq==lp[22] then
+         sy(wi,qw,lj,vh,2)
+        elseif gq==lp[23] then
+         sy(wi,qw,lj,vh,1)
+        elseif gq==lp[24] then
+         sy(wi,qw,lj,vh,10)
+        elseif gq==lp[25] then
+         sy(wi,qw,lj,vh,11)
+        elseif gq==lp[26] then
+         sy(wi,qw,lj,vh,4)
+        elseif gq==lp[27] then
+         sy(wi,qw,lj,vh,5)
+        elseif gq==lp[29] then
+         sy(wi,qw,lj,vh,12)
+        elseif gq==lp[34] then
+         wi[qw+1]=br(omj[xc+1],wi[lj+1],9)
+        elseif gq==lp[46] then
+         wi[qw+1]=br(wi[xc+1],omj[lj+1],9)
+        elseif gq==lp[35] then
+         wi[qw+1]=br(omj[xc+1],wi[lj+1],8)
+        elseif gq==lp[47] then
+         wi[qw+1]=br(wi[xc+1],omj[lj+1],8)
+        elseif gq==lp[36] then
+         wi[qw+1]=br(omj[xc+1],wi[lj+1],6)
+        elseif gq==lp[48] then
+         wi[qw+1]=br(wi[xc+1],omj[lj+1],6)
+        elseif gq==lp[37] then
+         wi[qw+1]=br(omj[xc+1],wi[lj+1],3)
+        elseif gq==lp[49] then
+         wi[qw+1]=br(wi[xc+1],omj[lj+1],3)
+        elseif gq==lp[38] then
+         wi[qw+1]=br(omj[xc+1],wi[lj+1],7)
+        elseif gq==lp[50] then
+         wi[qw+1]=br(wi[xc+1],omj[lj+1],7)
+        elseif gq==lp[39] then
+         wi[qw+1]=br(omj[xc+1],wi[lj+1],2)
+        elseif gq==lp[51] then
+         wi[qw+1]=br(wi[xc+1],omj[lj+1],2)
+        elseif gq==lp[40] then
+         wi[qw+1]=br(omj[xc+1],wi[lj+1],1)
+        elseif gq==lp[52] then
+         wi[qw+1]=br(wi[xc+1],omj[lj+1],1)
+        elseif gq==lp[41] then
+         wi[qw+1]=br(omj[xc+1],wi[lj+1],10)
+        elseif gq==lp[53] then
+         wi[qw+1]=br(wi[xc+1],omj[lj+1],10)
+        elseif gq==lp[42] then
+         wi[qw+1]=br(omj[xc+1],wi[lj+1],11)
+        elseif gq==lp[54] then
+         wi[qw+1]=br(wi[xc+1],omj[lj+1],11)
+        elseif gq==lp[43] then
+         wi[qw+1]=br(omj[xc+1],wi[lj+1],4)
+        elseif gq==lp[55] then
+         wi[qw+1]=br(wi[xc+1],omj[lj+1],4)
+        elseif gq==lp[44] then
+         wi[qw+1]=br(omj[xc+1],wi[lj+1],5)
+        elseif gq==lp[56] then
+         wi[qw+1]=br(wi[xc+1],omj[lj+1],5)
+        elseif gq==lp[45] then
+         wi[qw+1]=br(omj[xc+1],wi[lj+1],12)
+        elseif gq==lp[57] then
+         wi[qw+1]=br(wi[xc+1],omj[lj+1],12)
+        elseif gq==lp[58] then
+         if not br(omj[lj+1],wi[qw+1],2) then ja=bu(xc+1) end
+        elseif gq==lp[64] then
+         if not br(wi[qw+1],omj[lj+1],2) then ja=bu(xc+1) end
+        elseif gq==lp[59] then
+         if not br(omj[lj+1],wi[qw+1],1) then ja=bu(xc+1) end
+        elseif gq==lp[65] then
+         if not br(wi[qw+1],omj[lj+1],1) then ja=bu(xc+1) end
+        elseif gq==lp[60] then
+         if not br(omj[lj+1],wi[qw+1],10) then ja=bu(xc+1) end
+        elseif gq==lp[66] then
+         if not br(wi[qw+1],omj[lj+1],10) then ja=bu(xc+1) end
+        elseif gq==lp[61] then
+         if not br(omj[lj+1],wi[qw+1],11) then ja=bu(xc+1) end
+        elseif gq==lp[67] then
+         if not br(wi[qw+1],omj[lj+1],11) then ja=bu(xc+1) end
+        elseif gq==lp[62] then
+         if not br(omj[lj+1],wi[qw+1],4) then ja=bu(xc+1) end
+        elseif gq==lp[68] then
+         if not br(wi[qw+1],omj[lj+1],4) then ja=bu(xc+1) end
+        elseif gq==lp[63] then
+         if not br(omj[lj+1],wi[qw+1],5) then ja=bu(xc+1) end
+        elseif gq==lp[69] then
+         if not br(wi[qw+1],omj[lj+1],5) then ja=bu(xc+1) end
+        elseif gq==lp[12] and bit32.band(vh,2147483648)~=0 then
+         local xl=wi[qw+1]
+         if type(xl)~=gzm[13] then fca(); mit("vm",0) end
+         local qk={}
+         for tyv=1,bit32.band(vh,2147483647) do
+          local xv=nz(qq,vy+4+tyv)
+          if xv+1>mk then fca(); mit("vm",0) end
+          qk[tyv]=wi[xv+1]
+         end
+         return xl(hb(qk))
+        elseif gq==lp[7] and vh~=4294967295 and bit32.band(vh,2147483648)~=0 then
+         local xl=wi[lj+1][xxo[yw[xc+1]+1]]
+         if type(xl)~=gzm[13] then fca(); mit("vm",0) end
+         local qk={}
+         for tyv=1,bit32.band(vh,2147483647) do
+          local xv=nz(qq,vy+4+tyv)
+          if xv+1>mk then fca(); mit("vm",0) end
+          qk[tyv]=wi[xv+1]
+         end
+         wi[qw+1]=xl(hb(qk))
+        elseif gq==lp[13] then
+         local xl=wi[xc+1] local qk={}
+         for tyv=1,vh do local xv=nz(qq,vy+4+tyv) qk[tyv]=wi[xv+1] end
+         local mp=wi[nz(qq,vy+5+vh)+1] for tyv=1,#mp do qk[#qk+1]=mp[tyv] end
+         wi[qw+1]=xl(hb(qk))
+        elseif gq==lp[16] then
+         local vi={} for tyv=1,vh do vi[tyv]=wi[nz(qq,vy+4+tyv)+1] end wi[qw+1]=vi
+        elseif gq==lp[17] then
+         local ht=wi[xc+1] local rze,zd=ht() wi[qw+1]={rze,zd}
+        elseif gq==lp[32] then
+         if xc+1<1 or xc+1>nt then fca(); mit("vm",0) end
+         ja=bu(xc+1)
+        elseif gq==lp[33] then
+         if xc+1<1 or xc+1>nt or lj+1>mk then fca(); mit("vm",0) end
+         if not wi[lj+1] then ja=bu(xc+1) end
+        elseif gq==lp[31] then
+         return dn(wi,qw)
+        else fca(); mit(nil,0) end
+        zn=ja
+       end
+       return nil
+      end
+      kl[oh+1]=es
+      if ew+1<=oi then
+       local cq={}
+       for tyv=1,kg do
+        local xv=nz(ev,rz+4+tyv)
+        if xv+1>oi then fca(); mit("vm",0) end
+        cq[tyv]=kl[xv+1]
+       end
+       kl[ew+1]=es(hb(cq))
+      end
+     elseif zu==lp[18] then
+      sy(kl,oh,ew,kg,9)
+     elseif zu==lp[19] then
+      sy(kl,oh,ew,kg,8)
+     elseif zu==lp[20] then
+      sy(kl,oh,ew,kg,6)
+     elseif zu==lp[21] then
+      sy(kl,oh,ew,kg,3)
+     elseif zu==lp[28] then
+      kl[oh+1]=kl[ew+1]%kl[kg+1]
+     elseif zu==lp[22] then
+      sy(kl,oh,ew,kg,2)
+     elseif zu==lp[23] then
+      sy(kl,oh,ew,kg,1)
+     elseif zu==lp[24] then
+      sy(kl,oh,ew,kg,10)
+     elseif zu==lp[25] then
+      sy(kl,oh,ew,kg,11)
+     elseif zu==lp[26] then
+      sy(kl,oh,ew,kg,4)
+     elseif zu==lp[27] then
+      sy(kl,oh,ew,kg,5)
+     elseif zu==lp[29] then
+      sy(kl,oh,ew,kg,12)
+     elseif zu==lp[34] then
+      kl[oh+1]=br(omj[nu+1],kl[ew+1],9)
+     elseif zu==lp[46] then
+      kl[oh+1]=br(kl[nu+1],omj[ew+1],9)
+     elseif zu==lp[35] then
+      kl[oh+1]=br(omj[nu+1],kl[ew+1],8)
+     elseif zu==lp[47] then
+      kl[oh+1]=br(kl[nu+1],omj[ew+1],8)
+     elseif zu==lp[36] then
+      kl[oh+1]=br(omj[nu+1],kl[ew+1],6)
+     elseif zu==lp[48] then
+      kl[oh+1]=br(kl[nu+1],omj[ew+1],6)
+     elseif zu==lp[37] then
+      kl[oh+1]=br(omj[nu+1],kl[ew+1],3)
+     elseif zu==lp[49] then
+      kl[oh+1]=br(kl[nu+1],omj[ew+1],3)
+     elseif zu==lp[38] then
+      kl[oh+1]=br(omj[nu+1],kl[ew+1],7)
+     elseif zu==lp[50] then
+      kl[oh+1]=br(kl[nu+1],omj[ew+1],7)
+     elseif zu==lp[39] then
+      kl[oh+1]=br(omj[nu+1],kl[ew+1],2)
+     elseif zu==lp[51] then
+      kl[oh+1]=br(kl[nu+1],omj[ew+1],2)
+     elseif zu==lp[40] then
+      kl[oh+1]=br(omj[nu+1],kl[ew+1],1)
+     elseif zu==lp[52] then
+      kl[oh+1]=br(kl[nu+1],omj[ew+1],1)
+     elseif zu==lp[41] then
+      kl[oh+1]=br(omj[nu+1],kl[ew+1],10)
+     elseif zu==lp[53] then
+      kl[oh+1]=br(kl[nu+1],omj[ew+1],10)
+     elseif zu==lp[42] then
+      kl[oh+1]=br(omj[nu+1],kl[ew+1],11)
+     elseif zu==lp[54] then
+      kl[oh+1]=br(kl[nu+1],omj[ew+1],11)
+     elseif zu==lp[43] then
+      kl[oh+1]=br(omj[nu+1],kl[ew+1],4)
+     elseif zu==lp[55] then
+      kl[oh+1]=br(kl[nu+1],omj[ew+1],4)
+     elseif zu==lp[44] then
+      kl[oh+1]=br(omj[nu+1],kl[ew+1],5)
+     elseif zu==lp[56] then
+      kl[oh+1]=br(kl[nu+1],omj[ew+1],5)
+     elseif zu==lp[45] then
+      kl[oh+1]=br(omj[nu+1],kl[ew+1],12)
+     elseif zu==lp[57] then
+      kl[oh+1]=br(kl[nu+1],omj[ew+1],12)
+     elseif zu==lp[58] then
+      if not br(omj[ew+1],kl[oh+1],2) then un=bu(nu+1) end
+     elseif zu==lp[64] then
+      if not br(kl[oh+1],omj[ew+1],2) then un=bu(nu+1) end
+     elseif zu==lp[59] then
+      if not br(omj[ew+1],kl[oh+1],1) then un=bu(nu+1) end
+     elseif zu==lp[65] then
+      if not br(kl[oh+1],omj[ew+1],1) then un=bu(nu+1) end
+     elseif zu==lp[60] then
+      if not br(omj[ew+1],kl[oh+1],10) then un=bu(nu+1) end
+     elseif zu==lp[66] then
+      if not br(kl[oh+1],omj[ew+1],10) then un=bu(nu+1) end
+     elseif zu==lp[61] then
+      if not br(omj[ew+1],kl[oh+1],11) then un=bu(nu+1) end
+     elseif zu==lp[67] then
+      if not br(kl[oh+1],omj[ew+1],11) then un=bu(nu+1) end
+     elseif zu==lp[62] then
+      if not br(omj[ew+1],kl[oh+1],4) then un=bu(nu+1) end
+     elseif zu==lp[68] then
+      if not br(kl[oh+1],omj[ew+1],4) then un=bu(nu+1) end
+     elseif zu==lp[63] then
+      if not br(omj[ew+1],kl[oh+1],5) then un=bu(nu+1) end
+     elseif zu==lp[69] then
+      if not br(kl[oh+1],omj[ew+1],5) then un=bu(nu+1) end
+     elseif zu==lp[12] and bit32.band(kg,2147483648)~=0 then
+      local fr=kl[oh+1]
+      if type(fr)~=gzm[13] then fca(); mit("vm",0) end
+      local cq={}
+      for tyv=1,bit32.band(kg,2147483647) do
+       local xv=nz(ev,rz+4+tyv)
+       if xv+1>oi then fca(); mit("vm",0) end
+       cq[tyv]=kl[xv+1]
+      end
+      return fr(hb(cq))
+     elseif zu==lp[7] and kg~=4294967295 and bit32.band(kg,2147483648)~=0 then
+      local fr=kl[ew+1][xxo[rs[nu+1]+1]]
+      if type(fr)~=gzm[13] then fca(); mit("vm",0) end
+      local cq={}
+      for tyv=1,bit32.band(kg,2147483647) do
+       local xv=nz(ev,rz+4+tyv)
+       if xv+1>oi then fca(); mit("vm",0) end
+       cq[tyv]=kl[xv+1]
+      end
+      kl[oh+1]=fr(hb(cq))
+     elseif zu==lp[32] then
+      un=bu(nu+1)
+     elseif zu==lp[33] then
+      if not kl[ew+1] then un=bu(nu+1) end
+     elseif zu==lp[31] then
+      return dn(kl,oh)
+     else fca(); mit(nil,0) end
+     vl=un
+    end
+    return nil
    end
-   if lg then for ose=#tek,1,-1 do tek[ose+1]=tek[ose] end tek[1]=fe fe=lg end
-   llr[eme]=fe(vy(tek,1,qns))
-   tek=nil
+   return lh
+   end
+   local lh=uo()
+   bmy[kys]=lh
 end
-aq[20]=function()
-   local bi=0
-   if jcb+1>oy or qns+1>oy then mbn(); ssc("vm",0) end
-   llr[eme]=la(llr[jcb+1],llr[qns+1],3)
+qj[(((50-1)*1+52)%70)+1]=function()
+   local xm=0
+   if ufi+1>qt or kng+1>dc then fca(); mit("vm",0) end
+   local aow=bmy[kng+1]
+   local saz=omj[ufi+1]
+   bmy[kys]=xg(aow,saz,3)
 end
-aq[6]=function()
-   if eme+1>oy or jcb+1>oy or qns+1>oy then mbn(); ssc("vm",0) end
-   wk(2,llr,eme,jcb+1,qns+1)
+qj[(((70-1)*1+52)%70)+1]=function()
+   local xm=0
+   if kng<1 or kng>511 or ufi<0 then fca(); mit("vm",0) end
+   local lt={}
+   local ec=bit32.band(ufi,1073741824)~=0 and (bit32.band(ufi,2147483648)~=0 and 3 or 2) or (bit32.band(ufi,2147483648)~=0 and 1 or 0)
+   local od=(ec==3) and 1 or kng
+   for tyv=1,od do
+    if guk.a>sw then fca(); mit("vm",0) end
+    local kr=sz(guk.a)+1
+    guk.a=guk.a+1
+    if kr<1 or kr>qt then fca(); mit("vm",0) end
+    lt[tyv]=omj[kr]
+   end
+   ufi=bit32.band(ufi,1073741823)
+   if ec==3 then lt=uh(lt[1],kng) ec=2 end
+   bmy[kys]=uy(lt,ufi,kng,ec,kys)
+   lt=nil
 end
-aq[7]=function()
-   if jcb+1>ft or qns+1>oy then mbn(); ssc("vm",0) end
-   wk(3,llr,eme,jcb+1,qns+1)
+qj[(((59-1)*1+52)%70)+1]=function()
+   local xm={}
+   if kys>dc or kng+1>vu or ufi+1>qt then fca(); mit("vm",0) end
+   local rr=not xg(omj[ufi+1],bmy[kys],10)
+   if rr then guk.j=true; guk.a=bj[kng+1]+1; dh(kng+1) end
 end
-aq[1]=function()
-   local bi={}
-   local bc=jcb+1
-   if bc>ud then mbn(); ssc("vm",0) end
-   local tw=ns[bc]
-   llr[eme]=tw
+qj[(((32-1)*1+52)%70)+1]=function()
+ if kng+1>vu then fca(); mit("vm",0) end
+ local ph,wn=ic(1,bj,kng+1)
+ guk.a=wn
+ guk.j=ph
+ dh(kng+1)
+end
+qj[(((37-1)*1+52)%70)+1]=function()
+   if ufi+1>dc or kng+1>qt then fca(); mit("vm",0) end
+   local aow=omj[kng+1]
+   local saz=bmy[ufi+1]
+   bmy[kys]=xg(aow,saz,11)
+end
+qj[(((10-1)*1+52)%70)+1]=function()
+   local xm=0
+   if kys>wx or kng+1>dc then fca(); mit("vm",0) end
+   pi(2,bmy,cw,kys,kng)
+end
+qj[(((45-1)*1+52)%70)+1]=function()
+   if ufi+1>dc or kng+1>qt then fca(); mit("vm",0) end
+   local aow=omj[kng+1]
+   local saz=bmy[ufi+1]
+   bmy[kys]=xg(aow,saz,12)
+end
+qj[(((6-1)*1+52)%70)+1]=function()
+   local xm=0
+   if kys+1>dc or kng+1>dc or ufi+1>dc then fca(); mit("vm",0) end
+   ek(2,bmy,kys,kng+1,ufi+1)
+end
+qj[(((21-1)*1+52)%70)+1]=function()
+   if kng+1>dc or ufi+1>dc then fca(); mit("vm",0) end
+   bmy[kys]=xg(bmy[kng+1],bmy[ufi+1],11)
+end
+qj[(((48-1)*1+52)%70)+1]=function()
+   if kng+1>dc or ufi+1>qt then fca(); mit("vm",0) end
+   bmy[kys]=xg(bmy[kng+1],omj[ufi+1],9)
+end
+qj[(((17-1)*1+52)%70)+1]=function()
+   local ht=bmy[kng]
+   if type(ht)~=gzm[13] then ht=bmy[kng+1] end
+   if type(ht)~=gzm[13] then fca(); mit("vm",0) end
+   local rze,zd=ht()
+   bmy[kys]={rze,zd}
+end
+qj[(((36-1)*1+52)%70)+1]=function()
+   if kng+1>qt or ufi+1>dc then fca(); mit("vm",0) end
+   bmy[kys]=xg(omj[kng+1],bmy[ufi+1],9)
+end
+qj[(((18-1)*1+52)%70)+1]=function()
+   local xm=0
+   if kng+1>dc or ufi+1>dc then fca(); mit("vm",0) end
+   bmy[kys]=xg(bmy[kng+1],bmy[ufi+1],7)
+end
+qj[(((12-1)*1+52)%70)+1]=function()
+   if kng+1>dc then fca(); mit("vm",0) end
+   local ka=bmy[kng+1]
+   local xe=nil if type(ka)~=gzm[13] then local xx=getmetatable(ka) xe=xx and xx.__call if type(xe)~=gzm[13] then fca(); mit("vm",0) end end
+   local ean={}
+   for tyv=1,ufi do
+    if guk.a>sw then fca(); mit("vm",0) end
+    local xv=sz(guk.a)+1
+    if xv<1 or xv>dc then fca(); mit("vm",0) end
+    ean[tyv]=bmy[xv]
+    guk.a=guk.a+1
+   end
+   if xe then for tyv=#ean,1,-1 do ean[tyv+1]=ean[tyv] end ean[1]=ka ka=xe end
+   bmy[kys]=ka(hb(ean,1,ufi))
+   ean=nil
+end
+qj[(((3-1)*1+52)%70)+1]=function()
+   local xm={}
+   local rv={}
+   for tyv=1,kng do
+    if guk.a+1>sw then fca(); mit("vm",0) end
+    local up=sz(guk.a)+1
+    guk.a=guk.a+1
+    local tl=sz(guk.a)+1
+    guk.a=guk.a+1
+    if up<1 or up>dc or tl<1 or tl>dc then fca(); mit("vm",0) end
+    rv[bmy[up]]=bmy[tl]
+   end
+   bmy[kys]=rv
+   rv=nil
+end
+qj[(((49-1)*1+52)%70)+1]=function()
+   if ufi+1>qt or kng+1>dc then fca(); mit("vm",0) end
+   local aow=bmy[kng+1]
+   local saz=omj[ufi+1]
+   bmy[kys]=xg(aow,saz,11)
+end
+qj[(((2-1)*1+52)%70)+1]=function()
+   local xm=0
+   local ma=kng+1
+   if ma>dc then fca(); mit("vm",0) end
+   local af=bmy[ma]
+   bmy[kys]=af
+   af=nil
+end
+qj[(((5-1)*1+52)%70)+1]=function()
+   if kng+1>dc or ufi+1>dc then fca(); mit("vm",0) end
+   ek(1,bmy,kys,kng+1,ufi+1)
+end
+qj[(((31-1)*1+52)%70)+1]=function()
+   local xm={}
+   local tw=bmy[kys]
+   bmy[kys]=nil
+   yj=tw
+   fs=166
    tw=nil
 end
-aq[59]=function()
-   if eme>oy or jcb+1>mf or qns+1>ud then mbn(); ssc("vm",0) end
-   local ap=not la(ns[qns+1],llr[eme],4)
-   if ap then pdo.j=true; pdo.a=gb[jcb+1]+1; lw(jcb+1) end
+qj[(((4-1)*1+52)%70)+1]=function()
 end
-aq[52]=function()
-   local bi=0
-   if qns+1>ud or jcb+1>oy then mbn(); ssc("vm",0) end
-   local ygx=llr[jcb+1]
-   local oms=ns[qns+1]
-   llr[eme]=la(ygx,oms,4)
+qj[(((56-1)*1+52)%70)+1]=function()
+   if kng+1>dc or ufi+1>qt then fca(); mit("vm",0) end
+   bmy[kys]=xg(bmy[kng+1],omj[ufi+1],6)
 end
-aq[56]=function()
-   local bi=0
-   if qns+1>ud or jcb+1>oy then mbn(); ssc("vm",0) end
-   local ygx=llr[jcb+1]
-   local oms=ns[qns+1]
-   llr[eme]=la(ygx,oms,1)
+qj[(((46-1)*1+52)%70)+1]=function()
+   local xm=0
+   if ufi+1>qt or kng+1>dc then fca(); mit("vm",0) end
+   local aow=bmy[kng+1]
+   local saz=omj[ufi+1]
+   bmy[kys]=xg(aow,saz,7)
 end
-aq[28]=function()
-   local bi=0
+qj[(((60-1)*1+52)%70)+1]=function()
+   if kys>dc or kng+1>vu or ufi+1>qt then fca(); mit("vm",0) end
+   if not xg(omj[ufi+1],bmy[kys],8) then guk.j=true; guk.a=bj[kng+1]+1; dh(kng+1) end
 end
-aq[2]=function()
-   if jcb+1>oy then mbn(); ssc("vm",0) end
-   llr[eme]=llr[jcb+1]
+qj[(((66-1)*1+52)%70)+1]=function()
+   local xm=0
+   if kys>dc or kng+1>vu or ufi+1>qt then fca(); mit("vm",0) end
+   local rr=not xg(bmy[kys],omj[ufi+1],8)
+   if rr then guk.j=true; guk.a=bj[kng+1]+1; dh(kng+1) end
 end
-aq[33]=function()
-   local bi={}
- if qns+1>oy then mbn(); ssc("vm",0) end
- if jcb+1>mf then mbn(); ssc("vm",0) end
- local rb,kx=bo(2,gb,jcb+1,llr[qns+1])
- if rb then
-  pdo.a=kx
-  pdo.j=true
-  lw(jcb+1)
+qj[(((69-1)*1+52)%70)+1]=function()
+   if kys>dc or kng+1>vu or ufi+1>qt then fca(); mit("vm",0) end
+   local rr=not xg(bmy[kys],omj[ufi+1],6)
+   if rr then guk.j=true; guk.a=bj[kng+1]+1; dh(kng+1) end
+end
+qj[(((53-1)*1+52)%70)+1]=function()
+   if ufi+1>qt or kng+1>dc then fca(); mit("vm",0) end
+   local aow=bmy[kng+1]
+   local saz=omj[ufi+1]
+   bmy[kys]=xg(aow,saz,8)
+end
+qj[(((24-1)*1+52)%70)+1]=function()
+   if kng+1>dc or ufi+1>dc then fca(); mit("vm",0) end
+   bmy[kys]=xg(bmy[kng+1],bmy[ufi+1],8)
+end
+qj[(((42-1)*1+52)%70)+1]=function()
+   local xm=0
+   if ufi+1>dc or kng+1>qt then fca(); mit("vm",0) end
+   local aow=omj[kng+1]
+   local saz=bmy[ufi+1]
+   bmy[kys]=xg(aow,saz,2)
+end
+qj[(((27-1)*1+52)%70)+1]=function()
+   local xm={}
+   if kng+1>dc or ufi+1>dc then fca(); mit("vm",0) end
+   bmy[kys]=xg(bmy[kng+1],bmy[ufi+1],6)
+end
+qj[(((9-1)*1+52)%70)+1]=function()
+   if kng+1>wx then fca(); mit("vm",0) end
+   pi(1,bmy,cw,kys,kng+1)
+end
+qj[(((51-1)*1+52)%70)+1]=function()
+   local xm={}
+   if ufi+1>qt or kng+1>dc then fca(); mit("vm",0) end
+   local aow=bmy[kng+1]
+   local saz=omj[ufi+1]
+   bmy[kys]=xg(aow,saz,4)
+end
+qj[(((43-1)*1+52)%70)+1]=function()
+   local xm={}
+   if ufi+1>dc or kng+1>qt then fca(); mit("vm",0) end
+   local aow=omj[kng+1]
+   local saz=bmy[ufi+1]
+   bmy[kys]=xg(aow,saz,1)
+end
+qj[(((25-1)*1+52)%70)+1]=function()
+   if kng+1>dc or ufi+1>dc then fca(); mit("vm",0) end
+   bmy[kys]=xg(bmy[kng+1],bmy[ufi+1],2)
+end
+qj[(((16-1)*1+52)%70)+1]=function()
+   local vi={}
+   for tyv=1,kng do
+    local tl=sz(guk.a)+1
+    vi[tyv]=bmy[tl]
+    guk.a=guk.a+1
+   end
+   bmy[kys]=vi
+vi=nil
+end
+qj[(((40-1)*1+52)%70)+1]=function()
+   if kng+1>qt or ufi+1>dc then fca(); mit("vm",0) end
+   bmy[kys]=xg(omj[kng+1],bmy[ufi+1],10)
+end
+qj[(((19-1)*1+52)%70)+1]=function()
+   local xm={}
+   if kng+1>dc or ufi+1>dc then fca(); mit("vm",0) end
+   bmy[kys]=xg(bmy[kng+1],bmy[ufi+1],5)
+end
+qj[(((67-1)*1+52)%70)+1]=function()
+   local xm={}
+   if kys>dc or kng+1>vu or ufi+1>qt then fca(); mit("vm",0) end
+   local rr=not xg(bmy[kys],omj[ufi+1],2)
+   if rr then guk.j=true; guk.a=bj[kng+1]+1; dh(kng+1) end
+end
+qj[(((1-1)*1+52)%70)+1]=function()
+   local kr=kng+1
+   if kr>qt then fca(); mit("vm",0) end
+   local gt=omj[kr]
+   bmy[kys]=gt
+   gt=nil
+end
+qj[(((38-1)*1+52)%70)+1]=function()
+   local xm=0
+   if ufi+1>dc or kng+1>qt then fca(); mit("vm",0) end
+   local aow=omj[kng+1]
+   local saz=bmy[ufi+1]
+   bmy[kys]=xg(aow,saz,3)
+end
+qj[(((30-1)*1+52)%70)+1]=function()
+   local xm=0
+   if kng<1 or kng>#zxr then fca(); mit("vm",0) end
+   local ean={}
+   local tyv=1
+   while tyv<=ufi do
+    if guk.a>sw then fca(); mit("vm",0) end
+    local xv=sz(guk.a)+1
+    if xv<1 or xv>dc then fca(); mit("vm",0) end
+    ean[tyv]=bmy[xv]
+    guk.a=guk.a+1
+    tyv=tyv+1
+   end
+   local cma=zxr[kng]
+   if type(cma)~=gzm[13] then fca(); mit("vm",0) end
+   bmy[kys]=cma(hb(ean))
+   for awx=1,#ean do ean[awx]=nil end
+end
+qj[(((55-1)*1+52)%70)+1]=function()
+   local xm={}
+   if ufi+1>qt or kng+1>dc then fca(); mit("vm",0) end
+   local aow=bmy[kng+1]
+   local saz=omj[ufi+1]
+   bmy[kys]=xg(aow,saz,1)
+end
+qj[(((68-1)*1+52)%70)+1]=function()
+   if kys>dc or kng+1>vu or ufi+1>qt then fca(); mit("vm",0) end
+   if not xg(bmy[kys],omj[ufi+1],1) then guk.j=true; guk.a=bj[kng+1]+1; dh(kng+1) end
+end
+qj[(((29-1)*1+52)%70)+1]=function()
+   if kng+1>dc or ufi+1>dc then fca(); mit("vm",0) end
+   bmy[kys]=xg(bmy[kng+1],bmy[ufi+1],12)
+end
+qj[(((58-1)*1+52)%70)+1]=function()
+   local xm=0
+   if kys>dc or kng+1>vu or ufi+1>qt then fca(); mit("vm",0) end
+   local rr=not xg(omj[ufi+1],bmy[kys],4)
+   if rr then guk.j=true; guk.a=bj[kng+1]+1; dh(kng+1) end
+end
+qj[(((47-1)*1+52)%70)+1]=function()
+   local xm={}
+   if ufi+1>qt or kng+1>dc then fca(); mit("vm",0) end
+   local aow=bmy[kng+1]
+   local saz=omj[ufi+1]
+   bmy[kys]=xg(aow,saz,5)
+end
+qj[(((28-1)*1+52)%70)+1]=function()
+end
+qj[(((34-1)*1+52)%70)+1]=function()
+   local xm=0
+   if ufi+1>dc or kng+1>qt then fca(); mit("vm",0) end
+   local aow=omj[kng+1]
+   local saz=bmy[ufi+1]
+   bmy[kys]=xg(aow,saz,7)
+end
+qj[(((63-1)*1+52)%70)+1]=function()
+   local xm={}
+   if kys>dc or kng+1>vu or ufi+1>qt then fca(); mit("vm",0) end
+   local rr=not xg(omj[ufi+1],bmy[kys],6)
+   if rr then guk.j=true; guk.a=bj[kng+1]+1; dh(kng+1) end
+end
+qj[(((62-1)*1+52)%70)+1]=function()
+   local xm=0
+   if kys>dc or kng+1>vu or ufi+1>qt then fca(); mit("vm",0) end
+   local rr=not xg(omj[ufi+1],bmy[kys],1)
+   if rr then guk.j=true; guk.a=bj[kng+1]+1; dh(kng+1) end
+end
+qj[(((13-1)*1+52)%70)+1]=function()
+   if kng+1>dc or ufi<0 then fca(); mit("vm",0) end
+   local ka=bmy[kng+1]
+   local xe=nil if type(ka)~=gzm[13] then local xx=getmetatable(ka) xe=xx and xx.__call if type(xe)~=gzm[13] then fca(); mit("vm",0) end end
+   local ean={}
+   for tyv=1,ufi do
+    if guk.a>sw then fca(); mit("vm",0) end
+    local xv=sz(guk.a)+1
+    ean[tyv]=bmy[xv]
+    guk.a=guk.a+1
+   end
+   local dj=sz(guk.a)+1
+   guk.a=guk.a+1
+   local mp=bmy[dj]
+   if type(mp)~=gzm[12] then mp={mp} end
+   for tyv=1,(mp.n or #mp) do ean[#ean+1]=mp[tyv] end
+   bmy[kys]=ka(hb(ean,1,ufi+(mp.n or #mp)))
+   ean=nil; mp=nil
+end
+qj[(((41-1)*1+52)%70)+1]=function()
+   if ufi+1>dc or kng+1>qt then fca(); mit("vm",0) end
+   local aow=omj[kng+1]
+   local saz=bmy[ufi+1]
+   bmy[kys]=xg(aow,saz,8)
+end
+qj[(((64-1)*1+52)%70)+1]=function()
+   if kys>dc or kng+1>vu or ufi+1>qt then fca(); mit("vm",0) end
+   if not xg(bmy[kys],omj[ufi+1],4) then guk.j=true; guk.a=bj[kng+1]+1; dh(kng+1) end
+end
+qj[(((35-1)*1+52)%70)+1]=function()
+   local xm={}
+   if ufi+1>dc or kng+1>qt then fca(); mit("vm",0) end
+   local aow=omj[kng+1]
+   local saz=bmy[ufi+1]
+   bmy[kys]=xg(aow,saz,5)
+end
+qj[(((57-1)*1+52)%70)+1]=function()
+   if ufi+1>qt or kng+1>dc then fca(); mit("vm",0) end
+   local aow=bmy[kng+1]
+   local saz=omj[ufi+1]
+   bmy[kys]=xg(aow,saz,12)
+end
+qj[(((44-1)*1+52)%70)+1]=function()
+   if kng+1>qt or ufi+1>dc then fca(); mit("vm",0) end
+   bmy[kys]=xg(omj[kng+1],bmy[ufi+1],6)
+end
+qj[(((54-1)*1+52)%70)+1]=function()
+   local xm=0
+   if ufi+1>qt or kng+1>dc then fca(); mit("vm",0) end
+   local aow=bmy[kng+1]
+   local saz=omj[ufi+1]
+   bmy[kys]=xg(aow,saz,2)
+end
+qj[(((52-1)*1+52)%70)+1]=function()
+   if kng+1>dc or ufi+1>qt then fca(); mit("vm",0) end
+   bmy[kys]=xg(bmy[kng+1],omj[ufi+1],10)
+end
+qj[(((14-1)*1+52)%70)+1]=function()
+   local xm=0
+   if kng+1>dc or ufi+1>wx then fca(); mit("vm",0) end
+   local bc=bmy[kng+1]
+   local hu=type(bc)
+   if hu~=gzm[12] and hu~="userdata" then fca(); mit("vm",0) end
+   local tu=bc[xxo[ufi+1]]
+
+   if type(tu)~=gzm[13] then fca(); mit("vm",0) end
+   if guk.a>sw then fca(); mit("vm",0) end
+   local ib=sz(guk.a)
+   guk.a=guk.a+1
+   local ean={bc}
+   for tyv=1,ib do
+    if guk.a>sw then fca(); mit("vm",0) end
+    local xv=sz(guk.a)+1
+    if xv<1 or xv>dc then fca(); mit("vm",0) end
+    ean[tyv+1]=bmy[xv]
+    guk.a=guk.a+1
+   end
+
+   bmy[kys]=tu(hb(ean))
+   ean=nil
+   bc=nil
+   tu=nil
+end
+qj[(((7-1)*1+52)%70)+1]=function()
+   local xm={}
+   if kng+1>wx or ufi+1>dc then fca(); mit("vm",0) end
+   ek(3,bmy,kys,kng+1,ufi+1)
+end
+qj[(((39-1)*1+52)%70)+1]=function()
+   local xm={}
+   if ufi+1>dc or kng+1>qt then fca(); mit("vm",0) end
+   local aow=omj[kng+1]
+   local saz=bmy[ufi+1]
+   bmy[kys]=xg(aow,saz,4)
+end
+function be(ag)
+ local bh=qj[(((ag-1)*1+52)%70)+1]
+ if bh==nil then ufe(); bll("vm",0) end
+ return bh()
+end
+function fk(uyl,kys,kng)
+ uyl[kys+1]=omj[kng+1]
+end
+function hf(uyl,dyf,xds,kys,kng)
+ uyl[kys+1]=vr(dyf,xxo[xds[kng+1]+1])
+end
+function sf(uyl,dyf,xds,kys,kng)
+ ro(dyf,xxo[xds[kys+1]+1],uyl[kng+1])
+end
+function mw(uyl,kys,kng,ufi)
+ uyl[kys+1]=uyl[kng+1][uyl[ufi+1]]
+end
+function gl(uyl,kys,kng,ufi)
+ uyl[kys+1][uyl[kng+1]]=uyl[ufi+1]
+end
+function sa(uyl,xds,kys,kng,ufi)
+ uyl[kys+1]=uyl[ufi+1][xxo[xds[kng+1]+1]]
+end
+function ex(uyl,xds,kys,kng,ufi)
+ uyl[kys+1][xxo[xds[kng+1]+1]]=uyl[ufi+1]
+end
+function ky(bfj,prs) return bfj~=prs end
+function qg(bfj,prs) return bfj==prs end
+function fh(bfj,prs) return bfj/prs end
+function hr(bfj,prs) return bfj<=prs end
+function zr(bfj,prs) return bfj>=prs end
+function xz(bfj,prs) return bfj*prs end
+function cn(bfj,prs) return bfj-prs end
+function td(bfj,prs) return bfj+prs end
+function hp(bfj,prs) return bfj<prs end
+function fl(bfj,prs) return bfj>prs end
+function ct(bfj,prs) return bfj..prs end
+local pq={}
+pq[1]=ky
+pq[2]=qg
+pq[3]=fh
+pq[4]=hr
+pq[5]=zr
+pq[6]=xz
+pq[8]=cn
+pq[9]=td
+pq[10]=hp
+pq[11]=fl
+pq[12]=ct
+local bl={}
+local io={}
+bl[1]=function(rrx) rrx[4]=pq[rrx[3]] end
+bl[2]=function(rrx) rrx[4]=rrx[4](rrx[1],rrx[2]) end
+bl[3]=function(rrx) rrx[1]=rrx[1] end
+bl[4]=function(rrx) rrx[2]=rrx[2] end
+io[1]={3,1,2}
+io[2]={4,1,2}
+io[3]={3,1,2}
+io[4]={4,1,2}
+io[5]={3,1,2}
+io[6]={4,1,2}
+io[8]={4,1,2}
+io[9]={3,1,2}
+io[10]={4,1,2}
+io[11]={3,1,2}
+io[12]={4,1,2}
+local function br(bfj,prs,wej)
+ local fp=io[wej]
+ if fp==nil then fca(); mit("vm",0) end
+ local fs={bfj,prs,wej,nil}
+ for lbc=1,#fp do
+  local wf=bl[fp[lbc]]
+  if wf==nil then fca(); mit("vm",0) end
+  wf(fs)
+ end
+ return fs[4]
+end
+function vk(uyl,kys,kng,ufi,wej)
+ uyl[kys+1]=br(uyl[kng+1],uyl[ufi+1],wej)
+end
+function yk(wn)
+ local ei=wn
+ return ei
+end
+function on(zd,wn,mj)
+ if zd then return mj end
+ return wn
+end
+function wm(uyl,kys)
+ local yj=uyl[kys+1]
+ return yj
+end
+function dq(tu,ean)
+ if type(tu)~=gzm[13] then mit(); ufe("vm",0) end
+ local pus=tu
+ return pus(hb(ean))
+end
+function gv(hw)
+ local kpc={}
+ for rze in pairs(hw) do kpc[rze]=hw[rze] end
+ return kpc
+end
+function wg(sdz,lq,so,oo,pg)
+ local pz=math.floor(#sdz/4)
+ if #sdz%4~=0 or oo>pz+1 then mit(); ufe(pg,0) end
+ local ac={}
+ for lbc=1,lq do
+  local mv=nz(sdz,so+lbc-1)
+  if mv<oo or mv+4>pz then mit(); ufe(pg,0) end
+  if lbc>1 and mv<=ac[lbc-1] then mit(); ufe(pg,0) end
+  ac[lbc]=mv
+ end
+ return ac,pz
+end
+function jx(cw,zm,zo,...)
+ local ib=select('#',...)
+ local rdo=math.min(ib,zo)
+ for lbc=rdo,1,-1 do
+  ro(cw,xxo[zm[lbc]+1],select(lbc,...))
  end
 end
-aq[60]=function()
-   local bi=0
-   if eme>oy or jcb+1>mf or qns+1>ud then mbn(); ssc("vm",0) end
-   local ap=not la(ns[qns+1],llr[eme],7)
-   if ap then pdo.j=true; pdo.a=gb[jcb+1]+1; lw(jcb+1) end
+function ft(sdz,pg)
+ local gc=nz(sdz,1) if gc==2 then ufe(); bll("vm",0) end if gc~=3 then ufe(); bll(pg,0) end
+ local dc=nz(sdz,2)
+ local tb=nz(sdz,3)
+ local zo=nz(sdz,4)
+ local ar=70 local bf=0 if gc==3 then ar=nz(sdz,5) bf=ar end
+ if gc==3 and (ar<1 or ar>70) then ufe(); bll(pg,0) end
+ local ie={} local rn={}
+ if gc==3 then for lbc=1,ar do local ag=nz(sdz,5+lbc) if ag<1 or ag>70 or rn[ag] then ufe(); bll(pg,0) end ie[ag]=true rn[ag]=true end else for lbc=1,70 do ie[lbc]=true end end
+ local zm={}
+ local qz={}
+ for lbc=1,zo do
+  local kf=nz(sdz,4+bf+lbc) if kf>=wx or qz[kf] then ufe(); bll(pg,0) end zm[lbc]=kf qz[kf]=true
+ end
+ local xq={}
+ local oe={}
+ for lbc=1,dc do
+  local ri=nz(sdz,4+bf+zo+lbc)
+  if ri<1 or ri>dc or oe[ri] then ufe(); bll(pg,0) end
+  xq[lbc]=ri
+  oe[ri]=true
+ end
+ local so=5+zo+dc+(gc==3 and 1+ar or 0)
+ local oo=so+tb
+ local ac,pz=wg(sdz,tb,so,oo,pg)
+ return dc,tb,zo,zm,xq,ac,pz,ie
 end
-aq[43]=function()
-   if qns+1>oy or jcb+1>ud then mbn(); ssc("vm",0) end
-   local ygx=ns[jcb+1]
-   local oms=llr[qns+1]
-   llr[eme]=la(ygx,oms,9)
+local kh={}
+kh[lp[1]]=1
+kh[lp[2]]=2
+kh[lp[3]]=3
+kh[lp[4]]=4
+kh[lp[5]]=5
+kh[lp[6]]=6
+kh[lp[7]]=7
+kh[lp[8]]=8
+kh[lp[9]]=9
+kh[lp[10]]=10
+kh[lp[11]]=11
+kh[lp[12]]=12
+kh[lp[13]]=13
+kh[lp[14]]=14
+kh[lp[15]]=15
+kh[lp[16]]=16
+kh[lp[17]]=17
+kh[lp[18]]=18
+kh[lp[19]]=19
+kh[lp[20]]=20
+kh[lp[21]]=21
+kh[lp[22]]=22
+kh[lp[23]]=23
+kh[lp[24]]=24
+kh[lp[25]]=25
+kh[lp[26]]=26
+kh[lp[27]]=27
+kh[lp[28]]=28
+kh[lp[29]]=29
+kh[lp[30]]=30
+kh[lp[31]]=31
+kh[lp[32]]=32
+kh[lp[33]]=33
+kh[lp[34]]=34
+kh[lp[35]]=35
+kh[lp[36]]=36
+kh[lp[37]]=37
+kh[lp[38]]=38
+kh[lp[39]]=39
+kh[lp[40]]=40
+kh[lp[41]]=41
+kh[lp[42]]=42
+kh[lp[43]]=43
+kh[lp[44]]=44
+kh[lp[45]]=45
+kh[lp[46]]=46
+kh[lp[47]]=47
+kh[lp[48]]=48
+kh[lp[49]]=49
+kh[lp[50]]=50
+kh[lp[51]]=51
+kh[lp[52]]=52
+kh[lp[53]]=53
+kh[lp[54]]=54
+kh[lp[55]]=55
+kh[lp[56]]=56
+kh[lp[57]]=57
+kh[lp[58]]=58
+kh[lp[59]]=59
+kh[lp[60]]=60
+kh[lp[61]]=61
+kh[lp[62]]=62
+kh[lp[63]]=63
+kh[lp[64]]=64
+kh[lp[65]]=65
+kh[lp[66]]=66
+kh[lp[67]]=67
+kh[lp[68]]=68
+kh[lp[69]]=69
+kh[lp[70]]=70
+function tp(zd)
+ return kh[zd]
 end
-aq[67]=function()
-   if eme>oy or jcb+1>mf or qns+1>ud then mbn(); ssc("vm",0) end
-   local ap=not la(llr[eme],ns[qns+1],6)
-   if ap then pdo.j=true; pdo.a=gb[jcb+1]+1; lw(jcb+1) end
+function uj(zd,sjv)
+ return tp(zd)==sjv
 end
-aq[19]=function()
-   if jcb+1>oy or qns+1>oy then mbn(); ssc("vm",0) end
-   llr[eme]=la(llr[jcb+1],llr[qns+1],2)
+local ik={}
+ik[1]=1
+ik[2]=2
+ik[3]=3
+ik[4]=4
+ik[5]=5
+ik[6]=6
+ik[7]=7
+ik[8]=8
+ik[9]=9
+ik[10]=10
+ik[11]=11
+ik[12]=12
+ik[13]=13
+ik[14]=14
+ik[15]=15
+ik[16]=16
+ik[17]=17
+ik[18]=18
+ik[19]=19
+ik[20]=20
+ik[21]=21
+ik[22]=22
+ik[23]=23
+ik[24]=24
+ik[25]=25
+ik[26]=26
+ik[27]=27
+ik[28]=28
+ik[29]=29
+ik[30]=30
+ik[31]=31
+ik[32]=32
+ik[33]=33
+ik[34]=34
+ik[35]=35
+ik[36]=36
+ik[37]=37
+ik[38]=38
+ik[39]=39
+ik[40]=40
+ik[41]=41
+ik[42]=42
+ik[43]=43
+ik[44]=44
+ik[45]=45
+ik[46]=46
+ik[47]=47
+ik[48]=48
+ik[49]=49
+ik[50]=50
+ik[51]=51
+ik[52]=52
+ik[53]=53
+ik[54]=54
+ik[55]=55
+ik[56]=56
+ik[57]=57
+ik[58]=58
+ik[59]=59
+ik[60]=60
+ik[61]=61
+ik[62]=62
+ik[63]=63
+ik[64]=64
+ik[65]=65
+ik[66]=66
+ik[67]=67
+ik[68]=68
+ik[69]=69
+ik[70]=70
+local ju={}
+function qf(bfj,prs) return bfj<=prs end
+function yd(bfj,prs) return bfj>prs end
+function rh(bfj,prs) return bfj%prs end
+function pe(bfj,prs) return bfj==prs end
+function jo(bfj,prs) return bfj-prs end
+function wv(bfj,prs) return bfj>=prs end
+function sk(bfj,prs) return bfj+prs end
+function mo(bfj,prs) return bfj<prs end
+function aa(bfj,prs) return bfj*prs end
+function gp(bfj,prs) return bfj~=prs end
+function rk(bfj,prs) return bfj/prs end
+function xi(bfj,prs) return bfj..prs end
+local tv={}
+tv[1]=qf
+tv[2]=yd
+tv[3]=rh
+tv[4]=pe
+tv[5]=jo
+tv[6]=wv
+tv[7]=sk
+tv[8]=mo
+tv[9]=aa
+tv[10]=gp
+tv[11]=rk
+tv[12]=xi
+function gh(bfj,prs,awx)
+ local pf=tv[awx]
+ if pf==nil then bll(); fca("vm",0) end
+ return pf(bfj,prs) end
+local jt={}
+jt[1]=function(uyl,orc,kys,kng)
+ uyl[kys]=vr(orc,xxo[kng])
 end
-aq[69]=function()
-   local bi={}
-   if eme>oy or jcb+1>mf or qns+1>ud then mbn(); ssc("vm",0) end
-   local ap=not la(llr[eme],ns[qns+1],1)
-   if ap then pdo.j=true; pdo.a=gb[jcb+1]+1; lw(jcb+1) end
+jt[2]=function(uyl,orc,kys,kng)
+ ro(orc,xxo[kys],uyl[kng+1])
 end
-aq[68]=function()
-   local bi=0
-   if eme>oy or jcb+1>mf or qns+1>ud then mbn(); ssc("vm",0) end
-   local ap=not la(llr[eme],ns[qns+1],9)
-   if ap then pdo.j=true; pdo.a=gb[jcb+1]+1; lw(jcb+1) end
+function kd(zes,uyl,orc,kys,kng)
+ local pf=jt[zes]
+ if pf==nil then ufe(); bll("vm",0) end
+ return pf(uyl,orc,kys,kng)
 end
-aq[62]=function()
-   if eme>oy or jcb+1>mf or qns+1>ud then mbn(); ssc("vm",0) end
-   if not la(ns[qns+1],llr[eme],9) then pdo.j=true; pdo.a=gb[jcb+1]+1; lw(jcb+1) end
+local mt={}
+mt[1]=function(xh,wn)
+ return true,xh[wn]+1
 end
-aq[44]=function()
-   local bi=0
-   if qns+1>oy or jcb+1>ud then mbn(); ssc("vm",0) end
-   local ygx=ns[jcb+1]
-   local oms=llr[qns+1]
-   llr[eme]=la(ygx,oms,1)
+mt[2]=function(xh,wn,zd)
+ if zd then return false,nil end
+ return true,xh[wn]+1
 end
-aq[11]=function()
-
-   if jcb+1>ud then mbn(); ssc("vm",0) end
-   local zd=ns[jcb+1]
-   local xm=jcb
-   if type(zd)~=snq[9] then mbn(); ssc("vm",0) end
-   local yf=(function(eod) local kw=1 for kvm=1,#eod do kw=bit32.band(kw+string.byte(eod,kvm)*kvm,4294967295) end return kw end)(zd)
-   if xm==37 and yf~=4658156 then mbn(); ssc("vm",0) end if xm==27 and yf~=20668613 then mbn(); ssc("vm",0) end if xm==61 and yf~=6325115 then mbn(); ssc("vm",0) end if xm==44 and yf~=52277877 then mbn(); ssc("vm",0) end if xm==68 and yf~=909807 then mbn(); ssc("vm",0) end if xm==95 and yf~=10619802 then mbn(); ssc("vm",0) end if xm==69 and yf~=117410483 then mbn(); ssc("vm",0) end if xm==188 and yf~=46833499 then mbn(); ssc("vm",0) end if xm==187 and yf~=11223297 then mbn(); ssc("vm",0) end if xm==209 and yf~=17516729 then mbn(); ssc("vm",0) end if xm==220 and yf~=39801667 then mbn(); ssc("vm",0) end if xm==127 and yf~=287006394 then mbn(); ssc("vm",0) end if xm==237 and yf~=4691040 then mbn(); ssc("vm",0) end if xm==227 and yf~=19133471 then mbn(); ssc("vm",0) end if xm==244 and yf~=22545957 then mbn(); ssc("vm",0) end if xm==245 and yf~=7889501 then mbn(); ssc("vm",0) end if xm==250 and yf~=260449 then mbn(); ssc("vm",0) end if xm==252 and yf~=909905 then mbn(); ssc("vm",0) end if xm==253 and yf~=105202166 then mbn(); ssc("vm",0) end if xm==282 and yf~=23839179 then mbn(); ssc("vm",0) end
-   if string.byte(zd,1)~=3 then for jbr=1,math.min(#zd,32) do if string.byte(zd,jbr)==3 and string.byte(zd,jbr+1)==0 and string.byte(zd,jbr+2)==0 and string.byte(zd,jbr+3)==0 then zd=string.sub(zd,jbr) break end end end
-   local tt=sg
-   local hy=gg(zd,1) if hy==2 then mbn(); ssc("vm",0) end if hy~=3 then mbn(); ssc("vm",0) end
-   local wy=gg(zd,2)
-   local vu=gg(zd,3)
-   local cp=gg(zd,4)
-   local be=0 local qq={} local bf={}
-   if hy==3 then be=gg(zd,5) if be<1 or be>70 then mbn(); ssc("vm",0) end for kvm=1,be do local xh=gg(zd,5+kvm) if xh<1 or xh>70 or bf[xh] then mbn(); ssc("vm",0) end qq[xh]=true bf[xh]=true end else for kvm=1,70 do qq[kvm]=true end end
-   local tz={}
-   local zb={}
-   for kvm=1,cp do local vt=gg(zd,4+(hy==3 and 1+be or 0)+kvm) if vt>=ft or zb[vt] then mbn(); ssc("vm",0) end tz[kvm]=vt zb[vt]=true end
-   local pr={}
-   for kvm=1,wy do pr[kvm]=gg(zd,4+(hy==3 and 1+be or 0)+cp+kvm) end
-   local hi={}
-   for kvm=1,wy do local ii=pr[kvm] if ii<1 or ii>wy or hi[ii] then mbn(); ssc("vm",0) end hi[ii]=true end
-   local zt=5+cp+wy+(hy==3 and 1+be or 0)
-   local xi=zt+vu
-   local ms,up=km(zd,vu,zt,xi,"6d1a24690d0bafd0dba9d5fc")
-   local function ij()
-    local function rn(...)
-     ok()
-    local xu={}
-    local dz=setmetatable({}, {__index=function(obn,mqt) return xu[pr[mqt]] end,__newindex=function(obn,mqt,kw) xu[pr[mqt]]=kw end})
-    local rp=tn(tt)
-    by(rp,tz,cp,...)
-    for kvm=1,cp do if tz[kvm]==57 then sy(rp,hya[tz[kvm]+1],(function(jrj,xgb) jrj.n=xgb return jrj end)({...},select("#",...))) break end end
-    local kf=1
-    while kf<=vu do
-     local es=kf+1
-     local nh=ms[kf]
-     local pg=gg(zd,nh)
-     if not qq[pg] then mbn(); ssc("inactive child opcode",0) end
-     local nr=gg(zd,nh+1)
-     local lr=gg(zd,nh+2)
-     local eh=gg(zd,nh+3)
-     local mj=gg(zd,nh+4)
-     if not qq[pg] then mbn(); ssc("inactive child opcode",0) end
-     local fm=up+1
-     if kf<vu then fm=ms[kf+1] end
-     local ew=nh+5
-     if pg==qs[3] then ew=nh+5+lr*2 end
-     if pg==qs[4] then ew=nh+5+lr*2 end
-     if pg==qs[14] then ew=nh+5+mj end
-     if pg==qs[30] then ew=nh+5+mj end
-     if pg==qs[12] then ew=nh+5+bit32.band(mj,2147483647) end
-     if pg==qs[13] or pg==qs[15] then ew=nh+6+mj end
-     if pg==qs[16] then ew=nh+5+mj end
-     if pg==qs[70] then ew=nh+5+((mj==3) and 1 or lr) end
-     if pg==qs[11] and eh+1<=wy then ew=nh+5+mj end
-     if pg==qs[7] and mj~=4294967295 and bit32.band(mj,2147483648)~=0 then ew=nh+5+bit32.band(mj,2147483647) end
-     if fm~=ew then mbn(); ssc("vm",0) end
-     if pg==qs[1] then
-      fl(dz,nr,lr)
-     elseif pg==qs[2] then
-      dz[nr+1]=dz[lr+1]
-     elseif pg==qs[9] then
-      dz[nr+1]=ca(rp,hya[tz[lr+1]+1])
-     elseif pg==qs[10] then
-      sy(rp,hya[tz[nr+1]+1],dz[lr+1])
-     elseif pg==qs[3] then
-      local po={}
-      for ose=1,lr do
-       local av=nh+5+(ose-1)*2
-       local dm=gg(zd,av)
-       local mv=gg(zd,av+1)
-       if dm+1>wy or mv+1>wy then mbn(); ssc("vm",0) end
-       po[dz[dm+1]]=dz[mv+1]
-      end
-      dz[nr+1]=po
-     elseif pg==qs[4] then
-      local po={}
-      for ose=1,lr do local dm=gg(zd,nh+5+(ose-1)*2) local mv=gg(zd,nh+6+(ose-1)*2) po[dz[dm+1]]=dz[mv+1] end
-      local kz=dz[eh+1] if type(kz)~=snq[12] then kz={} end for ose=1,#kz do po[ose]=kz[ose] end
-      dz[nr+1]=po
-     elseif pg==qs[5] then
-      go(dz,nr,lr,eh)
-     elseif pg==qs[6] then
-      ss(dz,nr,lr,eh)
-     elseif pg==qs[7] and (mj==4294967295 or bit32.band(mj,2147483648)==0) then
-      dz[nr+1]=dz[eh+1][hya[tz[lr+1]+1]]
-     elseif pg==qs[8] then
-
-      dz[nr+1][hya[tz[lr+1]+1]]=dz[eh+1]
-     elseif pg==qs[70] then
-      if lr<1 or lr>511 or eh<0 then mbn(); ssc("vm",0) end
-      local vq={}
-      for ose=1,((mj==3) and 1 or lr) do
-       local bc=gg(zd,nh+4+ose)
-       if bc+1>ud then mbn(); ssc("vm",0) end
-       vq[ose]=ns[bc+1]
-      end
-      local nv=mj
-      if nv==3 then vq=wm(vq[1],lr) nv=2 end
-      dz[nr+1]=ke(vq,eh,lr,nv,nr)
-      if nv==1 and (type(dz[nr+1])~=snq[9] or #dz[nr+1]~=64) then mbn(); ssc("vm",0) end
-      vq=nil
-     elseif pg==qs[14] then
-      local ww=dz[lr+1]
-      local ig=ww[hya[tz[eh+1]+1]]
-      if type(ig)~=snq[13] then mbn(); ssc("vm",0) end
-      local nn={ww}
-      for ose=1,mj do
-       local ws=gg(zd,nh+4+ose)
-       if ws+1>wy then mbn(); ssc("vm",0) end
-       nn[ose+1]=dz[ws+1]
-      end
-      dz[nr+1]=bd(ig,nn)
-     elseif pg==qs[12] then
-      local sr=dz[lr+1]
-      if type(sr)~=snq[13] then mbn(); ssc("vm",0) end
-      local nn={}
-      for ose=1,mj do
-       local ws=gg(zd,nh+4+ose)
-       if ws+1>wy then mbn(); ssc("vm",0) end
-       nn[ose]=dz[ws+1]
-      end
-      dz[nr+1]=sr(vy(nn))
-     elseif pg==qs[13] then
-      local sr=dz[lr+1] local nn={}
-      for ose=1,mj do local ws=gg(zd,nh+4+ose) nn[ose]=dz[ws+1] end
-      local kz=dz[gg(zd,nh+5+mj)+1] for ose=1,#kz do nn[#nn+1]=kz[ose] end
-      dz[nr+1]=sr(vy(nn))
-     elseif pg==qs[15] then
-      local nn={} for ose=1,mj do local ws=gg(zd,nh+4+ose) nn[ose]=dz[ws+1] end
-      local kz=dz[gg(zd,nh+5+mj)+1] for ose=1,#kz do nn[#nn+1]=kz[ose] end
-      dz[nr+1]=zx(lr,nn)
-     elseif pg==qs[16] then
-      local ks={} for ose=1,mj do ks[ose]=dz[gg(zd,nh+4+ose)+1] end dz[nr+1]=ks
-     elseif pg==qs[17] then
-      local mr=dz[lr+1] local mqt,kw=mr() dz[nr+1]={mqt,kw}
-     elseif pg==qs[30] then
-      if lr<1 or lr>#vlc then mbn(); ssc("vm",0) end
-      local nn={}
-      for ose=1,mj do
-       local ws=gg(zd,nh+4+ose)
-       if ws+1>wy then mbn(); ssc("vm",0) end
-       nn[ose]=dz[ws+1]
-      end
-      dz[nr+1]=zx(lr,nn)
-     elseif pg==qs[11] then
-      local wc=ns[lr+1]
-      if type(wc)~=snq[9] then mbn(); ssc("vm",0) end
-      local rz=lr
-      local bs=(function(eod) local kw=1 for kvm=1,#eod do kw=bit32.band(kw+string.byte(eod,kvm)*kvm,4294967295) end return kw end)(wc)
-      if rz==37 and bs~=4658156 then mbn(); ssc("vm",0) end if rz==27 and bs~=20668613 then mbn(); ssc("vm",0) end if rz==61 and bs~=6325115 then mbn(); ssc("vm",0) end if rz==44 and bs~=52277877 then mbn(); ssc("vm",0) end if rz==68 and bs~=909807 then mbn(); ssc("vm",0) end if rz==95 and bs~=10619802 then mbn(); ssc("vm",0) end if rz==69 and bs~=117410483 then mbn(); ssc("vm",0) end if rz==188 and bs~=46833499 then mbn(); ssc("vm",0) end if rz==187 and bs~=11223297 then mbn(); ssc("vm",0) end if rz==209 and bs~=17516729 then mbn(); ssc("vm",0) end if rz==220 and bs~=39801667 then mbn(); ssc("vm",0) end if rz==127 and bs~=287006394 then mbn(); ssc("vm",0) end if rz==237 and bs~=4691040 then mbn(); ssc("vm",0) end if rz==227 and bs~=19133471 then mbn(); ssc("vm",0) end if rz==244 and bs~=22545957 then mbn(); ssc("vm",0) end if rz==245 and bs~=7889501 then mbn(); ssc("vm",0) end if rz==250 and bs~=260449 then mbn(); ssc("vm",0) end if rz==252 and bs~=909905 then mbn(); ssc("vm",0) end if rz==253 and bs~=105202166 then mbn(); ssc("vm",0) end if rz==282 and bs~=23839179 then mbn(); ssc("vm",0) end
-      if string.byte(wc,1)~=3 then for jbr=1,math.min(#wc,32) do if string.byte(wc,jbr)==3 and string.byte(wc,jbr+1)==0 and string.byte(wc,jbr+2)==0 and string.byte(wc,jbr+3)==0 then wc=string.sub(wc,jbr) break end end end
-      local hm=rp
-      local function hr(...)
-        ok()
-       local nc=tn(hm)
-       local pm={}
-       local si={}
-       local gn=setmetatable({}, {__index=function(obn,mqt) return si[pm[mqt]] end,__newindex=function(obn,mqt,kw) si[pm[mqt]]=kw end})
-       local ku=gg(wc,1) if ku==2 then cav(); mbn("vm",0) end if ku~=3 then cav(); mbn("vm",0) end
-       local bx=gg(wc,2)
-       local qp=gg(wc,3)
-       local lo=gg(wc,4)
-       local sm=0 local dr={} local cs={}
-       if ku==3 then sm=gg(wc,5) if sm<1 or sm>70 then cav(); mbn("vm",0) end for kvm=1,sm do local xh=gg(wc,5+kvm) if xh<1 or xh>70 or cs[xh] then cav(); mbn("vm",0) end dr[xh]=true cs[xh]=true end else for kvm=1,70 do dr[kvm]=true end end
-       local xw={}
-       local ox={}
-       for kvm=1,lo do local vt=gg(wc,4+(ku==3 and 1+sm or 0)+kvm) if vt>=ft or ox[vt] then cav(); mbn("vm",0) end xw[kvm]=vt ox[vt]=true end
-       by(nc,xw,lo,...)
-       pm={}
-       for kvm=1,bx do pm[kvm]=gg(wc,4+(ku==3 and 1+sm or 0)+lo+kvm) end
-       local gh=5+lo+bx+(ku==3 and 1+sm or 0)
-       local vx=gh+qp
-       local dh,ru=km(wc,qp,gh,vx,"6d1a24690d0bafd0dba9d5fc")
-       local eq=1
-       while eq<=qp do
-        local qt=eq+1
-        local su=dh[eq]
-        local yv=gg(wc,su)
-       if not dr[yv] then cav(); mbn("inactive nested opcode",0) end
-        local xs=gg(wc,su+1)
-        local cv=gg(wc,su+2)
-        local dq=gg(wc,su+3)
-        local iw=gg(wc,su+4)
-        if not dr[yv] then cav(); mbn("inactive nested opcode",0) end
-        local fv=ru+1
-        if eq<qp then fv=dh[eq+1] end
-        local ql=su+5
-        if yv==qs[3] then ql=su+5+cv*2 end
-        if yv==qs[4] then ql=su+5+cv*2 end
-        if yv==qs[14] then ql=su+5+iw end
-        if yv==qs[30] then ql=su+5+iw end
-        if yv==qs[12] then ql=su+5+bit32.band(iw,2147483647) end
-        if yv==qs[13] or yv==qs[15] then ql=su+6+iw end
-        if yv==qs[16] then ql=su+5+iw end
-        if yv==qs[70] then ql=su+5+((iw==3) and 1 or cv) end
-        if yv==qs[11] and dq+1<=bx then ql=su+5+iw end
-        if yv==qs[7] and iw~=4294967295 and bit32.band(iw,2147483648)~=0 then ql=su+5+bit32.band(iw,2147483647) end
-        if fv~=ql then cav(); mbn("vm",0) end
-        if yv==qs[1] then
-         gn[xs+1]=ns[cv+1]
-        elseif yv==qs[2] then
-         gn[xs+1]=gn[cv+1]
-        elseif yv==qs[9] then
-         gn[xs+1]=ca(nc,hya[xw[cv+1]+1])
-        elseif yv==qs[10] then
-         sy(nc,hya[xw[xs+1]+1],gn[cv+1])
-        elseif yv==qs[3] then
-         local gm={}
-         for ose=1,((iw==3) and 1 or cv) do
-          local dm=gg(wc,su+3+ose*2)
-          local mv=gg(wc,su+4+ose*2)
-          if dm+1>bx or mv+1>bx then cav(); mbn("vm",0) end
-          gm[gn[dm+1]]=gn[mv+1]
-         end
-         if xs+1>bx then cav(); mbn("vm",0) end
-         gn[xs+1]=gm
-        elseif yv==qs[4] then
-         local gm={} for ose=1,cv do local dm=gg(wc,su+5+(ose-1)*2) local mv=gg(wc,su+6+(ose-1)*2) gm[gn[dm+1]]=gn[mv+1] end local kz=gn[dq+1] if type(kz)~=snq[12] then kz={} end for ose=1,#kz do gm[ose]=kz[ose] end gn[xs+1]=gm
-        elseif yv==qs[5] then
-         if xs+1>bx or cv+1>bx or dq+1>bx then cav(); mbn("vm",0) end
-         gn[xs+1]=gn[cv+1][gn[dq+1]]
-        elseif yv==qs[6] then
-         if xs+1>bx or cv+1>bx or dq+1>bx then cav(); mbn("vm",0) end
-         gn[xs+1][gn[cv+1]]=gn[dq+1]
-        elseif yv==qs[7] and (iw==4294967295 or bit32.band(iw,2147483648)==0) then
-         if xs+1>bx or cv+1>ft or dq+1>bx then cav(); mbn("vm",0) end
-         gn[xs+1]=gn[dq+1][hya[xw[cv+1]+1]]
-        elseif yv==qs[8] then
-
-         if xs+1>bx or cv+1>ft or dq+1>bx then cav(); mbn("vm",0) end
-         gn[xs+1][hya[xw[cv+1]+1]]=gn[dq+1]
-        elseif yv==qs[70] then
-         if cv<1 or cv>511 or dq<0 then cav(); mbn("vm",0) end
-         local we={}
-         for ose=1,cv do
-          local bc=gg(wc,su+4+ose)
-          if bc+1>ud then cav(); mbn("vm",0) end
-          we[ose]=ns[bc+1]
-         end
-         local kb=iw
-         if kb==3 then we=wm(we[1],cv) kb=2 else kb=(kb~=0 and 1 or 0) end
-         gn[xs+1]=ke(we,dq,cv,kb,xs)
-         if kb~=0 and (type(gn[xs+1])~=snq[9] or #gn[xs+1]~=64) then cav(); mbn("vm",0) end
-         we=nil
-        elseif yv==qs[14] then
-         if xs+1>bx or cv+1>bx or dq+1>ft then cav(); mbn("vm",0) end
-         local pp=gn[cv+1]
-         local sx=pp[hya[xw[dq+1]+1]]
-         if type(sx)~=snq[13] then cav(); mbn("vm",0) end
-         local jd={pp}
-         for ose=1,iw do
-          local ws=gg(wc,su+4+ose)
-          if ws+1>bx then cav(); mbn("vm",0) end
-          jd[ose+1]=gn[ws+1]
-         end
-         gn[xs+1]=bd(sx,jd)
-        elseif yv==qs[12] then
-         local ay=gn[cv+1]
-         if type(ay)~=snq[13] then cav(); mbn("vm",0) end
-         local jd={}
-         for ose=1,iw do
-          local ws=gg(wc,su+4+ose)
-          if ws+1>bx then cav(); mbn("vm",0) end
-          jd[ose]=gn[ws+1]
-         end
-         gn[xs+1]=ay(vy(jd))
-        elseif yv==qs[30] then
-         if cv<1 or cv>#vlc then cav(); mbn("vm",0) end
-         local jd={}
-         for ose=1,iw do
-          local ws=gg(wc,su+4+ose)
-          if ws+1>bx then cav(); mbn("vm",0) end
-          jd[ose]=gn[ws+1]
-         end
-         gn[xs+1]=zx(cv,jd)
-        elseif yv==qs[18] then
-         ym(gn,xs,dq,iw,9)
-        elseif yv==qs[19] then
-         ym(gn,xs,dq,iw,6)
-        elseif yv==qs[20] then
-         ym(gn,xs,dq,iw,11)
-        elseif yv==qs[21] then
-         ym(gn,xs,dq,iw,5)
-        elseif yv==qs[28] then
-         gn[xs+1]=gn[dq+1]%gn[iw+1]
-        elseif yv==qs[22] then
-         ym(gn,xs,dq,iw,10)
-        elseif yv==qs[23] then
-         ym(gn,xs,dq,iw,2)
-        elseif yv==qs[24] then
-         ym(gn,xs,dq,iw,7)
-        elseif yv==qs[25] then
-         ym(gn,xs,dq,iw,4)
-        elseif yv==qs[26] then
-         ym(gn,xs,dq,iw,12)
-        elseif yv==qs[27] then
-         ym(gn,xs,dq,iw,1)
-        elseif yv==qs[29] then
-         ym(gn,xs,dq,iw,8)
-        elseif yv==qs[34] then
-         gn[xs+1]=uc(ns[cv+1],gn[dq+1],9)
-        elseif yv==qs[46] then
-         gn[xs+1]=uc(gn[cv+1],ns[dq+1],9)
-        elseif yv==qs[35] then
-         gn[xs+1]=uc(ns[cv+1],gn[dq+1],6)
-        elseif yv==qs[47] then
-         gn[xs+1]=uc(gn[cv+1],ns[dq+1],6)
-        elseif yv==qs[36] then
-         gn[xs+1]=uc(ns[cv+1],gn[dq+1],11)
-        elseif yv==qs[48] then
-         gn[xs+1]=uc(gn[cv+1],ns[dq+1],11)
-        elseif yv==qs[37] then
-         gn[xs+1]=uc(ns[cv+1],gn[dq+1],5)
-        elseif yv==qs[49] then
-         gn[xs+1]=uc(gn[cv+1],ns[dq+1],5)
-        elseif yv==qs[38] then
-         gn[xs+1]=uc(ns[cv+1],gn[dq+1],3)
-        elseif yv==qs[50] then
-         gn[xs+1]=uc(gn[cv+1],ns[dq+1],3)
-        elseif yv==qs[39] then
-         gn[xs+1]=uc(ns[cv+1],gn[dq+1],10)
-        elseif yv==qs[51] then
-         gn[xs+1]=uc(gn[cv+1],ns[dq+1],10)
-        elseif yv==qs[40] then
-         gn[xs+1]=uc(ns[cv+1],gn[dq+1],2)
-        elseif yv==qs[52] then
-         gn[xs+1]=uc(gn[cv+1],ns[dq+1],2)
-        elseif yv==qs[41] then
-         gn[xs+1]=uc(ns[cv+1],gn[dq+1],7)
-        elseif yv==qs[53] then
-         gn[xs+1]=uc(gn[cv+1],ns[dq+1],7)
-        elseif yv==qs[42] then
-         gn[xs+1]=uc(ns[cv+1],gn[dq+1],4)
-        elseif yv==qs[54] then
-         gn[xs+1]=uc(gn[cv+1],ns[dq+1],4)
-        elseif yv==qs[43] then
-         gn[xs+1]=uc(ns[cv+1],gn[dq+1],12)
-        elseif yv==qs[55] then
-         gn[xs+1]=uc(gn[cv+1],ns[dq+1],12)
-        elseif yv==qs[44] then
-         gn[xs+1]=uc(ns[cv+1],gn[dq+1],1)
-        elseif yv==qs[56] then
-         gn[xs+1]=uc(gn[cv+1],ns[dq+1],1)
-        elseif yv==qs[45] then
-         gn[xs+1]=uc(ns[cv+1],gn[dq+1],8)
-        elseif yv==qs[57] then
-         gn[xs+1]=uc(gn[cv+1],ns[dq+1],8)
-        elseif yv==qs[58] then
-         if not uc(ns[dq+1],gn[xs+1],10) then qt=om(cv+1) end
-        elseif yv==qs[64] then
-         if not uc(gn[xs+1],ns[dq+1],10) then qt=om(cv+1) end
-        elseif yv==qs[59] then
-         if not uc(ns[dq+1],gn[xs+1],2) then qt=om(cv+1) end
-        elseif yv==qs[65] then
-         if not uc(gn[xs+1],ns[dq+1],2) then qt=om(cv+1) end
-        elseif yv==qs[60] then
-         if not uc(ns[dq+1],gn[xs+1],7) then qt=om(cv+1) end
-        elseif yv==qs[66] then
-         if not uc(gn[xs+1],ns[dq+1],7) then qt=om(cv+1) end
-        elseif yv==qs[61] then
-         if not uc(ns[dq+1],gn[xs+1],4) then qt=om(cv+1) end
-        elseif yv==qs[67] then
-         if not uc(gn[xs+1],ns[dq+1],4) then qt=om(cv+1) end
-        elseif yv==qs[62] then
-         if not uc(ns[dq+1],gn[xs+1],12) then qt=om(cv+1) end
-        elseif yv==qs[68] then
-         if not uc(gn[xs+1],ns[dq+1],12) then qt=om(cv+1) end
-        elseif yv==qs[63] then
-         if not uc(ns[dq+1],gn[xs+1],1) then qt=om(cv+1) end
-        elseif yv==qs[69] then
-         if not uc(gn[xs+1],ns[dq+1],1) then qt=om(cv+1) end
-        elseif yv==qs[12] and bit32.band(iw,2147483648)~=0 then
-         local ay=gn[xs+1]
-         if type(ay)~=snq[13] then cav(); mbn("vm",0) end
-         local jd={}
-         for ose=1,bit32.band(iw,2147483647) do
-          local ws=gg(wc,su+4+ose)
-          if ws+1>bx then cav(); mbn("vm",0) end
-          jd[ose]=gn[ws+1]
-         end
-         return ay(vy(jd))
-        elseif yv==qs[7] and iw~=4294967295 and bit32.band(iw,2147483648)~=0 then
-         local ay=gn[dq+1][hya[xw[cv+1]+1]]
-         if type(ay)~=snq[13] then cav(); mbn("vm",0) end
-         local jd={}
-         for ose=1,bit32.band(iw,2147483647) do
-          local ws=gg(wc,su+4+ose)
-          if ws+1>bx then cav(); mbn("vm",0) end
-          jd[ose]=gn[ws+1]
-         end
-         gn[xs+1]=ay(vy(jd))
-        elseif yv==qs[13] then
-         local ay=gn[cv+1] local jd={}
-         for ose=1,iw do local ws=gg(wc,su+4+ose) jd[ose]=gn[ws+1] end
-         local kz=gn[gg(wc,su+5+iw)+1] for ose=1,#kz do jd[#jd+1]=kz[ose] end
-         gn[xs+1]=ay(vy(jd))
-        elseif yv==qs[16] then
-         local ks={} for ose=1,iw do ks[ose]=gn[gg(wc,su+4+ose)+1] end gn[xs+1]=ks
-        elseif yv==qs[17] then
-         local mr=gn[cv+1] local mqt,kw=mr() gn[xs+1]={mqt,kw}
-        elseif yv==qs[32] then
-         if cv+1<1 or cv+1>qp then cav(); mbn("vm",0) end
-         qt=om(cv+1)
-        elseif yv==qs[33] then
-         if cv+1<1 or cv+1>qp or dq+1>bx then cav(); mbn("vm",0) end
-         if not gn[dq+1] then qt=om(cv+1) end
-        elseif yv==qs[31] then
-         return ct(gn,xs)
-        else cav(); mbn(nil,0) end
-        eq=qt
-       end
-       return nil
-      end
-      dz[nr+1]=hr
-      if eh+1<=wy then
-       local nn={}
-       for ose=1,mj do
-        local ws=gg(zd,nh+4+ose)
-        if ws+1>wy then cav(); mbn("vm",0) end
-        nn[ose]=dz[ws+1]
-       end
-       dz[eh+1]=hr(vy(nn))
-      end
-     elseif pg==qs[18] then
-      ym(dz,nr,eh,mj,9)
-     elseif pg==qs[19] then
-      ym(dz,nr,eh,mj,6)
-     elseif pg==qs[20] then
-      ym(dz,nr,eh,mj,11)
-     elseif pg==qs[21] then
-      ym(dz,nr,eh,mj,5)
-     elseif pg==qs[28] then
-      dz[nr+1]=dz[eh+1]%dz[mj+1]
-     elseif pg==qs[22] then
-      ym(dz,nr,eh,mj,10)
-     elseif pg==qs[23] then
-      ym(dz,nr,eh,mj,2)
-     elseif pg==qs[24] then
-      ym(dz,nr,eh,mj,7)
-     elseif pg==qs[25] then
-      ym(dz,nr,eh,mj,4)
-     elseif pg==qs[26] then
-      ym(dz,nr,eh,mj,12)
-     elseif pg==qs[27] then
-      ym(dz,nr,eh,mj,1)
-     elseif pg==qs[29] then
-      ym(dz,nr,eh,mj,8)
-     elseif pg==qs[34] then
-      dz[nr+1]=uc(ns[lr+1],dz[eh+1],9)
-     elseif pg==qs[46] then
-      dz[nr+1]=uc(dz[lr+1],ns[eh+1],9)
-     elseif pg==qs[35] then
-      dz[nr+1]=uc(ns[lr+1],dz[eh+1],6)
-     elseif pg==qs[47] then
-      dz[nr+1]=uc(dz[lr+1],ns[eh+1],6)
-     elseif pg==qs[36] then
-      dz[nr+1]=uc(ns[lr+1],dz[eh+1],11)
-     elseif pg==qs[48] then
-      dz[nr+1]=uc(dz[lr+1],ns[eh+1],11)
-     elseif pg==qs[37] then
-      dz[nr+1]=uc(ns[lr+1],dz[eh+1],5)
-     elseif pg==qs[49] then
-      dz[nr+1]=uc(dz[lr+1],ns[eh+1],5)
-     elseif pg==qs[38] then
-      dz[nr+1]=uc(ns[lr+1],dz[eh+1],3)
-     elseif pg==qs[50] then
-      dz[nr+1]=uc(dz[lr+1],ns[eh+1],3)
-     elseif pg==qs[39] then
-      dz[nr+1]=uc(ns[lr+1],dz[eh+1],10)
-     elseif pg==qs[51] then
-      dz[nr+1]=uc(dz[lr+1],ns[eh+1],10)
-     elseif pg==qs[40] then
-      dz[nr+1]=uc(ns[lr+1],dz[eh+1],2)
-     elseif pg==qs[52] then
-      dz[nr+1]=uc(dz[lr+1],ns[eh+1],2)
-     elseif pg==qs[41] then
-      dz[nr+1]=uc(ns[lr+1],dz[eh+1],7)
-     elseif pg==qs[53] then
-      dz[nr+1]=uc(dz[lr+1],ns[eh+1],7)
-     elseif pg==qs[42] then
-      dz[nr+1]=uc(ns[lr+1],dz[eh+1],4)
-     elseif pg==qs[54] then
-      dz[nr+1]=uc(dz[lr+1],ns[eh+1],4)
-     elseif pg==qs[43] then
-      dz[nr+1]=uc(ns[lr+1],dz[eh+1],12)
-     elseif pg==qs[55] then
-      dz[nr+1]=uc(dz[lr+1],ns[eh+1],12)
-     elseif pg==qs[44] then
-      dz[nr+1]=uc(ns[lr+1],dz[eh+1],1)
-     elseif pg==qs[56] then
-      dz[nr+1]=uc(dz[lr+1],ns[eh+1],1)
-     elseif pg==qs[45] then
-      dz[nr+1]=uc(ns[lr+1],dz[eh+1],8)
-     elseif pg==qs[57] then
-      dz[nr+1]=uc(dz[lr+1],ns[eh+1],8)
-     elseif pg==qs[58] then
-      if not uc(ns[eh+1],dz[nr+1],10) then es=om(lr+1) end
-     elseif pg==qs[64] then
-      if not uc(dz[nr+1],ns[eh+1],10) then es=om(lr+1) end
-     elseif pg==qs[59] then
-      if not uc(ns[eh+1],dz[nr+1],2) then es=om(lr+1) end
-     elseif pg==qs[65] then
-      if not uc(dz[nr+1],ns[eh+1],2) then es=om(lr+1) end
-     elseif pg==qs[60] then
-      if not uc(ns[eh+1],dz[nr+1],7) then es=om(lr+1) end
-     elseif pg==qs[66] then
-      if not uc(dz[nr+1],ns[eh+1],7) then es=om(lr+1) end
-     elseif pg==qs[61] then
-      if not uc(ns[eh+1],dz[nr+1],4) then es=om(lr+1) end
-     elseif pg==qs[67] then
-      if not uc(dz[nr+1],ns[eh+1],4) then es=om(lr+1) end
-     elseif pg==qs[62] then
-      if not uc(ns[eh+1],dz[nr+1],12) then es=om(lr+1) end
-     elseif pg==qs[68] then
-      if not uc(dz[nr+1],ns[eh+1],12) then es=om(lr+1) end
-     elseif pg==qs[63] then
-      if not uc(ns[eh+1],dz[nr+1],1) then es=om(lr+1) end
-     elseif pg==qs[69] then
-      if not uc(dz[nr+1],ns[eh+1],1) then es=om(lr+1) end
-     elseif pg==qs[12] and bit32.band(mj,2147483648)~=0 then
-      local sr=dz[nr+1]
-      if type(sr)~=snq[13] then cav(); mbn("vm",0) end
-      local nn={}
-      for ose=1,bit32.band(mj,2147483647) do
-       local ws=gg(zd,nh+4+ose)
-       if ws+1>wy then cav(); mbn("vm",0) end
-       nn[ose]=dz[ws+1]
-      end
-      return sr(vy(nn))
-     elseif pg==qs[7] and mj~=4294967295 and bit32.band(mj,2147483648)~=0 then
-      local sr=dz[eh+1][hya[tz[lr+1]+1]]
-      if type(sr)~=snq[13] then cav(); mbn("vm",0) end
-      local nn={}
-      for ose=1,bit32.band(mj,2147483647) do
-       local ws=gg(zd,nh+4+ose)
-       if ws+1>wy then cav(); mbn("vm",0) end
-       nn[ose]=dz[ws+1]
-      end
-      dz[nr+1]=sr(vy(nn))
-     elseif pg==qs[32] then
-      es=om(lr+1)
-     elseif pg==qs[33] then
-      if not dz[eh+1] then es=om(lr+1) end
-     elseif pg==qs[31] then
-      return ct(dz,nr)
-     else cav(); mbn(nil,0) end
-     kf=es
-    end
-    return nil
-   end
-   return rn
-   end
-   local rn=ij()
-   llr[eme]=rn
+function zq(zes,xh,wn,zd)
+ local pf=mt[zes]
+ if pf==nil then ufe(); bll("vm",0) end
+ return pf(xh,wn,zd)
 end
-aq[50]=function()
-   if jcb+1>oy or qns+1>ud then cav(); mbn("vm",0) end
-   llr[eme]=la(llr[jcb+1],ns[qns+1],10)
-end
-aq[25]=function()
-   local bi={}
-   if jcb+1>oy or qns+1>oy then cav(); mbn("vm",0) end
-   llr[eme]=la(llr[jcb+1],llr[qns+1],6)
-end
-aq[34]=function()
-   if jcb+1>ud or qns+1>oy then cav(); mbn("vm",0) end
-   llr[eme]=la(ns[jcb+1],llr[qns+1],5)
-end
-aq[23]=function()
-   if jcb+1>oy or qns+1>oy then cav(); mbn("vm",0) end
-   llr[eme]=la(llr[jcb+1],llr[qns+1],4)
-end
-aq[13]=function()
-   local bi={}
-   if jcb+1>oy or qns<0 then cav(); mbn("vm",0) end
-   local fe=llr[jcb+1]
-   local lg=nil if type(fe)~=snq[13] then local qm=getmetatable(fe) lg=qm and qm.__call if type(lg)~=snq[13] then cav(); mbn("vm",0) end end
-   local tek={}
-   for ose=1,qns do
-    if pdo.a>fy then cav(); mbn("vm",0) end
-    local ws=gk(pdo.a)+1
-    tek[ose]=llr[ws]
-    pdo.a=pdo.a+1
-   end
-   local db=gk(pdo.a)+1
-   pdo.a=pdo.a+1
-   local kz=llr[db]
-   if type(kz)~=snq[12] then kz={kz} end
-   for ose=1,(kz.n or #kz) do tek[#tek+1]=kz[ose] end
-   llr[eme]=fe(vy(tek,1,qns+(kz.n or #kz)))
-   tek=nil; kz=nil
-end
-aq[41]=function()
-   local bi={}
-   if qns+1>oy or jcb+1>ud then cav(); mbn("vm",0) end
-   local ygx=ns[jcb+1]
-   local oms=llr[qns+1]
-   llr[eme]=la(ygx,oms,7)
-end
-aq[58]=function()
-   if eme>oy or jcb+1>mf or qns+1>ud then cav(); mbn("vm",0) end
-   if not la(ns[qns+1],llr[eme],12) then pdo.j=true; pdo.a=gb[jcb+1]+1; lw(jcb+1) end
-end
-aq[21]=function()
-   local bi={}
-   if jcb+1>oy or qns+1>oy then cav(); mbn("vm",0) end
-   llr[eme]=la(llr[jcb+1],llr[qns+1],11)
-end
-aq[18]=function()
-   if jcb+1>oy or qns+1>oy then cav(); mbn("vm",0) end
-   llr[eme]=la(llr[jcb+1],llr[qns+1],5)
-end
-aq[57]=function()
-   local bi={}
-   if qns+1>ud or jcb+1>oy then cav(); mbn("vm",0) end
-   local ygx=llr[jcb+1]
-   local oms=ns[qns+1]
-   llr[eme]=la(ygx,oms,8)
-end
-aq[14]=function()
-   if jcb+1>oy or qns+1>ft then cav(); mbn("vm",0) end
-   local ua=llr[jcb+1]
-   local ld=type(ua)
-   if ld~=snq[12] and ld~="userdata" then cav(); mbn("vm",0) end
-   local bu=ua[hya[qns+1]]
-
-   if type(bu)~=snq[13] then cav(); mbn("vm",0) end
-   if pdo.a>fy then cav(); mbn("vm",0) end
-   local sv=gk(pdo.a)
-   pdo.a=pdo.a+1
-   local tek={ua}
-   for ose=1,sv do
-    if pdo.a>fy then cav(); mbn("vm",0) end
-    local ws=gk(pdo.a)+1
-    if ws<1 or ws>oy then cav(); mbn("vm",0) end
-    tek[ose+1]=llr[ws]
-    pdo.a=pdo.a+1
-   end
-
-   llr[eme]=bu(vy(tek))
-   tek=nil
-   ua=nil
-   bu=nil
-end
-aq[37]=function()
-   local bi={}
-   if qns+1>oy or jcb+1>ud then cav(); mbn("vm",0) end
-   local ygx=ns[jcb+1]
-   local oms=llr[qns+1]
-   llr[eme]=la(ygx,oms,11)
-end
-aq[70]=function()
-   if jcb<1 or jcb>511 or qns<0 then cav(); mbn("vm",0) end
-   local vj={}
-   local vw=bit32.band(qns,1073741824)~=0 and (bit32.band(qns,2147483648)~=0 and 3 or 2) or (bit32.band(qns,2147483648)~=0 and 1 or 0)
-   local ep=(vw==3) and 1 or jcb
-   for ose=1,ep do
-    if pdo.a>fy then cav(); mbn("vm",0) end
-    local bc=gk(pdo.a)+1
-    pdo.a=pdo.a+1
-    if bc<1 or bc>ud then cav(); mbn("vm",0) end
-    vj[ose]=ns[bc]
-   end
-   qns=bit32.band(qns,1073741823)
-   if vw==3 then vj=wm(vj[1],jcb) vw=2 end
-   llr[eme]=ke(vj,qns,jcb,vw,eme)
-   vj=nil
-end
-aq[17]=function()
-   local bi={}
-   local mr=llr[jcb]
-   if type(mr)~=snq[13] then mr=llr[jcb+1] end
-   if type(mr)~=snq[13] then cav(); mbn("vm",0) end
-   local mqt,kw=mr()
-   llr[eme]={mqt,kw}
-end
-aq[47]=function()
-   if qns+1>ud or jcb+1>oy then cav(); mbn("vm",0) end
-   local ygx=llr[jcb+1]
-   local oms=ns[qns+1]
-   llr[eme]=la(ygx,oms,2)
-end
-aq[38]=function()
-   if jcb+1>ud or qns+1>oy then cav(); mbn("vm",0) end
-   llr[eme]=la(ns[jcb+1],llr[qns+1],10)
-end
-aq[16]=function()
-   local bi=0
-   local ks={}
-   for ose=1,jcb do
-    local mv=gk(pdo.a)+1
-    ks[ose]=llr[mv]
-    pdo.a=pdo.a+1
-   end
-   llr[eme]=ks
-ks=nil
-end
-aq[15]=function()
-   if jcb<1 or jcb>#vlc then cav(); mbn("vm",0) end
-   local tek={}
-   for ose=1,qns do
-    local ws=gk(pdo.a)+1
-    tek[ose]=llr[ws]
-    pdo.a=pdo.a+1
-   end
-   local db=gk(pdo.a)+1
-   pdo.a=pdo.a+1
-   local kz=llr[db]
-   if type(kz)~=snq[12] then kz={kz} end
-   for ose=1,#kz do tek[#tek+1]=kz[ose] end
-   llr[eme]=zx(jcb,tek)
-   tek=nil; kz=nil
-end
-aq[46]=function()
-   if jcb+1>oy or qns+1>ud then cav(); mbn("vm",0) end
-   llr[eme]=la(llr[jcb+1],ns[qns+1],5)
-end
-aq[45]=function()
-   local bi={}
-   if qns+1>oy or jcb+1>ud then cav(); mbn("vm",0) end
-   local ygx=ns[jcb+1]
-   local oms=llr[qns+1]
-   llr[eme]=la(ygx,oms,8)
-end
-aq[39]=function()
-   if qns+1>oy or jcb+1>ud then cav(); mbn("vm",0) end
-   local ygx=ns[jcb+1]
-   local oms=llr[qns+1]
-   llr[eme]=la(ygx,oms,12)
-end
-aq[40]=function()
-   local bi=0
-   if qns+1>oy or jcb+1>ud then cav(); mbn("vm",0) end
-   local ygx=ns[jcb+1]
-   local oms=llr[qns+1]
-   llr[eme]=la(ygx,oms,4)
-end
-aq[55]=function()
-   if qns+1>ud or jcb+1>oy then cav(); mbn("vm",0) end
-   local ygx=llr[jcb+1]
-   local oms=ns[qns+1]
-   llr[eme]=la(ygx,oms,9)
-end
-aq[3]=function()
-   local sz={}
-   for ose=1,jcb do
-    if pdo.a+1>fy then cav(); mbn("vm",0) end
-    local dm=gk(pdo.a)+1
-    pdo.a=pdo.a+1
-    local mv=gk(pdo.a)+1
-    pdo.a=pdo.a+1
-    if dm<1 or dm>oy or mv<1 or mv>oy then cav(); mbn("vm",0) end
-    sz[llr[dm]]=llr[mv]
-   end
-   llr[eme]=sz
-   sz=nil
-end
-aq[64]=function()
-   local bi=0
-   if eme>oy or jcb+1>mf or qns+1>ud then cav(); mbn("vm",0) end
-   local ap=not la(llr[eme],ns[qns+1],12)
-   if ap then pdo.j=true; pdo.a=gb[jcb+1]+1; lw(jcb+1) end
-end
-aq[54]=function()
-   if jcb+1>oy or qns+1>ud then cav(); mbn("vm",0) end
-   llr[eme]=la(llr[jcb+1],ns[qns+1],6)
-end
-aq[8]=function()
-   local bi=0
-   if eme+1>oy or jcb+1>ft or qns+1>oy then cav(); mbn("vm",0) end
-   wk(4,llr,eme,jcb+1,qns+1)
-end
-aq[61]=function()
-   local bi={}
-   if eme>oy or jcb+1>mf or qns+1>ud then cav(); mbn("vm",0) end
-   local ap=not la(ns[qns+1],llr[eme],6)
-   if ap then pdo.j=true; pdo.a=gb[jcb+1]+1; lw(jcb+1) end
-end
-function kn(tc)
- local uy=aq[tc]
- if uy==nil then cav(); mbn("vm",0) end
- return uy()
-end
-function hf(qye,eme,jcb)
- qye[eme+1]=ns[jcb+1]
-end
-function xb(qye,lgt,mpr,eme,jcb)
- qye[eme+1]=ca(lgt,hya[mpr[jcb+1]+1])
-end
-function hu(qye,lgt,mpr,eme,jcb)
- sy(lgt,hya[mpr[eme+1]+1],qye[jcb+1])
-end
-function hb(qye,eme,jcb,qns)
- qye[eme+1]=qye[jcb+1][qye[qns+1]]
-end
-function qa(qye,eme,jcb,qns)
- qye[eme+1][qye[jcb+1]]=qye[qns+1]
-end
-function nf(qye,mpr,eme,jcb,qns)
- qye[eme+1]=qye[qns+1][hya[mpr[jcb+1]+1]]
-end
-function ts(qye,mpr,eme,jcb,qns)
- qye[eme+1][hya[mpr[jcb+1]+1]]=qye[qns+1]
-end
-function ei(nnw,xhm) return nnw>=xhm end
-function fz(nnw,xhm) return nnw~=xhm end
-function cy(nnw,xhm) return nnw>xhm end
-function cn(nnw,xhm) return nnw/xhm end
-function vk(nnw,xhm) return nnw-xhm end
-function sb(nnw,xhm) return nnw<xhm end
-function qd(nnw,xhm) return nnw..xhm end
-function cf(nnw,xhm) return nnw+xhm end
-function hp(nnw,xhm) return nnw==xhm end
-function tv(nnw,xhm) return nnw*xhm end
-function xz(nnw,xhm) return nnw<=xhm end
 local cz={}
-cz[1]=ei
-cz[2]=fz
-cz[4]=cy
-cz[5]=cn
-cz[6]=vk
-cz[7]=sb
-cz[8]=qd
-cz[9]=cf
-cz[10]=hp
-cz[11]=tv
-cz[12]=xz
-local im={}
-local wp={}
-im[1]=function(ymh) ymh[4]=cz[ymh[3]] end
-im[2]=function(ymh) ymh[4]=ymh[4](ymh[1],ymh[2]) end
-im[3]=function(ymh) ymh[1]=ymh[1] end
-im[4]=function(ymh) ymh[2]=ymh[2] end
-wp[1]={3,1,2}
-wp[2]={4,1,2}
-wp[4]={4,1,2}
-wp[5]={3,1,2}
-wp[6]={4,1,2}
-wp[7]={3,1,2}
-wp[8]={4,1,2}
-wp[9]={3,1,2}
-wp[10]={4,1,2}
-wp[11]={3,1,2}
-wp[12]={4,1,2}
-local function uc(nnw,xhm,egw)
- local mt=wp[egw]
- if mt==nil then cav(); mbn("vm",0) end
- local pb={nnw,xhm,egw,nil}
- for kvm=1,#mt do
-  local zg=im[mt[kvm]]
-  if zg==nil then cav(); mbn("vm",0) end
-  zg(pb)
- end
- return pb[4]
+cz[1]=function(uyl,kys,kng,ufi) local wn=uyl[kng] local rze=uyl[ufi] if type(wn)==gzm[12] then uyl[kys]=wn[rze] elseif rze==1 then uyl[kys]=wn else uyl[kys]=nil end end
+cz[2]=function(uyl,kys,kng,ufi) uyl[kys][uyl[kng]]=uyl[ufi] end
+cz[3]=function(uyl,kys,kng,ufi) uyl[kys]=uyl[ufi][xxo[kng]] end
+cz[4]=function(uyl,kys,kng,ufi) uyl[kys][xxo[kng]]=uyl[ufi] end
+function mz(zes,uyl,kys,kng,ufi)
+ local pf=cz[zes]
+ if pf==nil then ufe(); bll("vm",0) end
+ return pf(uyl,kys,kng,ufi)
 end
-function ed(qye,eme,jcb,qns,egw)
- qye[eme+1]=uc(qye[jcb+1],qye[qns+1],egw)
+local gn={}
+local mm=2858378530
+for lbc=1,70 do gn[lbc]=lbc end
+for lbc=70,2,-1 do mm=bit32.band(mm*1664525+1013904223,4294967295) local tyv=mm%lbc+1 gn[lbc],gn[tyv]=gn[tyv],gn[lbc] end
+local nk={}
+for lbc=1,70 do local gdh=(gn[lbc]-1)*17+52 nk[lbc]=gn[gdh%70+1] end
+gn=nk
+ju[(((39-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   if ufi+1>dc or kng+1>qt then ufe(); bll("vm",0) end
+   zrf[kys]=gh(omj[kng+1],zrf[ufi+1],4)
 end
-function ln(kx)
- local wg=kx
- return wg
+ju[(((7-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   if ufi+1>dc or kng+1>wx then ufe(); bll("vm",0) end
+   mz(3,zrf,kys,kng+1,ufi+1)
 end
-function rd(kw,kx,mm)
- if kw then return mm end
- return kx
-end
-function jo(qye,eme)
- local kd=qye[eme+1]
- return kd
-end
-function wh(bu,tek)
- if type(bu)~=snq[13] then mbn(); ssc("vm",0) end
- local quw=bu
- return quw(vy(tek))
-end
-function cj(bb)
- local xzr={}
- for mqt in pairs(bb) do xzr[mqt]=bb[mqt] end
- return xzr
-end
-function bj(eod,ta,ds,wz,mg)
- local le=math.floor(#eod/4)
- if #eod%4~=0 or wz>le+1 then ssc(); evq(mg,0) end
- local yn={}
- for kvm=1,ta do
-  local wb=gg(eod,ds+kvm-1)
-  if wb<wz or wb+4>le then ssc(); evq(mg,0) end
-  if kvm>1 and wb<=yn[kvm-1] then ssc(); evq(mg,0) end
-  yn[kvm]=wb
- end
- return yn,le
-end
-function zp(sg,bh,ip,...)
- local sv=select('#',...)
- local wyc=math.min(sv,ip)
- for kvm=wyc,1,-1 do
-  sy(sg,hya[bh[kvm]+1],select(kvm,...))
- end
-end
-function ro(eod,mg)
- local ci=gg(eod,1) if ci==2 then evq(); cav("vm",0) end if ci~=3 then evq(); cav(mg,0) end
- local oy=gg(eod,2)
- local sa=gg(eod,3)
- local ip=gg(eod,4)
- local zq=70 local nj=0 if ci==3 then zq=gg(eod,5) nj=zq end
- if ci==3 and (zq<1 or zq>70) then evq(); cav(mg,0) end
- local yy={} local fg={}
- if ci==3 then for kvm=1,zq do local tc=gg(eod,5+kvm) if tc<1 or tc>70 or fg[tc] then evq(); cav(mg,0) end yy[tc]=true fg[tc]=true end else for kvm=1,70 do yy[kvm]=true end end
- local bh={}
- local pi={}
- for kvm=1,ip do
-  local vt=gg(eod,4+nj+kvm) if vt>=ft or pi[vt] then evq(); cav(mg,0) end bh[kvm]=vt pi[vt]=true
- end
- local hd={}
- local jt={}
- for kvm=1,oy do
-  local ii=gg(eod,4+nj+ip+kvm)
-  if ii<1 or ii>oy or jt[ii] then evq(); cav(mg,0) end
-  hd[kvm]=ii
-  jt[ii]=true
- end
- local ds=5+ip+oy+(ci==3 and 1+zq or 0)
- local wz=ds+sa
- local yn,le=bj(eod,sa,ds,wz,mg)
- return oy,sa,ip,bh,hd,yn,le,yy
-end
-local hl={}
-hl[qs[1]]=1
-hl[qs[2]]=2
-hl[qs[3]]=3
-hl[qs[4]]=4
-hl[qs[5]]=5
-hl[qs[6]]=6
-hl[qs[7]]=7
-hl[qs[8]]=8
-hl[qs[9]]=9
-hl[qs[10]]=10
-hl[qs[11]]=11
-hl[qs[12]]=12
-hl[qs[13]]=13
-hl[qs[14]]=14
-hl[qs[15]]=15
-hl[qs[16]]=16
-hl[qs[17]]=17
-hl[qs[18]]=18
-hl[qs[19]]=19
-hl[qs[20]]=20
-hl[qs[21]]=21
-hl[qs[22]]=22
-hl[qs[23]]=23
-hl[qs[24]]=24
-hl[qs[25]]=25
-hl[qs[26]]=26
-hl[qs[27]]=27
-hl[qs[28]]=28
-hl[qs[29]]=29
-hl[qs[30]]=30
-hl[qs[31]]=31
-hl[qs[32]]=32
-hl[qs[33]]=33
-hl[qs[34]]=34
-hl[qs[35]]=35
-hl[qs[36]]=36
-hl[qs[37]]=37
-hl[qs[38]]=38
-hl[qs[39]]=39
-hl[qs[40]]=40
-hl[qs[41]]=41
-hl[qs[42]]=42
-hl[qs[43]]=43
-hl[qs[44]]=44
-hl[qs[45]]=45
-hl[qs[46]]=46
-hl[qs[47]]=47
-hl[qs[48]]=48
-hl[qs[49]]=49
-hl[qs[50]]=50
-hl[qs[51]]=51
-hl[qs[52]]=52
-hl[qs[53]]=53
-hl[qs[54]]=54
-hl[qs[55]]=55
-hl[qs[56]]=56
-hl[qs[57]]=57
-hl[qs[58]]=58
-hl[qs[59]]=59
-hl[qs[60]]=60
-hl[qs[61]]=61
-hl[qs[62]]=62
-hl[qs[63]]=63
-hl[qs[64]]=64
-hl[qs[65]]=65
-hl[qs[66]]=66
-hl[qs[67]]=67
-hl[qs[68]]=68
-hl[qs[69]]=69
-hl[qs[70]]=70
-function nz(kw)
- return hl[kw]
-end
-function vz(kw,cwz)
- return nz(kw)==cwz
-end
-local nm={}
-nm[1]=1
-nm[2]=2
-nm[3]=3
-nm[4]=4
-nm[5]=5
-nm[6]=6
-nm[7]=7
-nm[8]=8
-nm[9]=9
-nm[10]=10
-nm[11]=11
-nm[12]=12
-nm[13]=13
-nm[14]=14
-nm[15]=15
-nm[16]=16
-nm[17]=17
-nm[18]=18
-nm[19]=19
-nm[20]=20
-nm[21]=21
-nm[22]=22
-nm[23]=23
-nm[24]=24
-nm[25]=25
-nm[26]=26
-nm[27]=27
-nm[28]=28
-nm[29]=29
-nm[30]=30
-nm[31]=31
-nm[32]=32
-nm[33]=33
-nm[34]=34
-nm[35]=35
-nm[36]=36
-nm[37]=37
-nm[38]=38
-nm[39]=39
-nm[40]=40
-nm[41]=41
-nm[42]=42
-nm[43]=43
-nm[44]=44
-nm[45]=45
-nm[46]=46
-nm[47]=47
-nm[48]=48
-nm[49]=49
-nm[50]=50
-nm[51]=51
-nm[52]=52
-nm[53]=53
-nm[54]=54
-nm[55]=55
-nm[56]=56
-nm[57]=57
-nm[58]=58
-nm[59]=59
-nm[60]=60
-nm[61]=61
-nm[62]=62
-nm[63]=63
-nm[64]=64
-nm[65]=65
-nm[66]=66
-nm[67]=67
-nm[68]=68
-nm[69]=69
-nm[70]=70
-local qv={}
-function tq(nnw,xhm) return nnw>=xhm end
-function fx(nnw,xhm) return nnw-xhm end
-function cm(nnw,xhm) return nnw*xhm end
-function uz(nnw,xhm) return nnw~=xhm end
-function ab(nnw,xhm) return nnw+xhm end
-function cq(nnw,xhm) return nnw>xhm end
-function rg(nnw,xhm) return nnw<xhm end
-function lj(nnw,xhm) return nnw..xhm end
-function og(nnw,xhm) return nnw<=xhm end
-function jq(nnw,xhm) return nnw%xhm end
-function id(nnw,xhm) return nnw/xhm end
-function tm(nnw,xhm) return nnw==xhm end
-local ug={}
-ug[1]=tq
-ug[2]=fx
-ug[3]=cm
-ug[4]=uz
-ug[5]=ab
-ug[6]=cq
-ug[7]=rg
-ug[8]=lj
-ug[9]=og
-ug[10]=jq
-ug[11]=id
-ug[12]=tm
-function sq(nnw,xhm,bpd)
- local fw=ug[bpd]
- if fw==nil then ssc(); evq("vm",0) end
- return fw(nnw,xhm) end
-local nd={}
-nd[1]=function(qye,pyv,eme,jcb)
- qye[eme]=ca(pyv,hya[jcb])
-end
-nd[2]=function(qye,pyv,eme,jcb)
- sy(pyv,hya[eme],qye[jcb+1])
-end
-function wx(byy,qye,pyv,eme,jcb)
- local fw=nd[byy]
- if fw==nil then evq(); cav("vm",0) end
- return fw(qye,pyv,eme,jcb)
-end
-local nw={}
-nw[1]=function(fb,kx)
- return true,fb[kx]+1
-end
-nw[2]=function(fb,kx,kw)
- if kw then return false,nil end
- return true,fb[kx]+1
-end
-function lm(byy,fb,kx,kw)
- local fw=nw[byy]
- if fw==nil then ssc(); evq("vm",0) end
- return fw(fb,kx,kw)
-end
-local bz={}
-bz[1]=function(qye,eme,jcb,qns) local kx=qye[jcb] local mqt=qye[qns] if type(kx)==snq[12] then qye[eme]=kx[mqt] elseif mqt==1 then qye[eme]=kx else qye[eme]=nil end end
-bz[2]=function(qye,eme,jcb,qns) qye[eme][qye[jcb]]=qye[qns] end
-bz[3]=function(qye,eme,jcb,qns) qye[eme]=qye[qns][hya[jcb]] end
-bz[4]=function(qye,eme,jcb,qns) qye[eme][hya[jcb]]=qye[qns] end
-function oa(byy,qye,eme,jcb,qns)
- local fw=bz[byy]
- if fw==nil then cav(); mbn("vm",0) end
- return fw(qye,eme,jcb,qns)
-end
-local fc={}
-local ry=84710789
-for kvm=1,70 do fc[kvm]=kvm end
-for kvm=70,2,-1 do ry=bit32.band(ry*1664525+1013904223,4294967295) local ose=ry%kvm+1 fc[kvm],fc[ose]=fc[ose],fc[kvm] end
-local rh={}
-for kvm=1,70 do local yoz=(fc[kvm]-1)*17+0 rh[kvm]=fc[yoz%70+1] end
-fc=rh
-qv[(((61-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   if qns+1>ud or jcb+1>mf or eme>oy then cav(); mbn("vm",0) end
-   if not sq(ns[qns+1],mop[eme],6) then pdo.j=true; pdo.a=gb[jcb+1]+1; lw(jcb+1) end
-end
-qv[(((8-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   local bi={}
-   if qns+1>oy or jcb+1>ft or eme+1>oy then cav(); mbn("vm",0) end
-   oa(4,mop,eme,jcb+1,qns+1)
-end
-qv[(((54-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   if jcb+1>oy or qns+1>ud then cav(); mbn("vm",0) end
-   local ygx=mop[jcb+1]
-   local oms=ns[qns+1]
-   mop[eme]=sq(ygx,oms,6)
-end
-qv[(((64-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   local bi={}
-   if qns+1>ud or jcb+1>mf or eme>oy then cav(); mbn("vm",0) end
-   local ap=not sq(mop[eme],ns[qns+1],12)
-   if ap then pdo.j=true; pdo.a=gb[jcb+1]+1; lw(jcb+1) end
-end
-qv[(((3-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   local bi=0
-   local sz={}
-   for ose=1,jcb do
-    if pdo.a+1>fy then cav(); mbn("vm",0) end
-    local dm=gk(pdo.a)+1
-    pdo.a=pdo.a+1
-    local mv=gk(pdo.a)+1
-    pdo.a=pdo.a+1
-    if mv>oy or mv<1 or dm>oy or dm<1 then cav(); mbn("vm",0) end
-    sz[mop[dm]]=mop[mv]
-   end
-   mop[eme]=sz
-   sz=nil
-end
-qv[(((55-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   local bi=0
-   if jcb+1>oy or qns+1>ud then cav(); mbn("vm",0) end
-   local ygx=mop[jcb+1]
-   local oms=ns[qns+1]
-   mop[eme]=sq(ygx,oms,9)
-end
-qv[(((40-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   local bi={}
-   if jcb+1>ud or qns+1>oy then cav(); mbn("vm",0) end
-   local ygx=ns[jcb+1]
-   local oms=mop[qns+1]
-   mop[eme]=sq(ygx,oms,4)
-end
-qv[(((39-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   local bi=0
-   if jcb+1>ud or qns+1>oy then cav(); mbn("vm",0) end
-   local ygx=ns[jcb+1]
-   local oms=mop[qns+1]
-   mop[eme]=sq(ygx,oms,12)
-end
-qv[(((45-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   if qns+1>oy or jcb+1>ud then cav(); mbn("vm",0) end
-   mop[eme]=sq(ns[jcb+1],mop[qns+1],8)
-end
-qv[(((46-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   if jcb+1>oy or qns+1>ud then cav(); mbn("vm",0) end
-   local ygx=mop[jcb+1]
-   local oms=ns[qns+1]
-   mop[eme]=sq(ygx,oms,5)
-end
-qv[(((15-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   local bi=0
-   if jcb>#vlc or jcb<1 then cav(); mbn("vm",0) end
-   local tek={}
-   for ose=1,qns do
-    local ws=gk(pdo.a)+1
-    tek[ose]=mop[ws]
-    pdo.a=pdo.a+1
-   end
-   local db=gk(pdo.a)+1
-   pdo.a=pdo.a+1
-   local kz=mop[db]
-   if type(kz)~=snq[12] then kz={kz} end
-   for ose=1,#kz do tek[#tek+1]=kz[ose] end
-   mop[eme]=zx(jcb,tek)
-   tek=nil; kz=nil
-end
-qv[(((16-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   local bi={}
-   local ks={}
-   for ose=1,jcb do
-    local mv=gk(pdo.a)+1
-    ks[ose]=mop[mv]
-    pdo.a=pdo.a+1
-   end
-   mop[eme]=ks
-ks=nil
-end
-qv[(((38-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   if jcb+1>ud or qns+1>oy then cav(); mbn("vm",0) end
-   local ygx=ns[jcb+1]
-   local oms=mop[qns+1]
-   mop[eme]=sq(ygx,oms,10)
-end
-qv[(((47-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   local bi=0
-   if jcb+1>oy or qns+1>ud then cav(); mbn("vm",0) end
-   local ygx=mop[jcb+1]
-   local oms=ns[qns+1]
-   mop[eme]=sq(ygx,oms,2)
-end
-qv[(((17-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   local mr=mop[jcb]
-   if type(mr)~=snq[13] then mr=mop[jcb+1] end
-   if type(mr)~=snq[13] then cav(); mbn("vm",0) end
-   local mqt,kw=mr()
-   mop[eme]={mqt,kw}
-end
-qv[(((70-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   if qns<0 or jcb>511 or jcb<1 then cav(); mbn("vm",0) end
-   local vj={}
-   local vw=bit32.band(qns,1073741824)~=0 and (bit32.band(qns,2147483648)~=0 and 3 or 2) or (bit32.band(qns,2147483648)~=0 and 1 or 0)
-   local ep=(vw==3) and 1 or jcb
-   for ose=1,ep do
-    if pdo.a>fy then cav(); mbn("vm",0) end
-    local bc=gk(pdo.a)+1
-    pdo.a=pdo.a+1
-    if bc>ud or bc<1 then cav(); mbn("vm",0) end
-    vj[ose]=ns[bc]
-   end
-   qns=bit32.band(qns,1073741823)
-   if vw==3 then vj=wm(vj[1],jcb) vw=2 end
-   mop[eme]=ke(vj,qns,jcb,vw,eme)
-   vj=nil
-end
-qv[(((37-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   if qns+1>oy or jcb+1>ud then cav(); mbn("vm",0) end
-   mop[eme]=sq(ns[jcb+1],mop[qns+1],11)
-end
-qv[(((14-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   if qns+1>ft or jcb+1>oy then cav(); mbn("vm",0) end
-   local ua=mop[jcb+1]
-   local ld=type(ua)
-   if ld~="userdata" and ld~=snq[12] then cav(); mbn("vm",0) end
-   local bu=ua[hya[qns+1]]
+ju[(((14-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   local xm={}
+   if ufi+1>wx or kng+1>dc then ufe(); bll("vm",0) end
+   local bc=zrf[kng+1]
+   local hu=type(bc)
+   if hu~="userdata" and hu~=gzm[12] then ufe(); bll("vm",0) end
+   local tu=bc[xxo[ufi+1]]
 
-   if type(bu)~=snq[13] then cav(); mbn("vm",0) end
-   if pdo.a>fy then cav(); mbn("vm",0) end
-   local sv=gk(pdo.a)
-   pdo.a=pdo.a+1
-   local tek={ua}
-   for ose=1,sv do
-    if pdo.a>fy then cav(); mbn("vm",0) end
-    local ws=gk(pdo.a)+1
-    if ws>oy or ws<1 then cav(); mbn("vm",0) end
-    tek[ose+1]=mop[ws]
-    pdo.a=pdo.a+1
+   if type(tu)~=gzm[13] then ufe(); bll("vm",0) end
+   if guk.a>sw then ufe(); bll("vm",0) end
+   local ib=sz(guk.a)
+   guk.a=guk.a+1
+   local ean={bc}
+   for tyv=1,ib do
+    if guk.a>sw then ufe(); bll("vm",0) end
+    local xv=sz(guk.a)+1
+    if xv>dc or xv<1 then ufe(); bll("vm",0) end
+    ean[tyv+1]=zrf[xv]
+    guk.a=guk.a+1
    end
 
-   mop[eme]=bu(vy(tek))
-   tek=nil
-   ua=nil
-   bu=nil
+   zrf[kys]=tu(hb(ean))
+   ean=nil
+   bc=nil
+   tu=nil
 end
-qv[(((57-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   if qns+1>ud or jcb+1>oy then cav(); mbn("vm",0) end
-   mop[eme]=sq(mop[jcb+1],ns[qns+1],8)
+ju[(((52-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   if kng+1>dc or ufi+1>qt then ufe(); bll("vm",0) end
+   local aow=zrf[kng+1]
+   local saz=omj[ufi+1]
+   zrf[kys]=gh(aow,saz,10)
 end
-qv[(((18-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   if qns+1>oy or jcb+1>oy then cav(); mbn("vm",0) end
-   mop[eme]=sq(mop[jcb+1],mop[qns+1],5)
+ju[(((54-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   local xm={}
+   if kng+1>dc or ufi+1>qt then ufe(); bll("vm",0) end
+   local aow=zrf[kng+1]
+   local saz=omj[ufi+1]
+   zrf[kys]=gh(aow,saz,2)
 end
-qv[(((21-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   if qns+1>oy or jcb+1>oy then cav(); mbn("vm",0) end
-   mop[eme]=sq(mop[jcb+1],mop[qns+1],11)
+ju[(((44-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   if kng+1>qt or ufi+1>dc then ufe(); bll("vm",0) end
+   local aow=omj[kng+1]
+   local saz=zrf[ufi+1]
+   zrf[kys]=gh(aow,saz,6)
 end
-qv[(((58-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   if qns+1>ud or jcb+1>mf or eme>oy then cav(); mbn("vm",0) end
-   local ap=not sq(ns[qns+1],mop[eme],12)
-   if ap then pdo.j=true; pdo.a=gb[jcb+1]+1; lw(jcb+1) end
+ju[(((57-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   local xm=0
+   if kng+1>dc or ufi+1>qt then ufe(); bll("vm",0) end
+   local aow=zrf[kng+1]
+   local saz=omj[ufi+1]
+   zrf[kys]=gh(aow,saz,12)
 end
-qv[(((41-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   if qns+1>oy or jcb+1>ud then cav(); mbn("vm",0) end
-   mop[eme]=sq(ns[jcb+1],mop[qns+1],7)
+ju[(((35-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   if ufi+1>dc or kng+1>qt then ufe(); bll("vm",0) end
+   zrf[kys]=gh(omj[kng+1],zrf[ufi+1],5)
 end
-qv[(((13-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   if qns<0 or jcb+1>oy then cav(); mbn("vm",0) end
-   local fe=mop[jcb+1]
-   local lg=nil if type(fe)~=snq[13] then local qm=getmetatable(fe) lg=qm and qm.__call if type(lg)~=snq[13] then cav(); mbn("vm",0) end end
-   local tek={}
-   for ose=1,qns do
-    if pdo.a>fy then cav(); mbn("vm",0) end
-    local ws=gk(pdo.a)+1
-    tek[ose]=mop[ws]
-    pdo.a=pdo.a+1
+ju[(((64-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   if ufi+1>qt or kng+1>vu or kys>dc then ufe(); bll("vm",0) end
+   local rr=not gh(zrf[kys],omj[ufi+1],4)
+   if rr then guk.j=true; guk.a=bj[kng+1]+1; dh(kng+1) end
+end
+ju[(((41-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   local xm=0
+   if kng+1>qt or ufi+1>dc then ufe(); bll("vm",0) end
+   local aow=omj[kng+1]
+   local saz=zrf[ufi+1]
+   zrf[kys]=gh(aow,saz,8)
+end
+ju[(((13-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   local xm=0
+   if ufi<0 or kng+1>dc then ufe(); bll("vm",0) end
+   local ka=zrf[kng+1]
+   local xe=nil if type(ka)~=gzm[13] then local xx=getmetatable(ka) xe=xx and xx.__call if type(xe)~=gzm[13] then ufe(); bll("vm",0) end end
+   local ean={}
+   for tyv=1,ufi do
+    if guk.a>sw then ufe(); bll("vm",0) end
+    local xv=sz(guk.a)+1
+    ean[tyv]=zrf[xv]
+    guk.a=guk.a+1
    end
-   local db=gk(pdo.a)+1
-   pdo.a=pdo.a+1
-   local kz=mop[db]
-   if type(kz)~=snq[12] then kz={kz} end
-   for ose=1,(kz.n or #kz) do tek[#tek+1]=kz[ose] end
-   mop[eme]=fe(vy(tek,1,qns+(kz.n or #kz)))
-   tek=nil; kz=nil
+   local dj=sz(guk.a)+1
+   guk.a=guk.a+1
+   local mp=zrf[dj]
+   if type(mp)~=gzm[12] then mp={mp} end
+   for tyv=1,(mp.n or #mp) do ean[#ean+1]=mp[tyv] end
+   zrf[kys]=ka(hb(ean,1,ufi+(mp.n or #mp)))
+   ean=nil; mp=nil
 end
-qv[(((23-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   local bi=0
-   if qns+1>oy or jcb+1>oy then cav(); mbn("vm",0) end
-   mop[eme]=sq(mop[jcb+1],mop[qns+1],4)
+ju[(((62-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   local xm={}
+   if ufi+1>qt or kng+1>vu or kys>dc then ufe(); bll("vm",0) end
+   local rr=not gh(omj[ufi+1],zrf[kys],1)
+   if rr then guk.j=true; guk.a=bj[kng+1]+1; dh(kng+1) end
 end
-qv[(((34-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   if jcb+1>ud or qns+1>oy then cav(); mbn("vm",0) end
-   local ygx=ns[jcb+1]
-   local oms=mop[qns+1]
-   mop[eme]=sq(ygx,oms,5)
+ju[(((63-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   if ufi+1>qt or kng+1>vu or kys>dc then ufe(); bll("vm",0) end
+   if not gh(omj[ufi+1],zrf[kys],6) then guk.j=true; guk.a=bj[kng+1]+1; dh(kng+1) end
 end
-qv[(((25-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   if qns+1>oy or jcb+1>oy then cav(); mbn("vm",0) end
-   mop[eme]=sq(mop[jcb+1],mop[qns+1],6)
+ju[(((34-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   local xm={}
+   if kng+1>qt or ufi+1>dc then ufe(); bll("vm",0) end
+   local aow=omj[kng+1]
+   local saz=zrf[ufi+1]
+   zrf[kys]=gh(aow,saz,7)
 end
-qv[(((50-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   if jcb+1>oy or qns+1>ud then cav(); mbn("vm",0) end
-   local ygx=mop[jcb+1]
-   local oms=ns[qns+1]
-   mop[eme]=sq(ygx,oms,10)
+ju[(((28-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
 end
-qv[(((11-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   local bi=0
+ju[(((47-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   if ufi+1>qt or kng+1>dc then ufe(); bll("vm",0) end
+   zrf[kys]=gh(zrf[kng+1],omj[ufi+1],5)
+end
+ju[(((58-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   local xm={}
+   if ufi+1>qt or kng+1>vu or kys>dc then ufe(); bll("vm",0) end
+   local rr=not gh(omj[ufi+1],zrf[kys],4)
+   if rr then guk.j=true; guk.a=bj[kng+1]+1; dh(kng+1) end
+end
+ju[(((29-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   local xm=0
+   if ufi+1>dc or kng+1>dc then ufe(); bll("vm",0) end
+   zrf[kys]=gh(zrf[kng+1],zrf[ufi+1],12)
+end
+ju[(((68-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   if ufi+1>qt or kng+1>vu or kys>dc then ufe(); bll("vm",0) end
+   local rr=not gh(zrf[kys],omj[ufi+1],1)
+   if rr then guk.j=true; guk.a=bj[kng+1]+1; dh(kng+1) end
+end
+ju[(((55-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   if ufi+1>qt or kng+1>dc then ufe(); bll("vm",0) end
+   zrf[kys]=gh(zrf[kng+1],omj[ufi+1],1)
+end
+ju[(((30-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   local xm={}
+   if kng>#zxr or kng<1 then ufe(); bll("vm",0) end
+   local ean={}
+   local tyv=1
+   while tyv<=ufi do
+    if guk.a>sw then ufe(); bll("vm",0) end
+    local xv=sz(guk.a)+1
+    if xv>dc or xv<1 then ufe(); bll("vm",0) end
+    ean[tyv]=zrf[xv]
+    guk.a=guk.a+1
+    tyv=tyv+1
+   end
+   local cma=zxr[kng]
+   if type(cma)~=gzm[13] then ufe(); bll("vm",0) end
+   zrf[kys]=cma(hb(ean))
+   for awx=1,#ean do ean[awx]=nil end
+end
+ju[(((38-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   local xm={}
+   if kng+1>qt or ufi+1>dc then ufe(); bll("vm",0) end
+   local aow=omj[kng+1]
+   local saz=zrf[ufi+1]
+   zrf[kys]=gh(aow,saz,3)
+end
+ju[(((1-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   local xm=0
+   local kr=kng+1
+   if kr>qt then ufe(); bll("vm",0) end
+   local gt=omj[kr]
+   zrf[kys]=gt
+   gt=nil
+end
+ju[(((67-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   if ufi+1>qt or kng+1>vu or kys>dc then ufe(); bll("vm",0) end
+   if not gh(zrf[kys],omj[ufi+1],2) then guk.j=true; guk.a=bj[kng+1]+1; dh(kng+1) end
+end
+ju[(((19-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   if ufi+1>dc or kng+1>dc then ufe(); bll("vm",0) end
+   zrf[kys]=gh(zrf[kng+1],zrf[ufi+1],5)
+end
+ju[(((40-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   if kng+1>qt or ufi+1>dc then ufe(); bll("vm",0) end
+   local aow=omj[kng+1]
+   local saz=zrf[ufi+1]
+   zrf[kys]=gh(aow,saz,10)
+end
+ju[(((16-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   local vi={}
+   for tyv=1,kng do
+    local tl=sz(guk.a)+1
+    vi[tyv]=zrf[tl]
+    guk.a=guk.a+1
+   end
+   zrf[kys]=vi
+vi=nil
+end
+ju[(((25-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   local xm=0
+   if ufi+1>dc or kng+1>dc then ufe(); bll("vm",0) end
+   zrf[kys]=gh(zrf[kng+1],zrf[ufi+1],2)
+end
+ju[(((43-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   if ufi+1>dc or kng+1>qt then ufe(); bll("vm",0) end
+   zrf[kys]=gh(omj[kng+1],zrf[ufi+1],1)
+end
+ju[(((51-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   if ufi+1>qt or kng+1>dc then ufe(); bll("vm",0) end
+   zrf[kys]=gh(zrf[kng+1],omj[ufi+1],4)
+end
+ju[(((9-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   local xm=0
+   if kng+1>wx then ufe(); bll("vm",0) end
+   kd(1,zrf,cw,kys,kng+1)
+end
+ju[(((27-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   if ufi+1>dc or kng+1>dc then ufe(); bll("vm",0) end
+   zrf[kys]=gh(zrf[kng+1],zrf[ufi+1],6)
+end
+ju[(((42-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   local xm={}
+   if kng+1>qt or ufi+1>dc then ufe(); bll("vm",0) end
+   local aow=omj[kng+1]
+   local saz=zrf[ufi+1]
+   zrf[kys]=gh(aow,saz,2)
+end
+ju[(((24-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   if ufi+1>dc or kng+1>dc then ufe(); bll("vm",0) end
+   zrf[kys]=gh(zrf[kng+1],zrf[ufi+1],8)
+end
+ju[(((53-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   local xm=0
+   if kng+1>dc or ufi+1>qt then ufe(); bll("vm",0) end
+   local aow=zrf[kng+1]
+   local saz=omj[ufi+1]
+   zrf[kys]=gh(aow,saz,8)
+end
+ju[(((69-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   local xm=0
+   if ufi+1>qt or kng+1>vu or kys>dc then ufe(); bll("vm",0) end
+   local rr=not gh(zrf[kys],omj[ufi+1],6)
+   if rr then guk.j=true; guk.a=bj[kng+1]+1; dh(kng+1) end
+end
+ju[(((66-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   local xm={}
+   if ufi+1>qt or kng+1>vu or kys>dc then ufe(); bll("vm",0) end
+   local rr=not gh(zrf[kys],omj[ufi+1],8)
+   if rr then guk.j=true; guk.a=bj[kng+1]+1; dh(kng+1) end
+end
+ju[(((60-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   if ufi+1>qt or kng+1>vu or kys>dc then ufe(); bll("vm",0) end
+   local rr=not gh(omj[ufi+1],zrf[kys],8)
+   if rr then guk.j=true; guk.a=bj[kng+1]+1; dh(kng+1) end
+end
+ju[(((46-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   local xm={}
+   if kng+1>dc or ufi+1>qt then ufe(); bll("vm",0) end
+   local aow=zrf[kng+1]
+   local saz=omj[ufi+1]
+   zrf[kys]=gh(aow,saz,7)
+end
+ju[(((56-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   if kng+1>dc or ufi+1>qt then ufe(); bll("vm",0) end
+   local aow=zrf[kng+1]
+   local saz=omj[ufi+1]
+   zrf[kys]=gh(aow,saz,6)
+end
+ju[(((4-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+end
+ju[(((31-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   yj=zrf[kys]
+   zrf[kys]=nil
+   fs=166
+end
+ju[(((5-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   local xm=0
+   if ufi+1>dc or kng+1>dc then ufe(); bll("vm",0) end
+   mz(1,zrf,kys,kng+1,ufi+1)
+end
+ju[(((2-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   local xm={}
+   local ma=kng+1
+   if ma>dc then ufe(); bll("vm",0) end
+   local af=zrf[ma]
+   zrf[kys]=af
+   af=nil
+end
+ju[(((49-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   local xm=0
+   if kng+1>dc or ufi+1>qt then ufe(); bll("vm",0) end
+   local aow=zrf[kng+1]
+   local saz=omj[ufi+1]
+   zrf[kys]=gh(aow,saz,11)
+end
+ju[(((3-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   local rv={}
+   for tyv=1,kng do
+    if guk.a+1>sw then ufe(); bll("vm",0) end
+    local up=sz(guk.a)+1
+    guk.a=guk.a+1
+    local tl=sz(guk.a)+1
+    guk.a=guk.a+1
+    if tl>dc or tl<1 or up>dc or up<1 then ufe(); bll("vm",0) end
+    rv[zrf[up]]=zrf[tl]
+   end
+   zrf[kys]=rv
+   rv=nil
+end
+ju[(((12-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   if kng+1>dc then ufe(); bll("vm",0) end
+   local ka=zrf[kng+1]
+   local xe=nil if type(ka)~=gzm[13] then local xx=getmetatable(ka) xe=xx and xx.__call if type(xe)~=gzm[13] then ufe(); bll("vm",0) end end
+   local ean={}
+   for tyv=1,ufi do
+    if guk.a>sw then ufe(); bll("vm",0) end
+    local xv=sz(guk.a)+1
+    if xv>dc or xv<1 then ufe(); bll("vm",0) end
+    ean[tyv]=zrf[xv]
+    guk.a=guk.a+1
+   end
+   if xe then for tyv=#ean,1,-1 do ean[tyv+1]=ean[tyv] end ean[1]=ka ka=xe end
+   zrf[kys]=ka(hb(ean,1,ufi))
+   ean=nil
+end
+ju[(((18-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   local xm={}
+   if ufi+1>dc or kng+1>dc then ufe(); bll("vm",0) end
+   zrf[kys]=gh(zrf[kng+1],zrf[ufi+1],7)
+end
+ju[(((36-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   if kng+1>qt or ufi+1>dc then ufe(); bll("vm",0) end
+   local aow=omj[kng+1]
+   local saz=zrf[ufi+1]
+   zrf[kys]=gh(aow,saz,9)
+end
+ju[(((17-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   local xm=0
+   local ht=zrf[kng]
+   if type(ht)~=gzm[13] then ht=zrf[kng+1] end
+   if type(ht)~=gzm[13] then ufe(); bll("vm",0) end
+   local rze,zd=ht()
+   zrf[kys]={rze,zd}
+end
+ju[(((48-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   if kng+1>dc or ufi+1>qt then ufe(); bll("vm",0) end
+   local aow=zrf[kng+1]
+   local saz=omj[ufi+1]
+   zrf[kys]=gh(aow,saz,9)
+end
+ju[(((21-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   local xm=0
+   if ufi+1>dc or kng+1>dc then ufe(); bll("vm",0) end
+   zrf[kys]=gh(zrf[kng+1],zrf[ufi+1],11)
+end
+ju[(((6-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   local xm={}
+   if ufi+1>dc or kng+1>dc or kys+1>dc then ufe(); bll("vm",0) end
+   mz(2,zrf,kys,kng+1,ufi+1)
+end
+ju[(((45-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   local xm=0
+   if kng+1>qt or ufi+1>dc then ufe(); bll("vm",0) end
+   local aow=omj[kng+1]
+   local saz=zrf[ufi+1]
+   zrf[kys]=gh(aow,saz,12)
+end
+ju[(((10-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   local xm={}
+   if kng+1>dc or kys>wx then ufe(); bll("vm",0) end
+   kd(2,zrf,cw,kys,kng)
+end
+ju[(((37-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   local xm=0
+   if kng+1>qt or ufi+1>dc then ufe(); bll("vm",0) end
+   local aow=omj[kng+1]
+   local saz=zrf[ufi+1]
+   zrf[kys]=gh(aow,saz,11)
+end
+ju[(((32-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+ if kng+1>vu then ufe(); bll("vm",0) end
+ local ph,wn=zq(1,bj,kng+1)
+ guk.a=wn
+ guk.j=ph
+ dh(kng+1)
+end
+ju[(((59-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   if ufi+1>qt or kng+1>vu or kys>dc then ufe(); bll("vm",0) end
+   if not gh(omj[ufi+1],zrf[kys],10) then guk.j=true; guk.a=bj[kng+1]+1; dh(kng+1) end
+end
+ju[(((70-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   local xm={}
+   if ufi<0 or kng>511 or kng<1 then ufe(); bll("vm",0) end
+   local lt={}
+   local ec=bit32.band(ufi,1073741824)~=0 and (bit32.band(ufi,2147483648)~=0 and 3 or 2) or (bit32.band(ufi,2147483648)~=0 and 1 or 0)
+   local od=(ec==3) and 1 or kng
+   for tyv=1,od do
+    if guk.a>sw then ufe(); bll("vm",0) end
+    local kr=sz(guk.a)+1
+    guk.a=guk.a+1
+    if kr>qt or kr<1 then ufe(); bll("vm",0) end
+    lt[tyv]=omj[kr]
+   end
+   ufi=bit32.band(ufi,1073741823)
+   if ec==3 then lt=uh(lt[1],kng) ec=2 end
+   zrf[kys]=uy(lt,ufi,kng,ec,kys)
+   lt=nil
+end
+ju[(((50-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   local xm={}
+   if kng+1>dc or ufi+1>qt then ufe(); bll("vm",0) end
+   local aow=zrf[kng+1]
+   local saz=omj[ufi+1]
+   zrf[kys]=gh(aow,saz,3)
+end
+ju[(((11-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
 
-   if jcb+1>ud then cav(); mbn("vm",0) end
-   local zd=ns[jcb+1]
-   local xm=jcb
-   if type(zd)~=snq[9] then cav(); mbn("vm",0) end
-   local yf=(function(eod) local kw=1 for kvm=1,#eod do kw=bit32.band(kw+string.byte(eod,kvm)*kvm,4294967295) end return kw end)(zd)
-   if yf~=4658156 and xm==37 then cav(); mbn("vm",0) end if xm==27 and yf~=20668613 then cav(); mbn("vm",0) end if xm==61 and yf~=6325115 then cav(); mbn("vm",0) end if xm==44 and yf~=52277877 then cav(); mbn("vm",0) end if xm==68 and yf~=909807 then cav(); mbn("vm",0) end if xm==95 and yf~=10619802 then cav(); mbn("vm",0) end if xm==69 and yf~=117410483 then cav(); mbn("vm",0) end if xm==188 and yf~=46833499 then cav(); mbn("vm",0) end if xm==187 and yf~=11223297 then cav(); mbn("vm",0) end if xm==209 and yf~=17516729 then cav(); mbn("vm",0) end if xm==220 and yf~=39801667 then cav(); mbn("vm",0) end if xm==127 and yf~=287006394 then cav(); mbn("vm",0) end if xm==237 and yf~=4691040 then cav(); mbn("vm",0) end if xm==227 and yf~=19133471 then cav(); mbn("vm",0) end if xm==244 and yf~=22545957 then cav(); mbn("vm",0) end if xm==245 and yf~=7889501 then cav(); mbn("vm",0) end if xm==250 and yf~=260449 then cav(); mbn("vm",0) end if xm==252 and yf~=909905 then cav(); mbn("vm",0) end if xm==253 and yf~=105202166 then cav(); mbn("vm",0) end if xm==282 and yf~=23839179 then cav(); mbn("vm",0) end
-   if string.byte(zd,1)~=3 then for jbr=1,math.min(#zd,32) do if string.byte(zd,jbr)==3 and string.byte(zd,jbr+1)==0 and string.byte(zd,jbr+2)==0 and string.byte(zd,jbr+3)==0 then zd=string.sub(zd,jbr) break end end end
-   local tt=sg
-   local hy=gg(zd,1) if hy==2 then cav(); mbn("vm",0) end if hy~=3 then cav(); mbn("vm",0) end
-   local wy=gg(zd,2)
-   local vu=gg(zd,3)
-   local cp=gg(zd,4)
-   local be=0 local qq={} local bf={}
-   if hy==3 then be=gg(zd,5) if be<1 or be>70 then cav(); mbn("vm",0) end for kvm=1,be do local xh=gg(zd,5+kvm) if xh<1 or xh>70 or bf[xh] then cav(); mbn("vm",0) end qq[xh]=true bf[xh]=true end else for kvm=1,70 do qq[kvm]=true end end
-   local tz={}
-   local zb={}
-   for kvm=1,cp do local vt=gg(zd,4+(hy==3 and 1+be or 0)+kvm) if vt>=ft or zb[vt] then cav(); mbn("vm",0) end tz[kvm]=vt zb[vt]=true end
-   local pr={}
-   for kvm=1,wy do pr[kvm]=gg(zd,4+(hy==3 and 1+be or 0)+cp+kvm) end
-   local hi={}
-   for kvm=1,wy do local ii=pr[kvm] if ii<1 or ii>wy or hi[ii] then cav(); mbn("vm",0) end hi[ii]=true end
-   local zt=5+cp+wy+(hy==3 and 1+be or 0)
-   local xi=zt+vu
-   local up=math.floor(#zd/4)
-   if xi>up+1 or #zd%4~=0 then cav(); mbn("vm",0) end
-   local ms={}
-   for kvm=1,vu do
-    local wb=gg(zd,zt+kvm-1)
-    if wb<xi then cav(); mbn("vm",0) end
-    if wb+4>up then cav(); mbn("vm",0) end
-    if kvm>1 then
-     if wb<=ms[kvm-1] then cav(); mbn("vm",0) end
+   if kng+1>qt then ufe(); bll("vm",0) end
+   local ev=omj[kng+1]
+   local wu=kng
+   if type(ev)~=gzm[9] then ufe(); bll("vm",0) end
+   local wo=(function(sdz) local zd=1 for lbc=1,#sdz do zd=bit32.band(zd+string.byte(sdz,lbc)*lbc,4294967295) end return zd end)(ev)
+   if wo~=4640214 and wu==39 then ufe(); bll("vm",0) end if wu==29 and wo~=18757528 then ufe(); bll("vm",0) end if wu==46 and wo~=901967 then ufe(); bll("vm",0) end if wu==73 and wo~=10519800 then ufe(); bll("vm",0) end if wu==47 and wo~=117068832 then ufe(); bll("vm",0) end if wu==105 and wo~=902061 then ufe(); bll("vm",0) end if wu==106 and wo~=106457928 then ufe(); bll("vm",0) end if wu==145 and wo~=4657680 then ufe(); bll("vm",0) end if wu==135 and wo~=20912893 then ufe(); bll("vm",0) end if wu==152 and wo~=256149 then ufe(); bll("vm",0) end if wu==154 and wo~=24062472 then ufe(); bll("vm",0) end if wu==161 and wo~=22567262 then ufe(); bll("vm",0) end if wu==179 and wo~=6303671 then ufe(); bll("vm",0) end if wu==162 and wo~=52670838 then ufe(); bll("vm",0) end if wu==250 and wo~=17593728 then ufe(); bll("vm",0) end if wu==261 and wo~=39319777 then ufe(); bll("vm",0) end if wu==269 and wo~=46414395 then ufe(); bll("vm",0) end if wu==268 and wo~=11198831 then ufe(); bll("vm",0) end if wu==186 and wo~=286780122 then ufe(); bll("vm",0) end if wu==289 and wo~=7677709 then ufe(); bll("vm",0) end
+   if string.byte(ev,1)~=3 then for foj=1,math.min(#ev,32) do if string.byte(ev,foj)==3 and string.byte(ev,foj+1)==0 and string.byte(ev,foj+2)==0 and string.byte(ev,foj+3)==0 then ev=string.sub(ev,foj) break end end end
+   local lv=cw
+   local sg=nz(ev,1) if sg==2 then ufe(); bll("vm",0) end if sg~=3 then ufe(); bll("vm",0) end
+   local oi=nz(ev,2)
+   local bo=nz(ev,3)
+   local gx=nz(ev,4)
+   local wc=0 local cp={} local jn={}
+   if sg==3 then wc=nz(ev,5) if wc<1 or wc>70 then ufe(); bll("vm",0) end for lbc=1,wc do local cu=nz(ev,5+lbc) if cu<1 or cu>70 or jn[cu] then ufe(); bll("vm",0) end cp[cu]=true jn[cu]=true end else for lbc=1,70 do cp[lbc]=true end end
+   local rs={}
+   local qx={}
+   for lbc=1,gx do local kf=nz(ev,4+(sg==3 and 1+wc or 0)+lbc) if kf>=wx or qx[kf] then ufe(); bll("vm",0) end rs[lbc]=kf qx[kf]=true end
+   local ko={}
+   for lbc=1,oi do ko[lbc]=nz(ev,4+(sg==3 and 1+wc or 0)+gx+lbc) end
+   local hk={}
+   for lbc=1,oi do local ri=ko[lbc] if ri<1 or ri>oi or hk[ri] then ufe(); bll("vm",0) end hk[ri]=true end
+   local ai=5+gx+oi+(sg==3 and 1+wc or 0)
+   local kn=ai+bo
+   local jb=math.floor(#ev/4)
+   if kn>jb+1 or #ev%4~=0 then ufe(); bll("vm",0) end
+   local zp={}
+   for lbc=1,bo do
+    local mv=nz(ev,ai+lbc-1)
+    if mv<kn then ufe(); bll("vm",0) end
+    if mv+4>jb then ufe(); bll("vm",0) end
+    if lbc>1 then
+     if mv<=zp[lbc-1] then ufe(); bll("vm",0) end
     end
-    ms[kvm]=wb
+    zp[lbc]=mv
    end
-   local function ij()
-    local function rn(...)
-     ok()
-    local xu={}
-    local dz=setmetatable({}, {__index=function(obn,mqt) return xu[pr[mqt]] end,__newindex=function(obn,mqt,kw) xu[pr[mqt]]=kw end})
-    local rp=cj(tt)
-    zp(rp,tz,cp,...)
-    for kvm=1,cp do if tz[kvm]==57 then sy(rp,hya[tz[kvm]+1],(function(jrj,xgb) jrj.n=xgb return jrj end)({...},select("#",...))) break end end
-    local kf=1
-    while kf<=vu do
-     local es=kf+1
-     local nh=ms[kf]
-     local pg=gg(zd,nh)
-     if not qq[pg] then mbn(); ssc("inactive child opcode",0) end
-     local al=nz(pg)
-     local nr=gg(zd,nh+1)
-     local lr=gg(zd,nh+2)
-     local eh=gg(zd,nh+3)
-     local mj=gg(zd,nh+4)
-     if not qq[pg] then mbn(); ssc("inactive child opcode",0) end
-     local fm=up+1
-     if kf<vu then fm=ms[kf+1] end
-     local ew=nh+5
-     if pg==qs[3] then ew=nh+5+lr*2 end
-     if pg==qs[4] then ew=nh+5+lr*2 end
-     if pg==qs[14] then ew=nh+5+mj end
-     if pg==qs[30] then ew=nh+5+mj end
-     if pg==qs[12] then ew=nh+5+bit32.band(mj,2147483647) end
-     if pg==qs[15] or pg==qs[13] then ew=nh+6+mj end
-     if pg==qs[16] then ew=nh+5+mj end
-     if pg==qs[70] then ew=nh+5+((mj==3) and 1 or lr) end
-     if eh+1<=wy and pg==qs[11] then ew=nh+5+mj end
-     if bit32.band(mj,2147483648)~=0 and mj~=4294967295 and pg==qs[7] then ew=nh+5+bit32.band(mj,2147483647) end
-     if fm~=ew then mbn(); ssc("vm",0) end
-     if pg==qs[1] then
-      hf(dz,nr,lr)
-     elseif pg==qs[2] then
-      dz[nr+1]=dz[lr+1]
-     elseif pg==qs[9] then
-      dz[nr+1]=ca(rp,hya[tz[lr+1]+1])
-     elseif pg==qs[10] then
-      sy(rp,hya[tz[nr+1]+1],dz[lr+1])
-     elseif pg==qs[3] then
-      local po={}
-      for ose=1,lr do
-       local av=nh+5+(ose-1)*2
-       local dm=gg(zd,av)
-       local mv=gg(zd,av+1)
-       if mv+1>wy or dm+1>wy then mbn(); ssc("vm",0) end
-       po[dz[dm+1]]=dz[mv+1]
+   local function uo()
+    local function lh(...)
+     ab()
+    local bw={}
+    local kl=setmetatable({}, {__index=function(exy,rze) return bw[ko[rze]] end,__newindex=function(exy,rze,zd) bw[ko[rze]]=zd end})
+    local nm=gv(lv)
+    jx(nm,rs,gx,...)
+    for lbc=1,gx do if rs[lbc]==57 then ro(nm,xxo[rs[lbc]+1],(function(jap,tdt) jap.n=tdt return jap end)({...},select("#",...))) break end end
+    local vl=1
+    while vl<=bo do
+     local un=vl+1
+     local rz=zp[vl]
+     local zu=nz(ev,rz)
+     if not cp[zu] then mit(); ufe("inactive child opcode",0) end
+     local ok=tp(zu)
+     local oh=nz(ev,rz+1)
+     local nu=nz(ev,rz+2)
+     local ew=nz(ev,rz+3)
+     local kg=nz(ev,rz+4)
+     if not cp[zu] then mit(); ufe("inactive child opcode",0) end
+     local vo=jb+1
+     if vl<bo then vo=zp[vl+1] end
+     local ow=rz+5
+     if zu==lp[3] then ow=rz+5+nu*2 end
+     if zu==lp[4] then ow=rz+5+nu*2 end
+     if zu==lp[14] then ow=rz+5+kg end
+     if zu==lp[30] then ow=rz+5+kg end
+     if zu==lp[12] then ow=rz+5+bit32.band(kg,2147483647) end
+     if zu==lp[15] or zu==lp[13] then ow=rz+6+kg end
+     if zu==lp[16] then ow=rz+5+kg end
+     if zu==lp[70] then ow=rz+5+((kg==3) and 1 or nu) end
+     if ew+1<=oi and zu==lp[11] then ow=rz+5+kg end
+     if bit32.band(kg,2147483648)~=0 and kg~=4294967295 and zu==lp[7] then ow=rz+5+bit32.band(kg,2147483647) end
+     if vo~=ow then mit(); ufe("vm",0) end
+     if zu==lp[1] then
+      fk(kl,oh,nu)
+     elseif zu==lp[2] then
+      kl[oh+1]=kl[nu+1]
+     elseif zu==lp[9] then
+      kl[oh+1]=vr(nm,xxo[rs[nu+1]+1])
+     elseif zu==lp[10] then
+      ro(nm,xxo[rs[oh+1]+1],kl[nu+1])
+     elseif zu==lp[3] then
+      local bp={}
+      for tyv=1,nu do
+       local tx=rz+5+(tyv-1)*2
+       local up=nz(ev,tx)
+       local tl=nz(ev,tx+1)
+       if tl+1>oi or up+1>oi then mit(); ufe("vm",0) end
+       bp[kl[up+1]]=kl[tl+1]
       end
-      dz[nr+1]=po
-     elseif pg==qs[4] then
-      local po={}
-      for ose=1,lr do local dm=gg(zd,nh+5+(ose-1)*2) local mv=gg(zd,nh+6+(ose-1)*2) po[dz[dm+1]]=dz[mv+1] end
-      local kz=dz[eh+1] if type(kz)~=snq[12] then kz={} end for ose=1,#kz do po[ose]=kz[ose] end
-      dz[nr+1]=po
-     elseif pg==qs[5] then
-      hb(dz,nr,lr,eh)
-     elseif pg==qs[6] then
-      qa(dz,nr,lr,eh)
-     elseif pg==qs[7] and (mj==4294967295 or bit32.band(mj,2147483648)==0) then
-      dz[nr+1]=dz[eh+1][hya[tz[lr+1]+1]]
-     elseif pg==qs[8] then
+      kl[oh+1]=bp
+     elseif zu==lp[4] then
+      local bp={}
+      for tyv=1,nu do local up=nz(ev,rz+5+(tyv-1)*2) local tl=nz(ev,rz+6+(tyv-1)*2) bp[kl[up+1]]=kl[tl+1] end
+      local mp=kl[ew+1] if type(mp)~=gzm[12] then mp={} end for tyv=1,#mp do bp[tyv]=mp[tyv] end
+      kl[oh+1]=bp
+     elseif zu==lp[5] then
+      mw(kl,oh,nu,ew)
+     elseif zu==lp[6] then
+      gl(kl,oh,nu,ew)
+     elseif zu==lp[7] and (kg==4294967295 or bit32.band(kg,2147483648)==0) then
+      kl[oh+1]=kl[ew+1][xxo[rs[nu+1]+1]]
+     elseif zu==lp[8] then
 
-      dz[nr+1][hya[tz[lr+1]+1]]=dz[eh+1]
-     elseif pg==qs[70] then
-      if eh<0 or lr>511 or lr<1 then mbn(); ssc("vm",0) end
-      local vq={}
-      for ose=1,((mj==3) and 1 or lr) do
-       local bc=gg(zd,nh+4+ose)
-       if bc+1>ud then mbn(); ssc("vm",0) end
-       vq[ose]=ns[bc+1]
+      kl[oh+1][xxo[rs[nu+1]+1]]=kl[ew+1]
+     elseif zu==lp[70] then
+      if ew<0 or nu>511 or nu<1 then mit(); ufe("vm",0) end
+      local nx={}
+      for tyv=1,((kg==3) and 1 or nu) do
+       local kr=nz(ev,rz+4+tyv)
+       if kr+1>qt then mit(); ufe("vm",0) end
+       nx[tyv]=omj[kr+1]
       end
-      local nv=mj
-      if nv==3 then vq=wm(vq[1],lr) nv=2 end
-      dz[nr+1]=ke(vq,eh,lr,nv,nr)
-      if (type(dz[nr+1])~=snq[9] or #dz[nr+1]~=64) and nv==1 then mbn(); ssc("vm",0) end
-      vq=nil
-     elseif pg==qs[14] then
-      local ww=dz[lr+1]
-      local ig=ww[hya[tz[eh+1]+1]]
-      if type(ig)~=snq[13] then mbn(); ssc("vm",0) end
-      local nn={ww}
-      for ose=1,mj do
-       local ws=gg(zd,nh+4+ose)
-       if ws+1>wy then mbn(); ssc("vm",0) end
-       nn[ose+1]=dz[ws+1]
+      local my=kg
+      if my==3 then nx=uh(nx[1],nu) my=2 end
+      kl[oh+1]=uy(nx,ew,nu,my,oh)
+      if (type(kl[oh+1])~=gzm[9] or #kl[oh+1]~=64) and my==1 then mit(); ufe("vm",0) end
+      nx=nil
+     elseif zu==lp[14] then
+      local sc=kl[nu+1]
+      local ob=sc[xxo[rs[ew+1]+1]]
+      if type(ob)~=gzm[13] then mit(); ufe("vm",0) end
+      local cq={sc}
+      for tyv=1,kg do
+       local xv=nz(ev,rz+4+tyv)
+       if xv+1>oi then mit(); ufe("vm",0) end
+       cq[tyv+1]=kl[xv+1]
       end
-      dz[nr+1]=wh(ig,nn)
-     elseif pg==qs[12] then
-      local sr=dz[lr+1]
-      if type(sr)~=snq[13] then mbn(); ssc("vm",0) end
-      local nn={}
-      for ose=1,mj do
-       local ws=gg(zd,nh+4+ose)
-       if ws+1>wy then mbn(); ssc("vm",0) end
-       nn[ose]=dz[ws+1]
+      kl[oh+1]=dq(ob,cq)
+     elseif zu==lp[12] then
+      local fr=kl[nu+1]
+      if type(fr)~=gzm[13] then mit(); ufe("vm",0) end
+      local cq={}
+      for tyv=1,kg do
+       local xv=nz(ev,rz+4+tyv)
+       if xv+1>oi then mit(); ufe("vm",0) end
+       cq[tyv]=kl[xv+1]
       end
-      dz[nr+1]=sr(vy(nn))
-     elseif pg==qs[13] then
-      local sr=dz[lr+1] local nn={}
-      for ose=1,mj do local ws=gg(zd,nh+4+ose) nn[ose]=dz[ws+1] end
-      local kz=dz[gg(zd,nh+5+mj)+1] for ose=1,#kz do nn[#nn+1]=kz[ose] end
-      dz[nr+1]=sr(vy(nn))
-     elseif pg==qs[15] then
-      local nn={} for ose=1,mj do local ws=gg(zd,nh+4+ose) nn[ose]=dz[ws+1] end
-      local kz=dz[gg(zd,nh+5+mj)+1] for ose=1,#kz do nn[#nn+1]=kz[ose] end
-      dz[nr+1]=zx(lr,nn)
-     elseif pg==qs[16] then
-      local ks={} for ose=1,mj do ks[ose]=dz[gg(zd,nh+4+ose)+1] end dz[nr+1]=ks
-     elseif pg==qs[17] then
-      local mr=dz[lr+1] local mqt,kw=mr() dz[nr+1]={mqt,kw}
-     elseif pg==qs[30] then
-      if lr>#vlc or lr<1 then mbn(); ssc("vm",0) end
-      local nn={}
-      for ose=1,mj do
-       local ws=gg(zd,nh+4+ose)
-       if ws+1>wy then mbn(); ssc("vm",0) end
-       nn[ose]=dz[ws+1]
+      kl[oh+1]=fr(hb(cq))
+     elseif zu==lp[13] then
+      local fr=kl[nu+1] local cq={}
+      for tyv=1,kg do local xv=nz(ev,rz+4+tyv) cq[tyv]=kl[xv+1] end
+      local mp=kl[nz(ev,rz+5+kg)+1] for tyv=1,#mp do cq[#cq+1]=mp[tyv] end
+      kl[oh+1]=fr(hb(cq))
+     elseif zu==lp[15] then
+      local cq={} for tyv=1,kg do local xv=nz(ev,rz+4+tyv) cq[tyv]=kl[xv+1] end
+      local mp=kl[nz(ev,rz+5+kg)+1] for tyv=1,#mp do cq[#cq+1]=mp[tyv] end
+      kl[oh+1]=gb(nu,cq)
+     elseif zu==lp[16] then
+      local vi={} for tyv=1,kg do vi[tyv]=kl[nz(ev,rz+4+tyv)+1] end kl[oh+1]=vi
+     elseif zu==lp[17] then
+      local ht=kl[nu+1] local rze,zd=ht() kl[oh+1]={rze,zd}
+     elseif zu==lp[30] then
+      if nu>#zxr or nu<1 then mit(); ufe("vm",0) end
+      local cq={}
+      for tyv=1,kg do
+       local xv=nz(ev,rz+4+tyv)
+       if xv+1>oi then mit(); ufe("vm",0) end
+       cq[tyv]=kl[xv+1]
       end
-      dz[nr+1]=zx(lr,nn)
-     elseif pg==qs[11] then
-      local wc=ns[lr+1]
-      if type(wc)~=snq[9] then mbn(); ssc("vm",0) end
-      local rz=lr
-      local bs=(function(eod) local kw=1 for kvm=1,#eod do kw=bit32.band(kw+string.byte(eod,kvm)*kvm,4294967295) end return kw end)(wc)
-      if bs~=4658156 and rz==37 then mbn(); ssc("vm",0) end if rz==27 and bs~=20668613 then mbn(); ssc("vm",0) end if rz==61 and bs~=6325115 then mbn(); ssc("vm",0) end if rz==44 and bs~=52277877 then mbn(); ssc("vm",0) end if rz==68 and bs~=909807 then mbn(); ssc("vm",0) end if rz==95 and bs~=10619802 then mbn(); ssc("vm",0) end if rz==69 and bs~=117410483 then mbn(); ssc("vm",0) end if rz==188 and bs~=46833499 then mbn(); ssc("vm",0) end if rz==187 and bs~=11223297 then mbn(); ssc("vm",0) end if rz==209 and bs~=17516729 then mbn(); ssc("vm",0) end if rz==220 and bs~=39801667 then mbn(); ssc("vm",0) end if rz==127 and bs~=287006394 then mbn(); ssc("vm",0) end if rz==237 and bs~=4691040 then mbn(); ssc("vm",0) end if rz==227 and bs~=19133471 then mbn(); ssc("vm",0) end if rz==244 and bs~=22545957 then mbn(); ssc("vm",0) end if rz==245 and bs~=7889501 then mbn(); ssc("vm",0) end if rz==250 and bs~=260449 then mbn(); ssc("vm",0) end if rz==252 and bs~=909905 then mbn(); ssc("vm",0) end if rz==253 and bs~=105202166 then mbn(); ssc("vm",0) end if rz==282 and bs~=23839179 then mbn(); ssc("vm",0) end
-      if string.byte(wc,1)~=3 then for jbr=1,math.min(#wc,32) do if string.byte(wc,jbr)==3 and string.byte(wc,jbr+1)==0 and string.byte(wc,jbr+2)==0 and string.byte(wc,jbr+3)==0 then wc=string.sub(wc,jbr) break end end end
-      local hm=rp
-      local function hr(...)
-        ok()
-       local nc=cj(hm)
-       local pm={}
-       local si={}
-       local gn=setmetatable({}, {__index=function(obn,mqt) return si[pm[mqt]] end,__newindex=function(obn,mqt,kw) si[pm[mqt]]=kw end})
-       local ku=gg(wc,1) if ku==2 then cav(); mbn("vm",0) end if ku~=3 then cav(); mbn("vm",0) end
-       local bx=gg(wc,2)
-       local qp=gg(wc,3)
-       local lo=gg(wc,4)
-       local sm=0 local dr={} local cs={}
-       if ku==3 then sm=gg(wc,5) if sm<1 or sm>70 then cav(); mbn("vm",0) end for kvm=1,sm do local xh=gg(wc,5+kvm) if xh<1 or xh>70 or cs[xh] then cav(); mbn("vm",0) end dr[xh]=true cs[xh]=true end else for kvm=1,70 do dr[kvm]=true end end
-       local xw={}
-       local ox={}
-       for kvm=1,lo do local vt=gg(wc,4+(ku==3 and 1+sm or 0)+kvm) if vt>=ft or ox[vt] then cav(); mbn("vm",0) end xw[kvm]=vt ox[vt]=true end
-       zp(nc,xw,lo,...)
-       pm={}
-       for kvm=1,bx do pm[kvm]=gg(wc,4+(ku==3 and 1+sm or 0)+lo+kvm) end
-       local gh=5+lo+bx+(ku==3 and 1+sm or 0)
-       local vx=gh+qp
-       local ru=math.floor(#wc/4)
-       if vx>ru+1 or #wc%4~=0 then cav(); mbn("vm",0) end
-       local dh={}
-       for kvm=1,qp do
-        local wb=gg(wc,gh+kvm-1)
-        if wb+4>ru or wb<vx then cav(); mbn("vm",0) end
-        if kvm>1 then
-         if wb<=dh[kvm-1] then cav(); mbn("vm",0) end
+      kl[oh+1]=gb(nu,cq)
+     elseif zu==lp[11] then
+      local qq=omj[nu+1]
+      if type(qq)~=gzm[9] then mit(); ufe("vm",0) end
+      local yt=nu
+      local pt=(function(sdz) local zd=1 for lbc=1,#sdz do zd=bit32.band(zd+string.byte(sdz,lbc)*lbc,4294967295) end return zd end)(qq)
+      if pt~=4640214 and yt==39 then mit(); ufe("vm",0) end if yt==29 and pt~=18757528 then mit(); ufe("vm",0) end if yt==46 and pt~=901967 then mit(); ufe("vm",0) end if yt==73 and pt~=10519800 then mit(); ufe("vm",0) end if yt==47 and pt~=117068832 then mit(); ufe("vm",0) end if yt==105 and pt~=902061 then mit(); ufe("vm",0) end if yt==106 and pt~=106457928 then mit(); ufe("vm",0) end if yt==145 and pt~=4657680 then mit(); ufe("vm",0) end if yt==135 and pt~=20912893 then mit(); ufe("vm",0) end if yt==152 and pt~=256149 then mit(); ufe("vm",0) end if yt==154 and pt~=24062472 then mit(); ufe("vm",0) end if yt==161 and pt~=22567262 then mit(); ufe("vm",0) end if yt==179 and pt~=6303671 then mit(); ufe("vm",0) end if yt==162 and pt~=52670838 then mit(); ufe("vm",0) end if yt==250 and pt~=17593728 then mit(); ufe("vm",0) end if yt==261 and pt~=39319777 then mit(); ufe("vm",0) end if yt==269 and pt~=46414395 then mit(); ufe("vm",0) end if yt==268 and pt~=11198831 then mit(); ufe("vm",0) end if yt==186 and pt~=286780122 then mit(); ufe("vm",0) end if yt==289 and pt~=7677709 then mit(); ufe("vm",0) end
+      if string.byte(qq,1)~=3 then for foj=1,math.min(#qq,32) do if string.byte(qq,foj)==3 and string.byte(qq,foj+1)==0 and string.byte(qq,foj+2)==0 and string.byte(qq,foj+3)==0 then qq=string.sub(qq,foj) break end end end
+      local aj=nm
+      local function es(...)
+        ab()
+       local ox=gv(aj)
+       local ly={}
+       local zh={}
+       local wi=setmetatable({}, {__index=function(exy,rze) return zh[ly[rze]] end,__newindex=function(exy,rze,zd) zh[ly[rze]]=zd end})
+       local yl=nz(qq,1) if yl==2 then fca(); mit("vm",0) end if yl~=3 then fca(); mit("vm",0) end
+       local mk=nz(qq,2)
+       local nt=nz(qq,3)
+       local nc=nz(qq,4)
+       local ao=0 local kt={} local kz={}
+       if yl==3 then ao=nz(qq,5) if ao<1 or ao>70 then fca(); mit("vm",0) end for lbc=1,ao do local cu=nz(qq,5+lbc) if cu<1 or cu>70 or kz[cu] then fca(); mit("vm",0) end kt[cu]=true kz[cu]=true end else for lbc=1,70 do kt[lbc]=true end end
+       local yw={}
+       local no={}
+       for lbc=1,nc do local kf=nz(qq,4+(yl==3 and 1+ao or 0)+lbc) if kf>=wx or no[kf] then fca(); mit("vm",0) end yw[lbc]=kf no[kf]=true end
+       jx(ox,yw,nc,...)
+       ly={}
+       for lbc=1,mk do ly[lbc]=nz(qq,4+(yl==3 and 1+ao or 0)+nc+lbc) end
+       local li=5+nc+mk+(yl==3 and 1+ao or 0)
+       local iw=li+nt
+       local dd=math.floor(#qq/4)
+       if iw>dd+1 or #qq%4~=0 then fca(); mit("vm",0) end
+       local pc={}
+       for lbc=1,nt do
+        local mv=nz(qq,li+lbc-1)
+        if mv+4>dd or mv<iw then fca(); mit("vm",0) end
+        if lbc>1 then
+         if mv<=pc[lbc-1] then fca(); mit("vm",0) end
         end
-        dh[kvm]=wb
+        pc[lbc]=mv
        end
-       local eq=1
-       while eq<=qp do
-        local qt=eq+1
-        local su=dh[eq]
-        local yv=gg(wc,su)
-       if not dr[yv] then cav(); mbn("inactive nested opcode",0) end
-       local yr=nz(yv)
-        local xs=gg(wc,su+1)
-        local cv=gg(wc,su+2)
-        local dq=gg(wc,su+3)
-        local iw=gg(wc,su+4)
-        if not dr[yv] then cav(); mbn("inactive nested opcode",0) end
-        local fv=ru+1
-        if eq<qp then fv=dh[eq+1] end
-        local ql=su+5
-        if yv==qs[3] then ql=su+5+cv*2 end
-        if yv==qs[4] then ql=su+5+cv*2 end
-        if yv==qs[14] then ql=su+5+iw end
-        if yv==qs[30] then ql=su+5+iw end
-        if yv==qs[12] then ql=su+5+bit32.band(iw,2147483647) end
-        if yv==qs[15] or yv==qs[13] then ql=su+6+iw end
-        if yv==qs[16] then ql=su+5+iw end
-        if yv==qs[70] then ql=su+5+((iw==3) and 1 or cv) end
-        if dq+1<=bx and yv==qs[11] then ql=su+5+iw end
-        if bit32.band(iw,2147483648)~=0 and iw~=4294967295 and yv==qs[7] then ql=su+5+bit32.band(iw,2147483647) end
-        if fv~=ql then cav(); mbn("vm",0) end
-        if yv==qs[1] then
-         gn[xs+1]=ns[cv+1]
-        elseif yv==qs[2] then
-         gn[xs+1]=gn[cv+1]
-        elseif yv==qs[9] then
-         gn[xs+1]=ca(nc,hya[xw[cv+1]+1])
-        elseif yv==qs[10] then
-         sy(nc,hya[xw[xs+1]+1],gn[cv+1])
-        elseif yv==qs[3] then
-         local gm={}
-         for ose=1,((iw==3) and 1 or cv) do
-          local dm=gg(wc,su+3+ose*2)
-          local mv=gg(wc,su+4+ose*2)
-          if mv+1>bx or dm+1>bx then cav(); mbn("vm",0) end
-          gm[gn[dm+1]]=gn[mv+1]
+       local zn=1
+       while zn<=nt do
+        local ja=zn+1
+        local vy=pc[zn]
+        local gq=nz(qq,vy)
+       if not kt[gq] then fca(); mit("inactive nested opcode",0) end
+       local cx=tp(gq)
+        local qw=nz(qq,vy+1)
+        local xc=nz(qq,vy+2)
+        local lj=nz(qq,vy+3)
+        local vh=nz(qq,vy+4)
+        if not kt[gq] then fca(); mit("inactive nested opcode",0) end
+        local mc=dd+1
+        if zn<nt then mc=pc[zn+1] end
+        local of=vy+5
+        if gq==lp[3] then of=vy+5+xc*2 end
+        if gq==lp[4] then of=vy+5+xc*2 end
+        if gq==lp[14] then of=vy+5+vh end
+        if gq==lp[30] then of=vy+5+vh end
+        if gq==lp[12] then of=vy+5+bit32.band(vh,2147483647) end
+        if gq==lp[15] or gq==lp[13] then of=vy+6+vh end
+        if gq==lp[16] then of=vy+5+vh end
+        if gq==lp[70] then of=vy+5+((vh==3) and 1 or xc) end
+        if lj+1<=mk and gq==lp[11] then of=vy+5+vh end
+        if bit32.band(vh,2147483648)~=0 and vh~=4294967295 and gq==lp[7] then of=vy+5+bit32.band(vh,2147483647) end
+        if mc~=of then fca(); mit("vm",0) end
+        if gq==lp[1] then
+         wi[qw+1]=omj[xc+1]
+        elseif gq==lp[2] then
+         wi[qw+1]=wi[xc+1]
+        elseif gq==lp[9] then
+         wi[qw+1]=vr(ox,xxo[yw[xc+1]+1])
+        elseif gq==lp[10] then
+         ro(ox,xxo[yw[qw+1]+1],wi[xc+1])
+        elseif gq==lp[3] then
+         local le={}
+         for tyv=1,((vh==3) and 1 or xc) do
+          local up=nz(qq,vy+3+tyv*2)
+          local tl=nz(qq,vy+4+tyv*2)
+          if tl+1>mk or up+1>mk then fca(); mit("vm",0) end
+          le[wi[up+1]]=wi[tl+1]
          end
-         if xs+1>bx then cav(); mbn("vm",0) end
-         gn[xs+1]=gm
-        elseif yv==qs[4] then
-         local gm={} for ose=1,cv do local dm=gg(wc,su+5+(ose-1)*2) local mv=gg(wc,su+6+(ose-1)*2) gm[gn[dm+1]]=gn[mv+1] end local kz=gn[dq+1] if type(kz)~=snq[12] then kz={} end for ose=1,#kz do gm[ose]=kz[ose] end gn[xs+1]=gm
-        elseif yv==qs[5] then
-         if dq+1>bx or cv+1>bx or xs+1>bx then cav(); mbn("vm",0) end
-         gn[xs+1]=gn[cv+1][gn[dq+1]]
-        elseif yv==qs[6] then
-         if dq+1>bx or cv+1>bx or xs+1>bx then cav(); mbn("vm",0) end
-         gn[xs+1][gn[cv+1]]=gn[dq+1]
-        elseif yv==qs[7] and (iw==4294967295 or bit32.band(iw,2147483648)==0) then
-         if dq+1>bx or cv+1>ft or xs+1>bx then cav(); mbn("vm",0) end
-         gn[xs+1]=gn[dq+1][hya[xw[cv+1]+1]]
-        elseif yv==qs[8] then
+         if qw+1>mk then fca(); mit("vm",0) end
+         wi[qw+1]=le
+        elseif gq==lp[4] then
+         local le={} for tyv=1,xc do local up=nz(qq,vy+5+(tyv-1)*2) local tl=nz(qq,vy+6+(tyv-1)*2) le[wi[up+1]]=wi[tl+1] end local mp=wi[lj+1] if type(mp)~=gzm[12] then mp={} end for tyv=1,#mp do le[tyv]=mp[tyv] end wi[qw+1]=le
+        elseif gq==lp[5] then
+         if lj+1>mk or xc+1>mk or qw+1>mk then fca(); mit("vm",0) end
+         wi[qw+1]=wi[xc+1][wi[lj+1]]
+        elseif gq==lp[6] then
+         if lj+1>mk or xc+1>mk or qw+1>mk then fca(); mit("vm",0) end
+         wi[qw+1][wi[xc+1]]=wi[lj+1]
+        elseif gq==lp[7] and (vh==4294967295 or bit32.band(vh,2147483648)==0) then
+         if lj+1>mk or xc+1>wx or qw+1>mk then fca(); mit("vm",0) end
+         wi[qw+1]=wi[lj+1][xxo[yw[xc+1]+1]]
+        elseif gq==lp[8] then
 
-         if dq+1>bx or cv+1>ft or xs+1>bx then cav(); mbn("vm",0) end
-         gn[xs+1][hya[xw[cv+1]+1]]=gn[dq+1]
-        elseif yv==qs[70] then
-         if dq<0 or cv>511 or cv<1 then cav(); mbn("vm",0) end
-         local we={}
-         for ose=1,cv do
-          local bc=gg(wc,su+4+ose)
-          if bc+1>ud then cav(); mbn("vm",0) end
-          we[ose]=ns[bc+1]
+         if lj+1>mk or xc+1>wx or qw+1>mk then fca(); mit("vm",0) end
+         wi[qw+1][xxo[yw[xc+1]+1]]=wi[lj+1]
+        elseif gq==lp[70] then
+         if lj<0 or xc>511 or xc<1 then fca(); mit("vm",0) end
+         local fd={}
+         for tyv=1,xc do
+          local kr=nz(qq,vy+4+tyv)
+          if kr+1>qt then fca(); mit("vm",0) end
+          fd[tyv]=omj[kr+1]
          end
-         local kb=iw
-         if kb==3 then we=wm(we[1],cv) kb=2 else kb=(kb~=0 and 1 or 0) end
-         gn[xs+1]=ke(we,dq,cv,kb,xs)
-         if (type(gn[xs+1])~=snq[9] or #gn[xs+1]~=64) and kb~=0 then cav(); mbn("vm",0) end
-         we=nil
-        elseif yv==qs[14] then
-         if dq+1>ft or cv+1>bx or xs+1>bx then cav(); mbn("vm",0) end
-         local pp=gn[cv+1]
-         local sx=pp[hya[xw[dq+1]+1]]
-         if type(sx)~=snq[13] then cav(); mbn("vm",0) end
-         local jd={pp}
-         for ose=1,iw do
-          local ws=gg(wc,su+4+ose)
-          if ws+1>bx then cav(); mbn("vm",0) end
-          jd[ose+1]=gn[ws+1]
+         local wb=vh
+         if wb==3 then fd=uh(fd[1],xc) wb=2 else wb=(wb~=0 and 1 or 0) end
+         wi[qw+1]=uy(fd,lj,xc,wb,qw)
+         if (type(wi[qw+1])~=gzm[9] or #wi[qw+1]~=64) and wb~=0 then fca(); mit("vm",0) end
+         fd=nil
+        elseif gq==lp[14] then
+         if lj+1>wx or xc+1>mk or qw+1>mk then fca(); mit("vm",0) end
+         local ni=wi[xc+1]
+         local xd=ni[xxo[yw[lj+1]+1]]
+         if type(xd)~=gzm[13] then fca(); mit("vm",0) end
+         local qk={ni}
+         for tyv=1,vh do
+          local xv=nz(qq,vy+4+tyv)
+          if xv+1>mk then fca(); mit("vm",0) end
+          qk[tyv+1]=wi[xv+1]
          end
-         gn[xs+1]=wh(sx,jd)
-        elseif yv==qs[12] then
-         local ay=gn[cv+1]
-         if type(ay)~=snq[13] then cav(); mbn("vm",0) end
-         local jd={}
-         for ose=1,iw do
-          local ws=gg(wc,su+4+ose)
-          if ws+1>bx then cav(); mbn("vm",0) end
-          jd[ose]=gn[ws+1]
+         wi[qw+1]=dq(xd,qk)
+        elseif gq==lp[12] then
+         local xl=wi[xc+1]
+         if type(xl)~=gzm[13] then fca(); mit("vm",0) end
+         local qk={}
+         for tyv=1,vh do
+          local xv=nz(qq,vy+4+tyv)
+          if xv+1>mk then fca(); mit("vm",0) end
+          qk[tyv]=wi[xv+1]
          end
-         gn[xs+1]=ay(vy(jd))
-        elseif yv==qs[30] then
-         if cv>#vlc or cv<1 then cav(); mbn("vm",0) end
-         local jd={}
-         for ose=1,iw do
-          local ws=gg(wc,su+4+ose)
-          if ws+1>bx then cav(); mbn("vm",0) end
-          jd[ose]=gn[ws+1]
+         wi[qw+1]=xl(hb(qk))
+        elseif gq==lp[30] then
+         if xc>#zxr or xc<1 then fca(); mit("vm",0) end
+         local qk={}
+         for tyv=1,vh do
+          local xv=nz(qq,vy+4+tyv)
+          if xv+1>mk then fca(); mit("vm",0) end
+          qk[tyv]=wi[xv+1]
          end
-         gn[xs+1]=zx(cv,jd)
-        elseif yv==qs[18] then
-         ed(gn,xs,dq,iw,9)
-        elseif yv==qs[19] then
-         ed(gn,xs,dq,iw,6)
-        elseif yv==qs[20] then
-         ed(gn,xs,dq,iw,11)
-        elseif yv==qs[21] then
-         ed(gn,xs,dq,iw,5)
-        elseif yv==qs[28] then
-         gn[xs+1]=gn[dq+1]%gn[iw+1]
-        elseif yv==qs[22] then
-         ed(gn,xs,dq,iw,10)
-        elseif yv==qs[23] then
-         ed(gn,xs,dq,iw,2)
-        elseif yv==qs[24] then
-         ed(gn,xs,dq,iw,7)
-        elseif yv==qs[25] then
-         ed(gn,xs,dq,iw,4)
-        elseif yv==qs[26] then
-         ed(gn,xs,dq,iw,12)
-        elseif yv==qs[27] then
-         ed(gn,xs,dq,iw,1)
-        elseif yv==qs[29] then
-         ed(gn,xs,dq,iw,8)
-        elseif yv==qs[34] then
-         gn[xs+1]=uc(ns[cv+1],gn[dq+1],9)
-        elseif yv==qs[46] then
-         gn[xs+1]=uc(gn[cv+1],ns[dq+1],9)
-        elseif yv==qs[35] then
-         gn[xs+1]=uc(ns[cv+1],gn[dq+1],6)
-        elseif yv==qs[47] then
-         gn[xs+1]=uc(gn[cv+1],ns[dq+1],6)
-        elseif yv==qs[36] then
-         gn[xs+1]=uc(ns[cv+1],gn[dq+1],11)
-        elseif yv==qs[48] then
-         gn[xs+1]=uc(gn[cv+1],ns[dq+1],11)
-        elseif yv==qs[37] then
-         gn[xs+1]=uc(ns[cv+1],gn[dq+1],5)
-        elseif yv==qs[49] then
-         gn[xs+1]=uc(gn[cv+1],ns[dq+1],5)
-        elseif yv==qs[38] then
-         gn[xs+1]=uc(ns[cv+1],gn[dq+1],3)
-        elseif yv==qs[50] then
-         gn[xs+1]=uc(gn[cv+1],ns[dq+1],3)
-        elseif yv==qs[39] then
-         gn[xs+1]=uc(ns[cv+1],gn[dq+1],10)
-        elseif yv==qs[51] then
-         gn[xs+1]=uc(gn[cv+1],ns[dq+1],10)
-        elseif yv==qs[40] then
-         gn[xs+1]=uc(ns[cv+1],gn[dq+1],2)
-        elseif yv==qs[52] then
-         gn[xs+1]=uc(gn[cv+1],ns[dq+1],2)
-        elseif yv==qs[41] then
-         gn[xs+1]=uc(ns[cv+1],gn[dq+1],7)
-        elseif yv==qs[53] then
-         gn[xs+1]=uc(gn[cv+1],ns[dq+1],7)
-        elseif yv==qs[42] then
-         gn[xs+1]=uc(ns[cv+1],gn[dq+1],4)
-        elseif yv==qs[54] then
-         gn[xs+1]=uc(gn[cv+1],ns[dq+1],4)
-        elseif yv==qs[43] then
-         gn[xs+1]=uc(ns[cv+1],gn[dq+1],12)
-        elseif yv==qs[55] then
-         gn[xs+1]=uc(gn[cv+1],ns[dq+1],12)
-        elseif yv==qs[44] then
-         gn[xs+1]=uc(ns[cv+1],gn[dq+1],1)
-        elseif yv==qs[56] then
-         gn[xs+1]=uc(gn[cv+1],ns[dq+1],1)
-        elseif yv==qs[45] then
-         gn[xs+1]=uc(ns[cv+1],gn[dq+1],8)
-        elseif yv==qs[57] then
-         gn[xs+1]=uc(gn[cv+1],ns[dq+1],8)
-        elseif yv==qs[58] then
-         if not uc(ns[dq+1],gn[xs+1],10) then qt=ln(cv+1) end
-        elseif yv==qs[64] then
-         if not uc(gn[xs+1],ns[dq+1],10) then qt=ln(cv+1) end
-        elseif yv==qs[59] then
-         if not uc(ns[dq+1],gn[xs+1],2) then qt=ln(cv+1) end
-        elseif yv==qs[65] then
-         if not uc(gn[xs+1],ns[dq+1],2) then qt=ln(cv+1) end
-        elseif yv==qs[60] then
-         if not uc(ns[dq+1],gn[xs+1],7) then qt=ln(cv+1) end
-        elseif yv==qs[66] then
-         if not uc(gn[xs+1],ns[dq+1],7) then qt=ln(cv+1) end
-        elseif yv==qs[61] then
-         if not uc(ns[dq+1],gn[xs+1],4) then qt=ln(cv+1) end
-        elseif yv==qs[67] then
-         if not uc(gn[xs+1],ns[dq+1],4) then qt=ln(cv+1) end
-        elseif yv==qs[62] then
-         if not uc(ns[dq+1],gn[xs+1],12) then qt=ln(cv+1) end
-        elseif yv==qs[68] then
-         if not uc(gn[xs+1],ns[dq+1],12) then qt=ln(cv+1) end
-        elseif yv==qs[63] then
-         if not uc(ns[dq+1],gn[xs+1],1) then qt=ln(cv+1) end
-        elseif yv==qs[69] then
-         if not uc(gn[xs+1],ns[dq+1],1) then qt=ln(cv+1) end
-        elseif yv==qs[12] and bit32.band(iw,2147483648)~=0 then
-         local ay=gn[xs+1]
-         if type(ay)~=snq[13] then cav(); mbn("vm",0) end
-         local jd={}
-         for ose=1,bit32.band(iw,2147483647) do
-          local ws=gg(wc,su+4+ose)
-          if ws+1>bx then cav(); mbn("vm",0) end
-          jd[ose]=gn[ws+1]
+         wi[qw+1]=gb(xc,qk)
+        elseif gq==lp[18] then
+         vk(wi,qw,lj,vh,9)
+        elseif gq==lp[19] then
+         vk(wi,qw,lj,vh,8)
+        elseif gq==lp[20] then
+         vk(wi,qw,lj,vh,6)
+        elseif gq==lp[21] then
+         vk(wi,qw,lj,vh,3)
+        elseif gq==lp[28] then
+         wi[qw+1]=wi[lj+1]%wi[vh+1]
+        elseif gq==lp[22] then
+         vk(wi,qw,lj,vh,2)
+        elseif gq==lp[23] then
+         vk(wi,qw,lj,vh,1)
+        elseif gq==lp[24] then
+         vk(wi,qw,lj,vh,10)
+        elseif gq==lp[25] then
+         vk(wi,qw,lj,vh,11)
+        elseif gq==lp[26] then
+         vk(wi,qw,lj,vh,4)
+        elseif gq==lp[27] then
+         vk(wi,qw,lj,vh,5)
+        elseif gq==lp[29] then
+         vk(wi,qw,lj,vh,12)
+        elseif gq==lp[34] then
+         wi[qw+1]=br(omj[xc+1],wi[lj+1],9)
+        elseif gq==lp[46] then
+         wi[qw+1]=br(wi[xc+1],omj[lj+1],9)
+        elseif gq==lp[35] then
+         wi[qw+1]=br(omj[xc+1],wi[lj+1],8)
+        elseif gq==lp[47] then
+         wi[qw+1]=br(wi[xc+1],omj[lj+1],8)
+        elseif gq==lp[36] then
+         wi[qw+1]=br(omj[xc+1],wi[lj+1],6)
+        elseif gq==lp[48] then
+         wi[qw+1]=br(wi[xc+1],omj[lj+1],6)
+        elseif gq==lp[37] then
+         wi[qw+1]=br(omj[xc+1],wi[lj+1],3)
+        elseif gq==lp[49] then
+         wi[qw+1]=br(wi[xc+1],omj[lj+1],3)
+        elseif gq==lp[38] then
+         wi[qw+1]=br(omj[xc+1],wi[lj+1],7)
+        elseif gq==lp[50] then
+         wi[qw+1]=br(wi[xc+1],omj[lj+1],7)
+        elseif gq==lp[39] then
+         wi[qw+1]=br(omj[xc+1],wi[lj+1],2)
+        elseif gq==lp[51] then
+         wi[qw+1]=br(wi[xc+1],omj[lj+1],2)
+        elseif gq==lp[40] then
+         wi[qw+1]=br(omj[xc+1],wi[lj+1],1)
+        elseif gq==lp[52] then
+         wi[qw+1]=br(wi[xc+1],omj[lj+1],1)
+        elseif gq==lp[41] then
+         wi[qw+1]=br(omj[xc+1],wi[lj+1],10)
+        elseif gq==lp[53] then
+         wi[qw+1]=br(wi[xc+1],omj[lj+1],10)
+        elseif gq==lp[42] then
+         wi[qw+1]=br(omj[xc+1],wi[lj+1],11)
+        elseif gq==lp[54] then
+         wi[qw+1]=br(wi[xc+1],omj[lj+1],11)
+        elseif gq==lp[43] then
+         wi[qw+1]=br(omj[xc+1],wi[lj+1],4)
+        elseif gq==lp[55] then
+         wi[qw+1]=br(wi[xc+1],omj[lj+1],4)
+        elseif gq==lp[44] then
+         wi[qw+1]=br(omj[xc+1],wi[lj+1],5)
+        elseif gq==lp[56] then
+         wi[qw+1]=br(wi[xc+1],omj[lj+1],5)
+        elseif gq==lp[45] then
+         wi[qw+1]=br(omj[xc+1],wi[lj+1],12)
+        elseif gq==lp[57] then
+         wi[qw+1]=br(wi[xc+1],omj[lj+1],12)
+        elseif gq==lp[58] then
+         if not br(omj[lj+1],wi[qw+1],2) then ja=yk(xc+1) end
+        elseif gq==lp[64] then
+         if not br(wi[qw+1],omj[lj+1],2) then ja=yk(xc+1) end
+        elseif gq==lp[59] then
+         if not br(omj[lj+1],wi[qw+1],1) then ja=yk(xc+1) end
+        elseif gq==lp[65] then
+         if not br(wi[qw+1],omj[lj+1],1) then ja=yk(xc+1) end
+        elseif gq==lp[60] then
+         if not br(omj[lj+1],wi[qw+1],10) then ja=yk(xc+1) end
+        elseif gq==lp[66] then
+         if not br(wi[qw+1],omj[lj+1],10) then ja=yk(xc+1) end
+        elseif gq==lp[61] then
+         if not br(omj[lj+1],wi[qw+1],11) then ja=yk(xc+1) end
+        elseif gq==lp[67] then
+         if not br(wi[qw+1],omj[lj+1],11) then ja=yk(xc+1) end
+        elseif gq==lp[62] then
+         if not br(omj[lj+1],wi[qw+1],4) then ja=yk(xc+1) end
+        elseif gq==lp[68] then
+         if not br(wi[qw+1],omj[lj+1],4) then ja=yk(xc+1) end
+        elseif gq==lp[63] then
+         if not br(omj[lj+1],wi[qw+1],5) then ja=yk(xc+1) end
+        elseif gq==lp[69] then
+         if not br(wi[qw+1],omj[lj+1],5) then ja=yk(xc+1) end
+        elseif gq==lp[12] and bit32.band(vh,2147483648)~=0 then
+         local xl=wi[qw+1]
+         if type(xl)~=gzm[13] then fca(); mit("vm",0) end
+         local qk={}
+         for tyv=1,bit32.band(vh,2147483647) do
+          local xv=nz(qq,vy+4+tyv)
+          if xv+1>mk then fca(); mit("vm",0) end
+          qk[tyv]=wi[xv+1]
          end
-         return ay(vy(jd))
-        elseif yv==qs[7] and iw~=4294967295 and bit32.band(iw,2147483648)~=0 then
-         local ay=gn[dq+1][hya[xw[cv+1]+1]]
-         if type(ay)~=snq[13] then cav(); mbn("vm",0) end
-         local jd={}
-         for ose=1,bit32.band(iw,2147483647) do
-          local ws=gg(wc,su+4+ose)
-          if ws+1>bx then cav(); mbn("vm",0) end
-          jd[ose]=gn[ws+1]
+         return xl(hb(qk))
+        elseif gq==lp[7] and vh~=4294967295 and bit32.band(vh,2147483648)~=0 then
+         local xl=wi[lj+1][xxo[yw[xc+1]+1]]
+         if type(xl)~=gzm[13] then fca(); mit("vm",0) end
+         local qk={}
+         for tyv=1,bit32.band(vh,2147483647) do
+          local xv=nz(qq,vy+4+tyv)
+          if xv+1>mk then fca(); mit("vm",0) end
+          qk[tyv]=wi[xv+1]
          end
-         gn[xs+1]=ay(vy(jd))
-        elseif yv==qs[13] then
-         local ay=gn[cv+1] local jd={}
-         for ose=1,iw do local ws=gg(wc,su+4+ose) jd[ose]=gn[ws+1] end
-         local kz=gn[gg(wc,su+5+iw)+1] for ose=1,#kz do jd[#jd+1]=kz[ose] end
-         gn[xs+1]=ay(vy(jd))
-        elseif yv==qs[16] then
-         local ks={} for ose=1,iw do ks[ose]=gn[gg(wc,su+4+ose)+1] end gn[xs+1]=ks
-        elseif yv==qs[17] then
-         local mr=gn[cv+1] local mqt,kw=mr() gn[xs+1]={mqt,kw}
-        elseif yv==qs[32] then
-         if cv+1>qp or cv+1<1 then cav(); mbn("vm",0) end
-         qt=ln(cv+1)
-        elseif yv==qs[33] then
-         if dq+1>bx or cv+1>qp or cv+1<1 then cav(); mbn("vm",0) end
-         if not gn[dq+1] then qt=ln(cv+1) end
-        elseif yv==qs[31] then
-         return jo(gn,xs)
-        else cav(); mbn(nil,0) end
-        eq=qt
+         wi[qw+1]=xl(hb(qk))
+        elseif gq==lp[13] then
+         local xl=wi[xc+1] local qk={}
+         for tyv=1,vh do local xv=nz(qq,vy+4+tyv) qk[tyv]=wi[xv+1] end
+         local mp=wi[nz(qq,vy+5+vh)+1] for tyv=1,#mp do qk[#qk+1]=mp[tyv] end
+         wi[qw+1]=xl(hb(qk))
+        elseif gq==lp[16] then
+         local vi={} for tyv=1,vh do vi[tyv]=wi[nz(qq,vy+4+tyv)+1] end wi[qw+1]=vi
+        elseif gq==lp[17] then
+         local ht=wi[xc+1] local rze,zd=ht() wi[qw+1]={rze,zd}
+        elseif gq==lp[32] then
+         if xc+1>nt or xc+1<1 then fca(); mit("vm",0) end
+         ja=yk(xc+1)
+        elseif gq==lp[33] then
+         if lj+1>mk or xc+1>nt or xc+1<1 then fca(); mit("vm",0) end
+         if not wi[lj+1] then ja=yk(xc+1) end
+        elseif gq==lp[31] then
+         return wm(wi,qw)
+        else fca(); mit(nil,0) end
+        zn=ja
        end
        return nil
       end
-      dz[nr+1]=hr
-      if eh+1<=wy then
-       local nn={}
-       for ose=1,mj do
-        local ws=gg(zd,nh+4+ose)
-        if ws+1>wy then cav(); mbn("vm",0) end
-        nn[ose]=dz[ws+1]
+      kl[oh+1]=es
+      if ew+1<=oi then
+       local cq={}
+       for tyv=1,kg do
+        local xv=nz(ev,rz+4+tyv)
+        if xv+1>oi then fca(); mit("vm",0) end
+        cq[tyv]=kl[xv+1]
        end
-       dz[eh+1]=hr(vy(nn))
+       kl[ew+1]=es(hb(cq))
       end
-     elseif pg==qs[18] then
-      ed(dz,nr,eh,mj,9)
-     elseif pg==qs[19] then
-      ed(dz,nr,eh,mj,6)
-     elseif pg==qs[20] then
-      ed(dz,nr,eh,mj,11)
-     elseif pg==qs[21] then
-      ed(dz,nr,eh,mj,5)
-     elseif pg==qs[28] then
-      dz[nr+1]=dz[eh+1]%dz[mj+1]
-     elseif pg==qs[22] then
-      ed(dz,nr,eh,mj,10)
-     elseif pg==qs[23] then
-      ed(dz,nr,eh,mj,2)
-     elseif pg==qs[24] then
-      ed(dz,nr,eh,mj,7)
-     elseif pg==qs[25] then
-      ed(dz,nr,eh,mj,4)
-     elseif pg==qs[26] then
-      ed(dz,nr,eh,mj,12)
-     elseif pg==qs[27] then
-      ed(dz,nr,eh,mj,1)
-     elseif pg==qs[29] then
-      ed(dz,nr,eh,mj,8)
-     elseif pg==qs[34] then
-      dz[nr+1]=uc(ns[lr+1],dz[eh+1],9)
-     elseif pg==qs[46] then
-      dz[nr+1]=uc(dz[lr+1],ns[eh+1],9)
-     elseif pg==qs[35] then
-      dz[nr+1]=uc(ns[lr+1],dz[eh+1],6)
-     elseif pg==qs[47] then
-      dz[nr+1]=uc(dz[lr+1],ns[eh+1],6)
-     elseif pg==qs[36] then
-      dz[nr+1]=uc(ns[lr+1],dz[eh+1],11)
-     elseif pg==qs[48] then
-      dz[nr+1]=uc(dz[lr+1],ns[eh+1],11)
-     elseif pg==qs[37] then
-      dz[nr+1]=uc(ns[lr+1],dz[eh+1],5)
-     elseif pg==qs[49] then
-      dz[nr+1]=uc(dz[lr+1],ns[eh+1],5)
-     elseif pg==qs[38] then
-      dz[nr+1]=uc(ns[lr+1],dz[eh+1],3)
-     elseif pg==qs[50] then
-      dz[nr+1]=uc(dz[lr+1],ns[eh+1],3)
-     elseif pg==qs[39] then
-      dz[nr+1]=uc(ns[lr+1],dz[eh+1],10)
-     elseif pg==qs[51] then
-      dz[nr+1]=uc(dz[lr+1],ns[eh+1],10)
-     elseif pg==qs[40] then
-      dz[nr+1]=uc(ns[lr+1],dz[eh+1],2)
-     elseif pg==qs[52] then
-      dz[nr+1]=uc(dz[lr+1],ns[eh+1],2)
-     elseif pg==qs[41] then
-      dz[nr+1]=uc(ns[lr+1],dz[eh+1],7)
-     elseif pg==qs[53] then
-      dz[nr+1]=uc(dz[lr+1],ns[eh+1],7)
-     elseif pg==qs[42] then
-      dz[nr+1]=uc(ns[lr+1],dz[eh+1],4)
-     elseif pg==qs[54] then
-      dz[nr+1]=uc(dz[lr+1],ns[eh+1],4)
-     elseif pg==qs[43] then
-      dz[nr+1]=uc(ns[lr+1],dz[eh+1],12)
-     elseif pg==qs[55] then
-      dz[nr+1]=uc(dz[lr+1],ns[eh+1],12)
-     elseif pg==qs[44] then
-      dz[nr+1]=uc(ns[lr+1],dz[eh+1],1)
-     elseif pg==qs[56] then
-      dz[nr+1]=uc(dz[lr+1],ns[eh+1],1)
-     elseif pg==qs[45] then
-      dz[nr+1]=uc(ns[lr+1],dz[eh+1],8)
-     elseif pg==qs[57] then
-      dz[nr+1]=uc(dz[lr+1],ns[eh+1],8)
-     elseif pg==qs[58] then
-      if not uc(ns[eh+1],dz[nr+1],10) then es=ln(lr+1) end
-     elseif pg==qs[64] then
-      if not uc(dz[nr+1],ns[eh+1],10) then es=ln(lr+1) end
-     elseif pg==qs[59] then
-      if not uc(ns[eh+1],dz[nr+1],2) then es=ln(lr+1) end
-     elseif pg==qs[65] then
-      if not uc(dz[nr+1],ns[eh+1],2) then es=ln(lr+1) end
-     elseif pg==qs[60] then
-      if not uc(ns[eh+1],dz[nr+1],7) then es=ln(lr+1) end
-     elseif pg==qs[66] then
-      if not uc(dz[nr+1],ns[eh+1],7) then es=ln(lr+1) end
-     elseif pg==qs[61] then
-      if not uc(ns[eh+1],dz[nr+1],4) then es=ln(lr+1) end
-     elseif pg==qs[67] then
-      if not uc(dz[nr+1],ns[eh+1],4) then es=ln(lr+1) end
-     elseif pg==qs[62] then
-      if not uc(ns[eh+1],dz[nr+1],12) then es=ln(lr+1) end
-     elseif pg==qs[68] then
-      if not uc(dz[nr+1],ns[eh+1],12) then es=ln(lr+1) end
-     elseif pg==qs[63] then
-      if not uc(ns[eh+1],dz[nr+1],1) then es=ln(lr+1) end
-     elseif pg==qs[69] then
-      if not uc(dz[nr+1],ns[eh+1],1) then es=ln(lr+1) end
-     elseif pg==qs[12] and bit32.band(mj,2147483648)~=0 then
-      local sr=dz[nr+1]
-      if type(sr)~=snq[13] then cav(); mbn("vm",0) end
-      local nn={}
-      for ose=1,bit32.band(mj,2147483647) do
-       local ws=gg(zd,nh+4+ose)
-       if ws+1>wy then cav(); mbn("vm",0) end
-       nn[ose]=dz[ws+1]
+     elseif zu==lp[18] then
+      vk(kl,oh,ew,kg,9)
+     elseif zu==lp[19] then
+      vk(kl,oh,ew,kg,8)
+     elseif zu==lp[20] then
+      vk(kl,oh,ew,kg,6)
+     elseif zu==lp[21] then
+      vk(kl,oh,ew,kg,3)
+     elseif zu==lp[28] then
+      kl[oh+1]=kl[ew+1]%kl[kg+1]
+     elseif zu==lp[22] then
+      vk(kl,oh,ew,kg,2)
+     elseif zu==lp[23] then
+      vk(kl,oh,ew,kg,1)
+     elseif zu==lp[24] then
+      vk(kl,oh,ew,kg,10)
+     elseif zu==lp[25] then
+      vk(kl,oh,ew,kg,11)
+     elseif zu==lp[26] then
+      vk(kl,oh,ew,kg,4)
+     elseif zu==lp[27] then
+      vk(kl,oh,ew,kg,5)
+     elseif zu==lp[29] then
+      vk(kl,oh,ew,kg,12)
+     elseif zu==lp[34] then
+      kl[oh+1]=br(omj[nu+1],kl[ew+1],9)
+     elseif zu==lp[46] then
+      kl[oh+1]=br(kl[nu+1],omj[ew+1],9)
+     elseif zu==lp[35] then
+      kl[oh+1]=br(omj[nu+1],kl[ew+1],8)
+     elseif zu==lp[47] then
+      kl[oh+1]=br(kl[nu+1],omj[ew+1],8)
+     elseif zu==lp[36] then
+      kl[oh+1]=br(omj[nu+1],kl[ew+1],6)
+     elseif zu==lp[48] then
+      kl[oh+1]=br(kl[nu+1],omj[ew+1],6)
+     elseif zu==lp[37] then
+      kl[oh+1]=br(omj[nu+1],kl[ew+1],3)
+     elseif zu==lp[49] then
+      kl[oh+1]=br(kl[nu+1],omj[ew+1],3)
+     elseif zu==lp[38] then
+      kl[oh+1]=br(omj[nu+1],kl[ew+1],7)
+     elseif zu==lp[50] then
+      kl[oh+1]=br(kl[nu+1],omj[ew+1],7)
+     elseif zu==lp[39] then
+      kl[oh+1]=br(omj[nu+1],kl[ew+1],2)
+     elseif zu==lp[51] then
+      kl[oh+1]=br(kl[nu+1],omj[ew+1],2)
+     elseif zu==lp[40] then
+      kl[oh+1]=br(omj[nu+1],kl[ew+1],1)
+     elseif zu==lp[52] then
+      kl[oh+1]=br(kl[nu+1],omj[ew+1],1)
+     elseif zu==lp[41] then
+      kl[oh+1]=br(omj[nu+1],kl[ew+1],10)
+     elseif zu==lp[53] then
+      kl[oh+1]=br(kl[nu+1],omj[ew+1],10)
+     elseif zu==lp[42] then
+      kl[oh+1]=br(omj[nu+1],kl[ew+1],11)
+     elseif zu==lp[54] then
+      kl[oh+1]=br(kl[nu+1],omj[ew+1],11)
+     elseif zu==lp[43] then
+      kl[oh+1]=br(omj[nu+1],kl[ew+1],4)
+     elseif zu==lp[55] then
+      kl[oh+1]=br(kl[nu+1],omj[ew+1],4)
+     elseif zu==lp[44] then
+      kl[oh+1]=br(omj[nu+1],kl[ew+1],5)
+     elseif zu==lp[56] then
+      kl[oh+1]=br(kl[nu+1],omj[ew+1],5)
+     elseif zu==lp[45] then
+      kl[oh+1]=br(omj[nu+1],kl[ew+1],12)
+     elseif zu==lp[57] then
+      kl[oh+1]=br(kl[nu+1],omj[ew+1],12)
+     elseif zu==lp[58] then
+      if not br(omj[ew+1],kl[oh+1],2) then un=yk(nu+1) end
+     elseif zu==lp[64] then
+      if not br(kl[oh+1],omj[ew+1],2) then un=yk(nu+1) end
+     elseif zu==lp[59] then
+      if not br(omj[ew+1],kl[oh+1],1) then un=yk(nu+1) end
+     elseif zu==lp[65] then
+      if not br(kl[oh+1],omj[ew+1],1) then un=yk(nu+1) end
+     elseif zu==lp[60] then
+      if not br(omj[ew+1],kl[oh+1],10) then un=yk(nu+1) end
+     elseif zu==lp[66] then
+      if not br(kl[oh+1],omj[ew+1],10) then un=yk(nu+1) end
+     elseif zu==lp[61] then
+      if not br(omj[ew+1],kl[oh+1],11) then un=yk(nu+1) end
+     elseif zu==lp[67] then
+      if not br(kl[oh+1],omj[ew+1],11) then un=yk(nu+1) end
+     elseif zu==lp[62] then
+      if not br(omj[ew+1],kl[oh+1],4) then un=yk(nu+1) end
+     elseif zu==lp[68] then
+      if not br(kl[oh+1],omj[ew+1],4) then un=yk(nu+1) end
+     elseif zu==lp[63] then
+      if not br(omj[ew+1],kl[oh+1],5) then un=yk(nu+1) end
+     elseif zu==lp[69] then
+      if not br(kl[oh+1],omj[ew+1],5) then un=yk(nu+1) end
+     elseif zu==lp[12] and bit32.band(kg,2147483648)~=0 then
+      local fr=kl[oh+1]
+      if type(fr)~=gzm[13] then fca(); mit("vm",0) end
+      local cq={}
+      for tyv=1,bit32.band(kg,2147483647) do
+       local xv=nz(ev,rz+4+tyv)
+       if xv+1>oi then fca(); mit("vm",0) end
+       cq[tyv]=kl[xv+1]
       end
-      return sr(vy(nn))
-     elseif pg==qs[7] and mj~=4294967295 and bit32.band(mj,2147483648)~=0 then
-      local sr=dz[eh+1][hya[tz[lr+1]+1]]
-      if type(sr)~=snq[13] then cav(); mbn("vm",0) end
-      local nn={}
-      for ose=1,bit32.band(mj,2147483647) do
-       local ws=gg(zd,nh+4+ose)
-       if ws+1>wy then cav(); mbn("vm",0) end
-       nn[ose]=dz[ws+1]
+      return fr(hb(cq))
+     elseif zu==lp[7] and kg~=4294967295 and bit32.band(kg,2147483648)~=0 then
+      local fr=kl[ew+1][xxo[rs[nu+1]+1]]
+      if type(fr)~=gzm[13] then fca(); mit("vm",0) end
+      local cq={}
+      for tyv=1,bit32.band(kg,2147483647) do
+       local xv=nz(ev,rz+4+tyv)
+       if xv+1>oi then fca(); mit("vm",0) end
+       cq[tyv]=kl[xv+1]
       end
-      dz[nr+1]=sr(vy(nn))
-     elseif pg==qs[32] then
-      es=ln(lr+1)
-     elseif pg==qs[33] then
-      if not dz[eh+1] then es=ln(lr+1) end
-     elseif pg==qs[31] then
-      return jo(dz,nr)
-     else cav(); mbn(nil,0) end
-     kf=es
+      kl[oh+1]=fr(hb(cq))
+     elseif zu==lp[32] then
+      un=yk(nu+1)
+     elseif zu==lp[33] then
+      if not kl[ew+1] then un=yk(nu+1) end
+     elseif zu==lp[31] then
+      return wm(kl,oh)
+     else fca(); mit(nil,0) end
+     vl=un
     end
     return nil
    end
-   return rn
+   return lh
    end
-   local rn=ij()
-   mop[eme]=rn
+   local lh=uo()
+   zrf[kys]=lh
 end
-qv[(((44-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   local bi={}
-   if jcb+1>ud or qns+1>oy then cav(); mbn("vm",0) end
-   local ygx=ns[jcb+1]
-   local oms=mop[qns+1]
-   mop[eme]=sq(ygx,oms,1)
+ju[(((61-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   local xm=0
+   if ufi+1>qt or kng+1>vu or kys>dc then fca(); mit("vm",0) end
+   local rr=not gh(omj[ufi+1],zrf[kys],2)
+   if rr then guk.j=true; guk.a=bj[kng+1]+1; dh(kng+1) end
 end
-qv[(((62-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   if qns+1>ud or jcb+1>mf or eme>oy then cav(); mbn("vm",0) end
-   local ap=not sq(ns[qns+1],mop[eme],9)
-   if ap then pdo.j=true; pdo.a=gb[jcb+1]+1; lw(jcb+1) end
+ju[(((20-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   if ufi+1>dc or kng+1>dc then fca(); mit("vm",0) end
+   zrf[kys]=gh(zrf[kng+1],zrf[ufi+1],9)
 end
-qv[(((68-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   local bi={}
-   if qns+1>ud or jcb+1>mf or eme>oy then cav(); mbn("vm",0) end
-   local ap=not sq(mop[eme],ns[qns+1],9)
-   if ap then pdo.j=true; pdo.a=gb[jcb+1]+1; lw(jcb+1) end
+ju[(((23-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   if ufi+1>dc or kng+1>dc then fca(); mit("vm",0) end
+   zrf[kys]=gh(zrf[kng+1],zrf[ufi+1],10)
 end
-qv[(((69-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   if qns+1>ud or jcb+1>mf or eme>oy then cav(); mbn("vm",0) end
-   if not sq(mop[eme],ns[qns+1],1) then pdo.j=true; pdo.a=gb[jcb+1]+1; lw(jcb+1) end
+ju[(((26-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   local xm={}
+   if ufi+1>dc or kng+1>dc then fca(); mit("vm",0) end
+   zrf[kys]=gh(zrf[kng+1],zrf[ufi+1],1)
 end
-qv[(((19-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   local bi=0
-   if qns+1>oy or jcb+1>oy then cav(); mbn("vm",0) end
-   mop[eme]=sq(mop[jcb+1],mop[qns+1],2)
+ju[(((22-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   local xm={}
+   if ufi+1>dc or kng+1>dc then fca(); mit("vm",0) end
+   zrf[kys]=gh(zrf[kng+1],zrf[ufi+1],4)
 end
-qv[(((67-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   local bi=0
-   if qns+1>ud or jcb+1>mf or eme>oy then cav(); mbn("vm",0) end
-   local ap=not sq(mop[eme],ns[qns+1],6)
-   if ap then pdo.j=true; pdo.a=gb[jcb+1]+1; lw(jcb+1) end
-end
-qv[(((43-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   local bi=0
-   if jcb+1>ud or qns+1>oy then cav(); mbn("vm",0) end
-   local ygx=ns[jcb+1]
-   local oms=mop[qns+1]
-   mop[eme]=sq(ygx,oms,9)
-end
-qv[(((60-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   local bi={}
-   if qns+1>ud or jcb+1>mf or eme>oy then cav(); mbn("vm",0) end
-   local ap=not sq(ns[qns+1],mop[eme],7)
-   if ap then pdo.j=true; pdo.a=gb[jcb+1]+1; lw(jcb+1) end
-end
-qv[(((33-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
- if qns+1>oy then cav(); mbn("vm",0) end
- if jcb+1>mf then cav(); mbn("vm",0) end
- local rb,kx=lm(2,gb,jcb+1,mop[qns+1])
- if rb then
-  pdo.a=kx
-  pdo.j=true
-  lw(jcb+1)
- end
-end
-qv[(((2-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   local ev=jcb+1
-   if ev>oy then cav(); mbn("vm",0) end
-   local dy=mop[ev]
-   mop[eme]=dy
-   dy=nil
-end
-qv[(((28-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   local bi={}
-end
-qv[(((56-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   local bi={}
-   if jcb+1>oy or qns+1>ud then cav(); mbn("vm",0) end
-   local ygx=mop[jcb+1]
-   local oms=ns[qns+1]
-   mop[eme]=sq(ygx,oms,1)
-end
-qv[(((52-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   local bi={}
-   if jcb+1>oy or qns+1>ud then cav(); mbn("vm",0) end
-   local ygx=mop[jcb+1]
-   local oms=ns[qns+1]
-   mop[eme]=sq(ygx,oms,4)
-end
-qv[(((59-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   local bi=0
-   if qns+1>ud or jcb+1>mf or eme>oy then cav(); mbn("vm",0) end
-   local ap=not sq(ns[qns+1],mop[eme],4)
-   if ap then pdo.j=true; pdo.a=gb[jcb+1]+1; lw(jcb+1) end
-end
-qv[(((1-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   if jcb+1>ud then cav(); mbn("vm",0) end
-   mop[eme]=ns[jcb+1]
-end
-qv[(((7-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   local bi=0
-   if qns+1>oy or jcb+1>ft then cav(); mbn("vm",0) end
-   oa(3,mop,eme,jcb+1,qns+1)
-end
-qv[(((6-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   if qns+1>oy or jcb+1>oy or eme+1>oy then cav(); mbn("vm",0) end
-   oa(2,mop,eme,jcb+1,qns+1)
-end
-qv[(((20-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   local bi={}
-   if qns+1>oy or jcb+1>oy then cav(); mbn("vm",0) end
-   mop[eme]=sq(mop[jcb+1],mop[qns+1],3)
-end
-qv[(((12-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   local bi={}
-   if jcb+1>oy then cav(); mbn("vm",0) end
-   local fe=mop[jcb+1]
-   local lg=nil if type(fe)~=snq[13] then local qm=getmetatable(fe) lg=qm and qm.__call if type(lg)~=snq[13] then cav(); mbn("vm",0) end end
-   local tek={}
-   for ose=1,qns do
-    if pdo.a>fy then cav(); mbn("vm",0) end
-    local ws=gk(pdo.a)+1
-    if ws>oy or ws<1 then cav(); mbn("vm",0) end
-    tek[ose]=mop[ws]
-    pdo.a=pdo.a+1
+ju[(((15-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   if kng>#zxr or kng<1 then fca(); mit("vm",0) end
+   local ean={}
+   for tyv=1,ufi do
+    local xv=sz(guk.a)+1
+    ean[tyv]=zrf[xv]
+    guk.a=guk.a+1
    end
-   if lg then for ose=#tek,1,-1 do tek[ose+1]=tek[ose] end tek[1]=fe fe=lg end
-   mop[eme]=fe(vy(tek,1,qns))
-   tek=nil
+   local dj=sz(guk.a)+1
+   guk.a=guk.a+1
+   local mp=zrf[dj]
+   if type(mp)~=gzm[12] then mp={mp} end
+   for tyv=1,#mp do ean[#ean+1]=mp[tyv] end
+   zrf[kys]=gb(kng,ean)
+   ean=nil; mp=nil
 end
-qv[(((24-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   local bi={}
-   if qns+1>oy or jcb+1>oy then cav(); mbn("vm",0) end
-   mop[eme]=sq(mop[jcb+1],mop[qns+1],7)
+ju[(((65-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   local xm=0
+   if ufi+1>qt or kng+1>vu or kys>dc then fca(); mit("vm",0) end
+   local rr=not gh(zrf[kys],omj[ufi+1],10)
+   if rr then guk.j=true; guk.a=bj[kng+1]+1; dh(kng+1) end
 end
-qv[(((36-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   local bi={}
-   if jcb+1>ud or qns+1>oy then cav(); mbn("vm",0) end
-   local ygx=ns[jcb+1]
-   local oms=mop[qns+1]
-   mop[eme]=sq(ygx,oms,3)
+ju[(((8-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   if ufi+1>dc or kng+1>wx or kys+1>dc then fca(); mit("vm",0) end
+   mz(4,zrf,kys,kng+1,ufi+1)
 end
-qv[(((49-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   if qns+1>ud or jcb+1>oy then cav(); mbn("vm",0) end
-   mop[eme]=sq(mop[jcb+1],ns[qns+1],11)
-end
-qv[(((29-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   if qns+1>oy or jcb+1>oy then cav(); mbn("vm",0) end
-   mop[eme]=sq(mop[jcb+1],mop[qns+1],8)
-end
-qv[(((66-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   if qns+1>ud or jcb+1>mf or eme>oy then cav(); mbn("vm",0) end
-   local ap=not sq(mop[eme],ns[qns+1],7)
-   if ap then pdo.j=true; pdo.a=gb[jcb+1]+1; lw(jcb+1) end
-end
-qv[(((42-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   if jcb+1>ud or qns+1>oy then cav(); mbn("vm",0) end
-   local ygx=ns[jcb+1]
-   local oms=mop[qns+1]
-   mop[eme]=sq(ygx,oms,6)
-end
-qv[(((63-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   local bi=0
-   if qns+1>ud or jcb+1>mf or eme>oy then cav(); mbn("vm",0) end
-   local ap=not sq(ns[qns+1],mop[eme],1)
-   if ap then pdo.j=true; pdo.a=gb[jcb+1]+1; lw(jcb+1) end
-end
-qv[(((31-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   local bi=0
-   local vf=mop[eme]
-   mop[eme]=nil
-   kd=vf
-   pb=261
-   vf=nil
-end
-qv[(((10-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   if jcb+1>oy or eme>ft then cav(); mbn("vm",0) end
-   wx(2,mop,sg,eme,jcb)
-end
-qv[(((65-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   if qns+1>ud or jcb+1>mf or eme>oy then cav(); mbn("vm",0) end
-   if not sq(mop[eme],ns[qns+1],4) then pdo.j=true; pdo.a=gb[jcb+1]+1; lw(jcb+1) end
-end
-qv[(((32-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   local bi={}
- if jcb+1>mf then cav(); mbn("vm",0) end
- local rb,kx=lm(1,gb,jcb+1)
- pdo.a=kx
- pdo.j=rb
- lw(jcb+1)
-end
-qv[(((51-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   local bi=0
-   if jcb+1>oy or qns+1>ud then cav(); mbn("vm",0) end
-   local ygx=mop[jcb+1]
-   local oms=ns[qns+1]
-   mop[eme]=sq(ygx,oms,12)
-end
-qv[(((5-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   if qns+1>oy or jcb+1>oy then cav(); mbn("vm",0) end
-   oa(1,mop,eme,jcb+1,qns+1)
-end
-qv[(((22-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   if qns+1>oy or jcb+1>oy then cav(); mbn("vm",0) end
-   mop[eme]=sq(mop[jcb+1],mop[qns+1],12)
-end
-qv[(((4-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   local bi={}
-end
-qv[(((48-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   local bi={}
-   if jcb+1>oy or qns+1>ud then cav(); mbn("vm",0) end
-   local ygx=mop[jcb+1]
-   local oms=ns[qns+1]
-   mop[eme]=sq(ygx,oms,3)
-end
-qv[(((35-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   local bi=0
-   if jcb+1>ud or qns+1>oy then cav(); mbn("vm",0) end
-   local ygx=ns[jcb+1]
-   local oms=mop[qns+1]
-   mop[eme]=sq(ygx,oms,2)
-end
-qv[(((9-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   if jcb+1>ft then cav(); mbn("vm",0) end
-   wx(1,mop,sg,eme,jcb+1)
-end
-qv[(((53-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   if qns+1>ud or jcb+1>oy then cav(); mbn("vm",0) end
-   mop[eme]=sq(mop[jcb+1],ns[qns+1],7)
-end
-qv[(((26-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   if qns+1>oy or jcb+1>oy then cav(); mbn("vm",0) end
-   mop[eme]=sq(mop[jcb+1],mop[qns+1],9)
-end
-qv[(((30-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   if jcb>#vlc or jcb<1 then cav(); mbn("vm",0) end
-   local tek={}
-   local ose=1
-   while ose<=qns do
-    if pdo.a>fy then cav(); mbn("vm",0) end
-    local ws=gk(pdo.a)+1
-    if ws>oy or ws<1 then cav(); mbn("vm",0) end
-    tek[ose]=mop[ws]
-    pdo.a=pdo.a+1
-    ose=ose+1
-   end
-   local ndn=vlc[jcb]
-   if type(ndn)~=snq[13] then cav(); mbn("vm",0) end
-   mop[eme]=ndn(vy(tek))
-   for bpd=1,#tek do tek[bpd]=nil end
-end
-qv[(((27-1)*17+0)%70)+1]=function()
- local mop=setmetatable({},{__index=function(obn,mqt) return llr[mh[mqt]] end,__newindex=function(obn,mqt,kw) llr[mh[mqt]]=kw end})
-   local bi=0
-   if qns+1>oy or jcb+1>oy then cav(); mbn("vm",0) end
-   mop[eme]=sq(mop[jcb+1],mop[qns+1],1)
-end
-function cr(tc)
- local uy=qv[(((tc-1)*17+0)%70)+1]
- if uy==nil then cav(); mbn("vm",0) end
- return uy()
-end
-function yz(zn)
- if th.m==0 then mbn(); ssc(nil,0) end
- if type(zn)~=snq[12] then mbn(); ssc("vm",0) end
- for kvm=1,70 do
-  if type(zn[kvm])~=snq[13] then mbn(); ssc("vm",0) end
+ju[(((33-1)*17+52)%70)+1]=function()
+ local zrf=setmetatable({},{__index=function(exy,rze) return bmy[co[rze]] end,__newindex=function(exy,rze,zd) bmy[co[rze]]=zd end})
+   local xm=0
+ if ufi+1>dc then fca(); mit("vm",0) end
+ if kng+1>vu then fca(); mit("vm",0) end
+ local ph,wn=zq(2,bj,kng+1,zrf[ufi+1])
+ if ph then
+  guk.a=wn
+  guk.j=true
+  dh(kng+1)
  end
 end
-local rl=0
-local rk=false
-local gj={{1,17},{1,13},{1,28,29},{1,13},{1,32,33,34},{1,17},{1,11,12},{1,15,16},{1,18,19},{1},{1,21},{1,9,25,26},{1,13,17},{1},{1,11,13},{1,26},{1,22,23},{1,26,27},{1,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49},{1,30},{1,28},{1,23,24},{1,17,21},{1,19,20},{1,28,30},{1,14,15},{1,26,28},{1,2,3,4,5,6,7,8,10,11,50,51},{1,31,32}}
-local am={{{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{1,17,21},{},{},{},{},{},{}},{{},{},{},{},{},{},{},{},{},{},{},{},{1,13,17},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}},{{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{1,28,30},{},{},{},{}},{{},{},{},{},{},{},{},{},{},{},{},{},{1,13,17},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}},{{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{1,30},{},{},{},{},{},{},{},{},{}},{{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{1,17,21},{},{},{},{},{},{}},{{},{},{},{},{},{},{},{},{},{},{},{},{},{},{1,11,13},{},{},{},{},{},{},{},{},{},{},{},{},{},{}},{{},{},{},{1,13},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}},{{1,17},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{1,19,20},{},{},{},{},{}},{{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{1,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49},{},{},{},{},{},{},{},{},{},{}},{{},{},{},{},{},{},{},{},{},{},{},{1,9,25,26},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}},{{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{1,26},{},{1,26,27},{},{},{},{},{},{},{},{},{},{},{}},{{},{},{},{},{},{1,17},{},{},{1,18,19},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}},{{},{},{},{},{},{},{},{},{},{},{},{1,9,25,26},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}},{{},{1,13},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{1,14,15},{},{},{}},{{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{1,26,28},{},{}},{{},{},{},{},{},{},{},{},{},{},{1,21},{},{},{},{},{},{},{},{},{},{},{1,23,24},{},{},{},{},{},{},{}},{{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{1,26,28},{},{}},{{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}},{{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{1,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49},{},{},{},{},{},{},{},{},{},{}},{{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{1,28,30},{},{},{},{}},{{},{},{},{},{},{},{},{},{},{},{1,21},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}},{{},{},{},{},{},{},{},{},{},{},{},{},{},{1},{},{},{1,22,23},{},{},{},{},{},{},{},{},{},{},{},{}},{{1,17},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}},{{},{},{},{},{},{},{},{},{},{1},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{1,31,32}},{{},{},{},{1,13},{},{},{},{1,15,16},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}},{{},{},{1,28,29},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{1,28},{},{},{},{},{},{},{},{}},{{},{},{},{},{},{},{1,11,12},{},{},{},{},{},{},{},{1,11,13},{},{},{},{},{},{},{},{},{},{},{},{},{},{}},{{},{},{},{},{1,32,33,34},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{1,30},{},{},{},{},{},{},{},{},{}}}
-function jg(nfz,rt)
- local qh=np[rt]
- local pl=xf[rt]
- local ui={}
- local yx=0
- for cwz=1,4 do
-  local jk=qj[cwz]+1
-  local tb=qh[jk]
-  local dj=pl[tb]
-  ui[jk]=bit32.band(bit32.rshift(nfz,yx),2^dj-1)
-  yx=yx+dj
- end
- local ia=0
- yx=0
- for cwz=1,4 do
-  local tb=qh[cwz]
-  local dj=pl[tb]
-  ia=bit32.bor(ia,bit32.lshift(ui[cwz],yx))
-  yx=yx+dj
- end
- return ia
+function jl(ag)
+ local bh=ju[(((ag-1)*17+52)%70)+1]
+ if bh==nil then ufe(); bll("vm",0) end
+ return bh()
 end
-function rq()
- local ho=pdo.h
- if ho~=pdo.c then
-  local ga=aw[ho+1]
-  local ob=am[pdo.d]
-  local sh=(ob and ob[pdo.b]) or gj[pdo.b]
-  for kvm=1,#sh do
-   local pq=sh[kvm]
-   if ho==1 then
-    ga[mh[pq]]=llr[pq]
+function zf(lc)
+ if vb.q==0 then mit(); ufe(nil,0) end
+ if type(lc)~=gzm[12] then mit(); ufe("vm",0) end
+ for lbc=1,70 do
+  if type(lc[lbc])~=gzm[13] then mit(); ufe("vm",0) end
+ end
+end
+local iz=0
+local yy=false
+local ty={{1,28,29},{1,28},{1,13,17},{1,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49},{1,23,24},{1,26,27},{1,17,21},{1},{1,26,28},{1,18,19},{1,26},{1,32,33,34},{1,2,3,4,5,6,7,8,10,11,50,51},{1,31,32},{1,28,30},{1,9,25,26},{1,17},{1,11,12},{1,14,15},{1,22,23},{1,13},{1,17},{1,15,16},{1,21},{1},{1,11,13},{1,13},{1,19,20},{1,30}}
+local op={{{},{},{},{},{},{},{},{},{},{},{},{},{},{},{1,28,30},{},{},{},{},{},{},{},{},{},{},{},{},{},{}},{{},{},{},{},{},{},{},{},{},{},{},{},{},{},{1,28,30},{},{},{},{},{},{},{},{},{},{},{},{},{},{}},{{},{},{},{},{},{},{},{},{},{1,18,19},{},{},{},{},{},{},{},{},{},{},{},{1,17},{},{},{},{},{},{},{}},{{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}},{{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{1,21},{},{},{},{},{}},{{},{},{},{},{},{},{},{},{1,26,28},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}},{{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{1,22,23},{},{},{},{},{1},{},{},{},{}},{{},{},{},{1,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}},{{1,28,29},{1,28},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}},{{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{1,17},{},{},{},{},{},{},{},{},{},{},{1,19,20},{}},{{},{},{},{},{},{},{},{},{1,26,28},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}},{{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{1,30}},{{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{1,11,12},{},{},{},{},{},{},{},{1,11,13},{},{},{}},{{},{},{},{},{},{},{},{},{},{},{},{1,32,33,34},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{1,30}},{{},{},{},{},{},{},{},{1},{},{},{},{},{},{1,31,32},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}},{{},{},{},{},{},{1,26,27},{},{},{},{},{1,26},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}},{{},{},{},{},{},{},{1,17,21},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}},{{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{1,11,13},{},{},{}},{{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{1,13},{},{1,15,16},{},{},{},{},{},{}},{{},{},{},{},{1,23,24},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{1,21},{},{},{},{},{}},{{},{},{1,13,17},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}},{{},{},{},{},{},{},{1,17,21},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}},{{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{1,13},{},{},{},{},{},{},{},{}},{{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{1,9,25,26},{},{},{},{},{},{},{},{},{},{},{},{},{}},{{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{1,9,25,26},{},{},{},{},{},{},{},{},{},{},{},{},{}},{{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{1,14,15},{},{},{},{},{},{},{},{1,13},{},{}},{{},{},{1,13,17},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}},{{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{1,17},{},{},{},{},{},{},{},{},{},{},{},{}},{{},{},{},{1,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}}}
+function ss(sjs,yf)
+ local uc=hc[yf]
+ local qn=xa[yf]
+ local gk={}
+ local ml=0
+ for sjv=1,4 do
+  local qh=oj[sjv]+1
+  local yo=uc[qh]
+  local hy=qn[yo]
+  gk[qh]=bit32.band(bit32.rshift(sjs,ml),2^hy-1)
+  ml=ml+hy
+ end
+ local ws=0
+ ml=0
+ for sjv=1,4 do
+  local yo=uc[sjv]
+  local hy=qn[yo]
+  ws=bit32.bor(ws,bit32.lshift(gk[sjv],ml))
+  ml=ml+hy
+ end
+ return ws
+end
+function ee()
+ local fz=guk.h
+ if fz~=guk.c then
+  local ub=qs[fz+1]
+  local qd=op[guk.d]
+  local ps=(qd and qd[guk.b]) or ty[guk.b]
+  for lbc=1,#ps do
+   local jc=ps[lbc]
+   if fz==1 then
+    ub[co[jc]]=bmy[jc]
    else
-    ga[pq]=llr[mh[pq]]
+    ub[jc]=bmy[co[jc]]
    end
   end
-  llr=ga
-  pdo.c=ho
+  bmy=ub
+  guk.c=fz
  end
- wte=pdo.c
- pdo.i=(wte==1)
- pdo.k=bit32.band(
-  bit32.bxor(pdo.l,(pdo.a-2)*73244475),
+ zsj=guk.c
+ guk.i=(zsj==1)
+ guk.k=bit32.band(
+  bit32.bxor(guk.l,(guk.a-2)*73244475),
   4294967295
  )
- return 270
+ return 184
 end
-function nb()
- ag()
- if pdo.a<1 or pdo.a>fy then evq(); cav("vm",0) end
- pdo.b=yb[ec]
- if not pdo.b or pdo.b<1 or pdo.b>mf then evq(); cav("vm",0) end
- if pdo.b~=rl then
-  yz(aq)
-  yz(qv)
-  if type(ad[pdo.b])~=snq[10]
-     or ad[pdo.b]<0
-     or ad[pdo.b]>=70 then
-   evq(); cav("vm",0)
+function sq()
+ pk()
+ if guk.a<1 or guk.a>sw then mit(); ufe("vm",0) end
+ guk.b=tt[fo]
+ if not guk.b or guk.b<1 or guk.b>vu then mit(); ufe("vm",0) end
+ if guk.b~=iz then
+  zf(qj)
+  zf(ju)
+  if type(me[guk.b])~=gzm[10]
+     or me[guk.b]<0
+     or me[guk.b]>=70 then
+   mit(); ufe("vm",0)
   end
-  rl=pdo.b
-  rk=true
+  iz=guk.b
+  yy=true
  end
- local ho=0
- if pdo.f then
-  ho=bit32.band(pdo.b+87,1)
+ local fz=0
+ if guk.f then
+  fz=bit32.band(guk.b+216,1)
  end
- pdo.h=ho
- local qn=jr[pdo.a]+1
- bal=gk(pdo.a)
- pdo.l=(pdo.a>1 and gk(pdo.a-1) or 0)
- pdo.a=pdo.a+1
- return 265
+ guk.h=fz
+ local nd=iv[guk.a]+1
+ evx=sz(guk.a)
+ guk.l=(guk.a>1 and sz(guk.a-1) or 0)
+ guk.a=guk.a+1
+ return 159
 end
-function pdo.decode()
- local dl={}
- local rt=jr[pdo.a-1] or 0
- local qh=np[rt+1]
- local pl=xf[rt+1]
- local ll=bk[rt+1]
- if pdo.i then
-  for kvm=4,1,-1 do
-   local yx=0 for ose=1,kvm-1 do yx=yx+pl[ose] end
-   local dj=pl[kvm]
-   dl[qh[kvm]]=bit32.band(bit32.rshift(bal,yx),2^dj-1)
+function guk.decode()
+ local ot={}
+ local yf=iv[guk.a-1] or 0
+ local uc=hc[yf+1]
+ local qn=xa[yf+1]
+ local cs=dm[yf+1]
+ if guk.i then
+  for lbc=4,1,-1 do
+   local ml=0 for tyv=1,lbc-1 do ml=ml+qn[tyv] end
+   local hy=qn[lbc]
+   ot[uc[lbc]]=bit32.band(bit32.rshift(evx,ml),2^hy-1)
   end
   else
-  for kvm=1,4 do
-   local yx=0 for ose=1,kvm-1 do yx=yx+pl[ose] end
-   local dj=pl[kvm]
-   dl[qh[kvm]]=bit32.band(bit32.rshift(bal,yx),2^dj-1)
+  for lbc=1,4 do
+   local ml=0 for tyv=1,lbc-1 do ml=ml+qn[tyv] end
+   local hy=qn[lbc]
+   ot[uc[lbc]]=bit32.band(bit32.rshift(evx,ml),2^hy-1)
   end
  end
- local sc={} for kvm=1,4 do sc[qh[kvm]]=pl[kvm] end
- local function udt(eme,mpr)
-  local sxh,fnf,qye,biz=0,1,mpr,eme
-  while biz>0 do
-   local yoz=math.floor(qye/biz)
-   sxh,fnf=fnf,sxh-yoz*fnf
-   qye,biz=biz,qye-yoz*biz
+ local il={} for lbc=1,4 do il[uc[lbc]]=qn[lbc] end
+ local function bgi(kys,xds)
+  local rhq,ehk,uyl,nwk=0,1,xds,kys
+  while nwk>0 do
+   local gdh=math.floor(uyl/nwk)
+   rhq,ehk=ehk,rhq-gdh*ehk
+   uyl,nwk=nwk,uyl-gdh*nwk
   end
-  return sxh%mpr
+  return rhq%xds
  end
- local tj=pdo.k
- if jj==1 then
-  local pb=bit32.bxor(pdo.l,uk,
-   (pdo.a)*0x85EBCA6B)
-  for tb=0,3 do
-   local dj=sc[tb+1]
-   local vi=2^dj
-   local md=bit32.bxor(pb,(tb+1)*0x27D4EB2D)
-   local lx=bit32.band(bit32.bor(md,1),vi-1)
-   if lx==1 then lx=bit32.band(3,vi-1) end
-   local wb=bit32.band(bit32.rshift(md,8),vi-1)
-   local gx=dl[tb+1]
-   local kw=(gx-wb)*udt(lx,vi)%vi
-   if tb==0 then dl[1]=kw+1 else dl[tb+1]=kw end
+ local vd=guk.k
+ if ks==1 then
+  local fs=bit32.bxor(guk.l,vz,
+   (guk.a)*0x85EBCA6B)
+  for yo=0,3 do
+   local hy=il[yo+1]
+   local gw=2^hy
+   local fe=bit32.bxor(fs,(yo+1)*0x27D4EB2D)
+   local yb=bit32.band(bit32.bor(fe,1),gw-1)
+   if yb==1 then yb=bit32.band(3,gw-1) end
+   local mv=bit32.band(bit32.rshift(fe,8),gw-1)
+   local zg=ot[yo+1]
+   local zd=(zg-mv)*bgi(yb,gw)%gw
+   if yo==0 then ot[1]=zd+1 else ot[yo+1]=zd end
   end
-  local yi=wl[pdo.a-1]
-  dl[1]=(((dl[1]-1-yi[2])*
-   udt(yi[1],70))%
+  local nr=eh[guk.a-1]
+  ot[1]=(((ot[1]-1-nr[2])*
+   bgi(nr[1],70))%
    70)+1
-  for kvm=1,3 do
-   local tx=kvm+1
-   local vi=2^sc[tx]
-   local csl=sp[pdo.a-1][kvm]
-    dl[kvm+1]=((dl[kvm+1]-csl[2])*
-    udt(csl[1],vi))%vi
+  for lbc=1,3 do
+   local rl=lbc+1
+   local gw=2^il[rl]
+   local dgv=lm[guk.a-1][lbc]
+    ot[lbc+1]=((ot[lbc+1]-dgv[2])*
+    bgi(dgv[1],gw))%gw
   end
  else
-   fak=dl[1]
-   local gu=tj%70
-  local fa={
-   bit32.band(bit32.rshift(tj,8),31),
-   bit32.band(bit32.rshift(tj,16),31),
-   bit32.band(bit32.rshift(tj,24),31)
+   bxy=ot[1]
+   local hs=vd%70
+  local jm={
+   bit32.band(bit32.rshift(vd,8),31),
+   bit32.band(bit32.rshift(vd,16),31),
+   bit32.band(bit32.rshift(vd,24),31)
   }
-  for kvm=1,3 do
-   local tx=kvm+1
-   local vi=2^sc[tx]
-   local csl=sp[pdo.a-1][kvm]
-   dl[kvm+1]=((dl[kvm+1]-fa[kvm]-csl[2])*
-    udt(csl[1],vi))%vi
+  for lbc=1,3 do
+   local rl=lbc+1
+   local gw=2^il[rl]
+   local dgv=lm[guk.a-1][lbc]
+   ot[lbc+1]=((ot[lbc+1]-jm[lbc]-dgv[2])*
+    bgi(dgv[1],gw))%gw
   end
-  fak=((fak-1-gu)%70)+1
-  local yi=wl[pdo.a-1]
-  fak=(((fak-1-yi[2])*
-   udt(yi[1],70))%
+  bxy=((bxy-1-hs)%70)+1
+  local nr=eh[guk.a-1]
+  bxy=(((bxy-1-nr[2])*
+   bgi(nr[1],70))%
    70)+1
  end
- fak=uw[fak]
- fak=((fak-1+ad[pdo.b])%70)+1
+ bxy=gi[bxy]
+ bxy=((bxy-1+me[guk.b])%70)+1
 
- eme=dl[2]+1
- jcb=dl[3]
- qns=dl[4]
+ kys=ot[2]+1
+ kng=ot[3]
+ ufi=ot[4]
 
- return 258
+ return 171
 end
-function to()
- if rk~=true or rl~=pdo.b then evq(); cav(nil,0) end
- if eme<1 or eme>oy then evq(); cav("vm",0) end
- pdo.d=pdo.b
- local hn=(wte==0 and aq or qv)
-local un=(wte==0 and iv[fak] or fc[fak])
-if type(hn[un])~=snq[13] then evq(); cav("vm",0) end
- if wte==0 then kn(fak) else cr(fak) end
- if pb==261 then return 261 end
- return 276
+function xn()
+ if yy~=true or iz~=guk.b then ufe(); bll(nil,0) end
+ if kys<1 or kys>dc then ufe(); bll("vm",0) end
+ guk.d=guk.b
+ local hi=(zsj==0 and qj or ju)
+local zs=(zsj==0 and wq[bxy] or gn[bxy])
+if type(hi[zs])~=gzm[13] then ufe(); bll("vm",0) end
+ if zsj==0 then be(bxy) else jl(bxy) end
+ if fs==166 then return 166 end
+ return 177
 end
-function cvj()
- if not pdo.j and pdo.a-1>=ce[pdo.b] then
-  local eaw=se[pdo.b]
-  if eaw<0 then pb=261
-  else pdo.e=eaw+1 end
+function ii()
+ if not guk.j and guk.a-1>=yz[guk.b] then
+  local fw=kb[guk.b]
+  if fw<0 then fs=166
+  else guk.e=fw+1 end
  end
- pdo.j=false
- if pb==261 then return 261 end
- return 283
+ guk.j=false
+ if fs==166 then return 166 end
+ return 162
 end
-function uut()
- if pdo.e>0 then
- pdo.a=gb[pdo.e]+1
- lw(pdo.e)
- pdo.e=0
+function px()
+ if guk.e>0 then
+ guk.a=bj[guk.e]+1
+ dh(guk.e)
+ guk.e=0
  end
- bal=0 fak=0 eme=0 jcb=0 qns=0
- if pb~=261 then return 291 end
- return 261
+ evx=0 bxy=0 kys=0 kng=0 ufi=0
+ if fs~=166 then return 192 end
+ return 166
 end
-function lja()
+function dae()
 repeat
- if iy[pb]==3 then
-   pb=nb()
-   elseif iy[pb]==1 then
-    pb=rq()
-   elseif iy[pb]==2 then
-    pb=pdo.decode()
-   elseif iy[pb]==4 then
-   pb=to()
-   elseif iy[pb]==6 then
-   pb=cvj()
-   elseif iy[pb]==5 then
-   pb=uut()
- else mbn(); ssc("vm",0) end
-until pb==261
-if lv~=true then mbn(); ssc("vm",0) end
-if xt<1 then mbn(); ssc("vm",0) end
-return kd
+ if et[fs]==2 then
+   fs=sq()
+   elseif et[fs]==5 then
+    fs=ee()
+   elseif et[fs]==3 then
+    fs=guk.decode()
+   elseif et[fs]==1 then
+   fs=xn()
+   elseif et[fs]==6 then
+   fs=ii()
+   elseif et[fs]==4 then
+   fs=px()
+ else ufe(); bll("vm",0) end
+until fs==166
+if km~=true then ufe(); bll("vm",0) end
+if yi<1 then ufe(); bll("vm",0) end
+return yj
 end
-return lja()
+return dae()
 end
-local sya=coroutine.create(dxb)
-local jvv
-local cxk=type(task)==snq[12] and type(task.wait)==snq[13] and task.wait or function(pz) end
-local uva=100*16384
-if uva>67108864 then uva=67108864 elseif uva<1000000 then uva=1000000 end
+local pry=coroutine.create(xex)
+local wuw
+local xmx=type(task)==gzm[12] and type(task.wait)==gzm[13] and task.wait or function(ns) end
+local tjl=100*16384
+if tjl>67108864 then tjl=67108864 elseif tjl<1000000 then tjl=1000000 end
  while true do
-  if uva<=0 then mbn(); ssc("vm",0) end
-  uva=uva-1
-  local vfo=coroutine.status(sya)
-  if vfo==string.char(100,101,97,100) then break end
-  if vfo~=string.char(115,117,115,112,101,110,100,101,100) then mbn(); ssc("vm",0) end
-  local yym,kw=coroutine.resume(sya)
-  if not yym then
-   mbn(); ssc(nil,0)
+  if tjl<=0 then ufe(); bll("vm",0) end
+  tjl=tjl-1
+  local qol=coroutine.status(pry)
+  if qol==string.char(100,101,97,100) then break end
+  if qol~=string.char(115,117,115,112,101,110,100,101,100) then ufe(); bll("vm",0) end
+  local eaz,zd=coroutine.resume(pry)
+  if not eaz then
+   ufe(); bll(nil,0)
   end
-  vfo=coroutine.status(sya)
-  if vfo==string.char(100,101,97,100) then
-   jvv=kw
-  elseif vfo~=string.char(115,117,115,112,101,110,100,101,100) then
-   mbn(); ssc(nil,0)
-  elseif kw~=nil and (type(kw)~=snq[10] or kw~=kw or kw<0) then
-   mbn(); ssc(nil,0)
-  elseif kw~=nil and kw>0 then
-   cxk(kw)
+  qol=coroutine.status(pry)
+  if qol==string.char(100,101,97,100) then
+   wuw=zd
+  elseif qol~=string.char(115,117,115,112,101,110,100,101,100) then
+   ufe(); bll(nil,0)
+  elseif zd~=nil and (type(zd)~=gzm[10] or zd~=zd or zd<0) then
+   ufe(); bll(nil,0)
+  elseif zd~=nil and zd>0 then
+   xmx(zd)
  end
 end
-return jvv
+return wuw
